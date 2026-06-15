@@ -32885,5 +32885,1815 @@
   "machine-learning_link_contact_us": [
     "role=link[name=\"Contact Us\"]",
     "//html/body/section/div/div[5]/div[2]/a[6]"
+  ],
+  "software-testing-interview-questions_link_idx_0": [
+    "role=link",
+    "a.navbar-brand.p-0",
+    "//html/body/div[1]/div/div[1]/div/nav/a"
+  ],
+  "software-testing-interview-questions_textbox_searchinput": [
+    "role=textbox[name=\"Search...\"]",
+    "#searchInput",
+    "///*[@id=\"searchInput\"]"
+  ],
+  "software-testing-interview-questions_button_searchbtn": [
+    "role=button[name=\"Search\"]",
+    "#searchBtn",
+    "///*[@id=\"searchBtn\"]"
+  ],
+  "software-testing-interview-questions_link_tutorials": [
+    "role=link[name=\"Tutorials\"]",
+    "a.nav-link.dropdown-toggle.menu-item",
+    "///*[@id=\"navbarCollapse\"]/div/div[1]/a"
+  ],
+  "software-testing-interview-questions_link_interviews": [
+    "role=link[name=\"Interviews\"]",
+    "a.nav-link.dropdown-toggle.menu-item",
+    "///*[@id=\"navbarCollapse\"]/div/div[2]/a"
+  ],
+  "software-testing-interview-questions_link_compilers": [
+    "role=link[name=\"Compilers\"]",
+    "a.nav-link.dropdown-toggle.menu-item",
+    "///*[@id=\"navbarCollapse\"]/div/div[3]/a"
+  ],
+  "software-testing-interview-questions_div_idx_147": [
+    "role=div",
+    "div.theme-icon.dark-mode-icon",
+    "///*[@id=\"navbarCollapse\"]/ul/li[1]/div"
+  ],
+  "software-testing-interview-questions_div_idx_148": [
+    "role=div",
+    "div.theme-icon",
+    "///*[@id=\"navbarCollapse\"]/ul/li[2]/div"
+  ],
+  "software-testing-interview-questions_div_idx_149": [
+    "role=div",
+    "div.theme-icon",
+    "///*[@id=\"navbarCollapse\"]/ul/li[3]/div"
+  ],
+  "software-testing-interview-questions_div_idx_150": [
+    "role=div",
+    "div.theme-icon",
+    "///*[@id=\"navbarCollapse\"]/ul/li[4]/div"
+  ],
+  "software-testing-interview-questions_div_idx_151": [
+    "role=div",
+    "div.theme-icon",
+    "///*[@id=\"navbarCollapse\"]/ul/li[5]/div"
+  ],
+  "software-testing-interview-questions_button_idx_153": [
+    "role=button",
+    "button.jt-nav.float-left.accordion.accordion-flush",
+    "///*[@id=\"link\"]/div/span/button"
+  ],
+  "software-testing-interview-questions_link_python_tutorial": [
+    "role=link[name=\"Python Tutorial\"]",
+    "a.nav-link",
+    "///*[@id=\"link\"]/div/ul/li[1]/a"
+  ],
+  "software-testing-interview-questions_link_java_tutorial": [
+    "role=link[name=\"Java Tutorial\"]",
+    "a.nav-link",
+    "///*[@id=\"link\"]/div/ul/li[2]/a",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[2]/a[2]"
+  ],
+  "software-testing-interview-questions_link_javascript_tutorial": [
+    "role=link[name=\"JavaScript Tutorial\"]",
+    "a.nav-link",
+    "///*[@id=\"link\"]/div/ul/li[3]/a",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[2]/a[9]"
+  ],
+  "software-testing-interview-questions_link_sql_tutorial": [
+    "role=link[name=\"SQL Tutorial\"]",
+    "a.nav-link",
+    "///*[@id=\"link\"]/div/ul/li[4]/a"
+  ],
+  "software-testing-interview-questions_link_c_tutorial": [
+    "role=link[name=\"C Tutorial\"]",
+    "a.nav-link",
+    "///*[@id=\"link\"]/div/ul/li[5]/a",
+    "role=link[name=\"C++ Tutorial\"]",
+    "///*[@id=\"link\"]/div/ul/li[6]/a",
+    "role=link[name=\"C# Tutorial\"]",
+    "///*[@id=\"link\"]/div/ul/li[12]/a",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[2]/a[5]",
+    "//html/body/section/div/div[5]/div[1]/div/div[2]/a[6]"
+  ],
+  "software-testing-interview-questions_link_html_tutorial": [
+    "role=link[name=\"HTML Tutorial\"]",
+    "a.nav-link",
+    "///*[@id=\"link\"]/div/ul/li[7]/a",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[2]/a[8]"
+  ],
+  "software-testing-interview-questions_link_css_tutorial": [
+    "role=link[name=\"CSS Tutorial\"]",
+    "a.nav-link",
+    "///*[@id=\"link\"]/div/ul/li[8]/a"
+  ],
+  "software-testing-interview-questions_link_react_tutorial": [
+    "role=link[name=\"React Tutorial\"]",
+    "a.nav-link",
+    "///*[@id=\"link\"]/div/ul/li[9]/a"
+  ],
+  "software-testing-interview-questions_link_nodejs_tutorial": [
+    "role=link[name=\"NodeJS Tutorial\"]",
+    "a.nav-link",
+    "///*[@id=\"link\"]/div/ul/li[10]/a"
+  ],
+  "software-testing-interview-questions_link_sprint_boot_tutorial": [
+    "role=link[name=\"Sprint Boot Tutorial\"]",
+    "a.nav-link",
+    "///*[@id=\"link\"]/div/ul/li[11]/a"
+  ],
+  "software-testing-interview-questions_link_php_tutorial": [
+    "role=link[name=\"PHP Tutorial\"]",
+    "a.nav-link",
+    "///*[@id=\"link\"]/div/ul/li[13]/a",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[2]/a[7]"
+  ],
+  "software-testing-interview-questions_link_mysql_tutorial": [
+    "role=link[name=\"MYSQL Tutorial\"]",
+    "a.nav-link",
+    "///*[@id=\"link\"]/div/ul/li[14]/a"
+  ],
+  "software-testing-interview-questions_link_mongodb_tutorial": [
+    "role=link[name=\"MongoDB Tutorial\"]",
+    "a.nav-link",
+    "///*[@id=\"link\"]/div/ul/li[15]/a"
+  ],
+  "software-testing-interview-questions_link_ai_tutorial": [
+    "role=link[name=\"AI Tutorial\"]",
+    "a.nav-link",
+    "///*[@id=\"link\"]/div/ul/li[16]/a"
+  ],
+  "software-testing-interview-questions_link_machine_learning_tutorial": [
+    "role=link[name=\"Machine Learning Tutorial\"]",
+    "a.nav-link",
+    "///*[@id=\"link\"]/div/ul/li[17]/a"
+  ],
+  "software-testing-interview-questions_link_dsa_tutorial": [
+    "role=link[name=\"DSA Tutorial\"]",
+    "a.nav-link",
+    "///*[@id=\"link\"]/div/ul/li[18]/a"
+  ],
+  "software-testing-interview-questions_link_dbms_tutorial": [
+    "role=link[name=\"DBMS Tutorial\"]",
+    "a.nav-link",
+    "///*[@id=\"link\"]/div/ul/li[19]/a"
+  ],
+  "software-testing-interview-questions_link_os_tutorial": [
+    "role=link[name=\"OS Tutorial\"]",
+    "a.nav-link",
+    "///*[@id=\"link\"]/div/ul/li[20]/a"
+  ],
+  "software-testing-interview-questions_button_all_interview": [
+    "role=button[name=\"All Interview\"]",
+    "button.accordion-button.sidebar-btn",
+    "///*[@id=\"flush-heading0\"]/button"
+  ],
+  "software-testing-interview-questions_link_top_50_hr_interview_quest": [
+    "role=link[name=\"Top 50 HR Interview Questions and Answers (2026)\"]",
+    "///*[@id=\"flush-collapse0\"]/div/ul/li[1]/a"
+  ],
+  "software-testing-interview-questions_link_interview_tips_2026": [
+    "role=link[name=\"Interview Tips (2026)\"]",
+    "///*[@id=\"flush-collapse0\"]/div/ul/li[2]/a"
+  ],
+  "software-testing-interview-questions_link_top_12_competency_based_i": [
+    "role=link[name=\"Top 12 Competency based Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse0\"]/div/ul/li[3]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_business_analyst_i": [
+    "role=link[name=\"Top 30+ Business Analyst Interview Questions an...\"]",
+    "///*[@id=\"flush-collapse0\"]/div/ul/li[4]/a"
+  ],
+  "software-testing-interview-questions_link_behavioral_interview_ques": [
+    "role=link[name=\"Behavioral Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse0\"]/div/ul/li[5]/a"
+  ],
+  "software-testing-interview-questions_link_interview_questions_and_a": [
+    "role=link[name=\"Interview Questions and Answers (2026)\"]",
+    "///*[@id=\"flush-collapse0\"]/div/ul/li[6]/a"
+  ],
+  "software-testing-interview-questions_link_managerial_round_intervie": [
+    "role=link[name=\"Managerial Round Interview Questions\"]",
+    "///*[@id=\"flush-collapse0\"]/div/ul/li[7]/a"
+  ],
+  "software-testing-interview-questions_link_product_manager_interview": [
+    "role=link[name=\"Product Manager Interview Questions\"]",
+    "///*[@id=\"flush-collapse0\"]/div/ul/li[8]/a"
+  ],
+  "software-testing-interview-questions_link_project_manager_interview": [
+    "role=link[name=\"Project Manager Interview Questions\"]",
+    "///*[@id=\"flush-collapse0\"]/div/ul/li[9]/a"
+  ],
+  "software-testing-interview-questions_button_company_interview": [
+    "role=button[name=\"Company Interview\"]",
+    "button.accordion-button.sidebar-btn",
+    "///*[@id=\"flush-heading1\"]/button"
+  ],
+  "software-testing-interview-questions_link_company_interview_questio": [
+    "role=link[name=\"Company Interview Questions and Recruitment Pro...\"]",
+    "///*[@id=\"flush-collapse1\"]/div/ul/li[1]/a"
+  ],
+  "software-testing-interview-questions_link_ibm_interview_questions_i": [
+    "role=link[name=\"IBM Interview Questions | IBM Recruitment Proce...\"]",
+    "///*[@id=\"flush-collapse1\"]/div/ul/li[2]/a"
+  ],
+  "software-testing-interview-questions_link_capgemini_interview_quest": [
+    "role=link[name=\"Capgemini Interview Questions | Capgemini Recru...\"]",
+    "///*[@id=\"flush-collapse1\"]/div/ul/li[3]/a"
+  ],
+  "software-testing-interview-questions_link_cognizant_interview_quest": [
+    "role=link[name=\"Cognizant Interview Questions | Cognizant Recru...\"]",
+    "///*[@id=\"flush-collapse1\"]/div/ul/li[4]/a"
+  ],
+  "software-testing-interview-questions_link_wipro_interview_questions": [
+    "role=link[name=\"Wipro Interview Questions | Wipro Recruitment P...\"]",
+    "///*[@id=\"flush-collapse1\"]/div/ul/li[5]/a"
+  ],
+  "software-testing-interview-questions_link_accenture_interview_quest": [
+    "role=link[name=\"Accenture Interview Questions for Freshers and ...\"]",
+    "///*[@id=\"flush-collapse1\"]/div/ul/li[6]/a"
+  ],
+  "software-testing-interview-questions_link_igate_interview_questions": [
+    "role=link[name=\"iGATE Interview Questions | iGATE Recruitment P...\"]",
+    "///*[@id=\"flush-collapse1\"]/div/ul/li[7]/a"
+  ],
+  "software-testing-interview-questions_link_tcs_interview_questions_t": [
+    "role=link[name=\"TCS Interview Questions | TCS Recruitment Proce...\"]",
+    "///*[@id=\"flush-collapse1\"]/div/ul/li[8]/a"
+  ],
+  "software-testing-interview-questions_link_hcl_interview_questions_h": [
+    "role=link[name=\"HCL Interview Questions | HCL Recruitment Proce...\"]",
+    "///*[@id=\"flush-collapse1\"]/div/ul/li[9]/a"
+  ],
+  "software-testing-interview-questions_link_adobe_interview_questions": [
+    "role=link[name=\"Adobe Interview Questions | Adobe Recruitment P...\"]",
+    "///*[@id=\"flush-collapse1\"]/div/ul/li[10]/a"
+  ],
+  "software-testing-interview-questions_link_microsoft_interview_quest": [
+    "role=link[name=\"Microsoft Interview Questions | Microsoft Recru...\"]",
+    "///*[@id=\"flush-collapse1\"]/div/ul/li[11]/a"
+  ],
+  "software-testing-interview-questions_link_dxc_technology_interview_": [
+    "role=link[name=\"DXC Technology Interview Questions | Recruitmen...\"]",
+    "///*[@id=\"flush-collapse1\"]/div/ul/li[12]/a"
+  ],
+  "software-testing-interview-questions_link_ericsson_interview_questi": [
+    "role=link[name=\"Ericsson Interview Questions | Ericsson Recruit...\"]",
+    "///*[@id=\"flush-collapse1\"]/div/ul/li[13]/a"
+  ],
+  "software-testing-interview-questions_link_exl_interview_questions_e": [
+    "role=link[name=\"EXL Interview Questions | EXL Recruitment Proce...\"]",
+    "///*[@id=\"flush-collapse1\"]/div/ul/li[14]/a"
+  ],
+  "software-testing-interview-questions_link_indiamart_interview_quest": [
+    "role=link[name=\"IndiaMART Interview Questions | IndiaMART Recru...\"]",
+    "///*[@id=\"flush-collapse1\"]/div/ul/li[15]/a"
+  ],
+  "software-testing-interview-questions_link_intuit_interview_question": [
+    "role=link[name=\"Intuit Interview Questions | Intuit Recruitment...\"]",
+    "///*[@id=\"flush-collapse1\"]/div/ul/li[16]/a"
+  ],
+  "software-testing-interview-questions_link_spacex_interview_question": [
+    "role=link[name=\"SpaceX Interview Questions | SpaceX Recruitment...\"]",
+    "///*[@id=\"flush-collapse1\"]/div/ul/li[17]/a"
+  ],
+  "software-testing-interview-questions_link_sapient_interview_questio": [
+    "role=link[name=\"Sapient Interview Questions | Sapient Recruitme...\"]",
+    "///*[@id=\"flush-collapse1\"]/div/ul/li[18]/a"
+  ],
+  "software-testing-interview-questions_link_top_most_asked_amazon_int": [
+    "role=link[name=\"Top Most asked Amazon Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse1\"]/div/ul/li[19]/a"
+  ],
+  "software-testing-interview-questions_link_latest_accenture_intervie": [
+    "role=link[name=\"Latest Accenture Interview Questions and Answers\"]",
+    "///*[@id=\"flush-collapse1\"]/div/ul/li[20]/a"
+  ],
+  "software-testing-interview-questions_button_technical_interview": [
+    "role=button[name=\"Technical Interview\"]",
+    "button.accordion-button.sidebar-btn",
+    "///*[@id=\"flush-heading2\"]/button"
+  ],
+  "software-testing-interview-questions_link_top_40_cloud_computing_in": [
+    "role=link[name=\"Top 40 Cloud Computing Interview Questions and ...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[1]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_devops_interview_q": [
+    "role=link[name=\"Top 30 DevOps Interview Questions and Answers (...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[2]/a"
+  ],
+  "software-testing-interview-questions_link_top_50_c_programming_inte": [
+    "role=link[name=\"Top 50 C Programming Interview Questions and An...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[3]/a"
+  ],
+  "software-testing-interview-questions_link_top_40_c_interview_questi": [
+    "role=link[name=\"Top 40 C++ Interview Questions and Answers (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[4]/a"
+  ],
+  "software-testing-interview-questions_link_50_data_structures_and_al": [
+    "role=link[name=\"50+ Data Structures and Algorithms (DSA) Interv...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[5]/a"
+  ],
+  "software-testing-interview-questions_link_top_60_linux_interview_qu": [
+    "role=link[name=\"Top 60+ Linux Interview Questions and Answers (...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[6]/a"
+  ],
+  "software-testing-interview-questions_link_unix_interview_questions_": [
+    "role=link[name=\"Unix Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[7]/a"
+  ],
+  "software-testing-interview-questions_link_top_15_shell_scripting_in": [
+    "role=link[name=\"Top 15+ Shell Scripting Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[8]/a"
+  ],
+  "software-testing-interview-questions_link_top_50_networking_compute": [
+    "role=link[name=\"Top 50 Networking (Computer Networks) Interview...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[9]/a"
+  ],
+  "software-testing-interview-questions_link_ccna_interview_questions_": [
+    "role=link[name=\"CCNA Interview Questions (2025)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[10]/a"
+  ],
+  "software-testing-interview-questions_link_android_interview_questio": [
+    "role=link[name=\"Android Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[11]/a"
+  ],
+  "software-testing-interview-questions_link_cloud_computing": [
+    "role=link[name=\"Cloud Computing\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[12]/a"
+  ],
+  "software-testing-interview-questions_link_hadoop_interview": [
+    "role=link[name=\"Hadoop Interview\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[13]/a"
+  ],
+  "software-testing-interview-questions_link_software_testing_intervie": [
+    "role=link[name=\"Software Testing Interview\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[14]/a"
+  ],
+  "software-testing-interview-questions_link_selenium_interview": [
+    "role=link[name=\"Selenium Interview\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[15]/a"
+  ],
+  "software-testing-interview-questions_link_web_services_interview_qu": [
+    "role=link[name=\"Web Services Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[16]/a"
+  ],
+  "software-testing-interview-questions_link_top_90_operating_system_i": [
+    "role=link[name=\"Top 90 Operating System Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[17]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_ms_excel_interview": [
+    "role=link[name=\"Top 30+ MS Excel Interview Questions and Answer...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[18]/a"
+  ],
+  "software-testing-interview-questions_link_seo_interview_questions_2": [
+    "role=link[name=\"SEO Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[19]/a"
+  ],
+  "software-testing-interview-questions_link_digital_marketing_intervi": [
+    "role=link[name=\"Digital Marketing Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[20]/a"
+  ],
+  "software-testing-interview-questions_link_python_interview_question": [
+    "role=link[name=\"Python Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[21]/a",
+    "role=link[name=\"Python Interview Questions for Five Years Exper...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[206]/a",
+    "a.related-post-link",
+    "//html/body/section/div/div[1]/div[2]/div[4]/ul/li[9]/a",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[3]/a[2]"
+  ],
+  "software-testing-interview-questions_link_top_25_django_interview_q": [
+    "role=link[name=\"Top 25 Django Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[22]/a"
+  ],
+  "software-testing-interview-questions_link_pascal_interview_question": [
+    "role=link[name=\"Pascal Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[23]/a"
+  ],
+  "software-testing-interview-questions_link_top_50_ruby_interview_que": [
+    "role=link[name=\"Top 50+ Ruby Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[24]/a"
+  ],
+  "software-testing-interview-questions_link_ruby_on_rails_interview_q": [
+    "role=link[name=\"Ruby on Rails Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[25]/a"
+  ],
+  "software-testing-interview-questions_link_top_20_memcached_intervie": [
+    "role=link[name=\"Top 20+ Memcached Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[26]/a"
+  ],
+  "software-testing-interview-questions_link_openstack_interview_quest": [
+    "role=link[name=\"OpenStack Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[27]/a"
+  ],
+  "software-testing-interview-questions_link_scala_interview_questions": [
+    "role=link[name=\"Scala Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[28]/a"
+  ],
+  "software-testing-interview-questions_link_control_systems_interview": [
+    "role=link[name=\"Control Systems Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[29]/a"
+  ],
+  "software-testing-interview-questions_link_top_42_electrical_machine": [
+    "role=link[name=\"Top 42 Electrical Machines Interview Questions ...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[30]/a"
+  ],
+  "software-testing-interview-questions_link_power_system_interview_qu": [
+    "role=link[name=\"Power System Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[31]/a"
+  ],
+  "software-testing-interview-questions_link_digital_electronics_inter": [
+    "role=link[name=\"Digital Electronics Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[32]/a"
+  ],
+  "software-testing-interview-questions_link_robotics_interview_questi": [
+    "role=link[name=\"Robotics Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[33]/a"
+  ],
+  "software-testing-interview-questions_link_typescript_interview_ques": [
+    "role=link[name=\"TypeScript Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[34]/a"
+  ],
+  "software-testing-interview-questions_link_swift_interview_questions": [
+    "role=link[name=\"Swift Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[35]/a"
+  ],
+  "software-testing-interview-questions_link_blockchain_interview": [
+    "role=link[name=\"Blockchain Interview\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[36]/a"
+  ],
+  "software-testing-interview-questions_link_bitcoin_interview": [
+    "role=link[name=\"Bitcoin Interview\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[37]/a"
+  ],
+  "software-testing-interview-questions_link_aws_interview": [
+    "role=link[name=\"AWS Interview\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[38]/a"
+  ],
+  "software-testing-interview-questions_link_top_25_informatica_interv": [
+    "role=link[name=\"Top 25+ Informatica Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[39]/a"
+  ],
+  "software-testing-interview-questions_link_top_25_qa_interview_quest": [
+    "role=link[name=\"Top 25+ QA Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[40]/a"
+  ],
+  "software-testing-interview-questions_link_react_interview_questions": [
+    "role=link[name=\"React Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[41]/a"
+  ],
+  "software-testing-interview-questions_link_git_interview": [
+    "role=link[name=\"GIT Interview\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[42]/a"
+  ],
+  "software-testing-interview-questions_link_top_40_j2ee_interview_que": [
+    "role=link[name=\"Top 40+ J2EE Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[43]/a"
+  ],
+  "software-testing-interview-questions_link_top_50_deep_learning_inte": [
+    "role=link[name=\"Top 50 Deep Learning Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[44]/a"
+  ],
+  "software-testing-interview-questions_link_top_50_salesforce_intervi": [
+    "role=link[name=\"Top 50 Salesforce Interview Questions and Answe...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[45]/a"
+  ],
+  "software-testing-interview-questions_link_top_15_testng_interview_q": [
+    "role=link[name=\"Top 15+ TestNG Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[46]/a"
+  ],
+  "software-testing-interview-questions_link_top_15_agile_interview_qu": [
+    "role=link[name=\"Top 15+ Agile Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[47]/a"
+  ],
+  "software-testing-interview-questions_link_machine_learning": [
+    "role=link[name=\"Machine Learning\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[48]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_api_testing_interv": [
+    "role=link[name=\"Top 30+ API Testing Interview Questions and Ans...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[49]/a"
+  ],
+  "software-testing-interview-questions_link_top_25_algorithm_intervie": [
+    "role=link[name=\"Top 25 Algorithm Interview Questions (2025)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[50]/a"
+  ],
+  "software-testing-interview-questions_link_java_design_pattern_inter": [
+    "role=link[name=\"Java Design Pattern Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[51]/a"
+  ],
+  "software-testing-interview-questions_link_top_25_teradata_interview": [
+    "role=link[name=\"Top 25+ Teradata Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[52]/a"
+  ],
+  "software-testing-interview-questions_link_top_40_tensorflow_intervi": [
+    "role=link[name=\"Top 40+ TensorFlow Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[53]/a"
+  ],
+  "software-testing-interview-questions_link_top_25_linq_interview_que": [
+    "role=link[name=\"Top 25 LINQ Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[54]/a"
+  ],
+  "software-testing-interview-questions_link_mainframe_interview_quest": [
+    "role=link[name=\"Mainframe Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[55]/a"
+  ],
+  "software-testing-interview-questions_link_top_50_laravel_interview_": [
+    "role=link[name=\"Top 50 Laravel Interview Questions and Answers ...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[56]/a"
+  ],
+  "software-testing-interview-questions_link_top_20_jira_interview_que": [
+    "role=link[name=\"Top 20 JIRA Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[57]/a"
+  ],
+  "software-testing-interview-questions_link_top_20_jcl_interview_ques": [
+    "role=link[name=\"Top 20+ JCL Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[58]/a"
+  ],
+  "software-testing-interview-questions_link_pytorch_interview_questio": [
+    "role=link[name=\"PyTorch Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[59]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_etl_testing_interv": [
+    "role=link[name=\"Top 30+ ETL Testing Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[60]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_linked_list_interv": [
+    "role=link[name=\"Top 30+ Linked List Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[61]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_datastage_intervie": [
+    "role=link[name=\"Top 30+ DataStage Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[62]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_tableau_interview_": [
+    "role=link[name=\"Top 30 Tableau Interview Questions and Answers ...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[63]/a"
+  ],
+  "software-testing-interview-questions_link_top_20_sap_abap_interview": [
+    "role=link[name=\"Top 20 SAP ABAP Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[64]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_sap_abap_interview": [
+    "role=link[name=\"Top 30 SAP ABAP Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[65]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_daa_interview_ques": [
+    "role=link[name=\"Top 30+ DAA Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[66]/a"
+  ],
+  "software-testing-interview-questions_link_advanced_javascript_inter": [
+    "role=link[name=\"Advanced JavaScript Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[67]/a"
+  ],
+  "software-testing-interview-questions_link_top_50_computer_graphics_": [
+    "role=link[name=\"Top 50 Computer Graphics Interview Questions (2...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[68]/a"
+  ],
+  "software-testing-interview-questions_link_top_50_blockchain_questio": [
+    "role=link[name=\"Top 50 Blockchain Question and Answers\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[69]/a"
+  ],
+  "software-testing-interview-questions_link_top_25_data_science_inter": [
+    "role=link[name=\"Top 25 Data Science Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[70]/a"
+  ],
+  "software-testing-interview-questions_link_linkedin_python_qualifyin": [
+    "role=link[name=\"LinkedIn Python Qualifying Assessment Answers\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[71]/a"
+  ],
+  "software-testing-interview-questions_link_top_40_software_engineeri": [
+    "role=link[name=\"Top 40+ Software Engineering Interview Question...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[72]/a"
+  ],
+  "software-testing-interview-questions_link_java_programming_intervie": [
+    "role=link[name=\"Java Programming Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[73]/a"
+  ],
+  "software-testing-interview-questions_link_top_60_power_bi_interview": [
+    "role=link[name=\"Top 60+ Power BI Interview Questions and Answer...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[74]/a"
+  ],
+  "software-testing-interview-questions_link_automation_testing_interv": [
+    "role=link[name=\"Automation Testing Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[75]/a"
+  ],
+  "software-testing-interview-questions_link_top_50_xamarin_interview_": [
+    "role=link[name=\"Top 50+ Xamarin Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[76]/a"
+  ],
+  "software-testing-interview-questions_link_docker_interview_question": [
+    "role=link[name=\"Docker Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[77]/a"
+  ],
+  "software-testing-interview-questions_link_top_20_ansible_interview_": [
+    "role=link[name=\"Top 20 Ansible Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[78]/a"
+  ],
+  "software-testing-interview-questions_link_java_8_interview_question": [
+    "role=link[name=\"Java 8 Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[79]/a"
+  ],
+  "software-testing-interview-questions_link_top_25_data_warehouse_int": [
+    "role=link[name=\"Top 25 Data Warehouse Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[80]/a"
+  ],
+  "software-testing-interview-questions_link_top_40_ionic_interview_qu": [
+    "role=link[name=\"Top 40+ Ionic Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[81]/a"
+  ],
+  "software-testing-interview-questions_link_devops": [
+    "role=link[name=\"Devops\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[82]/a"
+  ],
+  "software-testing-interview-questions_link_top_40_react_native_inter": [
+    "role=link[name=\"Top 40+ React Native Interview Questions and An...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[83]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_python_pandas_inte": [
+    "role=link[name=\"Top 30+ Python Pandas Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[84]/a"
+  ],
+  "software-testing-interview-questions_link_top_20_http_interview_que": [
+    "role=link[name=\"Top 20+ HTTP Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[85]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_kali_linux_intervi": [
+    "role=link[name=\"Top 30 Kali Linux Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[86]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_powershell_intervi": [
+    "role=link[name=\"Top 30 PowerShell Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[87]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_sharepoint_intervi": [
+    "role=link[name=\"Top 30 SharePoint Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[88]/a"
+  ],
+  "software-testing-interview-questions_link_top_25_talend_interview_q": [
+    "role=link[name=\"Top 25+ Talend Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[89]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_microsoft_azure_in": [
+    "role=link[name=\"Top 30 Microsoft Azure Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[90]/a"
+  ],
+  "software-testing-interview-questions_link_top_50_r_interview_questi": [
+    "role=link[name=\"Top 50 R Interview Questions (2025)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[91]/a"
+  ],
+  "software-testing-interview-questions_link_top_40_flutter_interview_": [
+    "role=link[name=\"Top 40 Flutter Interview Questions and Answers ...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[92]/a"
+  ],
+  "software-testing-interview-questions_link_top_25_matlab_interview_q": [
+    "role=link[name=\"Top 25 MATLAB Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[93]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_es6_interview_ques": [
+    "role=link[name=\"Top 30 ES6 Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[94]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_rpa_interview_ques": [
+    "role=link[name=\"Top 30 RPA Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[95]/a"
+  ],
+  "software-testing-interview-questions_link_desktop_support_interview": [
+    "role=link[name=\"Desktop Support Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[96]/a"
+  ],
+  "software-testing-interview-questions_link_angular_8_interview_quest": [
+    "role=link[name=\"Angular 8 Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[97]/a"
+  ],
+  "software-testing-interview-questions_link_graphql_interview_questio": [
+    "role=link[name=\"GraphQL Interview Questions and Answers\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[98]/a"
+  ],
+  "software-testing-interview-questions_link_top_50_vue_js_interview_q": [
+    "role=link[name=\"Top 50+ Vue.js Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[99]/a"
+  ],
+  "software-testing-interview-questions_link_automation_anywhere_inter": [
+    "role=link[name=\"Automation Anywhere Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[100]/a"
+  ],
+  "software-testing-interview-questions_link_top_50_ai_artificial_inte": [
+    "role=link[name=\"Top 50 AI (Artificial Intelligence) Interview Q...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[101]/a"
+  ],
+  "software-testing-interview-questions_link_uipath_interview_question": [
+    "role=link[name=\"UiPath Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[102]/a"
+  ],
+  "software-testing-interview-questions_link_blue_prism_interview": [
+    "role=link[name=\"Blue Prism Interview\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[103]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_ssis_interview_que": [
+    "role=link[name=\"Top 30 SSIS Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[104]/a"
+  ],
+  "software-testing-interview-questions_link_mobile_computing_intervie": [
+    "role=link[name=\"Mobile Computing Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[105]/a"
+  ],
+  "software-testing-interview-questions_link_itil_interview_questions_": [
+    "role=link[name=\"ITIL Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[106]/a"
+  ],
+  "software-testing-interview-questions_link_sas_interview_questions_2": [
+    "role=link[name=\"SAS Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[107]/a"
+  ],
+  "software-testing-interview-questions_link_top_40_elasticsearch_inte": [
+    "role=link[name=\"Top 40 Elasticsearch Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[108]/a"
+  ],
+  "software-testing-interview-questions_link_top_40_entity_framework_i": [
+    "role=link[name=\"Top 40 Entity Framework Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[109]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_rxjs_interview_que": [
+    "role=link[name=\"Top 30 RxJS Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[110]/a"
+  ],
+  "software-testing-interview-questions_link_top_70_accounting_intervi": [
+    "role=link[name=\"Top 70+ Accounting Interview Questions and Answ...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[111]/a"
+  ],
+  "software-testing-interview-questions_link_electron_js_interview_que": [
+    "role=link[name=\"Electron.js Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[112]/a"
+  ],
+  "software-testing-interview-questions_link_knockout_js_interview_que": [
+    "role=link[name=\"Knockout JS Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[113]/a"
+  ],
+  "software-testing-interview-questions_link_top_50_angular_interview_": [
+    "role=link[name=\"Top 50+ Angular Interview Questions and Answers...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[114]/a"
+  ],
+  "software-testing-interview-questions_link_ias_interview_question_20": [
+    "role=link[name=\"IAS Interview Question (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[115]/a"
+  ],
+  "software-testing-interview-questions_link_top_40_bank_interview_que": [
+    "role=link[name=\"Top 40+ Bank Interview Questions and Answers (2...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[116]/a"
+  ],
+  "software-testing-interview-questions_link_interview_questions_for_f": [
+    "role=link[name=\"Interview Questions for Freshers (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[117]/a"
+  ],
+  "software-testing-interview-questions_link_top_50_powerpoint_intervi": [
+    "role=link[name=\"Top 50 PowerPoint Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[118]/a"
+  ],
+  "software-testing-interview-questions_link_top_50_bpo_interview_ques": [
+    "role=link[name=\"Top 50 BPO Interview Questions and Answers (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[119]/a"
+  ],
+  "software-testing-interview-questions_link_top_70_civil_engineering_": [
+    "role=link[name=\"Top 70+ Civil Engineering Interview Questions (...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[120]/a"
+  ],
+  "software-testing-interview-questions_link_apache_spark_interview_qu": [
+    "role=link[name=\"Apache Spark Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[121]/a"
+  ],
+  "software-testing-interview-questions_link_data_mining_interview_que": [
+    "role=link[name=\"Data Mining Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[122]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_java_support_inter": [
+    "role=link[name=\"Top 30 Java Support Interview Questions (2025)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[123]/a"
+  ],
+  "software-testing-interview-questions_link_top_60_kubernetes_intervi": [
+    "role=link[name=\"Top 60+ Kubernetes Interview Questions and Answ...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[124]/a"
+  ],
+  "software-testing-interview-questions_link_web_api_interview_questio": [
+    "role=link[name=\"Web API Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[125]/a"
+  ],
+  "software-testing-interview-questions_link_scrum_master_interview_qu": [
+    "role=link[name=\"Scrum Master Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[126]/a"
+  ],
+  "software-testing-interview-questions_link_most_asked_system_design_": [
+    "role=link[name=\"Most Asked System Design Interview Questions (2...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[127]/a"
+  ],
+  "software-testing-interview-questions_link_ssb_interview_questions_2": [
+    "role=link[name=\"SSB Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[128]/a"
+  ],
+  "software-testing-interview-questions_link_most_asked_teachers_inter": [
+    "role=link[name=\"Most Asked Teachers Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[129]/a"
+  ],
+  "software-testing-interview-questions_link_most_asked_finance_interv": [
+    "role=link[name=\"Most Asked Finance Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[130]/a"
+  ],
+  "software-testing-interview-questions_link_most_asked_technical_supp": [
+    "role=link[name=\"Most Asked Technical Support Interview Question...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[131]/a"
+  ],
+  "software-testing-interview-questions_link_most_asked_active_directo": [
+    "role=link[name=\"Most Asked Active Directory Interview Questions...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[132]/a"
+  ],
+  "software-testing-interview-questions_link_appium_interview_question": [
+    "role=link[name=\"Appium Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[133]/a"
+  ],
+  "software-testing-interview-questions_link_cucumber_interview_questi": [
+    "role=link[name=\"Cucumber Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[134]/a"
+  ],
+  "software-testing-interview-questions_link_top_20_full_stack_develop": [
+    "role=link[name=\"Top 20+ Full-Stack Developer Interview Question...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[135]/a",
+    "a.related-post-link",
+    "//html/body/section/div/div[1]/div[2]/div[4]/ul/li[2]/a"
+  ],
+  "software-testing-interview-questions_link_servicenow_interview_ques": [
+    "role=link[name=\"ServiceNow Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[136]/a",
+    "a.related-post-link",
+    "//html/body/section/div/div[1]/div[2]/div[4]/ul/li[7]/a"
+  ],
+  "software-testing-interview-questions_link_nursing_interview_questio": [
+    "role=link[name=\"Nursing Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[137]/a"
+  ],
+  "software-testing-interview-questions_link_sales_interview_questions": [
+    "role=link[name=\"Sales Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[138]/a"
+  ],
+  "software-testing-interview-questions_link_top_50_microservices_inte": [
+    "role=link[name=\"Top 50+ Microservices Interview Questions and A...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[139]/a"
+  ],
+  "software-testing-interview-questions_link_top_40_electrical_enginee": [
+    "role=link[name=\"Top 40+ Electrical Engineering Interview Questi...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[140]/a"
+  ],
+  "software-testing-interview-questions_link_top_20_accounts_payable_i": [
+    "role=link[name=\"Top 20+ Accounts Payable Interview Questions an...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[141]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_most_asked_visa_in": [
+    "role=link[name=\"Top 30 Most Asked VISA Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[142]/a"
+  ],
+  "software-testing-interview-questions_link_vlsi_interview_questions_": [
+    "role=link[name=\"VLSI Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[143]/a"
+  ],
+  "software-testing-interview-questions_link_autocad_interview_questio": [
+    "role=link[name=\"AutoCAD Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[144]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_most_asked_verilog": [
+    "role=link[name=\"Top 30+ Most Asked Verilog Interview Questions ...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[145]/a"
+  ],
+  "software-testing-interview-questions_link_top_40_oops_interview_que": [
+    "role=link[name=\"Top 40 OOPs Interview Questions and Answers (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[146]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_web_developer_inte": [
+    "role=link[name=\"Top 30+ Web Developer Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[147]/a"
+  ],
+  "software-testing-interview-questions_link_express_js_interview_ques": [
+    "role=link[name=\"Express.js Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[148]/a",
+    "a.related-post-link",
+    "//html/body/section/div/div[1]/div[2]/div[4]/ul/li[5]/a"
+  ],
+  "software-testing-interview-questions_link_cakephp_interview_questio": [
+    "role=link[name=\"CakePHP Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[149]/a"
+  ],
+  "software-testing-interview-questions_link_yii_interview_questions_2": [
+    "role=link[name=\"Yii Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[150]/a"
+  ],
+  "software-testing-interview-questions_link_zend_framework_interview_": [
+    "role=link[name=\"Zend Framework Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[151]/a"
+  ],
+  "software-testing-interview-questions_link_java_concurrency_intervie": [
+    "role=link[name=\"Java Concurrency Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[152]/a"
+  ],
+  "software-testing-interview-questions_link_symfony_interview_questio": [
+    "role=link[name=\"Symfony Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[153]/a"
+  ],
+  "software-testing-interview-questions_link_basic_interview_questions": [
+    "role=link[name=\"Basic Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[154]/a"
+  ],
+  "software-testing-interview-questions_link_dynamic_programming_inter": [
+    "role=link[name=\"Dynamic Programming Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[155]/a"
+  ],
+  "software-testing-interview-questions_link_programming_interview_que": [
+    "role=link[name=\"Programming Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[156]/a"
+  ],
+  "software-testing-interview-questions_link_next_js_interview_questio": [
+    "role=link[name=\"Next.js Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[157]/a"
+  ],
+  "software-testing-interview-questions_link_microsoft_java_interview_": [
+    "role=link[name=\"Microsoft Java Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[158]/a"
+  ],
+  "software-testing-interview-questions_link_top_35_most_asked_aem_int": [
+    "role=link[name=\"Top 35+ Most Asked AEM Interview Questions (2025)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[159]/a"
+  ],
+  "software-testing-interview-questions_link_svelte_js_interview_quest": [
+    "role=link[name=\"Svelte.js Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[160]/a"
+  ],
+  "software-testing-interview-questions_link_top_50_most_asked_cobol_i": [
+    "role=link[name=\"Top 50+ Most Asked COBOL Interview Questions (2...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[161]/a"
+  ],
+  "software-testing-interview-questions_link_top_40_cyber_security_int": [
+    "role=link[name=\"Top 40 Cyber Security Interview Questions and A...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[162]/a",
+    "a.related-post-link",
+    "//html/body/section/div/div[1]/div[2]/div[4]/ul/li[8]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_sql_query_intervie": [
+    "role=link[name=\"Top 30 SQL Query Interview Questions and Answer...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[163]/a"
+  ],
+  "software-testing-interview-questions_link_top_25_most_asked_bgp_int": [
+    "role=link[name=\"Top 25+ Most Asked BGP Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[164]/a"
+  ],
+  "software-testing-interview-questions_link_top_40_most_asked_apache_": [
+    "role=link[name=\"Top 40+ Most Asked Apache Hive Interview Questi...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[165]/a"
+  ],
+  "software-testing-interview-questions_link_top_35_most_asked_kafka_i": [
+    "role=link[name=\"Top 35+ Most Asked Kafka Interview Questions (2...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[166]/a"
+  ],
+  "software-testing-interview-questions_link_top_40_most_asked_embedde": [
+    "role=link[name=\"Top 40+ Most Asked Embedded C Interview Questio...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[167]/a"
+  ],
+  "software-testing-interview-questions_link_pega_interview_questions_": [
+    "role=link[name=\"Pega Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[168]/a"
+  ],
+  "software-testing-interview-questions_link_top_45_most_asked_kotlin_": [
+    "role=link[name=\"Top 45+ Most Asked Kotlin Interview Questions (...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[169]/a"
+  ],
+  "software-testing-interview-questions_link_top_55_most_asked_sap_mm_": [
+    "role=link[name=\"Top 55+ Most Asked SAP MM Interview Questions (...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[170]/a"
+  ],
+  "software-testing-interview-questions_link_top_35_most_asked_ospf_in": [
+    "role=link[name=\"Top 35+ Most Asked OSPF Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[171]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_most_asked_mobile_": [
+    "role=link[name=\"Top 30+ Most Asked Mobile Testing Interview Que...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[172]/a"
+  ],
+  "software-testing-interview-questions_link_mulesoft_interview_questi": [
+    "role=link[name=\"Mulesoft Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[173]/a"
+  ],
+  "software-testing-interview-questions_link_terraform_interview_quest": [
+    "role=link[name=\"Terraform Interview Questions and Answers (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[174]/a"
+  ],
+  "software-testing-interview-questions_link_salesforce_lightning_inte": [
+    "role=link[name=\"Salesforce Lightning Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[175]/a"
+  ],
+  "software-testing-interview-questions_link_top_70_most_asked_sccm_in": [
+    "role=link[name=\"Top 70+ Most Asked SCCM Interview Questions (2025)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[176]/a"
+  ],
+  "software-testing-interview-questions_link_top_55_most_asked_postman": [
+    "role=link[name=\"Top 55+ Most Asked Postman Interview Questions ...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[177]/a"
+  ],
+  "software-testing-interview-questions_link_top_20_most_asked_content": [
+    "role=link[name=\"Top 20+ Most Asked Content Writer Interview Que...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[178]/a"
+  ],
+  "software-testing-interview-questions_link_iot_interview_questions_2": [
+    "role=link[name=\"IoT Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[179]/a"
+  ],
+  "software-testing-interview-questions_link_nlp_interview_questions": [
+    "role=link[name=\"NLP Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[180]/a"
+  ],
+  "software-testing-interview-questions_link_splunk_interview_question": [
+    "role=link[name=\"Splunk Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[181]/a"
+  ],
+  "software-testing-interview-questions_link_postgresql_interview_ques": [
+    "role=link[name=\"PostgreSQL Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[182]/a"
+  ],
+  "software-testing-interview-questions_link_tricky_java_interview_que": [
+    "role=link[name=\"Tricky Java Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[183]/a"
+  ],
+  "software-testing-interview-questions_link_top_40_pyspark_interview_": [
+    "role=link[name=\"Top 40+ PySpark Interview Questions and Answers...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[184]/a"
+  ],
+  "software-testing-interview-questions_link_vba_interview_questions": [
+    "role=link[name=\"VBA Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[185]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_front_end_develope": [
+    "role=link[name=\"Top 30 Front-end Developer Interview Questions ...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[186]/a"
+  ],
+  "software-testing-interview-questions_link_computer_science_intervie": [
+    "role=link[name=\"Computer Science Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[187]/a"
+  ],
+  "software-testing-interview-questions_link_data_modeling_interview_q": [
+    "role=link[name=\"Data Modeling Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[188]/a"
+  ],
+  "software-testing-interview-questions_link_google_analytics_intervie": [
+    "role=link[name=\"Google Analytics Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[189]/a"
+  ],
+  "software-testing-interview-questions_link_sqoop_interview_questions": [
+    "role=link[name=\"Sqoop Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[190]/a"
+  ],
+  "software-testing-interview-questions_link_statistics_interview_ques": [
+    "role=link[name=\"Statistics Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[191]/a"
+  ],
+  "software-testing-interview-questions_link_tally_interview_questions": [
+    "role=link[name=\"Tally Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[192]/a"
+  ],
+  "software-testing-interview-questions_link_cics_interview_questions": [
+    "role=link[name=\"CICS Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[193]/a"
+  ],
+  "software-testing-interview-questions_link_chemistry_interview_quest": [
+    "role=link[name=\"Chemistry Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[194]/a"
+  ],
+  "software-testing-interview-questions_link_data_engineer_interview_q": [
+    "role=link[name=\"Data Engineer Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[195]/a"
+  ],
+  "software-testing-interview-questions_link_azure_data_factory_interv": [
+    "role=link[name=\"Azure Data Factory Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[196]/a"
+  ],
+  "software-testing-interview-questions_link_insurance_interview_quest": [
+    "role=link[name=\"Insurance Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[197]/a",
+    "a.related-post-link",
+    "//html/body/section/div/div[1]/div[2]/div[4]/ul/li[6]/a"
+  ],
+  "software-testing-interview-questions_link_iis_interview_questions": [
+    "role=link[name=\"IIS Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[198]/a"
+  ],
+  "software-testing-interview-questions_link_ms_word_interview_questio": [
+    "role=link[name=\"MS Word Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[199]/a"
+  ],
+  "software-testing-interview-questions_link_sdet_interview_questions": [
+    "role=link[name=\"SDET Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[200]/a",
+    "a.related-post-link",
+    "//html/body/section/div/div[1]/div[2]/div[4]/ul/li[10]/a"
+  ],
+  "software-testing-interview-questions_link_weblogic_interview_questi": [
+    "role=link[name=\"Weblogic Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[201]/a"
+  ],
+  "software-testing-interview-questions_link_php_oops_interview_questi": [
+    "role=link[name=\"PHP OOPs Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[202]/a"
+  ],
+  "software-testing-interview-questions_link_checkpoint_interview_ques": [
+    "role=link[name=\"Checkpoint Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[203]/a"
+  ],
+  "software-testing-interview-questions_link_python_coding_interview_q": [
+    "role=link[name=\"Python Coding Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[204]/a"
+  ],
+  "software-testing-interview-questions_link_garbage_collection_interv": [
+    "role=link[name=\"Garbage Collection Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[205]/a",
+    "a.related-post-link",
+    "//html/body/section/div/div[1]/div[2]/div[4]/ul/li[4]/a"
+  ],
+  "software-testing-interview-questions_link_top_coding_interview_ques": [
+    "role=link[name=\"Top Coding Interview Questions on Arrays-C\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[207]/a"
+  ],
+  "software-testing-interview-questions_link_computer_network_viva_que": [
+    "role=link[name=\"Computer Network Viva Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[208]/a",
+    "a.related-post-link",
+    "//html/body/section/div/div[1]/div[2]/div[4]/ul/li[3]/a"
+  ],
+  "software-testing-interview-questions_link_java_8_multithreading_int": [
+    "role=link[name=\"Java 8 Multithreading Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[209]/a"
+  ],
+  "software-testing-interview-questions_link_enum_java_interview_quest": [
+    "role=link[name=\"Enum Java Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[210]/a"
+  ],
+  "software-testing-interview-questions_link_java_interview_questions_": [
+    "role=link[name=\"Java Interview Questions for 5 years Experienced\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[211]/a",
+    "role=link[name=\"Java Interview Questions for Freshers\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[214]/a",
+    "role=link[name=\"Java Interview Questions on main() Method\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[218]/a",
+    "role=link[name=\"Java Interview Questions on Type Casting\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[220]/a",
+    "a.related-post-link",
+    "//html/body/section/div/div[1]/div[2]/div[4]/ul/li[1]/a"
+  ],
+  "software-testing-interview-questions_link_top_c_exception_handling_": [
+    "role=link[name=\"Top C++ Exception Handling Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[212]/a"
+  ],
+  "software-testing-interview-questions_link_top_50_java_coding_interv": [
+    "role=link[name=\"Top 50 Java Coding Interview Questions and Answ...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[213]/a"
+  ],
+  "software-testing-interview-questions_link_data_types_interview_ques": [
+    "role=link[name=\"Data Types Interview Questions in Java\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[215]/a"
+  ],
+  "software-testing-interview-questions_link_interview_questions_on_co": [
+    "role=link[name=\"Interview Questions on Constructor in Java\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[216]/a"
+  ],
+  "software-testing-interview-questions_link_interview_questions_on_me": [
+    "role=link[name=\"Interview Questions on Method Overloading in Java\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[217]/a"
+  ],
+  "software-testing-interview-questions_link_interface_questions_in_ja": [
+    "role=link[name=\"Interface Questions in Java\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[219]/a"
+  ],
+  "software-testing-interview-questions_link_emids_interview_questions": [
+    "role=link[name=\"Emids Interview Questions for Java\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[221]/a"
+  ],
+  "software-testing-interview-questions_link_increment_and_decrement_o": [
+    "role=link[name=\"Increment and Decrement Operators Questions in ...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[222]/a"
+  ],
+  "software-testing-interview-questions_link_java_rest_api_interview_q": [
+    "role=link[name=\"Java REST API Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[223]/a"
+  ],
+  "software-testing-interview-questions_link_wrapper_class_java_interv": [
+    "role=link[name=\"Wrapper Class Java Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[224]/a"
+  ],
+  "software-testing-interview-questions_link_mysql_dba_interview_quest": [
+    "role=link[name=\"MySQL DBA Interview Questions\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[225]/a"
+  ],
+  "software-testing-interview-questions_link_microsoft_excel_interview": [
+    "role=link[name=\"Microsoft Excel interview Question for Data Ana...\"]",
+    "///*[@id=\"flush-collapse2\"]/div/ul/li[226]/a"
+  ],
+  "software-testing-interview-questions_button_web_interview": [
+    "role=button[name=\"Web Interview\"]",
+    "button.accordion-button.sidebar-btn",
+    "///*[@id=\"flush-heading3\"]/button"
+  ],
+  "software-testing-interview-questions_link_top_40_html_interview_que": [
+    "role=link[name=\"Top 40+ HTML Interview Questions and Answers (2...\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[1]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_css_interview_ques": [
+    "role=link[name=\"Top 30+ CSS Interview Questions and Answers (2026)\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[2]/a"
+  ],
+  "software-testing-interview-questions_link_javascript_interview_ques": [
+    "role=link[name=\"JavaScript Interview Questions\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[3]/a",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[3]/a[8]"
+  ],
+  "software-testing-interview-questions_link_top_35_jquery_interview_q": [
+    "role=link[name=\"Top 35 jQuery Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[4]/a"
+  ],
+  "software-testing-interview-questions_link_top_50_angularjs_intervie": [
+    "role=link[name=\"Top 50 AngularJS Interview Questions (2025)\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[5]/a"
+  ],
+  "software-testing-interview-questions_link_top_16_most_asked_angular": [
+    "role=link[name=\"Top 16 Most Asked Angular 7 Interview Questions...\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[6]/a"
+  ],
+  "software-testing-interview-questions_link_top_50_node_js_interview_": [
+    "role=link[name=\"Top 50+ Node.js Interview Questions and Answers...\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[7]/a"
+  ],
+  "software-testing-interview-questions_link_ajax_interview_questions": [
+    "role=link[name=\"AJAX Interview Questions\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[8]/a"
+  ],
+  "software-testing-interview-questions_link_xml_interview": [
+    "role=link[name=\"XML Interview\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[9]/a"
+  ],
+  "software-testing-interview-questions_link_dojo_interview_questions_": [
+    "role=link[name=\"Dojo Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[10]/a"
+  ],
+  "software-testing-interview-questions_link_backbone_js_interview_que": [
+    "role=link[name=\"Backbone.js Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[11]/a"
+  ],
+  "software-testing-interview-questions_link_ember_js_interview_questi": [
+    "role=link[name=\"Ember.js Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[12]/a"
+  ],
+  "software-testing-interview-questions_link_xhtml_interview_questions": [
+    "role=link[name=\"XHTML Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[13]/a"
+  ],
+  "software-testing-interview-questions_link_xslt_interview_questions_": [
+    "role=link[name=\"XSLT Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[14]/a"
+  ],
+  "software-testing-interview-questions_link_xpath_interview_questions": [
+    "role=link[name=\"XPath Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[15]/a"
+  ],
+  "software-testing-interview-questions_link_xquery_interview_question": [
+    "role=link[name=\"XQuery Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[16]/a"
+  ],
+  "software-testing-interview-questions_link_xforms_interview": [
+    "role=link[name=\"XForms Interview\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[17]/a"
+  ],
+  "software-testing-interview-questions_link_top_25_sass_interview_que": [
+    "role=link[name=\"Top 25 SASS Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[18]/a"
+  ],
+  "software-testing-interview-questions_link_coffeescript_interview_qu": [
+    "role=link[name=\"CoffeeScript Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[19]/a"
+  ],
+  "software-testing-interview-questions_link_less_interview_questions_": [
+    "role=link[name=\"LESS Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[20]/a"
+  ],
+  "software-testing-interview-questions_link_perl_interview_questions": [
+    "role=link[name=\"Perl Interview Questions\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[21]/a"
+  ],
+  "software-testing-interview-questions_link_top_10_pure_css_interview": [
+    "role=link[name=\"Top 10 Pure.CSS Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[22]/a"
+  ],
+  "software-testing-interview-questions_link_materialize_interview_que": [
+    "role=link[name=\"Materialize Interview Questions\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[23]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_framework7_intervi": [
+    "role=link[name=\"Top 30 Framework7 Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[24]/a"
+  ],
+  "software-testing-interview-questions_link_top_40_svg_interview_ques": [
+    "role=link[name=\"Top 40+ SVG Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[25]/a"
+  ],
+  "software-testing-interview-questions_link_top_60_most_asked_sap_fic": [
+    "role=link[name=\"Top 60+ Most Asked SAP FICO Interview Question ...\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[26]/a"
+  ],
+  "software-testing-interview-questions_link_ab_initio_interview_quest": [
+    "role=link[name=\"Ab Initio Interview Questions\"]",
+    "///*[@id=\"flush-collapse3\"]/div/ul/li[27]/a"
+  ],
+  "software-testing-interview-questions_button_php_interview": [
+    "role=button[name=\"PHP Interview\"]",
+    "button.accordion-button.sidebar-btn",
+    "///*[@id=\"flush-heading4\"]/button"
+  ],
+  "software-testing-interview-questions_link_top_70_php_interview_ques": [
+    "role=link[name=\"Top 70 PHP Interview Questions and Answers (2026)\"]",
+    "///*[@id=\"flush-collapse4\"]/div/ul/li[1]/a"
+  ],
+  "software-testing-interview-questions_link_top_50_wordpress_intervie": [
+    "role=link[name=\"Top 50+ Wordpress Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse4\"]/div/ul/li[2]/a"
+  ],
+  "software-testing-interview-questions_link_joomla_interview_question": [
+    "role=link[name=\"Joomla Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse4\"]/div/ul/li[3]/a"
+  ],
+  "software-testing-interview-questions_link_drupal_interview_question": [
+    "role=link[name=\"Drupal Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse4\"]/div/ul/li[4]/a"
+  ],
+  "software-testing-interview-questions_link_top_40_magento_interview_": [
+    "role=link[name=\"Top 40+ Magento Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse4\"]/div/ul/li[5]/a"
+  ],
+  "software-testing-interview-questions_link_top_40_codeigniter_interv": [
+    "role=link[name=\"Top 40 CodeIgniter Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse4\"]/div/ul/li[6]/a"
+  ],
+  "software-testing-interview-questions_link_top_20_phalcon_interview_": [
+    "role=link[name=\"Top 20 Phalcon Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse4\"]/div/ul/li[7]/a"
+  ],
+  "software-testing-interview-questions_button_net_interview": [
+    "role=button[name=\".Net Interview\"]",
+    "button.accordion-button.sidebar-btn",
+    "///*[@id=\"flush-heading5\"]/button"
+  ],
+  "software-testing-interview-questions_link_top_50_net_interview_ques": [
+    "role=link[name=\"Top 50 .Net Interview Questions and Answers (2026)\"]",
+    "///*[@id=\"flush-collapse5\"]/div/ul/li[1]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_c_interview_questi": [
+    "role=link[name=\"Top 30+ C# Interview Questions and Answers (2026)\"]",
+    "///*[@id=\"flush-collapse5\"]/div/ul/li[2]/a"
+  ],
+  "software-testing-interview-questions_link_top_40_asp_net_interview_": [
+    "role=link[name=\"Top 40+ ASP.NET Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse5\"]/div/ul/li[3]/a"
+  ],
+  "software-testing-interview-questions_link_top_25_ado_net_interview_": [
+    "role=link[name=\"Top 25+ ADO.NET Interview Questions (2025)\"]",
+    "///*[@id=\"flush-collapse5\"]/div/ul/li[4]/a"
+  ],
+  "software-testing-interview-questions_link_top_40_wcf_interview_ques": [
+    "role=link[name=\"Top 40+ WCF Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse5\"]/div/ul/li[5]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_wpf_interview_ques": [
+    "role=link[name=\"Top 30+ WPF Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse5\"]/div/ul/li[6]/a"
+  ],
+  "software-testing-interview-questions_link_top_25_silverlight_interv": [
+    "role=link[name=\"Top 25+ Silverlight Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse5\"]/div/ul/li[7]/a"
+  ],
+  "software-testing-interview-questions_link_f_interview_questions_202": [
+    "role=link[name=\"F# Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse5\"]/div/ul/li[8]/a"
+  ],
+  "software-testing-interview-questions_button_java_interview": [
+    "role=button[name=\"Java Interview\"]",
+    "button.accordion-button.sidebar-btn",
+    "///*[@id=\"flush-heading6\"]/button"
+  ],
+  "software-testing-interview-questions_link_300_core_java_interview_q": [
+    "role=link[name=\"300+ Core Java Interview Questions and Answers ...\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[1]/a"
+  ],
+  "software-testing-interview-questions_link_300_java_interview_questi": [
+    "role=link[name=\"300 Java interview questions | Set 2 (2026)\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[2]/a"
+  ],
+  "software-testing-interview-questions_link_java_multithreading_inter": [
+    "role=link[name=\"Java Multithreading Interview Questions (2026) ...\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[3]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_java_collections_i": [
+    "role=link[name=\"Top 30+ Java Collections Interview Questions an...\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[4]/a"
+  ],
+  "software-testing-interview-questions_link_jdbc_interview_questions_": [
+    "role=link[name=\"JDBC Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[5]/a"
+  ],
+  "software-testing-interview-questions_link_servlet_interview_questio": [
+    "role=link[name=\"Servlet Interview Questions\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[6]/a"
+  ],
+  "software-testing-interview-questions_link_jsp_interview_questions": [
+    "role=link[name=\"JSP Interview Questions\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[7]/a"
+  ],
+  "software-testing-interview-questions_link_ejb_interview_questions_2": [
+    "role=link[name=\"EJB Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[8]/a"
+  ],
+  "software-testing-interview-questions_link_struts_interview_question": [
+    "role=link[name=\"Struts Interview Questions\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[9]/a"
+  ],
+  "software-testing-interview-questions_link_hibernate_interview_quest": [
+    "role=link[name=\"Hibernate Interview Questions\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[10]/a"
+  ],
+  "software-testing-interview-questions_link_top_40_spring_interview_q": [
+    "role=link[name=\"Top 40 Spring Interview Questions and Answers (...\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[11]/a"
+  ],
+  "software-testing-interview-questions_link_top_50_spring_boot_interv": [
+    "role=link[name=\"Top 50 Spring Boot Interview Questions and Answ...\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[12]/a"
+  ],
+  "software-testing-interview-questions_link_spring_mvc_interview_ques": [
+    "role=link[name=\"Spring MVC Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[13]/a"
+  ],
+  "software-testing-interview-questions_link_jpa_interview_questions_2": [
+    "role=link[name=\"JPA Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[14]/a"
+  ],
+  "software-testing-interview-questions_link_maven_interview_questions": [
+    "role=link[name=\"Maven Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[15]/a"
+  ],
+  "software-testing-interview-questions_link_top_23_junit_interview_qu": [
+    "role=link[name=\"Top 23 JUnit Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[16]/a"
+  ],
+  "software-testing-interview-questions_link_top_50_jsf_interview_ques": [
+    "role=link[name=\"Top 50+ JSF Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[17]/a"
+  ],
+  "software-testing-interview-questions_link_primefaces_interview_ques": [
+    "role=link[name=\"PrimeFaces Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[18]/a"
+  ],
+  "software-testing-interview-questions_link_richfaces_interview_quest": [
+    "role=link[name=\"RichFaces Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[19]/a"
+  ],
+  "software-testing-interview-questions_link_top_20_gwt_interview_ques": [
+    "role=link[name=\"Top 20+ GWT Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[20]/a"
+  ],
+  "software-testing-interview-questions_link_top_20_jdb_interview_ques": [
+    "role=link[name=\"Top 20 JDB Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[21]/a"
+  ],
+  "software-testing-interview-questions_link_top_15_jogl_interview_que": [
+    "role=link[name=\"Top 15 JOGL Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[22]/a"
+  ],
+  "software-testing-interview-questions_link_top_20_jbpm_interview_que": [
+    "role=link[name=\"Top 20 jBPM Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[23]/a"
+  ],
+  "software-testing-interview-questions_link_jenkins_interview_questio": [
+    "role=link[name=\"Jenkins Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[24]/a"
+  ],
+  "software-testing-interview-questions_link_java_constructor_intervie": [
+    "role=link[name=\"Java Constructor Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[25]/a"
+  ],
+  "software-testing-interview-questions_link_technical_architect_inter": [
+    "role=link[name=\"Technical Architect Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[26]/a"
+  ],
+  "software-testing-interview-questions_link_array_interview_questions": [
+    "role=link[name=\"Array Interview Questions in Java for Freshers ...\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[27]/a"
+  ],
+  "software-testing-interview-questions_link_java_generics_questions": [
+    "role=link[name=\"Java Generics Questions\"]",
+    "///*[@id=\"flush-collapse6\"]/div/ul/li[28]/a"
+  ],
+  "software-testing-interview-questions_button_database_interview": [
+    "role=button[name=\"Database Interview\"]",
+    "button.accordion-button.sidebar-btn",
+    "///*[@id=\"flush-heading7\"]/button"
+  ],
+  "software-testing-interview-questions_link_top_60_dbms_interview_que": [
+    "role=link[name=\"Top 60+ DBMS Interview Questions and Answers (2...\"]",
+    "///*[@id=\"flush-collapse7\"]/div/ul/li[1]/a"
+  ],
+  "software-testing-interview-questions_link_sql_interview_questions": [
+    "role=link[name=\"SQL Interview Questions\"]",
+    "///*[@id=\"flush-collapse7\"]/div/ul/li[2]/a",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[3]/a[10]"
+  ],
+  "software-testing-interview-questions_link_pl_sql_interview_question": [
+    "role=link[name=\"PL/SQL Interview Questions (2025)\"]",
+    "///*[@id=\"flush-collapse7\"]/div/ul/li[3]/a"
+  ],
+  "software-testing-interview-questions_link_oracle_interview_question": [
+    "role=link[name=\"Oracle Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse7\"]/div/ul/li[4]/a"
+  ],
+  "software-testing-interview-questions_link_top_90_mysql_interview_qu": [
+    "role=link[name=\"Top 90+ MySQL Interview Questions and Answers (...\"]",
+    "///*[@id=\"flush-collapse7\"]/div/ul/li[5]/a"
+  ],
+  "software-testing-interview-questions_link_sql_server_interview_ques": [
+    "role=link[name=\"SQL Server Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse7\"]/div/ul/li[6]/a"
+  ],
+  "software-testing-interview-questions_link_top_50_mongodb_interview_": [
+    "role=link[name=\"Top 50 MongoDB Interview Questions and Answers ...\"]",
+    "///*[@id=\"flush-collapse7\"]/div/ul/li[7]/a"
+  ],
+  "software-testing-interview-questions_link_cassandra_interview_quest": [
+    "role=link[name=\"Cassandra Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse7\"]/div/ul/li[8]/a"
+  ],
+  "software-testing-interview-questions_link_db2_interview_questions_a": [
+    "role=link[name=\"DB2 Interview Questions and Answers\"]",
+    "///*[@id=\"flush-collapse7\"]/div/ul/li[9]/a"
+  ],
+  "software-testing-interview-questions_link_microsoft_access_intervie": [
+    "role=link[name=\"Microsoft Access Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse7\"]/div/ul/li[10]/a"
+  ],
+  "software-testing-interview-questions_link_sqlite_interview_question": [
+    "role=link[name=\"SQLite Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse7\"]/div/ul/li[11]/a"
+  ],
+  "software-testing-interview-questions_link_couchdb_interview_questio": [
+    "role=link[name=\"CouchDB Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse7\"]/div/ul/li[12]/a"
+  ],
+  "software-testing-interview-questions_link_neo4j_interview_questions": [
+    "role=link[name=\"Neo4j Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse7\"]/div/ul/li[13]/a"
+  ],
+  "software-testing-interview-questions_link_top_30_mariadb_interview_": [
+    "role=link[name=\"Top 30+ MariaDB Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse7\"]/div/ul/li[14]/a"
+  ],
+  "software-testing-interview-questions_link_pouchdb_interview_questio": [
+    "role=link[name=\"PouchDB Interview Questions (2026)\"]",
+    "///*[@id=\"flush-collapse7\"]/div/ul/li[15]/a"
+  ],
+  "software-testing-interview-questions_link_redis_interview_questions": [
+    "role=link[name=\"Redis Interview Questions (2025)\"]",
+    "///*[@id=\"flush-collapse7\"]/div/ul/li[16]/a"
+  ],
+  "software-testing-interview-questions_link_50_statistics_interview_q": [
+    "role=link[name=\"50+ Statistics Interview Questions and Answers ...\"]",
+    "///*[@id=\"flush-collapse7\"]/div/ul/li[17]/a"
+  ],
+  "software-testing-interview-questions_link_home": [
+    "role=link[name=\"Home\"]",
+    "///*[@id=\"breadcrumbNav\"]/a[1]"
+  ],
+  "software-testing-interview-questions_link_interview_questions": [
+    "role=link[name=\"Interview Questions\"]",
+    "a.cat-link",
+    "///*[@id=\"breadcrumbNav\"]/a[3]"
+  ],
+  "software-testing-interview-questions_iframe_aswift_1": [
+    "role=iframe[name=\"Advertisement\"]",
+    "#aswift_1",
+    "[name=\"aswift_1\"]",
+    "///*[@id=\"aswift_1\"]"
+  ],
+  "software-testing-interview-questions_heading_these_are_topics_related_": [
+    "role=heading[name=\"These are topics related to the article that might interest you\"]",
+    "///*[@id=\"aswift_2_host\"]/div/div/div[1]/span",
+    "///*[@id=\"aswift_3_host\"]/div/div/div[1]/span"
+  ],
+  "software-testing-interview-questions_link_software_testing": [
+    "role=link[name=\"software testing\"]",
+    "div.google-anno-skip.goog-rentry",
+    "///*[@id=\"aswift_2_host\"]/div/div/div[2]"
+  ],
+  "software-testing-interview-questions_link_scripts": [
+    "role=link[name=\"scripts\"]",
+    "div.google-anno-skip.goog-rentry",
+    "///*[@id=\"aswift_2_host\"]/div/div/div[3]"
+  ],
+  "software-testing-interview-questions_link_script": [
+    "role=link[name=\"script\"]",
+    "div.google-anno-skip.goog-rentry",
+    "///*[@id=\"aswift_2_host\"]/div/div/div[4]"
+  ],
+  "software-testing-interview-questions_link_programming": [
+    "role=link[name=\"programming\"]",
+    "div.google-anno-skip.goog-rentry",
+    "///*[@id=\"aswift_3_host\"]/div/div/div[2]"
+  ],
+  "software-testing-interview-questions_link_development_tools": [
+    "role=link[name=\"Development Tools\"]",
+    "div.google-anno-skip.goog-rentry",
+    "///*[@id=\"aswift_3_host\"]/div/div/div[3]"
+  ],
+  "software-testing-interview-questions_link_scripting_languages": [
+    "role=link[name=\"Scripting Languages\"]",
+    "div.google-anno-skip.goog-rentry",
+    "///*[@id=\"aswift_3_host\"]/div/div/div[4]"
+  ],
+  "software-testing-interview-questions_textbox_email": [
+    "role=textbox[name=\"Your Email\"]",
+    "#email",
+    "input.form-control.border-0.rounded-pill.w-100.ps-4.pe-5",
+    "///*[@id=\"email\"]"
+  ],
+  "software-testing-interview-questions_button_subscribebtn": [
+    "role=button[name=\"Subscribe\"]",
+    "#subscribeBtn",
+    "button.btn.shadow-none.position-absolute.top-0.end-0.mt-1.me-2",
+    "///*[@id=\"subscribeBtn\"]"
+  ],
+  "software-testing-interview-questions_link_hr_tpointtech_com": [
+    "role=link[name=\"hr@tpointtech.com\"]",
+    "//html/body/section/div/div[5]/div[1]/div/div[1]/p[5]/a"
+  ],
+  "software-testing-interview-questions_link_91_9599086977": [
+    "role=link[name=\"+91-9599086977\"]",
+    "//html/body/section/div/div[5]/div[1]/div/div[1]/p[6]/a"
+  ],
+  "software-testing-interview-questions_link_idx_549": [
+    "role=link",
+    "a.btn.btn-outline-light.btn-social",
+    "//html/body/section/div/div[5]/div[1]/div/div[1]/div/a[1]"
+  ],
+  "software-testing-interview-questions_link_idx_550": [
+    "role=link",
+    "a.btn.btn-outline-light.btn-social",
+    "//html/body/section/div/div[5]/div[1]/div/div[1]/div/a[2]"
+  ],
+  "software-testing-interview-questions_link_idx_551": [
+    "role=link",
+    "a.btn.btn-outline-light.btn-social",
+    "//html/body/section/div/div[5]/div[1]/div/div[1]/div/a[3]"
+  ],
+  "software-testing-interview-questions_link_idx_552": [
+    "role=link",
+    "a.btn.btn-outline-light.btn-social",
+    "//html/body/section/div/div[5]/div[1]/div/div[1]/div/a[4]"
+  ],
+  "software-testing-interview-questions_link_idx_553": [
+    "role=link",
+    "a.btn.btn-outline-light.btn-social",
+    "//html/body/section/div/div[5]/div[1]/div/div[1]/div/a[5]"
+  ],
+  "software-testing-interview-questions_link_idx_554": [
+    "role=link",
+    "a.btn.btn-outline-light.btn-social",
+    "//html/body/section/div/div[5]/div[1]/div/div[1]/div/a[6]"
+  ],
+  "software-testing-interview-questions_link_data_structure_tutorial": [
+    "role=link[name=\"Data Structure Tutorial\"]",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[2]/a[3]"
+  ],
+  "software-testing-interview-questions_link_c_programming_tutorial": [
+    "role=link[name=\"C Programming Tutorial\"]",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[2]/a[4]"
+  ],
+  "software-testing-interview-questions_link_jquery_tutorial": [
+    "role=link[name=\"jQuery Tutorial\"]",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[2]/a[10]"
+  ],
+  "software-testing-interview-questions_link_spring_tutorial": [
+    "role=link[name=\"Spring Tutorial\"]",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[2]/a[11]"
+  ],
+  "software-testing-interview-questions_link_java_interview_questions": [
+    "role=link[name=\"Java Interview Questions\"]",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[3]/a[3]"
+  ],
+  "software-testing-interview-questions_link_data_structure_interview_": [
+    "role=link[name=\"Data Structure Interview Questions\"]",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[3]/a[4]"
+  ],
+  "software-testing-interview-questions_link_c_interview_questions": [
+    "role=link[name=\"C++ Interview Questions\"]",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[3]/a[5]",
+    "role=link[name=\"C Interview Questions\"]",
+    "//html/body/section/div/div[5]/div[1]/div/div[3]/a[6]"
+  ],
+  "software-testing-interview-questions_link_html_interview_questions": [
+    "role=link[name=\"HTML Interview Questions\"]",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[3]/a[7]"
+  ],
+  "software-testing-interview-questions_link_jquery_interview_question": [
+    "role=link[name=\"jQuery Interview Questions\"]",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[3]/a[9]"
+  ],
+  "software-testing-interview-questions_link_power_bi_interview_questi": [
+    "role=link[name=\"Power BI Interview Questions\"]",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[3]/a[11]"
+  ],
+  "software-testing-interview-questions_link_online_c_compiler": [
+    "role=link[name=\"Online C Compiler\"]",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[4]/a[2]",
+    "role=link[name=\"Online C++ Compiler\"]",
+    "//html/body/section/div/div[5]/div[1]/div/div[4]/a[4]"
+  ],
+  "software-testing-interview-questions_link_online_r_compiler": [
+    "role=link[name=\"Online R Compiler\"]",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[4]/a[3]"
+  ],
+  "software-testing-interview-questions_link_online_php_compiler": [
+    "role=link[name=\"Online PHP Compiler\"]",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[4]/a[5]"
+  ],
+  "software-testing-interview-questions_link_online_java_compiler": [
+    "role=link[name=\"Online Java Compiler\"]",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[4]/a[6]"
+  ],
+  "software-testing-interview-questions_link_online_html_editor": [
+    "role=link[name=\"Online HTML Editor\"]",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[4]/a[7]"
+  ],
+  "software-testing-interview-questions_link_online_swift_compiler": [
+    "role=link[name=\"Online Swift Compiler\"]",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[4]/a[8]"
+  ],
+  "software-testing-interview-questions_link_online_python_compiler": [
+    "role=link[name=\"Online Python Compiler\"]",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[4]/a[9]"
+  ],
+  "software-testing-interview-questions_link_online_javascript_editor": [
+    "role=link[name=\"Online JavaScript Editor\"]",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[4]/a[10]"
+  ],
+  "software-testing-interview-questions_link_online_typescript_editor": [
+    "role=link[name=\"Online TypeScript Editor\"]",
+    "a.btn.btn-link",
+    "//html/body/section/div/div[5]/div[1]/div/div[4]/a[11]"
+  ],
+  "software-testing-interview-questions_link_latest_post": [
+    "role=link[name=\"Latest Post\"]",
+    "//html/body/section/div/div[5]/div[2]/a[2]"
+  ],
+  "software-testing-interview-questions_link_tutorials_list": [
+    "role=link[name=\"Tutorials List\"]",
+    "//html/body/section/div/div[5]/div[2]/a[3]"
+  ],
+  "software-testing-interview-questions_link_privacy_policy": [
+    "role=link[name=\"Privacy Policy\"]",
+    "//html/body/section/div/div[5]/div[2]/a[4]"
+  ],
+  "software-testing-interview-questions_link_about_us": [
+    "role=link[name=\"About Us\"]",
+    "//html/body/section/div/div[5]/div[2]/a[5]"
+  ],
+  "software-testing-interview-questions_link_contact_us": [
+    "role=link[name=\"Contact Us\"]",
+    "//html/body/section/div/div[5]/div[2]/a[6]"
   ]
 }

@@ -27,7 +27,6 @@ ehthumbs.db
 Thumbs.db
 
 # Test reports and logs
-reports/
 *.log
 screenshot*.png
 video*.webm
