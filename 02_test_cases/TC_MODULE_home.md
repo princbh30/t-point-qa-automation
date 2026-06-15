@@ -1,0 +1,243 @@
+# Test Case: MODULE_home | UI Verification and Navigation
+- **Preconditions**: User is on page https://www.tpointtech.com
+- **Steps**:
+  1. Navigate to https://www.tpointtech.com
+  2. Verify and click header navigation links: `home_link_tutorials` (Element: Link, Label: "Tutorials"), `home_link_interviews` (Element: Link, Label: "Interviews"), `home_link_compilers` (Element: Link, Label: "Compilers")
+  3. Input "Python" into `home_textbox_searchinput` (Element: Input, Label: "Search...", Placeholder: "Search...")
+  4. Click `home_button_searchbtn` (Element: Button, Text: "Search") to execute search query
+  5. Click sidebar tutorial link `home_link_python_tutorial` (Element: Link, Text: "Python Tutorial") to navigate to that topic page
+- **Expected Result**: The page loads successfully, and all interactive elements are responsive. Navigation links load their target pages, search displays correct results, and form inputs function as expected.
+
+## Semantic References for Healing
+- `home_link_idx_0 | Link | Label: ""`
+- `home_link_tutorials | Link | Label: "Tutorials"`
+- `home_link_interviews | Link | Label: "Interviews"`
+- `home_link_compilers | Link | Label: "Compilers"`
+- `home_div_idx_145 | Div | Label: ""`
+- `home_div_idx_146 | Div | Label: ""`
+- `home_div_idx_147 | Div | Label: ""`
+- `home_div_idx_148 | Div | Label: ""`
+- `home_div_idx_149 | Div | Label: ""`
+- `home_button_idx_150 | Button | Label: ""`
+- `home_link_python_tutorial | Link | Label: "Python Tutorial"`
+- `home_link_java_tutorial | Link | Label: "Java Tutorial"`
+- `home_link_javascript_tutorial | Link | Label: "JavaScript Tutorial"`
+- `home_link_sql_tutorial | Link | Label: "SQL Tutorial"`
+- `home_link_c_tutorial | Link | Label: "C Tutorial"`
+- `home_link_html_tutorial | Link | Label: "HTML Tutorial"`
+- `home_link_css_tutorial | Link | Label: "CSS Tutorial"`
+- `home_link_react_tutorial | Link | Label: "React Tutorial"`
+- `home_link_nodejs_tutorial | Link | Label: "NodeJS Tutorial"`
+- `home_link_sprint_boot_tutorial | Link | Label: "Sprint Boot Tutorial"`
+- `home_link_php_tutorial | Link | Label: "PHP Tutorial"`
+- `home_link_mysql_tutorial | Link | Label: "MYSQL Tutorial"`
+- `home_link_mongodb_tutorial | Link | Label: "MongoDB Tutorial"`
+- `home_link_ai_tutorial | Link | Label: "AI Tutorial"`
+- `home_link_machine_learning_tutorial | Link | Label: "Machine Learning Tutorial"`
+- `home_link_dsa_tutorial | Link | Label: "DSA Tutorial"`
+- `home_link_dbms_tutorial | Link | Label: "DBMS Tutorial"`
+- `home_link_os_tutorial | Link | Label: "OS Tutorial"`
+- `home_textbox_searchinput | Input | Placeholder: "Search..." / Label: "Search..."`
+- `home_button_searchbtn | Button | Label: "Search"`
+- `home_link_python | Link | Label: "Python"`
+- `home_link_selenium_python | Link | Label: "Selenium Python"`
+- `home_link_django | Link | Label: "Django"`
+- `home_link_flask | Link | Label: "Flask"`
+- `home_link_numpy | Link | Label: "NumPy"`
+- `home_link_tkinter | Link | Label: "Tkinter"`
+- `home_link_pytorch | Link | Label: "Pytorch"`
+- `home_link_pygame | Link | Label: "Pygame"`
+- `home_link_scipy | Link | Label: "Scipy"`
+- `home_link_pandas | Link | Label: "Pandas"`
+- `home_link_opencv | Link | Label: "OpenCV"`
+- `home_link_matplotlib | Link | Label: "Matplotlib"`
+- `home_link_openpyxl | Link | Label: "Openpyxl"`
+- `home_link_kivy | Link | Label: "Kivy"`
+- `home_link_jupyter | Link | Label: "Jupyter"`
+- `home_link_python_cgi_programming | Link | Label: "Python CGI Programming"`
+- `home_link_java | Link | Label: "Java"`
+- `home_link_servlet | Link | Label: "Servlet"`
+- `home_link_jsp | Link | Label: "JSP"`
+- `home_link_spring_boot | Link | Label: "Spring Boot"`
+- `home_link_spring_framework | Link | Label: "Spring Framework"`
+- `home_link_hibernate | Link | Label: "Hibernate"`
+- `home_link_java_web_services | Link | Label: "Java Web Services"`
+- `home_link_spring_cloud | Link | Label: "Spring Cloud"`
+- `home_link_java_swing | Link | Label: "Java Swing"`
+- `home_link_javafx | Link | Label: "JavaFX"`
+- `home_link_apache_poi | Link | Label: "Apache POI"`
+- `home_link_jsf | Link | Label: "JSF"`
+- `home_link_jstl | Link | Label: "JSTL"`
+- `home_link_java_mail | Link | Label: "Java Mail"`
+- `home_link_java_i_o | Link | Label: "Java I/O"`
+- `home_link_java_awt | Link | Label: "Java AWT"`
+- `home_link_java_date | Link | Label: "Java Date"`
+- `home_link_java_9 | Link | Label: "Java 9"`
+- `home_link_java_8 | Link | Label: "Java 8"`
+- `home_link_php | Link | Label: "PHP"`
+- `home_link_framework7 | Link | Label: "Framework7"`
+- `home_link_laravel | Link | Label: "Laravel"`
+- `home_link_wordpress | Link | Label: "WordPress"`
+- `home_link_codeigniter | Link | Label: "CodeIgniter"`
+- `home_link_magento_2 | Link | Label: "Magento 2"`
+- `home_link_joomla | Link | Label: "Joomla"`
+- `home_link_phalcon | Link | Label: "Phalcon"`
+- `home_link_yii | Link | Label: "YII"`
+- `home_link_software_testing | Link | Label: "Software Testing"`
+- `home_link_agile | Link | Label: "Agile"`
+- `home_link_jira | Link | Label: "JIRA"`
+- `home_link_bugzilla | Link | Label: "Bugzilla"`
+- `home_link_etl | Link | Label: "ETL"`
+- `home_link_jmeter | Link | Label: "JMeter"`
+- `home_link_qa | Link | Label: "QA"`
+- `home_link_testng | Link | Label: "TestNG"`
+- `home_link_automation_anywhere | Link | Label: "Automation Anywhere"`
+- `home_link_uipath | Link | Label: "UiPath"`
+- `home_link_postman | Link | Label: "Postman"`
+- `home_link_junit | Link | Label: "Junit"`
+- `home_link_soapui | Link | Label: "SoapUI"`
+- `home_link_rpa | Link | Label: "RPA"`
+- `home_link_manual_testing | Link | Label: "Manual Testing"`
+- `home_link_cucumber | Link | Label: "Cucumber"`
+- `home_link_appium | Link | Label: "Appium"`
+- `home_link_mobile_testing | Link | Label: "Mobile Testing"`
+- `home_link_net | Link | Label: ".Net"`
+- `home_link_c | Link | Label: "C#"`
+- `home_link_asp_net | Link | Label: "ASP.NET"`
+- `home_link_ado_net | Link | Label: "ADO.NET"`
+- `home_link_wpf | Link | Label: "WPF"`
+- `home_link_ssrs | Link | Label: "SSRS"`
+- `home_link_ssis | Link | Label: "SSIS"`
+- `home_link_web_api | Link | Label: "Web API"`
+- `home_link_linq | Link | Label: "LINQ"`
+- `home_link_sharepoint | Link | Label: "SharePoint"`
+- `home_link_f | Link | Label: "F#"`
+- `home_link_vb_net | Link | Label: "VB.NET"`
+- `home_link_dbms | Link | Label: "DBMS"`
+- `home_link_data_structures | Link | Label: "Data Structures"`
+- `home_link_daa | Link | Label: "DAA"`
+- `home_link_operating_system | Link | Label: "Operating System"`
+- `home_link_computer_network | Link | Label: "Computer Network"`
+- `home_link_compiler_design | Link | Label: "Compiler Design"`
+- `home_link_computer_organization | Link | Label: "Computer Organization"`
+- `home_link_discrete_mathematics | Link | Label: "Discrete Mathematics"`
+- `home_link_ethical_hacking | Link | Label: "Ethical Hacking"`
+- `home_link_computer_graphics | Link | Label: "Computer Graphics"`
+- `home_link_software_engineering | Link | Label: "Software Engineering"`
+- `home_link_c_programming | Link | Label: "C Programming"`
+- `home_link_programs | Link | Label: "Programs"`
+- `home_link_control_system | Link | Label: "Control System"`
+- `home_link_data_mining | Link | Label: "Data Mining"`
+- `home_link_data_warehouse | Link | Label: "Data Warehouse"`
+- `home_link_angular_8 | Link | Label: "Angular 8"`
+- `home_link_reactjs | Link | Label: "ReactJS"`
+- `home_link_react_native | Link | Label: "React Native"`
+- `home_link_artificial_intelligence | Link | Label: "Artificial Intelligence"`
+- `home_link_aws | Link | Label: "AWS"`
+- `home_link_selenium | Link | Label: "Selenium"`
+- `home_link_cloud_computing | Link | Label: "Cloud Computing"`
+- `home_link_hadoop | Link | Label: "Hadoop"`
+- `home_link_data_science | Link | Label: "Data Science"`
+- `home_link_angular_7 | Link | Label: "Angular 7"`
+- `home_link_git | Link | Label: "Git"`
+- `home_link_machine_learning | Link | Label: "Machine Learning"`
+- `home_link_azure | Link | Label: "Azure"`
+- `home_link_google_cloud | Link | Label: "Google Cloud"`
+- `home_link_angularjs | Link | Label: "AngularJS"`
+- `home_link_node_js | Link | Label: "Node.Js"`
+- `home_link_power_bi | Link | Label: "Power BI"`
+- `home_link_go_lang | Link | Label: "Go Lang"`
+- `home_link_typescript | Link | Label: "TypeScript"`
+- `home_link_github | Link | Label: "GitHub"`
+- `home_link_flutter | Link | Label: "Flutter"`
+- `home_link_html | Link | Label: "HTML"`
+- `home_link_css | Link | Label: "CSS"`
+- `home_link_javascript | Link | Label: "JavaScript"`
+- `home_link_jquery | Link | Label: "JQuery"`
+- `home_link_jquery_ui | Link | Label: "JQuery UI"`
+- `home_link_xml | Link | Label: "XML"`
+- `home_link_json | Link | Label: "JSON"`
+- `home_link_bootstrap | Link | Label: "Bootstrap"`
+- `home_link_express_js | Link | Label: "Express.Js"`
+- `home_link_backbone | Link | Label: "Backbone"`
+- `home_link_sass | Link | Label: "Sass"`
+- `home_link_less | Link | Label: "Less"`
+- `home_link_xslt | Link | Label: "XSLT"`
+- `home_link_xpath | Link | Label: "XPath"`
+- `home_link_xquery | Link | Label: "XQuery"`
+- `home_link_xhtml | Link | Label: "XHTML"`
+- `home_link_pure_css | Link | Label: "Pure.CSS"`
+- `home_link_materialize | Link | Label: "Materialize"`
+- `home_link_http | Link | Label: "HTTP"`
+- `home_link_dhtml | Link | Label: "DHTML"`
+- `home_link_sql | Link | Label: "SQL"`
+- `home_link_pl_sql | Link | Label: "PL/SQL"`
+- `home_link_mysql | Link | Label: "MySQL"`
+- `home_link_mongodb | Link | Label: "MongoDB"`
+- `home_link_postgresql | Link | Label: "PostgreSQL"`
+- `home_link_sql_server | Link | Label: "SQL Server"`
+- `home_link_oracle | Link | Label: "Oracle"`
+- `home_link_cassandra | Link | Label: "Cassandra"`
+- `home_link_sqlite | Link | Label: "SQLite"`
+- `home_link_neo4j | Link | Label: "Neo4j"`
+- `home_link_couchdb | Link | Label: "CouchDB"`
+- `home_link_mariadb | Link | Label: "MariaDB"`
+- `home_link_db2 | Link | Label: "DB2"`
+- `home_link_pouchdb | Link | Label: "PouchDB"`
+- `home_link_redis | Link | Label: "Redis"`
+- `home_link_salesforce | Link | Label: "Salesforce"`
+- `home_link_splunk | Link | Label: "Splunk"`
+- `home_link_spark | Link | Label: "Spark"`
+- `home_link_hive | Link | Label: "Hive"`
+- `home_link_tableau | Link | Label: "Tableau"`
+- `home_link_tensorflow | Link | Label: "Tensorflow"`
+- `home_link_kafka | Link | Label: "Kafka"`
+- `home_link_kubernetes | Link | Label: "Kubernetes"`
+- `home_link_elasticsearch | Link | Label: "Elasticsearch"`
+- `home_link_chatgpt | Link | Label: "ChatGPT"`
+- `home_link_r_programming | Link | Label: "R Programming"`
+- `home_link_devops | Link | Label: "DevOps"`
+- `home_link_aptitude | Link | Label: "Aptitude"`
+- `home_link_reasoning | Link | Label: "Reasoning"`
+- `home_link_verbal_ability | Link | Label: "Verbal Ability"`
+- `home_link_jenkins | Link | Label: "Jenkins"`
+- `home_link_excel | Link | Label: "Excel"`
+- `home_link_android | Link | Label: "Android"`
+- `home_link_computer | Link | Label: "Computer"`
+- `home_link_linux | Link | Label: "Linux"`
+- `home_link_docker | Link | Label: "Docker"`
+- `home_link_kotlin | Link | Label: "Kotlin"`
+- `home_link_math | Link | Label: "Math"`
+- `home_link_dart | Link | Label: "Dart"`
+- `home_link_photoshop | Link | Label: "Photoshop"`
+- `home_link_pyspark | Link | Label: "Pyspark"`
+- `home_link_join_now | Link | Label: "Join Now"`
+- `home_link_java_exception_handling | Link | Label: "Java Exception Handling"`
+- `home_link_java_try_catch | Link | Label: "Java Try Catch"`
+- `home_link_java_multiple_catch | Link | Label: "Java Multiple Catch"`
+- `home_link_java_nested_try | Link | Label: "Java Nested Try"`
+- `home_link_java_finally_block | Link | Label: "Java Finally Block"`
+- `home_link_java_throw | Link | Label: "Java Throw"`
+- `home_link_java_exception_propagatio | Link | Label: "Java Exception Propagation"`
+- `home_link_java_throws | Link | Label: "Java Throws"`
+- `home_link_java_throw_vs_throws | Link | Label: "Java Throw vs Throws"`
+- `home_link_java_final_vs_finally_vs_ | Link | Label: "Java Final vs Finally vs Finalize"`
+- `home_link_java_exception_handling_w | Link | Label: "Java Exception Handling with Overriding"`
+- `home_link_java_custom_exception | Link | Label: "Java Custom Exception"`
+- `home_link_java_inner_classes | Link | Label: "Java Inner Classes"`
+- `home_link_java_member_inner_class | Link | Label: "Java Member Inner Class"`
+- `home_link_java_anonymous_inner_clas | Link | Label: "Java Anonymous Inner Class"`
+- `home_link_java_local_inner_class | Link | Label: "Java Local Inner Class"`
+- `home_link_java_static_nested_class | Link | Label: "Java Static Nested Class"`
+- `home_link_java_nested_interface | Link | Label: "Java Nested Interface"`
+- `home_link_java_multithreading | Link | Label: "Java Multithreading"`
+- `home_link_java_thread_life_cycle | Link | Label: "Java Thread Life Cycle"`
+- `home_link_java_create_thread | Link | Label: "Java Create Thread"`
+- `home_link_java_thread_scheduler | Link | Label: "Java Thread Scheduler"`
+- `home_link_java_thread_sleep | Link | Label: "Java Thread Sleep"`
+- `home_link_java_start_thread_twice | Link | Label: "Java Start Thread Twice"`
+- `home_link_java_run_vs_start | Link | Label: "Java run vs start"`
+- `home_link_java_thread_join | Link | Label: "Java Thread Join"`
+- `home_link_java_thread_naming | Link | Label: "Java Thread Naming"`
+- `home_link_java_thread_priority | Link | Label: "Java Thread Priority"`
+- `home_link_java_daemon_thread | Link | Label: "Java Daemon Thread"`

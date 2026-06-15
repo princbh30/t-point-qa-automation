@@ -1,0 +1,166 @@
+# Test Case: MODULE_pytorch | UI Verification and Navigation
+- **Preconditions**: User is on page https://www.tpointtech.com/pytorch
+- **Steps**:
+  1. Navigate to https://www.tpointtech.com/pytorch
+  2. Verify and click header navigation links: `pytorch_link_tutorials` (Element: Link, Label: "Tutorials"), `pytorch_link_interviews` (Element: Link, Label: "Interviews"), `pytorch_link_compilers` (Element: Link, Label: "Compilers")
+  3. Input "Python" into `pytorch_textbox_searchinput` (Element: Input, Label: "Search...", Placeholder: "Search...")
+  4. Click `pytorch_button_searchbtn` (Element: Button, Text: "Search") to execute search query
+  5. Click `pytorch_link_next` (Element: Link, Text: "next →") to navigate to the next page
+  6. Input "testuser@example.com" into `pytorch_textbox_email` (Element: Input, Label: "Your Email", Placeholder: "Enter your email")
+  7. Click `pytorch_button_subscribebtn` (Element: Button, Text: "Subscribe") to subscribe to newsletter
+  8. Scroll to footer and verify/click links: `pytorch_link_privacy_policy` (Element: Link, Label: "Privacy Policy"), `pytorch_link_about_us` (Element: Link, Label: "About Us"), `pytorch_link_contact_us` (Element: Link, Label: "Contact Us")
+- **Expected Result**: The page loads successfully, and all interactive elements are responsive. Navigation links load their target pages, search displays correct results, and form inputs function as expected.
+
+## Semantic References for Healing
+- `pytorch_link_idx_0 | Link | Label: ""`
+- `pytorch_textbox_searchinput | Input | Placeholder: "Search..." / Label: "Search..."`
+- `pytorch_button_searchbtn | Button | Label: "Search"`
+- `pytorch_link_tutorials | Link | Label: "Tutorials"`
+- `pytorch_link_interviews | Link | Label: "Interviews"`
+- `pytorch_link_compilers | Link | Label: "Compilers"`
+- `pytorch_div_idx_147 | Div | Label: ""`
+- `pytorch_div_idx_148 | Div | Label: ""`
+- `pytorch_div_idx_149 | Div | Label: ""`
+- `pytorch_div_idx_150 | Div | Label: ""`
+- `pytorch_div_idx_151 | Div | Label: ""`
+- `pytorch_button_idx_152 | Button | Label: ""`
+- `pytorch_link_python_tutorial | Link | Label: "Python Tutorial"`
+- `pytorch_link_java_tutorial | Link | Label: "Java Tutorial"`
+- `pytorch_link_javascript_tutorial | Link | Label: "JavaScript Tutorial"`
+- `pytorch_link_sql_tutorial | Link | Label: "SQL Tutorial"`
+- `pytorch_link_c_tutorial | Link | Label: "C Tutorial"`
+- `pytorch_link_html_tutorial | Link | Label: "HTML Tutorial"`
+- `pytorch_link_css_tutorial | Link | Label: "CSS Tutorial"`
+- `pytorch_link_react_tutorial | Link | Label: "React Tutorial"`
+- `pytorch_link_nodejs_tutorial | Link | Label: "NodeJS Tutorial"`
+- `pytorch_link_sprint_boot_tutorial | Link | Label: "Sprint Boot Tutorial"`
+- `pytorch_link_php_tutorial | Link | Label: "PHP Tutorial"`
+- `pytorch_link_mysql_tutorial | Link | Label: "MYSQL Tutorial"`
+- `pytorch_link_mongodb_tutorial | Link | Label: "MongoDB Tutorial"`
+- `pytorch_link_ai_tutorial | Link | Label: "AI Tutorial"`
+- `pytorch_link_machine_learning_tutorial | Link | Label: "Machine Learning Tutorial"`
+- `pytorch_link_dsa_tutorial | Link | Label: "DSA Tutorial"`
+- `pytorch_link_dbms_tutorial | Link | Label: "DBMS Tutorial"`
+- `pytorch_link_os_tutorial | Link | Label: "OS Tutorial"`
+- `pytorch_button_pytorch_tutorial | Button | Label: "PyTorch Tutorial"`
+- `pytorch_link_pytorch_tutorial | Link | Label: "PyTorch Tutorial"`
+- `pytorch_link_what_is_pytorch | Link | Label: "What is PyTorch"`
+- `pytorch_link_pytorch_installation | Link | Label: "PyTorch Installation"`
+- `pytorch_link_pytorch_packages | Link | Label: "PyTorch Packages"`
+- `pytorch_link_torch_nn_in_pytorch | Link | Label: "torch.nn in PyTorch"`
+- `pytorch_link_basics_of_pytorch | Link | Label: "Basics of PyTorch"`
+- `pytorch_link_pytorch_vs_tensorflow | Link | Label: "PyTorch vs. TensorFlow"`
+- `pytorch_link_torch_load | Link | Label: "Torch Load"`
+- `pytorch_button_tensors | Button | Label: "Tensors"`
+- `pytorch_link_tensors_introduction | Link | Label: "Tensors Introduction"`
+- `pytorch_link_one_dimensional_tensor | Link | Label: "One Dimensional Tensor"`
+- `pytorch_link_vector_operation | Link | Label: "Vector Operation"`
+- `pytorch_link_two_dimensional_tensor | Link | Label: "Two Dimensional Tensor"`
+- `pytorch_link_gradient_with_pytorch | Link | Label: "Gradient with PyTorch"`
+- `pytorch_button_linear_regression | Button | Label: "Linear Regression"`
+- `pytorch_link_pytorch_linear_regression | Link | Label: "Pytorch Linear Regression"`
+- `pytorch_link_prediction_linear_class | Link | Label: "Prediction & Linear class"`
+- `pytorch_link_custom_module | Link | Label: "Custom Module"`
+- `pytorch_link_loss_function | Link | Label: "Loss Function"`
+- `pytorch_link_gradient_descent | Link | Label: "Gradient Descent"`
+- `pytorch_link_mean_squared_error | Link | Label: "Mean Squared Error"`
+- `pytorch_link_training | Link | Label: "Training"`
+- `pytorch_button_perceptron | Button | Label: "Perceptron"`
+- `pytorch_link_perceptron_introduction | Link | Label: "Perceptron Introduction"`
+- `pytorch_link_deep_learning | Link | Label: "Deep Learning"`
+- `pytorch_link_perceptron_create_dataset | Link | Label: "Perceptron: Create Dataset"`
+- `pytorch_link_perceptron_model_setup | Link | Label: "Perceptron: Model Setup"`
+- `pytorch_link_perceptron_training | Link | Label: "Perceptron: Training"`
+- `pytorch_link_perceptron_testing | Link | Label: "Perceptron: Testing"`
+- `pytorch_button_deep_neural_network | Button | Label: "Deep Neural Network"`
+- `pytorch_link_non_linear_boundary | Link | Label: "Non-linear Boundary"`
+- `pytorch_link_architecture_of_dnn | Link | Label: "Architecture of DNN"`
+- `pytorch_link_feed_forward_process | Link | Label: "Feed Forward Process"`
+- `pytorch_link_backpropagation_process | Link | Label: "Backpropagation Process"`
+- `pytorch_link_implementation_of_dnn | Link | Label: "Implementation of DNN"`
+- `pytorch_link_testing_of_dnn_model | Link | Label: "Testing of DNN model"`
+- `pytorch_button_image_recognition | Button | Label: "Image Recognition"`
+- `pytorch_link_pytorch_image_recognition | Link | Label: "Pytorch Image Recognition"`
+- `pytorch_link_mnist_dataset | Link | Label: "MNIST Dataset"`
+- `pytorch_link_image_transforms | Link | Label: "Image Transforms"`
+- `pytorch_link_neural_network_implementa | Link | Label: "Neural Network Implementation"`
+- `pytorch_link_neural_network_validation | Link | Label: "Neural Network Validation"`
+- `pytorch_link_final_test | Link | Label: "Final Test"`
+- `pytorch_button_cnn | Button | Label: "CNN"`
+- `pytorch_link_cnn_introduction | Link | Label: "CNN Introduction"`
+- `pytorch_link_cnn_implementation | Link | Label: "CNN Implementation"`
+- `pytorch_link_training_of_cnn | Link | Label: "Training of CNN"`
+- `pytorch_link_validation_of_cnn | Link | Label: "Validation of CNN"`
+- `pytorch_link_testing_of_cnn | Link | Label: "Testing of CNN"`
+- `pytorch_button_image_classification | Button | Label: "Image Classification"`
+- `pytorch_link_cifar_10_and_cifar_100_da | Link | Label: "CIFAR-10 and CIFAR-100 datasets"`
+- `pytorch_link_lenet_testing_for_cifar_1 | Link | Label: "LeNet Testing for CIFAR-10"`
+- `pytorch_link_hyperparameter_tuning | Link | Label: "Hyperparameter Tuning"`
+- `pytorch_link_data_augmentation_process | Link | Label: "Data Augmentation Process"`
+- `pytorch_button_style_transferring | Button | Label: "Style Transferring"`
+- `pytorch_link_style_transferring_intro | Link | Label: "Style Transferring Intro"`
+- `pytorch_link_image_loading_transformat | Link | Label: "Image Loading & Transformation"`
+- `pytorch_link_feature_extraction | Link | Label: "Feature Extraction"`
+- `pytorch_link_gram_matrix | Link | Label: "Gram Matrix"`
+- `pytorch_link_optimization_process | Link | Label: "Optimization Process"`
+- `pytorch_button_interview_questions | Button | Label: "Interview Questions"`
+- `pytorch_link_pytorch_interview | Link | Label: "Pytorch Interview"`
+- `pytorch_button_misc | Button | Label: "Misc"`
+- `pytorch_link_gpu_acceleration_in_pytor | Link | Label: "GPU Acceleration in PyTorch"`
+- `pytorch_link_pytorch_profiler | Link | Label: "PyTorch Profiler"`
+- `pytorch_link_how_to_save_a_pytorch_mod | Link | Label: "How to Save a PyTorch Model"`
+- `pytorch_link_torch_cuda_in_pytorch | Link | Label: "torch.Cuda in PyTorch"`
+- `pytorch_link_torch_random_in_pytorch | Link | Label: "torch.random in PyTorch"`
+- `pytorch_link_torch_random_tensor | Link | Label: "Torch Random Tensor"`
+- `pytorch_link_home | Link | Label: "Home"`
+- `pytorch_link_pytorch | Link | Label: "Pytorch"`
+- `pytorch_heading_these_are_topics_related_ | Heading | Label: "These are topics related to the article that might interest you"`
+- `pytorch_link_development_tools | Link | Label: "Development Tools"`
+- `pytorch_link_sound_video_cards | Link | Label: "Sound & Video Cards"`
+- `pytorch_link_machine_learning_artifici | Link | Label: "Machine Learning & Artificial Intelligence"`
+- `pytorch_link_machine_learning | Link | Label: "machine learning"`
+- `pytorch_link_open_source | Link | Label: "Open Source"`
+- `pytorch_link_programming_language | Link | Label: "programming language"`
+- `pytorch_link_scripting_languages | Link | Label: "Scripting Languages"`
+- `pytorch_link_programming_languages | Link | Label: "programming languages"`
+- `pytorch_link_programming | Link | Label: "Programming"`
+- `pytorch_link_pytorch_interview_questio | Link | Label: "PyTorch Interview Questions"`
+- `pytorch_link_python_programming | Link | Label: "Python programming"`
+- `pytorch_link_next | Link | Label: "next →"`
+- `pytorch_textbox_email | Input | Placeholder: "Enter your email" / Label: "Your Email"`
+- `pytorch_button_subscribebtn | Button | Label: "Subscribe"`
+- `pytorch_link_hr_tpointtech_com | Link | Label: "hr@tpointtech.com"`
+- `pytorch_link_91_9599086977 | Link | Label: "+91-9599086977"`
+- `pytorch_link_idx_275 | Link | Label: ""`
+- `pytorch_link_idx_276 | Link | Label: ""`
+- `pytorch_link_idx_277 | Link | Label: ""`
+- `pytorch_link_idx_278 | Link | Label: ""`
+- `pytorch_link_idx_279 | Link | Label: ""`
+- `pytorch_link_idx_280 | Link | Label: ""`
+- `pytorch_link_data_structure_tutorial | Link | Label: "Data Structure Tutorial"`
+- `pytorch_link_c_programming_tutorial | Link | Label: "C Programming Tutorial"`
+- `pytorch_link_jquery_tutorial | Link | Label: "jQuery Tutorial"`
+- `pytorch_link_spring_tutorial | Link | Label: "Spring Tutorial"`
+- `pytorch_link_python_interview_question | Link | Label: "Python Interview Questions"`
+- `pytorch_link_java_interview_questions | Link | Label: "Java Interview Questions"`
+- `pytorch_link_data_structure_interview_ | Link | Label: "Data Structure Interview Questions"`
+- `pytorch_link_c_interview_questions | Link | Label: "C++ Interview Questions"`
+- `pytorch_link_html_interview_questions | Link | Label: "HTML Interview Questions"`
+- `pytorch_link_javascript_interview_ques | Link | Label: "JavaScript Interview Questions"`
+- `pytorch_link_jquery_interview_question | Link | Label: "jQuery Interview Questions"`
+- `pytorch_link_sql_interview_questions | Link | Label: "SQL Interview Questions"`
+- `pytorch_link_power_bi_interview_questi | Link | Label: "Power BI Interview Questions"`
+- `pytorch_link_online_c_compiler | Link | Label: "Online C Compiler"`
+- `pytorch_link_online_r_compiler | Link | Label: "Online R Compiler"`
+- `pytorch_link_online_php_compiler | Link | Label: "Online PHP Compiler"`
+- `pytorch_link_online_java_compiler | Link | Label: "Online Java Compiler"`
+- `pytorch_link_online_html_editor | Link | Label: "Online HTML Editor"`
+- `pytorch_link_online_swift_compiler | Link | Label: "Online Swift Compiler"`
+- `pytorch_link_online_python_compiler | Link | Label: "Online Python Compiler"`
+- `pytorch_link_online_javascript_editor | Link | Label: "Online JavaScript Editor"`
+- `pytorch_link_online_typescript_editor | Link | Label: "Online TypeScript Editor"`
+- `pytorch_link_latest_post | Link | Label: "Latest Post"`
+- `pytorch_link_tutorials_list | Link | Label: "Tutorials List"`
+- `pytorch_link_privacy_policy | Link | Label: "Privacy Policy"`
+- `pytorch_link_about_us | Link | Label: "About Us"`
+- `pytorch_link_contact_us | Link | Label: "Contact Us"`

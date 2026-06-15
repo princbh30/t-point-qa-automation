@@ -1,0 +1,230 @@
+# Test Case: MODULE_spring-tutorial | UI Verification and Navigation
+- **Preconditions**: User is on page https://www.tpointtech.com/spring-tutorial
+- **Steps**:
+  1. Navigate to https://www.tpointtech.com/spring-tutorial
+  2. Verify and click header navigation links: `spring-tutorial_link_tutorials` (Element: Link, Label: "Tutorials"), `spring-tutorial_link_interviews` (Element: Link, Label: "Interviews"), `spring-tutorial_link_compilers` (Element: Link, Label: "Compilers")
+  3. Input "Python" into `spring-tutorial_textbox_searchinput` (Element: Input, Label: "Search...", Placeholder: "Search...")
+  4. Click `spring-tutorial_button_searchbtn` (Element: Button, Text: "Search") to execute search query
+  5. Click `spring-tutorial_link_next` (Element: Link, Text: "next →") to navigate to the next page
+  6. Input "testuser@example.com" into `spring-tutorial_textbox_email` (Element: Input, Label: "Your Email", Placeholder: "Enter your email")
+  7. Click `spring-tutorial_button_subscribebtn` (Element: Button, Text: "Subscribe") to subscribe to newsletter
+  8. Scroll to footer and verify/click links: `spring-tutorial_link_privacy_policy` (Element: Link, Label: "Privacy Policy"), `spring-tutorial_link_about_us` (Element: Link, Label: "About Us"), `spring-tutorial_link_contact_us` (Element: Link, Label: "Contact Us")
+- **Expected Result**: The page loads successfully, and all interactive elements are responsive. Navigation links load their target pages, search displays correct results, and form inputs function as expected.
+
+## Semantic References for Healing
+- `spring-tutorial_link_idx_0 | Link | Label: ""`
+- `spring-tutorial_textbox_searchinput | Input | Placeholder: "Search..." / Label: "Search..."`
+- `spring-tutorial_button_searchbtn | Button | Label: "Search"`
+- `spring-tutorial_link_tutorials | Link | Label: "Tutorials"`
+- `spring-tutorial_link_interviews | Link | Label: "Interviews"`
+- `spring-tutorial_link_compilers | Link | Label: "Compilers"`
+- `spring-tutorial_div_idx_147 | Div | Label: ""`
+- `spring-tutorial_div_idx_148 | Div | Label: ""`
+- `spring-tutorial_div_idx_149 | Div | Label: ""`
+- `spring-tutorial_div_idx_150 | Div | Label: ""`
+- `spring-tutorial_div_idx_151 | Div | Label: ""`
+- `spring-tutorial_button_idx_152 | Button | Label: ""`
+- `spring-tutorial_link_python_tutorial | Link | Label: "Python Tutorial"`
+- `spring-tutorial_link_java_tutorial | Link | Label: "Java Tutorial"`
+- `spring-tutorial_link_javascript_tutorial | Link | Label: "JavaScript Tutorial"`
+- `spring-tutorial_link_sql_tutorial | Link | Label: "SQL Tutorial"`
+- `spring-tutorial_link_c_tutorial | Link | Label: "C Tutorial"`
+- `spring-tutorial_link_html_tutorial | Link | Label: "HTML Tutorial"`
+- `spring-tutorial_link_css_tutorial | Link | Label: "CSS Tutorial"`
+- `spring-tutorial_link_react_tutorial | Link | Label: "React Tutorial"`
+- `spring-tutorial_link_nodejs_tutorial | Link | Label: "NodeJS Tutorial"`
+- `spring-tutorial_link_sprint_boot_tutorial | Link | Label: "Sprint Boot Tutorial"`
+- `spring-tutorial_link_php_tutorial | Link | Label: "PHP Tutorial"`
+- `spring-tutorial_link_mysql_tutorial | Link | Label: "MYSQL Tutorial"`
+- `spring-tutorial_link_mongodb_tutorial | Link | Label: "MongoDB Tutorial"`
+- `spring-tutorial_link_ai_tutorial | Link | Label: "AI Tutorial"`
+- `spring-tutorial_link_machine_learning_tutorial | Link | Label: "Machine Learning Tutorial"`
+- `spring-tutorial_link_dsa_tutorial | Link | Label: "DSA Tutorial"`
+- `spring-tutorial_link_dbms_tutorial | Link | Label: "DBMS Tutorial"`
+- `spring-tutorial_link_os_tutorial | Link | Label: "OS Tutorial"`
+- `spring-tutorial_button_spring_tutorial | Button | Label: "Spring Tutorial"`
+- `spring-tutorial_link_spring_framework_tutorial | Link | Label: "Spring Framework Tutorial"`
+- `spring-tutorial_link_spring_modules | Link | Label: "Spring Modules"`
+- `spring-tutorial_link_spring_application | Link | Label: "Spring Application"`
+- `spring-tutorial_link_spring_cronexpression_cla | Link | Label: "Spring CronExpression Class in Java"`
+- `spring-tutorial_button_spring_in_ide | Button | Label: "Spring in IDE"`
+- `spring-tutorial_link_spring_in_myeclipse | Link | Label: "Spring in Myeclipse"`
+- `spring-tutorial_link_spring_in_eclipse | Link | Label: "Spring in Eclipse"`
+- `spring-tutorial_button_dependency_injection | Button | Label: "Dependency Injection"`
+- `spring-tutorial_link_ioc_container | Link | Label: "IOC container"`
+- `spring-tutorial_link_dependency_injection | Link | Label: "Dependency Injection"`
+- `spring-tutorial_link_constructor_injection | Link | Label: "Constructor Injection"`
+- `spring-tutorial_link_ci_dependent_object | Link | Label: "CI Dependent Object"`
+- `spring-tutorial_link_ci_with_collection | Link | Label: "CI with collection"`
+- `spring-tutorial_link_ci_with_collection_2 | Link | Label: "CI with collection 2"`
+- `spring-tutorial_link_ci_with_map | Link | Label: "CI with Map"`
+- `spring-tutorial_link_ci_with_map2 | Link | Label: "CI with Map2"`
+- `spring-tutorial_link_ci_inheriting_bean | Link | Label: "CI Inheriting Bean"`
+- `spring-tutorial_link_setter_injection | Link | Label: "Setter Injection"`
+- `spring-tutorial_link_si_dependent_object | Link | Label: "SI Dependent Object"`
+- `spring-tutorial_link_si_with_collection | Link | Label: "SI with Collection"`
+- `spring-tutorial_link_si_with_collection_2 | Link | Label: "SI with Collection 2"`
+- `spring-tutorial_link_si_with_map | Link | Label: "SI with Map"`
+- `spring-tutorial_link_si_with_map_2 | Link | Label: "SI with Map 2"`
+- `spring-tutorial_link_ci_vs_si | Link | Label: "CI vs SI"`
+- `spring-tutorial_link_autowiring | Link | Label: "Autowiring"`
+- `spring-tutorial_link_factory_method | Link | Label: "Factory Method"`
+- `spring-tutorial_button_spring_jdbctemplate | Button | Label: "Spring JdbcTemplate"`
+- `spring-tutorial_link_jdbctemplate_example | Link | Label: "JdbcTemplate Example"`
+- `spring-tutorial_link_example_of_preparedstatem | Link | Label: "Example of PreparedStatement in Spring JdbcTemp..."`
+- `spring-tutorial_link_resultsetextractor | Link | Label: "ResultSetExtractor"`
+- `spring-tutorial_link_rowmapper | Link | Label: "RowMapper"`
+- `spring-tutorial_link_namedparameter | Link | Label: "NamedParameter"`
+- `spring-tutorial_link_simplejdbctemplate | Link | Label: "SimpleJdbcTemplate"`
+- `spring-tutorial_button_spring_aop | Button | Label: "Spring AOP"`
+- `spring-tutorial_link_aop_concepts | Link | Label: "AOP Concepts"`
+- `spring-tutorial_link_spring1_2_aop_dtd | Link | Label: "Spring1.2 AOP DTD"`
+- `spring-tutorial_link_spring_aop_aspectj_annota | Link | Label: "Spring AOP AspectJ Annotation (With Example)"`
+- `spring-tutorial_link_sp_aspectj_xml | Link | Label: "SP AspectJ XML"`
+- `spring-tutorial_button_spring_orm | Button | Label: "Spring ORM"`
+- `spring-tutorial_link_spring_with_orm | Link | Label: "Spring with ORM"`
+- `spring-tutorial_link_spring_with_hibernate | Link | Label: "Spring with Hibernate"`
+- `spring-tutorial_link_spring_with_jpa | Link | Label: "Spring with JPA"`
+- `spring-tutorial_button_spel | Button | Label: "SPEL"`
+- `spring-tutorial_link_spel_examples | Link | Label: "SpEL Examples"`
+- `spring-tutorial_link_operators_in_spel | Link | Label: "Operators in SpEL"`
+- `spring-tutorial_link_variable_in_spel | Link | Label: "variable in SpEL"`
+- `spring-tutorial_button_spring_mvc | Button | Label: "Spring MVC"`
+- `spring-tutorial_link_mvc_introduction | Link | Label: "MVC Introduction"`
+- `spring-tutorial_link_multiple_view_page | Link | Label: "Multiple View Page"`
+- `spring-tutorial_link_multiple_controller | Link | Label: "Multiple Controller"`
+- `spring-tutorial_link_model_interface | Link | Label: "Model Interface"`
+- `spring-tutorial_link_requestparam_annotation | Link | Label: "RequestParam Annotation"`
+- `spring-tutorial_button_mvc_form_tag_library | Button | Label: "MVC Form Tag Library"`
+- `spring-tutorial_link_form_tag_library | Link | Label: "Form Tag Library"`
+- `spring-tutorial_link_form_text_field | Link | Label: "Form Text Field"`
+- `spring-tutorial_link_form_radio_button | Link | Label: "Form Radio Button"`
+- `spring-tutorial_link_form_check_box | Link | Label: "Form Check Box"`
+- `spring-tutorial_link_form_drop_down_list | Link | Label: "Form Drop-Down List"`
+- `spring-tutorial_button_mvc_applications | Button | Label: "MVC Applications"`
+- `spring-tutorial_link_mvc_crud_example | Link | Label: "MVC CRUD Example"`
+- `spring-tutorial_link_mvc_pagination_example | Link | Label: "MVC Pagination Example"`
+- `spring-tutorial_link_spring_mvc_file_upload_ex | Link | Label: "Spring MVC File Upload Example"`
+- `spring-tutorial_button_spring_mvc_validation | Button | Label: "Spring MVC Validation"`
+- `spring-tutorial_link_spring_mvc_validation | Link | Label: "Spring MVC Validation"`
+- `spring-tutorial_link_regular_expression_valida | Link | Label: "Regular Expression Validation"`
+- `spring-tutorial_link_number_validation | Link | Label: "Number Validation"`
+- `spring-tutorial_link_custom_validation | Link | Label: "Custom Validation"`
+- `spring-tutorial_button_mvc_tiles | Button | Label: "MVC Tiles"`
+- `spring-tutorial_link_spring_mvc_tiles | Link | Label: "Spring MVC Tiles"`
+- `spring-tutorial_button_spring_remoting | Button | Label: "Spring Remoting"`
+- `spring-tutorial_link_remoting_with_spring | Link | Label: "Remoting with Spring"`
+- `spring-tutorial_link_spring_with_rmi | Link | Label: "Spring with RMI"`
+- `spring-tutorial_link_http_invoker | Link | Label: "Http Invoker"`
+- `spring-tutorial_link_hessian | Link | Label: "Hessian"`
+- `spring-tutorial_link_burlap | Link | Label: "Burlap"`
+- `spring-tutorial_link_spring_with_jms | Link | Label: "Spring with JMS"`
+- `spring-tutorial_button_spring_oxm | Button | Label: "Spring OXM"`
+- `spring-tutorial_link_spring_with_jaxb | Link | Label: "Spring with JAXB"`
+- `spring-tutorial_link_spring_with_xstream | Link | Label: "Spring with Xstream"`
+- `spring-tutorial_link_spring_with_castor | Link | Label: "Spring with Castor"`
+- `spring-tutorial_button_spring_java_mail | Button | Label: "Spring Java Mail"`
+- `spring-tutorial_link_spring_java_mail | Link | Label: "Spring Java Mail"`
+- `spring-tutorial_button_spring_web | Button | Label: "Spring Web"`
+- `spring-tutorial_link_spring_with_struts2 | Link | Label: "Spring with Struts2"`
+- `spring-tutorial_link_login_example_with_spring | Link | Label: "Login Example with Spring and Struts 2 Integration"`
+- `spring-tutorial_button_spring_security_tutorial | Button | Label: "Spring Security Tutorial"`
+- `spring-tutorial_link_spring_security_tutorial | Link | Label: "Spring Security Tutorial"`
+- `spring-tutorial_link_sp_security_introduction | Link | Label: "Sp Security Introduction"`
+- `spring-tutorial_link_spring_security_features | Link | Label: "Spring Security Features"`
+- `spring-tutorial_link_security_project_modules | Link | Label: "Security Project Modules"`
+- `spring-tutorial_link_spring_security_xml_examp | Link | Label: "Spring Security XML Example"`
+- `spring-tutorial_link_spring_security_java_exam | Link | Label: "Spring Security Java Example"`
+- `spring-tutorial_link_spring_security_login_log | Link | Label: "Spring Security Login Logout"`
+- `spring-tutorial_link_spring_security_custom_lo | Link | Label: "Spring Security Custom Login"`
+- `spring-tutorial_link_form_based_authentication | Link | Label: "Form-Based Authentication"`
+- `spring-tutorial_link_spring_security_remember_ | Link | Label: "Spring Security Remember Me"`
+- `spring-tutorial_link_security_at_method_level | Link | Label: "Security at Method Level"`
+- `spring-tutorial_link_spring_security_jsp_tag_l | Link | Label: "Spring Security JSP Tag Library"`
+- `spring-tutorial_button_spring_interview | Button | Label: "Spring Interview"`
+- `spring-tutorial_link_interview_questions | Link | Label: "Interview Questions"`
+- `spring-tutorial_button_spring_quiz | Button | Label: "Spring Quiz"`
+- `spring-tutorial_button_spring_boot | Button | Label: "Spring Boot"`
+- `spring-tutorial_link_spring_boot_15 | Link | Label: "Spring Boot (15+)"`
+- `spring-tutorial_button_spring_angular | Button | Label: "Spring + Angular"`
+- `spring-tutorial_link_crud_example | Link | Label: "CRUD Example"`
+- `spring-tutorial_link_angular_spring_file_uploa | Link | Label: "Angular + Spring File Upload Example"`
+- `spring-tutorial_link_login_logout_example | Link | Label: "Login & Logout Example"`
+- `spring-tutorial_link_search_field_example | Link | Label: "Search Field Example"`
+- `spring-tutorial_button_misc | Button | Label: "Misc"`
+- `spring-tutorial_link_best_spring_books | Link | Label: "Best Spring Books"`
+- `spring-tutorial_link_convert_multipart_file_to | Link | Label: "Convert Multipart File to File in Java"`
+- `spring-tutorial_link_home | Link | Label: "Home"`
+- `spring-tutorial_link_spring_framework | Link | Label: "Spring Framework"`
+- `spring-tutorial_link_struts | Link | Label: "Struts"`
+- `spring-tutorial_link_hibernate | Link | Label: "Hibernate"`
+- `spring-tutorial_link_ejb | Link | Label: "EJB"`
+- `spring-tutorial_link_jsf | Link | Label: "JSF"`
+- `spring-tutorial_heading_these_are_topics_related_ | Heading | Label: "These are topics related to the article that might interest you"`
+- `spring-tutorial_link_data_management | Link | Label: "Data Management"`
+- `spring-tutorial_link_database | Link | Label: "database"`
+- `spring-tutorial_link_software | Link | Label: "Software"`
+- `spring-tutorial_link_computer_science | Link | Label: "Computer Science"`
+- `spring-tutorial_link_development_tools | Link | Label: "Development Tools"`
+- `spring-tutorial_link_programming | Link | Label: "Programming"`
+- `spring-tutorial_link_jms | Link | Label: "JMS"`
+- `spring-tutorial_link_what_is_spring | Link | Label: "What is Spring"`
+- `spring-tutorial_link_sp_aspectj_annotation | Link | Label: "SP AspectJ Annotation"`
+- `spring-tutorial_link_preparedstatement | Link | Label: "PreparedStatement"`
+- `spring-tutorial_link_file_upload_example | Link | Label: "File Upload Example"`
+- `spring-tutorial_link_login_example | Link | Label: "Login Example"`
+- `spring-tutorial_link_spring_security_introduct | Link | Label: "Spring Security Introduction"`
+- `spring-tutorial_link_spring_security_project_m | Link | Label: "Spring Security Project Modules"`
+- `spring-tutorial_link_spring_security_form_base | Link | Label: "Spring Security Form-Based Authentication"`
+- `spring-tutorial_link_spring_security_at_method | Link | Label: "Spring Security at Method Level"`
+- `spring-tutorial_link_spring_security_tag_libra | Link | Label: "Spring Security Tag Library"`
+- `spring-tutorial_link_java_programming | Link | Label: "Java programming"`
+- `spring-tutorial_link_object_oriented_programmi | Link | Label: "Object-Oriented Programming (OOP) concepts"`
+- `spring-tutorial_link_collections | Link | Label: "collections"`
+- `spring-tutorial_link_exception_handling | Link | Label: "exception handling"`
+- `spring-tutorial_link_jdbc | Link | Label: "JDBC"`
+- `spring-tutorial_link_html | Link | Label: "HTML"`
+- `spring-tutorial_link_css | Link | Label: "CSS"`
+- `spring-tutorial_link_http | Link | Label: "HTTP"`
+- `spring-tutorial_link_servlets | Link | Label: "Servlets"`
+- `spring-tutorial_link_jsp | Link | Label: "JSP"`
+- `spring-tutorial_button_show_answer | Button | Label: "Show Answer"`
+- `spring-tutorial_button_workspace | Button | Label: "Workspace"`
+- `spring-tutorial_link_next | Link | Label: "next →"`
+- `spring-tutorial_textbox_email | Input | Placeholder: "Enter your email" / Label: "Your Email"`
+- `spring-tutorial_button_subscribebtn | Button | Label: "Subscribe"`
+- `spring-tutorial_link_hr_tpointtech_com | Link | Label: "hr@tpointtech.com"`
+- `spring-tutorial_link_91_9599086977 | Link | Label: "+91-9599086977"`
+- `spring-tutorial_link_idx_421 | Link | Label: ""`
+- `spring-tutorial_link_idx_422 | Link | Label: ""`
+- `spring-tutorial_link_idx_423 | Link | Label: ""`
+- `spring-tutorial_link_idx_424 | Link | Label: ""`
+- `spring-tutorial_link_idx_425 | Link | Label: ""`
+- `spring-tutorial_link_idx_426 | Link | Label: ""`
+- `spring-tutorial_link_data_structure_tutorial | Link | Label: "Data Structure Tutorial"`
+- `spring-tutorial_link_c_programming_tutorial | Link | Label: "C Programming Tutorial"`
+- `spring-tutorial_link_jquery_tutorial | Link | Label: "jQuery Tutorial"`
+- `spring-tutorial_link_spring_tutorial | Link | Label: "Spring Tutorial"`
+- `spring-tutorial_link_python_interview_question | Link | Label: "Python Interview Questions"`
+- `spring-tutorial_link_java_interview_questions | Link | Label: "Java Interview Questions"`
+- `spring-tutorial_link_data_structure_interview_ | Link | Label: "Data Structure Interview Questions"`
+- `spring-tutorial_link_c_interview_questions | Link | Label: "C++ Interview Questions"`
+- `spring-tutorial_link_html_interview_questions | Link | Label: "HTML Interview Questions"`
+- `spring-tutorial_link_javascript_interview_ques | Link | Label: "JavaScript Interview Questions"`
+- `spring-tutorial_link_jquery_interview_question | Link | Label: "jQuery Interview Questions"`
+- `spring-tutorial_link_sql_interview_questions | Link | Label: "SQL Interview Questions"`
+- `spring-tutorial_link_power_bi_interview_questi | Link | Label: "Power BI Interview Questions"`
+- `spring-tutorial_link_online_c_compiler | Link | Label: "Online C Compiler"`
+- `spring-tutorial_link_online_r_compiler | Link | Label: "Online R Compiler"`
+- `spring-tutorial_link_online_php_compiler | Link | Label: "Online PHP Compiler"`
+- `spring-tutorial_link_online_java_compiler | Link | Label: "Online Java Compiler"`
+- `spring-tutorial_link_online_html_editor | Link | Label: "Online HTML Editor"`
+- `spring-tutorial_link_online_swift_compiler | Link | Label: "Online Swift Compiler"`
+- `spring-tutorial_link_online_python_compiler | Link | Label: "Online Python Compiler"`
+- `spring-tutorial_link_online_javascript_editor | Link | Label: "Online JavaScript Editor"`
+- `spring-tutorial_link_online_typescript_editor | Link | Label: "Online TypeScript Editor"`
+- `spring-tutorial_link_latest_post | Link | Label: "Latest Post"`
+- `spring-tutorial_link_tutorials_list | Link | Label: "Tutorials List"`
+- `spring-tutorial_link_privacy_policy | Link | Label: "Privacy Policy"`
+- `spring-tutorial_link_about_us | Link | Label: "About Us"`
+- `spring-tutorial_link_contact_us | Link | Label: "Contact Us"`

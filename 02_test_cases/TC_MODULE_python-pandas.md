@@ -1,0 +1,181 @@
+# Test Case: MODULE_python-pandas | UI Verification and Navigation
+- **Preconditions**: User is on page https://www.tpointtech.com/python-pandas
+- **Steps**:
+  1. Navigate to https://www.tpointtech.com/python-pandas
+  2. Verify and click header navigation links: `python-pandas_link_tutorials` (Element: Link, Label: "Tutorials"), `python-pandas_link_interviews` (Element: Link, Label: "Interviews"), `python-pandas_link_compilers` (Element: Link, Label: "Compilers")
+  3. Input "Python" into `python-pandas_textbox_searchinput` (Element: Input, Label: "Search...", Placeholder: "Search...")
+  4. Click `python-pandas_button_searchbtn` (Element: Button, Text: "Search") to execute search query
+  5. Click `python-pandas_link_next` (Element: Link, Text: "next →") to navigate to the next page
+  6. Input "testuser@example.com" into `python-pandas_textbox_email` (Element: Input, Label: "Your Email", Placeholder: "Enter your email")
+  7. Click `python-pandas_button_subscribebtn` (Element: Button, Text: "Subscribe") to subscribe to newsletter
+  8. Scroll to footer and verify/click links: `python-pandas_link_privacy_policy` (Element: Link, Label: "Privacy Policy"), `python-pandas_link_about_us` (Element: Link, Label: "About Us"), `python-pandas_link_contact_us` (Element: Link, Label: "Contact Us")
+- **Expected Result**: The page loads successfully, and all interactive elements are responsive. Navigation links load their target pages, search displays correct results, and form inputs function as expected.
+
+## Semantic References for Healing
+- `python-pandas_link_idx_0 | Link | Label: ""`
+- `python-pandas_textbox_searchinput | Input | Placeholder: "Search..." / Label: "Search..."`
+- `python-pandas_button_searchbtn | Button | Label: "Search"`
+- `python-pandas_link_tutorials | Link | Label: "Tutorials"`
+- `python-pandas_link_interviews | Link | Label: "Interviews"`
+- `python-pandas_link_compilers | Link | Label: "Compilers"`
+- `python-pandas_div_idx_147 | Div | Label: ""`
+- `python-pandas_div_idx_148 | Div | Label: ""`
+- `python-pandas_div_idx_149 | Div | Label: ""`
+- `python-pandas_div_idx_150 | Div | Label: ""`
+- `python-pandas_div_idx_151 | Div | Label: ""`
+- `python-pandas_button_idx_152 | Button | Label: ""`
+- `python-pandas_link_python_tutorial | Link | Label: "Python Tutorial"`
+- `python-pandas_link_java_tutorial | Link | Label: "Java Tutorial"`
+- `python-pandas_link_javascript_tutorial | Link | Label: "JavaScript Tutorial"`
+- `python-pandas_link_sql_tutorial | Link | Label: "SQL Tutorial"`
+- `python-pandas_link_c_tutorial | Link | Label: "C Tutorial"`
+- `python-pandas_link_html_tutorial | Link | Label: "HTML Tutorial"`
+- `python-pandas_link_css_tutorial | Link | Label: "CSS Tutorial"`
+- `python-pandas_link_react_tutorial | Link | Label: "React Tutorial"`
+- `python-pandas_link_nodejs_tutorial | Link | Label: "NodeJS Tutorial"`
+- `python-pandas_link_sprint_boot_tutorial | Link | Label: "Sprint Boot Tutorial"`
+- `python-pandas_link_php_tutorial | Link | Label: "PHP Tutorial"`
+- `python-pandas_link_mysql_tutorial | Link | Label: "MYSQL Tutorial"`
+- `python-pandas_link_mongodb_tutorial | Link | Label: "MongoDB Tutorial"`
+- `python-pandas_link_ai_tutorial | Link | Label: "AI Tutorial"`
+- `python-pandas_link_machine_learning_tutorial | Link | Label: "Machine Learning Tutorial"`
+- `python-pandas_link_dsa_tutorial | Link | Label: "DSA Tutorial"`
+- `python-pandas_link_dbms_tutorial | Link | Label: "DBMS Tutorial"`
+- `python-pandas_link_os_tutorial | Link | Label: "OS Tutorial"`
+- `python-pandas_button_pandas_tutorial | Button | Label: "Pandas Tutorial"`
+- `python-pandas_link_pandas_tutorial | Link | Label: "Pandas Tutorial"`
+- `python-pandas_button_pandas_series | Button | Label: "Pandas Series"`
+- `python-pandas_link_pandas_series | Link | Label: "Pandas Series"`
+- `python-pandas_link_pandas_series_map | Link | Label: "Pandas Series.map()"`
+- `python-pandas_link_pandas_series_std | Link | Label: "Pandas Series.std()"`
+- `python-pandas_link_series_to_frame | Link | Label: "Series.to_frame()"`
+- `python-pandas_link_series_unique | Link | Label: "Series.unique()"`
+- `python-pandas_link_series_value_counts | Link | Label: "Series.value_counts()"`
+- `python-pandas_button_pandas_dataframe | Button | Label: "Pandas DataFrame"`
+- `python-pandas_link_pandas_dataframe | Link | Label: "Pandas DataFrame"`
+- `python-pandas_link_dataframe_append | Link | Label: "DataFrame.append()"`
+- `python-pandas_link_dataframe_apply | Link | Label: "DataFrame.apply()"`
+- `python-pandas_link_dataframe_aggregate | Link | Label: "DataFrame.aggregate()"`
+- `python-pandas_link_dataframe_assign | Link | Label: "DataFrame.assign()"`
+- `python-pandas_link_dataframe_astype | Link | Label: "DataFrame.astype()"`
+- `python-pandas_link_dataframe_count | Link | Label: "DataFrame.count()"`
+- `python-pandas_link_dataframe_cut | Link | Label: "DataFrame.cut()"`
+- `python-pandas_link_dataframe_describe | Link | Label: "DataFrame.describe()"`
+- `python-pandas_link_dataframe_drop_duplicates | Link | Label: "DataFrame.drop_duplicates()"`
+- `python-pandas_link_dataframe_groupby | Link | Label: "DataFrame.groupby()"`
+- `python-pandas_link_dataframe_head | Link | Label: "DataFrame.head()"`
+- `python-pandas_link_dataframe_hist | Link | Label: "DataFrame.hist()"`
+- `python-pandas_link_dataframe_iterrows | Link | Label: "DataFrame.iterrows()"`
+- `python-pandas_link_dataframe_join | Link | Label: "DataFrame.join()"`
+- `python-pandas_link_dataframe_mean | Link | Label: "DataFrame.mean()"`
+- `python-pandas_link_dataframe_melt | Link | Label: "DataFrame.melt()"`
+- `python-pandas_link_dataframe_merge | Link | Label: "DataFrame.merge()"`
+- `python-pandas_link_dataframe_pivot_table | Link | Label: "DataFrame.pivot_table()"`
+- `python-pandas_link_pandas_dataframe_query | Link | Label: "Pandas DataFrame.query()"`
+- `python-pandas_link_dataframe_rename | Link | Label: "DataFrame.rename()"`
+- `python-pandas_link_dataframe_sample | Link | Label: "DataFrame.sample()"`
+- `python-pandas_link_dataframe_shift | Link | Label: "DataFrame.shift()"`
+- `python-pandas_link_dataframe_sort | Link | Label: "DataFrame.sort()"`
+- `python-pandas_link_dataframe_sum | Link | Label: "DataFrame.sum()"`
+- `python-pandas_link_dataframe_to_excel | Link | Label: "DataFrame.to_excel()"`
+- `python-pandas_link_dataframe_transform | Link | Label: "DataFrame.transform()"`
+- `python-pandas_link_dataframe_transpose | Link | Label: "DataFrame.transpose()"`
+- `python-pandas_link_dataframe_where | Link | Label: "DataFrame.where()"`
+- `python-pandas_button_pandas_operation | Button | Label: "Pandas Operation"`
+- `python-pandas_link_add_column_to_dataframe_c | Link | Label: "Add column to DataFrame columns"`
+- `python-pandas_link_dataframe_to_numpy_array | Link | Label: "DataFrame to Numpy Array"`
+- `python-pandas_link_pandas_dataframe_to_csv | Link | Label: "Pandas DataFrame to CSV"`
+- `python-pandas_link_pandas_reading_files | Link | Label: "Pandas Reading Files"`
+- `python-pandas_link_pandas_concatenation | Link | Label: "Pandas Concatenation"`
+- `python-pandas_button_data_operations | Button | Label: "Data operations"`
+- `python-pandas_link_data_operations | Link | Label: "Data Operations"`
+- `python-pandas_link_data_processing | Link | Label: "Data Processing"`
+- `python-pandas_link_dataframe_corr | Link | Label: "DataFrame.corr()"`
+- `python-pandas_link_dataframe_dropna | Link | Label: "DataFrame.dropna()"`
+- `python-pandas_link_dataframe_fillna | Link | Label: "DataFrame.fillna()"`
+- `python-pandas_link_dataframe_replace | Link | Label: "DataFrame.replace()"`
+- `python-pandas_link_dataframe_iloc | Link | Label: "DataFrame.iloc[]"`
+- `python-pandas_link_dataframe_isin | Link | Label: "DataFrame.isin()"`
+- `python-pandas_link_dataframe_loc | Link | Label: "DataFrame.loc[]"`
+- `python-pandas_link_loc_vs_iloc | Link | Label: "loc vs iloc"`
+- `python-pandas_button_pandas_cheat_sheet | Button | Label: "Pandas Cheat Sheet"`
+- `python-pandas_link_pandas_cheat_sheet | Link | Label: "Pandas Cheat Sheet"`
+- `python-pandas_button_pandas_index | Button | Label: "Pandas Index"`
+- `python-pandas_link_pandas_index | Link | Label: "Pandas Index"`
+- `python-pandas_link_multiple_index | Link | Label: "Multiple Index"`
+- `python-pandas_link_pandas_reindex | Link | Label: "Pandas Reindex"`
+- `python-pandas_link_reset_index | Link | Label: "Reset Index"`
+- `python-pandas_link_set_index | Link | Label: "Set Index"`
+- `python-pandas_button_pandas_numpy | Button | Label: "Pandas NumPy"`
+- `python-pandas_link_pandas_numpy | Link | Label: "Pandas NumPy"`
+- `python-pandas_link_boolean_indexing | Link | Label: "Boolean indexing"`
+- `python-pandas_link_concatenating_data | Link | Label: "Concatenating data"`
+- `python-pandas_link_pandas_vs_numpy | Link | Label: "Pandas vs NumPy"`
+- `python-pandas_button_pandas_time_series | Button | Label: "Pandas Time Series"`
+- `python-pandas_link_pandas_time_series | Link | Label: "Pandas Time Series"`
+- `python-pandas_link_pandas_datetime | Link | Label: "Pandas Datetime"`
+- `python-pandas_link_pandas_time_offset | Link | Label: "Pandas Time Offset"`
+- `python-pandas_link_pandas_time_periods | Link | Label: "Pandas Time Periods"`
+- `python-pandas_link_convert_string_to_date | Link | Label: "Convert string to date"`
+- `python-pandas_button_pandas_plot | Button | Label: "Pandas Plot"`
+- `python-pandas_link_pandas_plot | Link | Label: "Pandas Plot"`
+- `python-pandas_button_misc | Button | Label: "Misc."`
+- `python-pandas_link_pandas_sorting_methods | Link | Label: "Pandas Sorting Methods"`
+- `python-pandas_link_drop_columns_in_pandas | Link | Label: "Drop Columns in pandas"`
+- `python-pandas_link_indexing_and_selecting_a_ | Link | Label: "Indexing and Selecting a Pandas DataFrame"`
+- `python-pandas_link_how_to_drop_rows_in_panda | Link | Label: "How to Drop Rows in Pandas"`
+- `python-pandas_link_pandas_strip_whitespace_f | Link | Label: "Pandas - Strip whitespace from the Entire DataF..."`
+- `python-pandas_link_3_lesser_known_pandas_fun | Link | Label: "3 Lesser-Known Pandas Functions to Be Used with..."`
+- `python-pandas_link_5_books_to_help_you_maste | Link | Label: "5 Books to Help You Master the Pandas Library"`
+- `python-pandas_link_identify_patterns_in_time | Link | Label: "Identify Patterns in Time-Series Data with Over..."`
+- `python-pandas_link_5_ways_to_apply_if_else_c | Link | Label: "5 Ways to Apply If-Else Conditional Statements ..."`
+- `python-pandas_button_interview_questions | Button | Label: "Interview Questions"`
+- `python-pandas_link_pandas_interview | Link | Label: "Pandas Interview"`
+- `python-pandas_link_home | Link | Label: "Home"`
+- `python-pandas_link_pandas | Link | Label: "Pandas"`
+- `python-pandas_iframe_aswift_1 | Iframe | Label: "Advertisement"`
+- `python-pandas_heading_these_are_topics_related_ | Heading | Label: "These are topics related to the article that might interest you"`
+- `python-pandas_link_programming_languages | Link | Label: "programming languages"`
+- `python-pandas_link_programming_language | Link | Label: "programming language"`
+- `python-pandas_link_programming | Link | Label: "Programming"`
+- `python-pandas_link_data_management | Link | Label: "Data Management"`
+- `python-pandas_link_scripting_languages | Link | Label: "Scripting Languages"`
+- `python-pandas_link_python_pandas_series | Link | Label: "Python Pandas Series"`
+- `python-pandas_link_next | Link | Label: "next →"`
+- `python-pandas_textbox_email | Input | Placeholder: "Enter your email" / Label: "Your Email"`
+- `python-pandas_button_subscribebtn | Button | Label: "Subscribe"`
+- `python-pandas_link_hr_tpointtech_com | Link | Label: "hr@tpointtech.com"`
+- `python-pandas_link_91_9599086977 | Link | Label: "+91-9599086977"`
+- `python-pandas_link_idx_288 | Link | Label: ""`
+- `python-pandas_link_idx_289 | Link | Label: ""`
+- `python-pandas_link_idx_290 | Link | Label: ""`
+- `python-pandas_link_idx_291 | Link | Label: ""`
+- `python-pandas_link_idx_292 | Link | Label: ""`
+- `python-pandas_link_idx_293 | Link | Label: ""`
+- `python-pandas_link_data_structure_tutorial | Link | Label: "Data Structure Tutorial"`
+- `python-pandas_link_c_programming_tutorial | Link | Label: "C Programming Tutorial"`
+- `python-pandas_link_jquery_tutorial | Link | Label: "jQuery Tutorial"`
+- `python-pandas_link_spring_tutorial | Link | Label: "Spring Tutorial"`
+- `python-pandas_link_python_interview_question | Link | Label: "Python Interview Questions"`
+- `python-pandas_link_java_interview_questions | Link | Label: "Java Interview Questions"`
+- `python-pandas_link_data_structure_interview_ | Link | Label: "Data Structure Interview Questions"`
+- `python-pandas_link_c_interview_questions | Link | Label: "C++ Interview Questions"`
+- `python-pandas_link_html_interview_questions | Link | Label: "HTML Interview Questions"`
+- `python-pandas_link_javascript_interview_ques | Link | Label: "JavaScript Interview Questions"`
+- `python-pandas_link_jquery_interview_question | Link | Label: "jQuery Interview Questions"`
+- `python-pandas_link_sql_interview_questions | Link | Label: "SQL Interview Questions"`
+- `python-pandas_link_power_bi_interview_questi | Link | Label: "Power BI Interview Questions"`
+- `python-pandas_link_online_c_compiler | Link | Label: "Online C Compiler"`
+- `python-pandas_link_online_r_compiler | Link | Label: "Online R Compiler"`
+- `python-pandas_link_online_php_compiler | Link | Label: "Online PHP Compiler"`
+- `python-pandas_link_online_java_compiler | Link | Label: "Online Java Compiler"`
+- `python-pandas_link_online_html_editor | Link | Label: "Online HTML Editor"`
+- `python-pandas_link_online_swift_compiler | Link | Label: "Online Swift Compiler"`
+- `python-pandas_link_online_python_compiler | Link | Label: "Online Python Compiler"`
+- `python-pandas_link_online_javascript_editor | Link | Label: "Online JavaScript Editor"`
+- `python-pandas_link_online_typescript_editor | Link | Label: "Online TypeScript Editor"`
+- `python-pandas_link_latest_post | Link | Label: "Latest Post"`
+- `python-pandas_link_tutorials_list | Link | Label: "Tutorials List"`
+- `python-pandas_link_privacy_policy | Link | Label: "Privacy Policy"`
+- `python-pandas_link_about_us | Link | Label: "About Us"`
+- `python-pandas_link_contact_us | Link | Label: "Contact Us"`

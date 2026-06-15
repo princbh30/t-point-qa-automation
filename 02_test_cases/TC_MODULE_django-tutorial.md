@@ -1,0 +1,150 @@
+# Test Case: MODULE_django-tutorial | UI Verification and Navigation
+- **Preconditions**: User is on page https://www.tpointtech.com/django-tutorial
+- **Steps**:
+  1. Navigate to https://www.tpointtech.com/django-tutorial
+  2. Verify and click header navigation links: `django-tutorial_link_tutorials` (Element: Link, Label: "Tutorials"), `django-tutorial_link_interviews` (Element: Link, Label: "Interviews"), `django-tutorial_link_compilers` (Element: Link, Label: "Compilers")
+  3. Input "Python" into `django-tutorial_textbox_searchinput` (Element: Input, Label: "Search...", Placeholder: "Search...")
+  4. Click `django-tutorial_button_searchbtn` (Element: Button, Text: "Search") to execute search query
+  5. Click `django-tutorial_link_next` (Element: Link, Text: "next →") to navigate to the next page
+  6. Input "testuser@example.com" into `django-tutorial_textbox_email` (Element: Input, Label: "Your Email", Placeholder: "Enter your email")
+  7. Click `django-tutorial_button_subscribebtn` (Element: Button, Text: "Subscribe") to subscribe to newsletter
+  8. Scroll to footer and verify/click links: `django-tutorial_link_privacy_policy` (Element: Link, Label: "Privacy Policy"), `django-tutorial_link_about_us` (Element: Link, Label: "About Us"), `django-tutorial_link_contact_us` (Element: Link, Label: "Contact Us")
+- **Expected Result**: The page loads successfully, and all interactive elements are responsive. Navigation links load their target pages, search displays correct results, and form inputs function as expected.
+
+## Semantic References for Healing
+- `django-tutorial_link_idx_0 | Link | Label: ""`
+- `django-tutorial_textbox_searchinput | Input | Placeholder: "Search..." / Label: "Search..."`
+- `django-tutorial_button_searchbtn | Button | Label: "Search"`
+- `django-tutorial_link_tutorials | Link | Label: "Tutorials"`
+- `django-tutorial_link_interviews | Link | Label: "Interviews"`
+- `django-tutorial_link_compilers | Link | Label: "Compilers"`
+- `django-tutorial_div_idx_147 | Div | Label: ""`
+- `django-tutorial_div_idx_148 | Div | Label: ""`
+- `django-tutorial_div_idx_149 | Div | Label: ""`
+- `django-tutorial_div_idx_150 | Div | Label: ""`
+- `django-tutorial_div_idx_151 | Div | Label: ""`
+- `django-tutorial_button_idx_152 | Button | Label: ""`
+- `django-tutorial_link_python_tutorial | Link | Label: "Python Tutorial"`
+- `django-tutorial_link_java_tutorial | Link | Label: "Java Tutorial"`
+- `django-tutorial_link_javascript_tutorial | Link | Label: "JavaScript Tutorial"`
+- `django-tutorial_link_sql_tutorial | Link | Label: "SQL Tutorial"`
+- `django-tutorial_link_c_tutorial | Link | Label: "C Tutorial"`
+- `django-tutorial_link_html_tutorial | Link | Label: "HTML Tutorial"`
+- `django-tutorial_link_css_tutorial | Link | Label: "CSS Tutorial"`
+- `django-tutorial_link_react_tutorial | Link | Label: "React Tutorial"`
+- `django-tutorial_link_nodejs_tutorial | Link | Label: "NodeJS Tutorial"`
+- `django-tutorial_link_sprint_boot_tutorial | Link | Label: "Sprint Boot Tutorial"`
+- `django-tutorial_link_php_tutorial | Link | Label: "PHP Tutorial"`
+- `django-tutorial_link_mysql_tutorial | Link | Label: "MYSQL Tutorial"`
+- `django-tutorial_link_mongodb_tutorial | Link | Label: "MongoDB Tutorial"`
+- `django-tutorial_link_ai_tutorial | Link | Label: "AI Tutorial"`
+- `django-tutorial_link_machine_learning_tutorial | Link | Label: "Machine Learning Tutorial"`
+- `django-tutorial_link_dsa_tutorial | Link | Label: "DSA Tutorial"`
+- `django-tutorial_link_dbms_tutorial | Link | Label: "DBMS Tutorial"`
+- `django-tutorial_link_os_tutorial | Link | Label: "OS Tutorial"`
+- `django-tutorial_button_django_tutorial | Button | Label: "Django Tutorial"`
+- `django-tutorial_link_django_tutorial | Link | Label: "Django Tutorial"`
+- `django-tutorial_link_django_installation | Link | Label: "Django Installation"`
+- `django-tutorial_link_django_project | Link | Label: "Django Project"`
+- `django-tutorial_link_apache_configuration | Link | Label: "Apache Configuration"`
+- `django-tutorial_link_virtual_environment_setup | Link | Label: "Virtual Environment Setup"`
+- `django-tutorial_link_admin_interface | Link | Label: "Admin Interface"`
+- `django-tutorial_link_django_app | Link | Label: "Django App"`
+- `django-tutorial_link_django_mvt | Link | Label: "Django MVT"`
+- `django-tutorial_link_django_model | Link | Label: "Django Model"`
+- `django-tutorial_link_django_view | Link | Label: "Django View"`
+- `django-tutorial_link_django_template | Link | Label: "Django Template"`
+- `django-tutorial_link_url_mapping | Link | Label: "URL Mapping"`
+- `django-tutorial_link_static_files_handling | Link | Label: "Static Files Handling"`
+- `django-tutorial_link_modelforms | Link | Label: "ModelForms"`
+- `django-tutorial_link_django_forms | Link | Label: "Django Forms"`
+- `django-tutorial_link_form_validation | Link | Label: "Form Validation"`
+- `django-tutorial_link_file_upload | Link | Label: "File Upload"`
+- `django-tutorial_link_database_connectitvity | Link | Label: "Database Connectitvity"`
+- `django-tutorial_link_database_migrations | Link | Label: "Database Migrations"`
+- `django-tutorial_link_django_middleware | Link | Label: "Django Middleware"`
+- `django-tutorial_link_request_and_response | Link | Label: "Request and Response"`
+- `django-tutorial_link_django_exceptions | Link | Label: "Django Exceptions"`
+- `django-tutorial_link_django_session | Link | Label: "Django Session"`
+- `django-tutorial_link_django_cookie | Link | Label: "Django Cookie"`
+- `django-tutorial_link_django_csv_output | Link | Label: "Django CSV Output"`
+- `django-tutorial_link_django_pdf_output | Link | Label: "Django PDF Output"`
+- `django-tutorial_link_django_and_bootstrap | Link | Label: "Django and Bootstrap"`
+- `django-tutorial_link_deploy_on_github | Link | Label: "Deploy on Github"`
+- `django-tutorial_link_django_mail_setup | Link | Label: "Django Mail Setup"`
+- `django-tutorial_link_django_default_crud | Link | Label: "Django Default CRUD"`
+- `django-tutorial_link_crud_application | Link | Label: "CRUD Application"`
+- `django-tutorial_link_django_redirects | Link | Label: "Django Redirects"`
+- `django-tutorial_link_django_on_delete | Link | Label: "Django on_delete"`
+- `django-tutorial_link_django_class_based_generi | Link | Label: "Django Class Based Generic Views"`
+- `django-tutorial_link_django_usercreationform | Link | Label: "Django UserCreationForm"`
+- `django-tutorial_link_django_image_upload | Link | Label: "Django Image Upload"`
+- `django-tutorial_link_django_orm_queries | Link | Label: "Django ORM Queries"`
+- `django-tutorial_link_django_form_widget | Link | Label: "Django Form Widget"`
+- `django-tutorial_link_ruby_on_rails_vs_django | Link | Label: "Ruby on Rails vs. Django"`
+- `django-tutorial_link_select_related_and_prefet | Link | Label: "select_related and prefetch_related"`
+- `django-tutorial_link_django_custom_user_model | Link | Label: "Django Custom User Model"`
+- `django-tutorial_link_django_user_registration_ | Link | Label: "Django User Registration with Email Confirmation"`
+- `django-tutorial_link_how_to_use_django_widget_ | Link | Label: "How to use Django Widget Tweaks"`
+- `django-tutorial_link_django_shortcuts | Link | Label: "Django Shortcuts"`
+- `django-tutorial_link_how_to_connect_mysql_to_d | Link | Label: "How to connect MySQL to Django"`
+- `django-tutorial_link_how_to_use_f_expression | Link | Label: "How to use F() Expression"`
+- `django-tutorial_link_django_news_app | Link | Label: "Django News App"`
+- `django-tutorial_link_steps_to_improve_stabilit | Link | Label: "Steps to Improve Stability in the Django App on..."`
+- `django-tutorial_link_todo_webapp_using_django | Link | Label: "ToDo Webapp using Django"`
+- `django-tutorial_link_fixtures_in_django | Link | Label: "Fixtures in Django"`
+- `django-tutorial_link_dokku_django | Link | Label: "Dokku Django"`
+- `django-tutorial_link_relational_fields_in_djan | Link | Label: "Relational Fields in Django Models"`
+- `django-tutorial_link_url_fields_in_serializers | Link | Label: "URL Fields in Serializers - Django REST Framework"`
+- `django-tutorial_button_misc | Button | Label: "Misc."`
+- `django-tutorial_link_django_cms_vs_wordpress | Link | Label: "Django CMS vs Wordpress"`
+- `django-tutorial_link_django_vs_laravel | Link | Label: "Django vs Laravel"`
+- `django-tutorial_link_php_vs_django | Link | Label: "PHP vs. Django"`
+- `django-tutorial_link_college_management_system | Link | Label: "College Management System using Django - Python..."`
+- `django-tutorial_link_create_a_word_counter_app | Link | Label: "Create a Word Counter App Using Django"`
+- `django-tutorial_link_django_project_to_create_ | Link | Label: "Django Project to Create a Comments System"`
+- `django-tutorial_link_voting_system_project_usi | Link | Label: "Voting System Project Using Django Framework"`
+- `django-tutorial_link_django_exception_handling | Link | Label: "Django Exception Handling"`
+- `django-tutorial_link_home | Link | Label: "Home"`
+- `django-tutorial_link_django | Link | Label: "Django"`
+- `django-tutorial_iframe_aswift_1 | Iframe | Label: "Advertisement"`
+- `django-tutorial_iframe_aswift_2 | Iframe | Label: "Advertisement"`
+- `django-tutorial_link_djnago_csv_output | Link | Label: "Djnago CSV Output"`
+- `django-tutorial_link_next | Link | Label: "next →"`
+- `django-tutorial_textbox_email | Input | Placeholder: "Enter your email" / Label: "Your Email"`
+- `django-tutorial_button_subscribebtn | Button | Label: "Subscribe"`
+- `django-tutorial_link_hr_tpointtech_com | Link | Label: "hr@tpointtech.com"`
+- `django-tutorial_link_91_9599086977 | Link | Label: "+91-9599086977"`
+- `django-tutorial_link_idx_278 | Link | Label: ""`
+- `django-tutorial_link_idx_279 | Link | Label: ""`
+- `django-tutorial_link_idx_280 | Link | Label: ""`
+- `django-tutorial_link_idx_281 | Link | Label: ""`
+- `django-tutorial_link_idx_282 | Link | Label: ""`
+- `django-tutorial_link_idx_283 | Link | Label: ""`
+- `django-tutorial_link_data_structure_tutorial | Link | Label: "Data Structure Tutorial"`
+- `django-tutorial_link_c_programming_tutorial | Link | Label: "C Programming Tutorial"`
+- `django-tutorial_link_jquery_tutorial | Link | Label: "jQuery Tutorial"`
+- `django-tutorial_link_spring_tutorial | Link | Label: "Spring Tutorial"`
+- `django-tutorial_link_python_interview_question | Link | Label: "Python Interview Questions"`
+- `django-tutorial_link_java_interview_questions | Link | Label: "Java Interview Questions"`
+- `django-tutorial_link_data_structure_interview_ | Link | Label: "Data Structure Interview Questions"`
+- `django-tutorial_link_c_interview_questions | Link | Label: "C++ Interview Questions"`
+- `django-tutorial_link_html_interview_questions | Link | Label: "HTML Interview Questions"`
+- `django-tutorial_link_javascript_interview_ques | Link | Label: "JavaScript Interview Questions"`
+- `django-tutorial_link_jquery_interview_question | Link | Label: "jQuery Interview Questions"`
+- `django-tutorial_link_sql_interview_questions | Link | Label: "SQL Interview Questions"`
+- `django-tutorial_link_power_bi_interview_questi | Link | Label: "Power BI Interview Questions"`
+- `django-tutorial_link_online_c_compiler | Link | Label: "Online C Compiler"`
+- `django-tutorial_link_online_r_compiler | Link | Label: "Online R Compiler"`
+- `django-tutorial_link_online_php_compiler | Link | Label: "Online PHP Compiler"`
+- `django-tutorial_link_online_java_compiler | Link | Label: "Online Java Compiler"`
+- `django-tutorial_link_online_html_editor | Link | Label: "Online HTML Editor"`
+- `django-tutorial_link_online_swift_compiler | Link | Label: "Online Swift Compiler"`
+- `django-tutorial_link_online_python_compiler | Link | Label: "Online Python Compiler"`
+- `django-tutorial_link_online_javascript_editor | Link | Label: "Online JavaScript Editor"`
+- `django-tutorial_link_online_typescript_editor | Link | Label: "Online TypeScript Editor"`
+- `django-tutorial_link_latest_post | Link | Label: "Latest Post"`
+- `django-tutorial_link_tutorials_list | Link | Label: "Tutorials List"`
+- `django-tutorial_link_privacy_policy | Link | Label: "Privacy Policy"`
+- `django-tutorial_link_about_us | Link | Label: "About Us"`
+- `django-tutorial_link_contact_us | Link | Label: "Contact Us"`

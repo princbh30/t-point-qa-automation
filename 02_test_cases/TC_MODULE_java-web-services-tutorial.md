@@ -1,0 +1,141 @@
+# Test Case: MODULE_java-web-services-tutorial | UI Verification and Navigation
+- **Preconditions**: User is on page https://www.tpointtech.com/java-web-services-tutorial
+- **Steps**:
+  1. Navigate to https://www.tpointtech.com/java-web-services-tutorial
+  2. Verify and click header navigation links: `java-web-services-tutorial_link_tutorials` (Element: Link, Label: "Tutorials"), `java-web-services-tutorial_link_interviews` (Element: Link, Label: "Interviews"), `java-web-services-tutorial_link_compilers` (Element: Link, Label: "Compilers")
+  3. Input "Python" into `java-web-services-tutorial_textbox_searchinput` (Element: Input, Label: "Search...", Placeholder: "Search...")
+  4. Click `java-web-services-tutorial_button_searchbtn` (Element: Button, Text: "Search") to execute search query
+  5. Click `java-web-services-tutorial_link_next` (Element: Link, Text: "next →") to navigate to the next page
+  6. Input "testuser@example.com" into `java-web-services-tutorial_textbox_email` (Element: Input, Label: "Your Email", Placeholder: "Enter your email")
+  7. Click `java-web-services-tutorial_button_subscribebtn` (Element: Button, Text: "Subscribe") to subscribe to newsletter
+  8. Scroll to footer and verify/click links: `java-web-services-tutorial_link_privacy_policy` (Element: Link, Label: "Privacy Policy"), `java-web-services-tutorial_link_about_us` (Element: Link, Label: "About Us"), `java-web-services-tutorial_link_contact_us` (Element: Link, Label: "Contact Us")
+- **Expected Result**: The page loads successfully, and all interactive elements are responsive. Navigation links load their target pages, search displays correct results, and form inputs function as expected.
+
+## Semantic References for Healing
+- `java-web-services-tutorial_link_idx_0 | Link | Label: ""`
+- `java-web-services-tutorial_textbox_searchinput | Input | Placeholder: "Search..." / Label: "Search..."`
+- `java-web-services-tutorial_button_searchbtn | Button | Label: "Search"`
+- `java-web-services-tutorial_link_tutorials | Link | Label: "Tutorials"`
+- `java-web-services-tutorial_link_interviews | Link | Label: "Interviews"`
+- `java-web-services-tutorial_link_compilers | Link | Label: "Compilers"`
+- `java-web-services-tutorial_div_idx_147 | Div | Label: ""`
+- `java-web-services-tutorial_div_idx_148 | Div | Label: ""`
+- `java-web-services-tutorial_div_idx_149 | Div | Label: ""`
+- `java-web-services-tutorial_div_idx_150 | Div | Label: ""`
+- `java-web-services-tutorial_div_idx_151 | Div | Label: ""`
+- `java-web-services-tutorial_button_idx_152 | Button | Label: ""`
+- `java-web-services-tutorial_link_python_tutorial | Link | Label: "Python Tutorial"`
+- `java-web-services-tutorial_link_java_tutorial | Link | Label: "Java Tutorial"`
+- `java-web-services-tutorial_link_javascript_tutorial | Link | Label: "JavaScript Tutorial"`
+- `java-web-services-tutorial_link_sql_tutorial | Link | Label: "SQL Tutorial"`
+- `java-web-services-tutorial_link_c_tutorial | Link | Label: "C Tutorial"`
+- `java-web-services-tutorial_link_html_tutorial | Link | Label: "HTML Tutorial"`
+- `java-web-services-tutorial_link_css_tutorial | Link | Label: "CSS Tutorial"`
+- `java-web-services-tutorial_link_react_tutorial | Link | Label: "React Tutorial"`
+- `java-web-services-tutorial_link_nodejs_tutorial | Link | Label: "NodeJS Tutorial"`
+- `java-web-services-tutorial_link_sprint_boot_tutorial | Link | Label: "Sprint Boot Tutorial"`
+- `java-web-services-tutorial_link_php_tutorial | Link | Label: "PHP Tutorial"`
+- `java-web-services-tutorial_link_mysql_tutorial | Link | Label: "MYSQL Tutorial"`
+- `java-web-services-tutorial_link_mongodb_tutorial | Link | Label: "MongoDB Tutorial"`
+- `java-web-services-tutorial_link_ai_tutorial | Link | Label: "AI Tutorial"`
+- `java-web-services-tutorial_link_machine_learning_tutorial | Link | Label: "Machine Learning Tutorial"`
+- `java-web-services-tutorial_link_dsa_tutorial | Link | Label: "DSA Tutorial"`
+- `java-web-services-tutorial_link_dbms_tutorial | Link | Label: "DBMS Tutorial"`
+- `java-web-services-tutorial_link_os_tutorial | Link | Label: "OS Tutorial"`
+- `java-web-services-tutorial_button_web_services_tutorial | Button | Label: "Web Services Tutorial"`
+- `java-web-services-tutorial_link_web_service_tutorial | Link | Label: "Web Service Tutorial"`
+- `java-web-services-tutorial_link_what_is_web_service | Link | Label: "What is web service"`
+- `java-web-services-tutorial_link_ws_components | Link | Label: "WS Components"`
+- `java-web-services-tutorial_link_soap_web_service | Link | Label: "SOAP Web Service"`
+- `java-web-services-tutorial_link_restful_web_service | Link | Label: "RESTful Web Service"`
+- `java-web-services-tutorial_link_soap_vs_rest | Link | Label: "SOAP vs REST"`
+- `java-web-services-tutorial_link_soa | Link | Label: "SOA"`
+- `java-web-services-tutorial_button_java_web_services | Button | Label: "Java Web Services"`
+- `java-web-services-tutorial_link_java_web_services | Link | Label: "Java Web Services"`
+- `java-web-services-tutorial_button_1_jax_ws_tutorial | Button | Label: "1) JAX-WS Tutorial"`
+- `java-web-services-tutorial_link_jax_ws_tutorial | Link | Label: "JAX-WS Tutorial"`
+- `java-web-services-tutorial_link_rpc_vs_document | Link | Label: "RPC vs Document"`
+- `java-web-services-tutorial_link_jax_ws_ex_rpc | Link | Label: "JAX-WS Ex RPC"`
+- `java-web-services-tutorial_link_jax_ws_ex_document | Link | Label: "JAX-WS Ex Document"`
+- `java-web-services-tutorial_button_2_jax_rs_tutorial | Button | Label: "2) JAX-RS Tutorial"`
+- `java-web-services-tutorial_link_jax_rs_tutorial | Link | Label: "JAX-RS Tutorial"`
+- `java-web-services-tutorial_link_jax_rs_ex_jersey | Link | Label: "JAX-RS Ex Jersey"`
+- `java-web-services-tutorial_link_jax_rs_annotations | Link | Label: "JAX-RS Annotations"`
+- `java-web-services-tutorial_link_jax_rs_file_download | Link | Label: "JAX-RS File Download"`
+- `java-web-services-tutorial_link_jax_rs_file_upload | Link | Label: "JAX-RS File Upload"`
+- `java-web-services-tutorial_button_restful_spring_boot | Button | Label: "RESTful - Spring Boot"`
+- `java-web-services-tutorial_link_restful_web_services_with | Link | Label: "RESTful Web Services With Spring Boot"`
+- `java-web-services-tutorial_link_initializing_a_restful_we | Link | Label: "Initializing a RESTful Web Services"`
+- `java-web-services-tutorial_link_spring_boot_auto_configur | Link | Label: "Spring Boot Auto Configuration and Dispatcher S..."`
+- `java-web-services-tutorial_link_enhancing_the_hello_world | Link | Label: "Enhancing the Hello World Service with a Path V..."`
+- `java-web-services-tutorial_link_implementing_the_post_met | Link | Label: "Implementing the POST Method to create User Res..."`
+- `java-web-services-tutorial_link_implementing_exception_ha | Link | Label: "Implementing Exception Handling- 404 Resource N..."`
+- `java-web-services-tutorial_link_implementing_generic_exce | Link | Label: "Implementing Generic Exception Handling for all..."`
+- `java-web-services-tutorial_link_implementing_delete_metho | Link | Label: "Implementing DELETE Method to Delete a User Res..."`
+- `java-web-services-tutorial_link_implementing_validations_ | Link | Label: "Implementing Validations for RESTful Services"`
+- `java-web-services-tutorial_link_implementing_hateoas_for_ | Link | Label: "Implementing HATEOAS for RESTful Services"`
+- `java-web-services-tutorial_link_internationalization_of_r | Link | Label: "Internationalization of RESTful Services"`
+- `java-web-services-tutorial_link_content_negotiation_imple | Link | Label: "Content Negotiation Implementing Support for XML"`
+- `java-web-services-tutorial_link_configuring_auto_generati | Link | Label: "Configuring Auto Generation of Swagger Document..."`
+- `java-web-services-tutorial_link_introduction_to_swagger_d | Link | Label: "Introduction to Swagger Documentation Format"`
+- `java-web-services-tutorial_link_enhancing_swagger_documen | Link | Label: "Enhancing Swagger Documentation with Custom Ann..."`
+- `java-web-services-tutorial_link_monitoring_apis_with_spri | Link | Label: "Monitoring APIs with Spring Boot Actuator"`
+- `java-web-services-tutorial_link_implementing_static_filte | Link | Label: "Implementing Static Filtering for RESTful Services"`
+- `java-web-services-tutorial_link_implementing_dynamic_filt | Link | Label: "Implementing Dynamic Filtering for RESTful Serv..."`
+- `java-web-services-tutorial_link_versioning_restful_web_se | Link | Label: "Versioning RESTful Web Services-Basic Approach ..."`
+- `java-web-services-tutorial_link_implementing_basic_authen | Link | Label: "Implementing Basic Authentication with Spring S..."`
+- `java-web-services-tutorial_link_connecting_restful_servic | Link | Label: "Connecting RESTful Services to JPA"`
+- `java-web-services-tutorial_link_updating_get_methods_on_u | Link | Label: "Updating GET Methods on User Resource to Use JPA"`
+- `java-web-services-tutorial_link_updating_post_and_delete_ | Link | Label: "Updating POST and DELETE methods on UserResourc..."`
+- `java-web-services-tutorial_link_creating_post_entity_and_ | Link | Label: "Creating Post Entity and Many to One Relationsh..."`
+- `java-web-services-tutorial_link_implementing_a_get_servic | Link | Label: "Implementing a GET service to retrieve all Post..."`
+- `java-web-services-tutorial_link_implementing_post_service | Link | Label: "Implementing POST Service to Create a Post for ..."`
+- `java-web-services-tutorial_link_richardson_maturity_model | Link | Label: "Richardson Maturity Model"`
+- `java-web-services-tutorial_link_restful_web_services_best | Link | Label: "RESTful Web Services Best Practice"`
+- `java-web-services-tutorial_button_interview_questions | Button | Label: "Interview Questions"`
+- `java-web-services-tutorial_link_web_services_interview | Link | Label: "Web Services Interview"`
+- `java-web-services-tutorial_link_home | Link | Label: "Home"`
+- `java-web-services-tutorial_iframe_aswift_2 | Iframe | Label: "Advertisement"`
+- `java-web-services-tutorial_div_these_are_topics_related_ | Div | Label: "These are topics related to the article that might interest you"`
+- `java-web-services-tutorial_link_prev | Link | Label: "← prev"`
+- `java-web-services-tutorial_link_next | Link | Label: "next →"`
+- `java-web-services-tutorial_textbox_email | Input | Placeholder: "Enter your email" / Label: "Your Email"`
+- `java-web-services-tutorial_button_subscribebtn | Button | Label: "Subscribe"`
+- `java-web-services-tutorial_link_hr_tpointtech_com | Link | Label: "hr@tpointtech.com"`
+- `java-web-services-tutorial_link_91_9599086977 | Link | Label: "+91-9599086977"`
+- `java-web-services-tutorial_link_idx_238 | Link | Label: ""`
+- `java-web-services-tutorial_link_idx_239 | Link | Label: ""`
+- `java-web-services-tutorial_link_idx_240 | Link | Label: ""`
+- `java-web-services-tutorial_link_idx_241 | Link | Label: ""`
+- `java-web-services-tutorial_link_idx_242 | Link | Label: ""`
+- `java-web-services-tutorial_link_idx_243 | Link | Label: ""`
+- `java-web-services-tutorial_link_data_structure_tutorial | Link | Label: "Data Structure Tutorial"`
+- `java-web-services-tutorial_link_c_programming_tutorial | Link | Label: "C Programming Tutorial"`
+- `java-web-services-tutorial_link_jquery_tutorial | Link | Label: "jQuery Tutorial"`
+- `java-web-services-tutorial_link_spring_tutorial | Link | Label: "Spring Tutorial"`
+- `java-web-services-tutorial_link_python_interview_question | Link | Label: "Python Interview Questions"`
+- `java-web-services-tutorial_link_java_interview_questions | Link | Label: "Java Interview Questions"`
+- `java-web-services-tutorial_link_data_structure_interview_ | Link | Label: "Data Structure Interview Questions"`
+- `java-web-services-tutorial_link_c_interview_questions | Link | Label: "C++ Interview Questions"`
+- `java-web-services-tutorial_link_html_interview_questions | Link | Label: "HTML Interview Questions"`
+- `java-web-services-tutorial_link_javascript_interview_ques | Link | Label: "JavaScript Interview Questions"`
+- `java-web-services-tutorial_link_jquery_interview_question | Link | Label: "jQuery Interview Questions"`
+- `java-web-services-tutorial_link_sql_interview_questions | Link | Label: "SQL Interview Questions"`
+- `java-web-services-tutorial_link_power_bi_interview_questi | Link | Label: "Power BI Interview Questions"`
+- `java-web-services-tutorial_link_online_c_compiler | Link | Label: "Online C Compiler"`
+- `java-web-services-tutorial_link_online_r_compiler | Link | Label: "Online R Compiler"`
+- `java-web-services-tutorial_link_online_php_compiler | Link | Label: "Online PHP Compiler"`
+- `java-web-services-tutorial_link_online_java_compiler | Link | Label: "Online Java Compiler"`
+- `java-web-services-tutorial_link_online_html_editor | Link | Label: "Online HTML Editor"`
+- `java-web-services-tutorial_link_online_swift_compiler | Link | Label: "Online Swift Compiler"`
+- `java-web-services-tutorial_link_online_python_compiler | Link | Label: "Online Python Compiler"`
+- `java-web-services-tutorial_link_online_javascript_editor | Link | Label: "Online JavaScript Editor"`
+- `java-web-services-tutorial_link_online_typescript_editor | Link | Label: "Online TypeScript Editor"`
+- `java-web-services-tutorial_link_latest_post | Link | Label: "Latest Post"`
+- `java-web-services-tutorial_link_tutorials_list | Link | Label: "Tutorials List"`
+- `java-web-services-tutorial_link_privacy_policy | Link | Label: "Privacy Policy"`
+- `java-web-services-tutorial_link_about_us | Link | Label: "About Us"`
+- `java-web-services-tutorial_link_contact_us | Link | Label: "Contact Us"`
+- `java-web-services-tutorial_heading_these_are_topics_related_ | Heading | Label: "These are topics related to the article that might interest you"`
+- `java-web-services-tutorial_link_programming | Link | Label: "Programming"`
+- `java-web-services-tutorial_link_data_management | Link | Label: "Data Management"`

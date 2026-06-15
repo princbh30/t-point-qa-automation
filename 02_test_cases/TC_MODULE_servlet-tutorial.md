@@ -1,0 +1,183 @@
+# Test Case: MODULE_servlet-tutorial | UI Verification and Navigation
+- **Preconditions**: User is on page https://www.tpointtech.com/servlet-tutorial
+- **Steps**:
+  1. Navigate to https://www.tpointtech.com/servlet-tutorial
+  2. Verify and click header navigation links: `servlet-tutorial_link_tutorials` (Element: Link, Label: "Tutorials"), `servlet-tutorial_link_interviews` (Element: Link, Label: "Interviews"), `servlet-tutorial_link_compilers` (Element: Link, Label: "Compilers")
+  3. Input "Python" into `servlet-tutorial_textbox_searchinput` (Element: Input, Label: "Search...", Placeholder: "Search...")
+  4. Click `servlet-tutorial_button_searchbtn` (Element: Button, Text: "Search") to execute search query
+  5. Click `servlet-tutorial_link_next` (Element: Link, Text: "next →") to navigate to the next page
+  6. Input "testuser@example.com" into `servlet-tutorial_textbox_email` (Element: Input, Label: "Your Email", Placeholder: "Enter your email")
+  7. Click `servlet-tutorial_button_subscribebtn` (Element: Button, Text: "Subscribe") to subscribe to newsletter
+  8. Scroll to footer and verify/click links: `servlet-tutorial_link_privacy_policy` (Element: Link, Label: "Privacy Policy"), `servlet-tutorial_link_about_us` (Element: Link, Label: "About Us"), `servlet-tutorial_link_contact_us` (Element: Link, Label: "Contact Us")
+- **Expected Result**: The page loads successfully, and all interactive elements are responsive. Navigation links load their target pages, search displays correct results, and form inputs function as expected.
+
+## Semantic References for Healing
+- `servlet-tutorial_link_idx_0 | Link | Label: ""`
+- `servlet-tutorial_textbox_searchinput | Input | Placeholder: "Search..." / Label: "Search..."`
+- `servlet-tutorial_button_searchbtn | Button | Label: "Search"`
+- `servlet-tutorial_link_tutorials | Link | Label: "Tutorials"`
+- `servlet-tutorial_link_interviews | Link | Label: "Interviews"`
+- `servlet-tutorial_link_compilers | Link | Label: "Compilers"`
+- `servlet-tutorial_div_idx_147 | Div | Label: ""`
+- `servlet-tutorial_div_idx_148 | Div | Label: ""`
+- `servlet-tutorial_div_idx_149 | Div | Label: ""`
+- `servlet-tutorial_div_idx_150 | Div | Label: ""`
+- `servlet-tutorial_div_idx_151 | Div | Label: ""`
+- `servlet-tutorial_button_idx_152 | Button | Label: ""`
+- `servlet-tutorial_link_python_tutorial | Link | Label: "Python Tutorial"`
+- `servlet-tutorial_link_java_tutorial | Link | Label: "Java Tutorial"`
+- `servlet-tutorial_link_javascript_tutorial | Link | Label: "JavaScript Tutorial"`
+- `servlet-tutorial_link_sql_tutorial | Link | Label: "SQL Tutorial"`
+- `servlet-tutorial_link_c_tutorial | Link | Label: "C Tutorial"`
+- `servlet-tutorial_link_html_tutorial | Link | Label: "HTML Tutorial"`
+- `servlet-tutorial_link_css_tutorial | Link | Label: "CSS Tutorial"`
+- `servlet-tutorial_link_react_tutorial | Link | Label: "React Tutorial"`
+- `servlet-tutorial_link_nodejs_tutorial | Link | Label: "NodeJS Tutorial"`
+- `servlet-tutorial_link_sprint_boot_tutorial | Link | Label: "Sprint Boot Tutorial"`
+- `servlet-tutorial_link_php_tutorial | Link | Label: "PHP Tutorial"`
+- `servlet-tutorial_link_mysql_tutorial | Link | Label: "MYSQL Tutorial"`
+- `servlet-tutorial_link_mongodb_tutorial | Link | Label: "MongoDB Tutorial"`
+- `servlet-tutorial_link_ai_tutorial | Link | Label: "AI Tutorial"`
+- `servlet-tutorial_link_machine_learning_tutorial | Link | Label: "Machine Learning Tutorial"`
+- `servlet-tutorial_link_dsa_tutorial | Link | Label: "DSA Tutorial"`
+- `servlet-tutorial_link_dbms_tutorial | Link | Label: "DBMS Tutorial"`
+- `servlet-tutorial_link_os_tutorial | Link | Label: "OS Tutorial"`
+- `servlet-tutorial_button_servlet_tutorial | Button | Label: "Servlet Tutorial"`
+- `servlet-tutorial_link_java_servlet | Link | Label: "Java Servlet"`
+- `servlet-tutorial_link_web_terminology | Link | Label: "Web Terminology"`
+- `servlet-tutorial_link_servlet_api | Link | Label: "Servlet API"`
+- `servlet-tutorial_link_servlet_interface | Link | Label: "Servlet Interface"`
+- `servlet-tutorial_link_genericservlet | Link | Label: "GenericServlet"`
+- `servlet-tutorial_link_httpservlet | Link | Label: "HttpServlet"`
+- `servlet-tutorial_link_servlet_life_cycle | Link | Label: "Servlet Life Cycle"`
+- `servlet-tutorial_link_servlet_example | Link | Label: "Servlet Example"`
+- `servlet-tutorial_link_how_servlet_works | Link | Label: "How servlet works?"`
+- `servlet-tutorial_link_war_file | Link | Label: "War File"`
+- `servlet-tutorial_link_welcome_file_list | Link | Label: "welcome-file-list"`
+- `servlet-tutorial_link_load_on_startup | Link | Label: "Load on startup"`
+- `servlet-tutorial_button_servlet_advance | Button | Label: "Servlet Advance"`
+- `servlet-tutorial_link_session_techniques | Link | Label: "Session Techniques"`
+- `servlet-tutorial_link_cookies_in_servlet | Link | Label: "Cookies in Servlet"`
+- `servlet-tutorial_link_cookies_login_logout | Link | Label: "Cookies: Login & Logout"`
+- `servlet-tutorial_link_hidden_form_field_in_serv | Link | Label: "Hidden Form Field in Servlet Session Tracking"`
+- `servlet-tutorial_link_3_url_rewriting | Link | Label: "3) URL Rewriting"`
+- `servlet-tutorial_link_4_httpsession | Link | Label: "4) HttpSession"`
+- `servlet-tutorial_link_session_login_logout | Link | Label: "Session: Login & Logout"`
+- `servlet-tutorial_button_web_terminology | Button | Label: "Web Terminology"`
+- `servlet-tutorial_link_website_static_dynamic | Link | Label: "Website: Static Dynamic"`
+- `servlet-tutorial_link_http | Link | Label: "HTTP"`
+- `servlet-tutorial_link_http_requests | Link | Label: "HTTP Requests"`
+- `servlet-tutorial_link_get_vs_post | Link | Label: "Get vs Post"`
+- `servlet-tutorial_link_container | Link | Label: "Container"`
+- `servlet-tutorial_link_server_web_application | Link | Label: "Server: Web Application"`
+- `servlet-tutorial_link_content_type | Link | Label: "Content Type"`
+- `servlet-tutorial_button_servlet_with_ide | Button | Label: "Servlet with IDE"`
+- `servlet-tutorial_link_servlet_in_eclipse | Link | Label: "Servlet in Eclipse"`
+- `servlet-tutorial_link_servlet_in_myeclipse | Link | Label: "Servlet in Myeclipse"`
+- `servlet-tutorial_link_servlet_in_netbeans | Link | Label: "Servlet in Netbeans"`
+- `servlet-tutorial_button_servletrequest | Button | Label: "ServletRequest"`
+- `servlet-tutorial_link_servletrequest | Link | Label: "ServletRequest"`
+- `servlet-tutorial_button_servlet_collaboration | Button | Label: "Servlet Collaboration"`
+- `servlet-tutorial_link_requestdispacher | Link | Label: "RequestDispacher"`
+- `servlet-tutorial_link_sendredirect | Link | Label: "SendRedirect"`
+- `servlet-tutorial_button_servletconfig | Button | Label: "ServletConfig"`
+- `servlet-tutorial_link_servletconfig | Link | Label: "ServletConfig"`
+- `servlet-tutorial_button_servletcontext | Button | Label: "ServletContext"`
+- `servlet-tutorial_link_servletcontext | Link | Label: "ServletContext"`
+- `servlet-tutorial_button_attribute_in_servlet | Button | Label: "Attribute in Servlet"`
+- `servlet-tutorial_link_attribute_in_servlet | Link | Label: "Attribute in Servlet"`
+- `servlet-tutorial_button_event_and_listener | Button | Label: "Event and Listener"`
+- `servlet-tutorial_link_event_and_listener | Link | Label: "Event and Listener"`
+- `servlet-tutorial_link_servletcontextevent | Link | Label: "ServletContextEvent"`
+- `servlet-tutorial_link_httpsessionevent | Link | Label: "HttpSessionEvent"`
+- `servlet-tutorial_button_servlet_filter | Button | Label: "Servlet Filter"`
+- `servlet-tutorial_link_what_is_filter | Link | Label: "What is Filter"`
+- `servlet-tutorial_link_authentication_filter | Link | Label: "Authentication Filter"`
+- `servlet-tutorial_link_filterconfig | Link | Label: "FilterConfig"`
+- `servlet-tutorial_link_useful_examples | Link | Label: "Useful examples"`
+- `servlet-tutorial_button_servlet_crud | Button | Label: "Servlet CRUD"`
+- `servlet-tutorial_link_crud_example_in_servlet | Link | Label: "CRUD Example in Servlet"`
+- `servlet-tutorial_button_servlet_pagination | Button | Label: "Servlet Pagination"`
+- `servlet-tutorial_link_pagination_example | Link | Label: "Pagination Example"`
+- `servlet-tutorial_button_servlet_miscellaneous | Button | Label: "Servlet Miscellaneous"`
+- `servlet-tutorial_link_servletinputstream | Link | Label: "ServletInputStream"`
+- `servlet-tutorial_link_servletoutputstream | Link | Label: "ServletOutputStream"`
+- `servlet-tutorial_link_1_example_to_write_image | Link | Label: "1-Example to write image"`
+- `servlet-tutorial_link_annotation_servlet | Link | Label: "Annotation Servlet"`
+- `servlet-tutorial_link_singlethreadmodel | Link | Label: "SingleThreadModel"`
+- `servlet-tutorial_link_ssi | Link | Label: "SSI"`
+- `servlet-tutorial_button_development | Button | Label: "Development"`
+- `servlet-tutorial_link_registration_example | Link | Label: "Registration Example"`
+- `servlet-tutorial_link_fetching_records | Link | Label: "Fetching records"`
+- `servlet-tutorial_link_improving_performance | Link | Label: "Improving Performance"`
+- `servlet-tutorial_link_example_to_upload_file_in | Link | Label: "Example to Upload File in Servlet"`
+- `servlet-tutorial_link_example_to_download_file_ | Link | Label: "Example to Download File in Servlet"`
+- `servlet-tutorial_link_servlet_sending_email | Link | Label: "Servlet Sending Email"`
+- `servlet-tutorial_link_write_data_to_pdf | Link | Label: "Write data to PDF"`
+- `servlet-tutorial_link_example_of_login_form_in_ | Link | Label: "Example of Login Form in Servlet"`
+- `servlet-tutorial_link_writing_image | Link | Label: "Writing Image"`
+- `servlet-tutorial_button_interview_questions | Button | Label: "Interview Questions"`
+- `servlet-tutorial_link_servlet_interview_questio | Link | Label: "Servlet Interview Questions"`
+- `servlet-tutorial_link_home | Link | Label: "Home"`
+- `servlet-tutorial_link_servlet | Link | Label: "Servlet"`
+- `servlet-tutorial_heading_these_are_topics_related_ | Heading | Label: "These are topics related to the article that might interest you"`
+- `servlet-tutorial_link_computer_servers | Link | Label: "Computer Servers"`
+- `servlet-tutorial_link_web_application | Link | Label: "web application"`
+- `servlet-tutorial_link_software | Link | Label: "Software"`
+- `servlet-tutorial_link_servletdiscgi | Link | Label: "Servletdiscgi"`
+- `servlet-tutorial_link_c | Link | Label: "C"`
+- `servlet-tutorial_link_perl | Link | Label: "perl"`
+- `servlet-tutorial_link_programming_languages | Link | Label: "programming languages"`
+- `servlet-tutorial_link_programming_language | Link | Label: "programming language"`
+- `servlet-tutorial_link_networking | Link | Label: "Networking"`
+- `servlet-tutorial_link_jvm | Link | Label: "JVM"`
+- `servlet-tutorial_link_what_is_servlet | Link | Label: "What is Servlet"`
+- `servlet-tutorial_link_1_cookies_in_servlet | Link | Label: "1) Cookies in Servlet"`
+- `servlet-tutorial_link_2_hidden_form_field | Link | Label: "2) Hidden Form Field"`
+- `servlet-tutorial_link_servletrequestevent | Link | Label: "ServletRequestEvent"`
+- `servlet-tutorial_link_servletcontext_attributee | Link | Label: "ServletContext AttributeEvent"`
+- `servlet-tutorial_link_httpsessionbindingevent | Link | Label: "HttpSessionBindingEvent"`
+- `servlet-tutorial_link_servletrequestattributeev | Link | Label: "ServletRequestAttributeEvent"`
+- `servlet-tutorial_link_crud_example | Link | Label: "CRUD Example"`
+- `servlet-tutorial_link_example_to_write_image | Link | Label: "Example to write image"`
+- `servlet-tutorial_link_uploading_file | Link | Label: "Uploading file"`
+- `servlet-tutorial_link_downloading_file | Link | Label: "Downloading file"`
+- `servlet-tutorial_link_login_example | Link | Label: "Login Example"`
+- `servlet-tutorial_link_next | Link | Label: "next →"`
+- `servlet-tutorial_textbox_email | Input | Placeholder: "Enter your email" / Label: "Your Email"`
+- `servlet-tutorial_button_subscribebtn | Button | Label: "Subscribe"`
+- `servlet-tutorial_link_hr_tpointtech_com | Link | Label: "hr@tpointtech.com"`
+- `servlet-tutorial_link_91_9599086977 | Link | Label: "+91-9599086977"`
+- `servlet-tutorial_link_idx_339 | Link | Label: ""`
+- `servlet-tutorial_link_idx_340 | Link | Label: ""`
+- `servlet-tutorial_link_idx_341 | Link | Label: ""`
+- `servlet-tutorial_link_idx_342 | Link | Label: ""`
+- `servlet-tutorial_link_idx_343 | Link | Label: ""`
+- `servlet-tutorial_link_idx_344 | Link | Label: ""`
+- `servlet-tutorial_link_data_structure_tutorial | Link | Label: "Data Structure Tutorial"`
+- `servlet-tutorial_link_c_programming_tutorial | Link | Label: "C Programming Tutorial"`
+- `servlet-tutorial_link_jquery_tutorial | Link | Label: "jQuery Tutorial"`
+- `servlet-tutorial_link_spring_tutorial | Link | Label: "Spring Tutorial"`
+- `servlet-tutorial_link_python_interview_question | Link | Label: "Python Interview Questions"`
+- `servlet-tutorial_link_java_interview_questions | Link | Label: "Java Interview Questions"`
+- `servlet-tutorial_link_data_structure_interview_ | Link | Label: "Data Structure Interview Questions"`
+- `servlet-tutorial_link_c_interview_questions | Link | Label: "C++ Interview Questions"`
+- `servlet-tutorial_link_html_interview_questions | Link | Label: "HTML Interview Questions"`
+- `servlet-tutorial_link_javascript_interview_ques | Link | Label: "JavaScript Interview Questions"`
+- `servlet-tutorial_link_jquery_interview_question | Link | Label: "jQuery Interview Questions"`
+- `servlet-tutorial_link_sql_interview_questions | Link | Label: "SQL Interview Questions"`
+- `servlet-tutorial_link_power_bi_interview_questi | Link | Label: "Power BI Interview Questions"`
+- `servlet-tutorial_link_online_c_compiler | Link | Label: "Online C Compiler"`
+- `servlet-tutorial_link_online_r_compiler | Link | Label: "Online R Compiler"`
+- `servlet-tutorial_link_online_php_compiler | Link | Label: "Online PHP Compiler"`
+- `servlet-tutorial_link_online_java_compiler | Link | Label: "Online Java Compiler"`
+- `servlet-tutorial_link_online_html_editor | Link | Label: "Online HTML Editor"`
+- `servlet-tutorial_link_online_swift_compiler | Link | Label: "Online Swift Compiler"`
+- `servlet-tutorial_link_online_python_compiler | Link | Label: "Online Python Compiler"`
+- `servlet-tutorial_link_online_javascript_editor | Link | Label: "Online JavaScript Editor"`
+- `servlet-tutorial_link_online_typescript_editor | Link | Label: "Online TypeScript Editor"`
+- `servlet-tutorial_link_latest_post | Link | Label: "Latest Post"`
+- `servlet-tutorial_link_tutorials_list | Link | Label: "Tutorials List"`
+- `servlet-tutorial_link_privacy_policy | Link | Label: "Privacy Policy"`
+- `servlet-tutorial_link_about_us | Link | Label: "About Us"`
+- `servlet-tutorial_link_contact_us | Link | Label: "Contact Us"`

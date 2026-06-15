@@ -1,0 +1,206 @@
+# Test Case: MODULE_javafx-tutorial | UI Verification and Navigation
+- **Preconditions**: User is on page https://www.tpointtech.com/javafx-tutorial
+- **Steps**:
+  1. Navigate to https://www.tpointtech.com/javafx-tutorial
+  2. Verify and click header navigation links: `javafx-tutorial_link_tutorials` (Element: Link, Label: "Tutorials"), `javafx-tutorial_link_interviews` (Element: Link, Label: "Interviews"), `javafx-tutorial_link_compilers` (Element: Link, Label: "Compilers")
+  3. Input "Python" into `javafx-tutorial_textbox_searchinput` (Element: Input, Label: "Search...", Placeholder: "Search...")
+  4. Click `javafx-tutorial_button_searchbtn` (Element: Button, Text: "Search") to execute search query
+  5. Click `javafx-tutorial_link_next` (Element: Link, Text: "next →") to navigate to the next page
+  6. Input "testuser@example.com" into `javafx-tutorial_textbox_email` (Element: Input, Label: "Your Email", Placeholder: "Enter your email")
+  7. Click `javafx-tutorial_button_subscribebtn` (Element: Button, Text: "Subscribe") to subscribe to newsletter
+  8. Scroll to footer and verify/click links: `javafx-tutorial_link_privacy_policy` (Element: Link, Label: "Privacy Policy"), `javafx-tutorial_link_about_us` (Element: Link, Label: "About Us"), `javafx-tutorial_link_contact_us` (Element: Link, Label: "Contact Us")
+- **Expected Result**: The page loads successfully, and all interactive elements are responsive. Navigation links load their target pages, search displays correct results, and form inputs function as expected.
+
+## Semantic References for Healing
+- `javafx-tutorial_link_idx_0 | Link | Label: ""`
+- `javafx-tutorial_textbox_searchinput | Input | Placeholder: "Search..." / Label: "Search..."`
+- `javafx-tutorial_button_searchbtn | Button | Label: "Search"`
+- `javafx-tutorial_link_tutorials | Link | Label: "Tutorials"`
+- `javafx-tutorial_link_interviews | Link | Label: "Interviews"`
+- `javafx-tutorial_link_compilers | Link | Label: "Compilers"`
+- `javafx-tutorial_div_idx_147 | Div | Label: ""`
+- `javafx-tutorial_div_idx_148 | Div | Label: ""`
+- `javafx-tutorial_div_idx_149 | Div | Label: ""`
+- `javafx-tutorial_div_idx_150 | Div | Label: ""`
+- `javafx-tutorial_div_idx_151 | Div | Label: ""`
+- `javafx-tutorial_button_idx_152 | Button | Label: ""`
+- `javafx-tutorial_link_python_tutorial | Link | Label: "Python Tutorial"`
+- `javafx-tutorial_link_java_tutorial | Link | Label: "Java Tutorial"`
+- `javafx-tutorial_link_javascript_tutorial | Link | Label: "JavaScript Tutorial"`
+- `javafx-tutorial_link_sql_tutorial | Link | Label: "SQL Tutorial"`
+- `javafx-tutorial_link_c_tutorial | Link | Label: "C Tutorial"`
+- `javafx-tutorial_link_html_tutorial | Link | Label: "HTML Tutorial"`
+- `javafx-tutorial_link_css_tutorial | Link | Label: "CSS Tutorial"`
+- `javafx-tutorial_link_react_tutorial | Link | Label: "React Tutorial"`
+- `javafx-tutorial_link_nodejs_tutorial | Link | Label: "NodeJS Tutorial"`
+- `javafx-tutorial_link_sprint_boot_tutorial | Link | Label: "Sprint Boot Tutorial"`
+- `javafx-tutorial_link_php_tutorial | Link | Label: "PHP Tutorial"`
+- `javafx-tutorial_link_mysql_tutorial | Link | Label: "MYSQL Tutorial"`
+- `javafx-tutorial_link_mongodb_tutorial | Link | Label: "MongoDB Tutorial"`
+- `javafx-tutorial_link_ai_tutorial | Link | Label: "AI Tutorial"`
+- `javafx-tutorial_link_machine_learning_tutorial | Link | Label: "Machine Learning Tutorial"`
+- `javafx-tutorial_link_dsa_tutorial | Link | Label: "DSA Tutorial"`
+- `javafx-tutorial_link_dbms_tutorial | Link | Label: "DBMS Tutorial"`
+- `javafx-tutorial_link_os_tutorial | Link | Label: "OS Tutorial"`
+- `javafx-tutorial_button_javafx_tutorial | Button | Label: "JavaFX Tutorial"`
+- `javafx-tutorial_link_javafx_tutorial | Link | Label: "JavaFX Tutorial"`
+- `javafx-tutorial_link_install_java | Link | Label: "Install Java"`
+- `javafx-tutorial_link_install_eclipse | Link | Label: "Install Eclipse"`
+- `javafx-tutorial_link_javafx_with_eclipse | Link | Label: "JavaFX with Eclipse"`
+- `javafx-tutorial_link_javafx_architecture | Link | Label: "JavaFX Architecture"`
+- `javafx-tutorial_link_application_structure | Link | Label: "Application Structure"`
+- `javafx-tutorial_link_first_javafx_application | Link | Label: "First JavaFX Application"`
+- `javafx-tutorial_button_javafx_2d_shapes | Button | Label: "JavaFX 2D Shapes"`
+- `javafx-tutorial_link_javafx_2d_shapes | Link | Label: "JavaFX 2D Shapes"`
+- `javafx-tutorial_link_shape_properties | Link | Label: "Shape properties"`
+- `javafx-tutorial_link_javafx_line | Link | Label: "JavaFX Line"`
+- `javafx-tutorial_link_javafx_rectangle | Link | Label: "JavaFX Rectangle"`
+- `javafx-tutorial_link_javafx_ellipse | Link | Label: "JavaFX Ellipse"`
+- `javafx-tutorial_link_javafx_arc | Link | Label: "JavaFX Arc"`
+- `javafx-tutorial_link_javafx_circle | Link | Label: "JavaFX Circle"`
+- `javafx-tutorial_link_javafx_polygons | Link | Label: "JavaFX Polygons"`
+- `javafx-tutorial_link_cubic_curve | Link | Label: "Cubic Curve"`
+- `javafx-tutorial_link_quad_curve | Link | Label: "Quad Curve"`
+- `javafx-tutorial_link_javafx_color | Link | Label: "JavaFX Color"`
+- `javafx-tutorial_link_gradient_color | Link | Label: "Gradient Color"`
+- `javafx-tutorial_button_javafx_text | Button | Label: "JavaFX Text"`
+- `javafx-tutorial_link_javafx_text | Link | Label: "JavaFX Text"`
+- `javafx-tutorial_button_javafx_effects | Button | Label: "JavaFX Effects"`
+- `javafx-tutorial_link_javafx_effects | Link | Label: "JavaFX Effects"`
+- `javafx-tutorial_link_javafx_coloradjust | Link | Label: "JavaFX ColorAdjust"`
+- `javafx-tutorial_link_javafx_colorinput | Link | Label: "JavaFX ColorInput"`
+- `javafx-tutorial_link_javafx_imageinput | Link | Label: "JavaFX ImageInput"`
+- `javafx-tutorial_link_javafx_blend | Link | Label: "JavaFX Blend"`
+- `javafx-tutorial_link_javafx_bloom | Link | Label: "JavaFX Bloom"`
+- `javafx-tutorial_link_javafx_glow | Link | Label: "JavaFX Glow"`
+- `javafx-tutorial_link_javafx_boxblur | Link | Label: "JavaFX BoxBlur"`
+- `javafx-tutorial_link_javafx_gaussianblur | Link | Label: "JavaFX GaussianBlur"`
+- `javafx-tutorial_link_javafx_motionblur | Link | Label: "JavaFX MotionBlur"`
+- `javafx-tutorial_link_javafx_reflection | Link | Label: "JavaFX Reflection"`
+- `javafx-tutorial_link_javafx_sepiatone | Link | Label: "JavaFX SepiaTone"`
+- `javafx-tutorial_link_javafx_shadow | Link | Label: "JavaFX Shadow"`
+- `javafx-tutorial_link_javafx_dropshadow | Link | Label: "JavaFX DropShadow"`
+- `javafx-tutorial_link_javafx_innershadow | Link | Label: "JavaFX InnerShadow"`
+- `javafx-tutorial_link_javafx_lighting | Link | Label: "JavaFX Lighting"`
+- `javafx-tutorial_link_javafx_light_distant | Link | Label: "JavaFX Light.Distant"`
+- `javafx-tutorial_link_javafx_light_spot | Link | Label: "JavaFX Light.Spot"`
+- `javafx-tutorial_link_javafx_light_point | Link | Label: "JavaFX Light.Point"`
+- `javafx-tutorial_button_javafx_transformation | Button | Label: "JavaFX Transformation"`
+- `javafx-tutorial_link_javafx_transformation | Link | Label: "JavaFX Transformation"`
+- `javafx-tutorial_link_javafx_translation | Link | Label: "JavaFX Translation"`
+- `javafx-tutorial_link_javafx_rotation | Link | Label: "JavaFX Rotation"`
+- `javafx-tutorial_link_javafx_scaling | Link | Label: "JavaFX Scaling"`
+- `javafx-tutorial_link_javafx_shearing | Link | Label: "JavaFX Shearing"`
+- `javafx-tutorial_link_multiple_transformations | Link | Label: "Multiple Transformations"`
+- `javafx-tutorial_button_javafx_animation | Button | Label: "JavaFX Animation"`
+- `javafx-tutorial_link_javafx_animation | Link | Label: "JavaFX Animation"`
+- `javafx-tutorial_link_javafx_rotate_transition | Link | Label: "JavaFX Rotate Transition"`
+- `javafx-tutorial_link_javafx_scale_transition | Link | Label: "JavaFX Scale Transition"`
+- `javafx-tutorial_link_javafx_translate_transiti | Link | Label: "JavaFX Translate Transition"`
+- `javafx-tutorial_link_javafx_fade_transition | Link | Label: "JavaFX Fade Transition"`
+- `javafx-tutorial_link_javafx_fill_transition | Link | Label: "JavaFX Fill Transition"`
+- `javafx-tutorial_link_javafx_stroke_transition | Link | Label: "JavaFX Stroke Transition"`
+- `javafx-tutorial_link_javafx_sequential_transit | Link | Label: "JavaFX Sequential Transition"`
+- `javafx-tutorial_link_javafx_parallel_transitio | Link | Label: "JavaFX Parallel Transition"`
+- `javafx-tutorial_link_javafx_pause_transition | Link | Label: "JavaFX Pause Transition"`
+- `javafx-tutorial_link_javafx_path_transition | Link | Label: "JavaFX Path Transition"`
+- `javafx-tutorial_button_javafx_3d_shapes | Button | Label: "JavaFX 3D Shapes"`
+- `javafx-tutorial_link_javafx_3d_shapes | Link | Label: "JavaFX 3D Shapes"`
+- `javafx-tutorial_link_3d_object_properties | Link | Label: "3D Object Properties"`
+- `javafx-tutorial_link_javafx_box | Link | Label: "JavaFX Box"`
+- `javafx-tutorial_link_javafx_cylinder | Link | Label: "JavaFX Cylinder"`
+- `javafx-tutorial_link_javafx_sphere | Link | Label: "JavaFX Sphere"`
+- `javafx-tutorial_button_javafx_layouts | Button | Label: "JavaFX Layouts"`
+- `javafx-tutorial_link_javafx_layouts | Link | Label: "JavaFX Layouts"`
+- `javafx-tutorial_link_javafx_borderpane | Link | Label: "JavaFX BorderPane"`
+- `javafx-tutorial_link_javafx_hbox | Link | Label: "JavaFX HBox"`
+- `javafx-tutorial_link_javafx_vbox | Link | Label: "JavaFX VBox"`
+- `javafx-tutorial_link_javafx_stackpane | Link | Label: "JavaFX StackPane"`
+- `javafx-tutorial_link_javafx_gridpane | Link | Label: "JavaFX GridPane"`
+- `javafx-tutorial_link_javafx_flowpane | Link | Label: "JavaFX FlowPane"`
+- `javafx-tutorial_button_javafx_ui | Button | Label: "JavaFX UI"`
+- `javafx-tutorial_link_javafx_ui_controls | Link | Label: "JavaFX UI Controls"`
+- `javafx-tutorial_link_javafx_label | Link | Label: "JavaFX Label"`
+- `javafx-tutorial_link_javafx_buttons | Link | Label: "JavaFX Buttons"`
+- `javafx-tutorial_link_javafx_radiobutton | Link | Label: "JavaFX RadioButton"`
+- `javafx-tutorial_link_javafx_checkbox | Link | Label: "JavaFX CheckBox"`
+- `javafx-tutorial_link_javafx_textfield | Link | Label: "JavaFX TextField"`
+- `javafx-tutorial_link_javafx_passwordfield | Link | Label: "JavaFX PasswordField"`
+- `javafx-tutorial_link_javafx_hyperlink | Link | Label: "JavaFX Hyperlink"`
+- `javafx-tutorial_link_javafx_slider | Link | Label: "JavaFX Slider"`
+- `javafx-tutorial_link_javafx_progressbar | Link | Label: "JavaFX ProgressBar"`
+- `javafx-tutorial_link_progress_indicator | Link | Label: "Progress Indicator"`
+- `javafx-tutorial_link_javafx_scrollbar | Link | Label: "JavaFX ScrollBar"`
+- `javafx-tutorial_link_javafx_filechooser | Link | Label: "JavaFX FileChooser"`
+- `javafx-tutorial_link_javafx_menu | Link | Label: "JavaFX Menu"`
+- `javafx-tutorial_link_javafx_tooltip | Link | Label: "JavaFX Tooltip"`
+- `javafx-tutorial_button_javafx_charts | Button | Label: "JavaFX Charts"`
+- `javafx-tutorial_link_javafx_charts | Link | Label: "JavaFX Charts"`
+- `javafx-tutorial_link_javafx_pie_chart | Link | Label: "JavaFX Pie Chart"`
+- `javafx-tutorial_link_javafx_line_chart | Link | Label: "JavaFX Line Chart"`
+- `javafx-tutorial_link_javafx_area_chart | Link | Label: "JavaFX Area Chart"`
+- `javafx-tutorial_link_javafx_bar_chart | Link | Label: "JavaFX Bar Chart"`
+- `javafx-tutorial_link_javafx_bubble_chart | Link | Label: "JavaFX Bubble Chart"`
+- `javafx-tutorial_link_javafx_scatter_chart | Link | Label: "JavaFX Scatter Chart"`
+- `javafx-tutorial_link_stacked_area_chart | Link | Label: "Stacked Area Chart"`
+- `javafx-tutorial_link_stacked_bar_chart | Link | Label: "Stacked Bar Chart"`
+- `javafx-tutorial_button_javafx_css | Button | Label: "JavaFX CSS"`
+- `javafx-tutorial_link_javafx_css | Link | Label: "JavaFX CSS"`
+- `javafx-tutorial_button_media_with_javafx | Button | Label: "Media with JavaFX"`
+- `javafx-tutorial_link_media_with_javafx | Link | Label: "Media with JavaFX"`
+- `javafx-tutorial_link_javafx_playing_audio | Link | Label: "JavaFX Playing Audio"`
+- `javafx-tutorial_link_javafx_playing_video | Link | Label: "JavaFX Playing Video"`
+- `javafx-tutorial_button_javafx_event_handling | Button | Label: "JavaFX Event Handling"`
+- `javafx-tutorial_link_javafx_event_handling | Link | Label: "JavaFX Event Handling"`
+- `javafx-tutorial_link_javafx_convenience_method | Link | Label: "JavaFX Convenience methods"`
+- `javafx-tutorial_link_javafx_event_filters | Link | Label: "JavaFX Event Filters"`
+- `javafx-tutorial_link_javafx_event_handlers | Link | Label: "JavaFX Event Handlers"`
+- `javafx-tutorial_link_home | Link | Label: "Home"`
+- `javafx-tutorial_link_javafx | Link | Label: "JavaFX"`
+- `javafx-tutorial_heading_these_are_topics_related_ | Heading | Label: "These are topics related to the article that might interest you"`
+- `javafx-tutorial_link_programming | Link | Label: "Programming"`
+- `javafx-tutorial_link_computer_science | Link | Label: "Computer Science"`
+- `javafx-tutorial_link_computers_electronics | Link | Label: "Computers & Electronics"`
+- `javafx-tutorial_link_desktops | Link | Label: "Desktops"`
+- `javafx-tutorial_link_graphics_animation_softwa | Link | Label: "Graphics & Animation Software"`
+- `javafx-tutorial_link_desktop | Link | Label: "desktop"`
+- `javafx-tutorial_link_javafx_button | Link | Label: "JavaFX Button"`
+- `javafx-tutorial_link_javafx_how_to_install_jav | Link | Label: "JavaFX How to Install Java"`
+- `javafx-tutorial_link_next | Link | Label: "next →"`
+- `javafx-tutorial_textbox_email | Input | Placeholder: "Enter your email" / Label: "Your Email"`
+- `javafx-tutorial_button_subscribebtn | Button | Label: "Subscribe"`
+- `javafx-tutorial_link_hr_tpointtech_com | Link | Label: "hr@tpointtech.com"`
+- `javafx-tutorial_link_91_9599086977 | Link | Label: "+91-9599086977"`
+- `javafx-tutorial_link_idx_403 | Link | Label: ""`
+- `javafx-tutorial_link_idx_404 | Link | Label: ""`
+- `javafx-tutorial_link_idx_405 | Link | Label: ""`
+- `javafx-tutorial_link_idx_406 | Link | Label: ""`
+- `javafx-tutorial_link_idx_407 | Link | Label: ""`
+- `javafx-tutorial_link_idx_408 | Link | Label: ""`
+- `javafx-tutorial_link_data_structure_tutorial | Link | Label: "Data Structure Tutorial"`
+- `javafx-tutorial_link_c_programming_tutorial | Link | Label: "C Programming Tutorial"`
+- `javafx-tutorial_link_jquery_tutorial | Link | Label: "jQuery Tutorial"`
+- `javafx-tutorial_link_spring_tutorial | Link | Label: "Spring Tutorial"`
+- `javafx-tutorial_link_python_interview_question | Link | Label: "Python Interview Questions"`
+- `javafx-tutorial_link_java_interview_questions | Link | Label: "Java Interview Questions"`
+- `javafx-tutorial_link_data_structure_interview_ | Link | Label: "Data Structure Interview Questions"`
+- `javafx-tutorial_link_c_interview_questions | Link | Label: "C++ Interview Questions"`
+- `javafx-tutorial_link_html_interview_questions | Link | Label: "HTML Interview Questions"`
+- `javafx-tutorial_link_javascript_interview_ques | Link | Label: "JavaScript Interview Questions"`
+- `javafx-tutorial_link_jquery_interview_question | Link | Label: "jQuery Interview Questions"`
+- `javafx-tutorial_link_sql_interview_questions | Link | Label: "SQL Interview Questions"`
+- `javafx-tutorial_link_power_bi_interview_questi | Link | Label: "Power BI Interview Questions"`
+- `javafx-tutorial_link_online_c_compiler | Link | Label: "Online C Compiler"`
+- `javafx-tutorial_link_online_r_compiler | Link | Label: "Online R Compiler"`
+- `javafx-tutorial_link_online_php_compiler | Link | Label: "Online PHP Compiler"`
+- `javafx-tutorial_link_online_java_compiler | Link | Label: "Online Java Compiler"`
+- `javafx-tutorial_link_online_html_editor | Link | Label: "Online HTML Editor"`
+- `javafx-tutorial_link_online_swift_compiler | Link | Label: "Online Swift Compiler"`
+- `javafx-tutorial_link_online_python_compiler | Link | Label: "Online Python Compiler"`
+- `javafx-tutorial_link_online_javascript_editor | Link | Label: "Online JavaScript Editor"`
+- `javafx-tutorial_link_online_typescript_editor | Link | Label: "Online TypeScript Editor"`
+- `javafx-tutorial_link_latest_post | Link | Label: "Latest Post"`
+- `javafx-tutorial_link_tutorials_list | Link | Label: "Tutorials List"`
+- `javafx-tutorial_link_privacy_policy | Link | Label: "Privacy Policy"`
+- `javafx-tutorial_link_about_us | Link | Label: "About Us"`
+- `javafx-tutorial_link_contact_us | Link | Label: "Contact Us"`

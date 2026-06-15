@@ -1,0 +1,597 @@
+# Test Case: MODULE_ado-net-tutorial | UI Verification and Navigation
+- **Preconditions**: User is on page https://www.tpointtech.com/ado-net-tutorial
+- **Steps**:
+  1. Navigate to https://www.tpointtech.com/ado-net-tutorial
+  2. Verify and click header navigation links: `ado-net-tutorial_link_tutorials` (Element: Link, Label: "Tutorials"), `ado-net-tutorial_link_interviews` (Element: Link, Label: "Interviews"), `ado-net-tutorial_link_compilers` (Element: Link, Label: "Compilers")
+  3. Input "Python" into `ado-net-tutorial_textbox_searchinput` (Element: Input, Label: "Search...", Placeholder: "Search...")
+  4. Click `ado-net-tutorial_button_searchbtn` (Element: Button, Text: "Search") to execute search query
+  5. Click `ado-net-tutorial_link_next` (Element: Link, Text: "next →") to navigate to the next page
+  6. Input "testuser@example.com" into `ado-net-tutorial_textbox_email` (Element: Input, Label: "Your Email", Placeholder: "Enter your email")
+  7. Click `ado-net-tutorial_button_subscribebtn` (Element: Button, Text: "Subscribe") to subscribe to newsletter
+  8. Scroll to footer and verify/click links: `ado-net-tutorial_link_privacy_policy` (Element: Link, Label: "Privacy Policy"), `ado-net-tutorial_link_about_us` (Element: Link, Label: "About Us"), `ado-net-tutorial_link_contact_us` (Element: Link, Label: "Contact Us")
+- **Expected Result**: The page loads successfully, and all interactive elements are responsive. Navigation links load their target pages, search displays correct results, and form inputs function as expected.
+
+## Semantic References for Healing
+- `ado-net-tutorial_link_idx_0 | Link | Label: ""`
+- `ado-net-tutorial_textbox_searchinput | Input | Placeholder: "Search..." / Label: "Search..."`
+- `ado-net-tutorial_button_searchbtn | Button | Label: "Search"`
+- `ado-net-tutorial_link_tutorials | Link | Label: "Tutorials"`
+- `ado-net-tutorial_link_interviews | Link | Label: "Interviews"`
+- `ado-net-tutorial_link_compilers | Link | Label: "Compilers"`
+- `ado-net-tutorial_div_idx_147 | Div | Label: ""`
+- `ado-net-tutorial_div_idx_148 | Div | Label: ""`
+- `ado-net-tutorial_div_idx_149 | Div | Label: ""`
+- `ado-net-tutorial_div_idx_150 | Div | Label: ""`
+- `ado-net-tutorial_div_idx_151 | Div | Label: ""`
+- `ado-net-tutorial_button_idx_152 | Button | Label: ""`
+- `ado-net-tutorial_link_python_tutorial | Link | Label: "Python Tutorial"`
+- `ado-net-tutorial_link_java_tutorial | Link | Label: "Java Tutorial"`
+- `ado-net-tutorial_link_javascript_tutorial | Link | Label: "JavaScript Tutorial"`
+- `ado-net-tutorial_link_sql_tutorial | Link | Label: "SQL Tutorial"`
+- `ado-net-tutorial_link_c_tutorial | Link | Label: "C Tutorial"`
+- `ado-net-tutorial_link_html_tutorial | Link | Label: "HTML Tutorial"`
+- `ado-net-tutorial_link_css_tutorial | Link | Label: "CSS Tutorial"`
+- `ado-net-tutorial_link_react_tutorial | Link | Label: "React Tutorial"`
+- `ado-net-tutorial_link_nodejs_tutorial | Link | Label: "NodeJS Tutorial"`
+- `ado-net-tutorial_link_sprint_boot_tutorial | Link | Label: "Sprint Boot Tutorial"`
+- `ado-net-tutorial_link_php_tutorial | Link | Label: "PHP Tutorial"`
+- `ado-net-tutorial_link_mysql_tutorial | Link | Label: "MYSQL Tutorial"`
+- `ado-net-tutorial_link_mongodb_tutorial | Link | Label: "MongoDB Tutorial"`
+- `ado-net-tutorial_link_ai_tutorial | Link | Label: "AI Tutorial"`
+- `ado-net-tutorial_link_machine_learning_tutorial | Link | Label: "Machine Learning Tutorial"`
+- `ado-net-tutorial_link_dsa_tutorial | Link | Label: "DSA Tutorial"`
+- `ado-net-tutorial_link_dbms_tutorial | Link | Label: "DBMS Tutorial"`
+- `ado-net-tutorial_link_os_tutorial | Link | Label: "OS Tutorial"`
+- `ado-net-tutorial_button_net_framework | Button | Label: ".Net Framework"`
+- `ado-net-tutorial_link_net_framework | Link | Label: ".NET Framework"`
+- `ado-net-tutorial_link_clr | Link | Label: "CLR"`
+- `ado-net-tutorial_link_fcl | Link | Label: "FCL"`
+- `ado-net-tutorial_link_managed_code_and_unmanage | Link | Label: "Managed code and Unmanaged code in .NET"`
+- `ado-net-tutorial_button_c_tutorial | Button | Label: "C# Tutorial"`
+- `ado-net-tutorial_link_java_vs_c | Link | Label: "Java vs C#"`
+- `ado-net-tutorial_link_c_history | Link | Label: "C# History"`
+- `ado-net-tutorial_link_c_features | Link | Label: "C# Features"`
+- `ado-net-tutorial_link_c_example | Link | Label: "C# Example"`
+- `ado-net-tutorial_link_c_variables | Link | Label: "C# Variables"`
+- `ado-net-tutorial_link_c_data_types | Link | Label: "C# Data Types"`
+- `ado-net-tutorial_link_c_operators | Link | Label: "C# Operators"`
+- `ado-net-tutorial_link_c_keywords | Link | Label: "C# Keywords"`
+- `ado-net-tutorial_button_c_control_statement | Button | Label: "C# Control Statement"`
+- `ado-net-tutorial_link_c_if_else | Link | Label: "C# if-else"`
+- `ado-net-tutorial_link_c_switch | Link | Label: "C# switch"`
+- `ado-net-tutorial_link_c_for_loop | Link | Label: "C# For Loop"`
+- `ado-net-tutorial_link_c_while_loop | Link | Label: "C# While Loop"`
+- `ado-net-tutorial_link_c_do_while_loop | Link | Label: "C# Do-While Loop"`
+- `ado-net-tutorial_link_c_break | Link | Label: "C# Break"`
+- `ado-net-tutorial_link_c_continue | Link | Label: "C# Continue"`
+- `ado-net-tutorial_link_c_goto | Link | Label: "C# Goto"`
+- `ado-net-tutorial_link_c_comments | Link | Label: "C# Comments"`
+- `ado-net-tutorial_button_c_function | Button | Label: "C# Function"`
+- `ado-net-tutorial_link_c_function | Link | Label: "C# Function"`
+- `ado-net-tutorial_link_c_call_by_value | Link | Label: "C# Call By Value"`
+- `ado-net-tutorial_link_c_call_by_reference | Link | Label: "C# Call By Reference"`
+- `ado-net-tutorial_link_c_out_parameter | Link | Label: "C# Out Parameter"`
+- `ado-net-tutorial_button_c_arrays | Button | Label: "C# Arrays"`
+- `ado-net-tutorial_link_c_arrays | Link | Label: "C# Arrays"`
+- `ado-net-tutorial_link_c_array_to_function | Link | Label: "C# Array to Function"`
+- `ado-net-tutorial_link_c_multidimensional_array | Link | Label: "C# Multidimensional Array"`
+- `ado-net-tutorial_link_c_jagged_arrays | Link | Label: "C# Jagged Arrays"`
+- `ado-net-tutorial_link_c_params | Link | Label: "C# Params"`
+- `ado-net-tutorial_link_c_array_class | Link | Label: "C# Array class"`
+- `ado-net-tutorial_link_c_command_line_args | Link | Label: "C# Command Line Args"`
+- `ado-net-tutorial_button_c_object_class | Button | Label: "C# Object Class"`
+- `ado-net-tutorial_link_c_object_and_class | Link | Label: "C# Object and Class"`
+- `ado-net-tutorial_link_c_constructor | Link | Label: "C# Constructor"`
+- `ado-net-tutorial_link_c_destructor | Link | Label: "C# Destructor"`
+- `ado-net-tutorial_link_c_this | Link | Label: "C# this"`
+- `ado-net-tutorial_link_c_static | Link | Label: "C# static"`
+- `ado-net-tutorial_link_c_static_class | Link | Label: "C# static class"`
+- `ado-net-tutorial_link_c_static_constructor | Link | Label: "C# static constructor"`
+- `ado-net-tutorial_link_c_structs | Link | Label: "C# Structs"`
+- `ado-net-tutorial_link_c_enum | Link | Label: "C# Enum"`
+- `ado-net-tutorial_button_c_properties | Button | Label: "C# Properties"`
+- `ado-net-tutorial_link_c_properties | Link | Label: "C# Properties"`
+- `ado-net-tutorial_button_c_inheritance | Button | Label: "C# Inheritance"`
+- `ado-net-tutorial_link_c_inheritance | Link | Label: "C# Inheritance"`
+- `ado-net-tutorial_link_c_aggregation | Link | Label: "C# Aggregation"`
+- `ado-net-tutorial_button_c_polymorphism | Button | Label: "C# Polymorphism"`
+- `ado-net-tutorial_link_c_method_overloading | Link | Label: "C# Method Overloading"`
+- `ado-net-tutorial_link_c_method_overriding | Link | Label: "C# Method Overriding"`
+- `ado-net-tutorial_link_c_base | Link | Label: "C# Base"`
+- `ado-net-tutorial_link_polymorphism_in_c | Link | Label: "Polymorphism in C#"`
+- `ado-net-tutorial_link_c_sealed | Link | Label: "C# Sealed"`
+- `ado-net-tutorial_button_c_abstraction | Button | Label: "C# Abstraction"`
+- `ado-net-tutorial_link_c_abstraction | Link | Label: "C# Abstraction"`
+- `ado-net-tutorial_link_abstract_class_in_c | Link | Label: "Abstract class in C#"`
+- `ado-net-tutorial_link_c_interface | Link | Label: "C# Interface"`
+- `ado-net-tutorial_button_c_namespace | Button | Label: "C# Namespace"`
+- `ado-net-tutorial_link_c_namespaces | Link | Label: "C# Namespaces"`
+- `ado-net-tutorial_link_c_access_modifiers | Link | Label: "C# Access Modifiers"`
+- `ado-net-tutorial_link_c_encapsulation | Link | Label: "C# Encapsulation"`
+- `ado-net-tutorial_button_c_strings | Button | Label: "C# Strings"`
+- `ado-net-tutorial_link_c_strings | Link | Label: "C# Strings"`
+- `ado-net-tutorial_button_c_exception_handling | Button | Label: "C# Exception Handling"`
+- `ado-net-tutorial_link_c_exception_handling | Link | Label: "C# Exception Handling"`
+- `ado-net-tutorial_link_c_try_catch | Link | Label: "C# try/catch"`
+- `ado-net-tutorial_link_c_finally | Link | Label: "C# finally"`
+- `ado-net-tutorial_link_c_custom_exception | Link | Label: "C# Custom Exception"`
+- `ado-net-tutorial_link_c_checked_unchecked | Link | Label: "C# checked unchecked"`
+- `ado-net-tutorial_link_c_systemexception | Link | Label: "C# SystemException"`
+- `ado-net-tutorial_button_c_file_io | Button | Label: "C# File IO"`
+- `ado-net-tutorial_link_c_filestream | Link | Label: "C# FileStream"`
+- `ado-net-tutorial_link_c_streamwriter | Link | Label: "C# StreamWriter"`
+- `ado-net-tutorial_link_c_streamreader | Link | Label: "C# StreamReader"`
+- `ado-net-tutorial_link_c_textwriter | Link | Label: "C# TextWriter"`
+- `ado-net-tutorial_link_c_textreader | Link | Label: "C# TextReader"`
+- `ado-net-tutorial_link_c_binarywriter | Link | Label: "C# BinaryWriter"`
+- `ado-net-tutorial_link_c_binaryreader | Link | Label: "C# BinaryReader"`
+- `ado-net-tutorial_link_c_stringwriter | Link | Label: "C# StringWriter"`
+- `ado-net-tutorial_link_c_stringreader | Link | Label: "C# StringReader"`
+- `ado-net-tutorial_link_c_fileinfo | Link | Label: "C# FileInfo"`
+- `ado-net-tutorial_link_c_directoryinfo | Link | Label: "C# DirectoryInfo"`
+- `ado-net-tutorial_link_c_serialization | Link | Label: "C# Serialization"`
+- `ado-net-tutorial_link_c_deserialization | Link | Label: "C# Deserialization"`
+- `ado-net-tutorial_link_c_system_io | Link | Label: "C# System.IO"`
+- `ado-net-tutorial_button_c_collections | Button | Label: "C# Collections"`
+- `ado-net-tutorial_link_c_collections | Link | Label: "C# Collections"`
+- `ado-net-tutorial_link_c_list | Link | Label: "C# List"`
+- `ado-net-tutorial_link_c_hashset | Link | Label: "C# HashSet"`
+- `ado-net-tutorial_link_c_sortedset | Link | Label: "C# SortedSet"`
+- `ado-net-tutorial_link_c_stack | Link | Label: "C# Stack"`
+- `ado-net-tutorial_link_c_queue | Link | Label: "C# Queue"`
+- `ado-net-tutorial_link_c_linkedlist | Link | Label: "C# LinkedList"`
+- `ado-net-tutorial_link_c_dictionary | Link | Label: "C# Dictionary"`
+- `ado-net-tutorial_link_c_sorteddictionary | Link | Label: "C# SortedDictionary"`
+- `ado-net-tutorial_link_c_sortedlist | Link | Label: "C# SortedList"`
+- `ado-net-tutorial_button_c_generics | Button | Label: "C# Generics"`
+- `ado-net-tutorial_link_c_generics | Link | Label: "C# Generics"`
+- `ado-net-tutorial_button_c_delegates | Button | Label: "C# Delegates"`
+- `ado-net-tutorial_link_c_delegates | Link | Label: "C# Delegates"`
+- `ado-net-tutorial_button_c_reflection | Button | Label: "C# Reflection"`
+- `ado-net-tutorial_link_c_reflection | Link | Label: "C# Reflection"`
+- `ado-net-tutorial_button_anonymous_function | Button | Label: "Anonymous Function"`
+- `ado-net-tutorial_link_anonymous_function | Link | Label: "Anonymous Function"`
+- `ado-net-tutorial_button_c_multithreading | Button | Label: "C# Multithreading"`
+- `ado-net-tutorial_link_c_multithreading | Link | Label: "C# Multithreading"`
+- `ado-net-tutorial_link_c_thread_life_cycle | Link | Label: "C# Thread Life Cycle"`
+- `ado-net-tutorial_link_c_thread_class | Link | Label: "C# Thread class"`
+- `ado-net-tutorial_link_c_main_thread | Link | Label: "C# Main Thread"`
+- `ado-net-tutorial_link_c_thread_example | Link | Label: "C# Thread Example"`
+- `ado-net-tutorial_link_c_thread_sleep | Link | Label: "C# Thread Sleep"`
+- `ado-net-tutorial_link_c_thread_abort | Link | Label: "C# Thread Abort"`
+- `ado-net-tutorial_link_c_thread_join | Link | Label: "C# Thread Join"`
+- `ado-net-tutorial_link_c_thread_name | Link | Label: "C# Thread Name"`
+- `ado-net-tutorial_link_c_threadpriority | Link | Label: "C# ThreadPriority"`
+- `ado-net-tutorial_button_c_synchronization | Button | Label: "C# Synchronization"`
+- `ado-net-tutorial_link_c_synchronization | Link | Label: "C# Synchronization"`
+- `ado-net-tutorial_button_c_advanced_topics | Button | Label: "C# Advanced Topics"`
+- `ado-net-tutorial_link_design_patterns_in_c | Link | Label: "Design Patterns in C#"`
+- `ado-net-tutorial_link_dependency_injection_in_c | Link | Label: "Dependency Injection in C#"`
+- `ado-net-tutorial_button_c_2_0 | Button | Label: "C# 2.0"`
+- `ado-net-tutorial_link_partial_types | Link | Label: "Partial types"`
+- `ado-net-tutorial_link_iterators | Link | Label: "Iterators"`
+- `ado-net-tutorial_link_nullable_types | Link | Label: "Nullable types"`
+- `ado-net-tutorial_link_delegate_covariance | Link | Label: "Delegate Covariance"`
+- `ado-net-tutorial_link_delegate_inference | Link | Label: "Delegate inference"`
+- `ado-net-tutorial_link_static_classes | Link | Label: "Static classes"`
+- `ado-net-tutorial_button_c_3_0 | Button | Label: "C# 3.0"`
+- `ado-net-tutorial_link_anonymous_types | Link | Label: "Anonymous types"`
+- `ado-net-tutorial_link_extension_methods | Link | Label: "Extension methods"`
+- `ado-net-tutorial_link_query_expression | Link | Label: "Query expression"`
+- `ado-net-tutorial_link_partial_method | Link | Label: "Partial method"`
+- `ado-net-tutorial_link_implicitly_typed_local_va | Link | Label: "Implicitly typed local variables"`
+- `ado-net-tutorial_link_object_and_collection_ini | Link | Label: "Object and collection initializers"`
+- `ado-net-tutorial_link_auto_implemented_properti | Link | Label: "Auto-Implemented properties"`
+- `ado-net-tutorial_button_c_4_0 | Button | Label: "C# 4.0"`
+- `ado-net-tutorial_link_dynamic_binding | Link | Label: "Dynamic binding"`
+- `ado-net-tutorial_link_named_and_optional_argume | Link | Label: "Named and optional arguments"`
+- `ado-net-tutorial_button_c_5_0 | Button | Label: "C# 5.0"`
+- `ado-net-tutorial_link_asynchronous_methods | Link | Label: "Asynchronous methods"`
+- `ado-net-tutorial_link_caller_info_attributes | Link | Label: "Caller info attributes"`
+- `ado-net-tutorial_button_c_6_0 | Button | Label: "C# 6.0"`
+- `ado-net-tutorial_link_using_static_directive | Link | Label: "Using static directive"`
+- `ado-net-tutorial_link_exception_filters | Link | Label: "Exception filters"`
+- `ado-net-tutorial_link_await_in_catch_finally_bl | Link | Label: "Await in catch/finally blocks"`
+- `ado-net-tutorial_link_auto_property_initializer | Link | Label: "Auto property initializers"`
+- `ado-net-tutorial_link_default_values_for_getter | Link | Label: "Default values for getter-only properties"`
+- `ado-net-tutorial_link_expression_bodied_members | Link | Label: "Expression-bodied members"`
+- `ado-net-tutorial_link_null_propagator | Link | Label: "Null propagator"`
+- `ado-net-tutorial_link_string_interpolation | Link | Label: "String interpolation"`
+- `ado-net-tutorial_link_nameof_operator | Link | Label: "Nameof operator"`
+- `ado-net-tutorial_link_dictionary_initializer | Link | Label: "Dictionary initializer"`
+- `ado-net-tutorial_button_c_7_0 | Button | Label: "C# 7.0"`
+- `ado-net-tutorial_link_pattern_matching | Link | Label: "Pattern matching"`
+- `ado-net-tutorial_link_tuples | Link | Label: "Tuples"`
+- `ado-net-tutorial_link_deconstruction | Link | Label: "Deconstruction"`
+- `ado-net-tutorial_link_local_functions | Link | Label: "Local functions"`
+- `ado-net-tutorial_link_digit_separator | Link | Label: "Digit separator"`
+- `ado-net-tutorial_link_binary_literals | Link | Label: "Binary literals"`
+- `ado-net-tutorial_link_ref_returns_and_locals | Link | Label: "Ref returns and locals"`
+- `ado-net-tutorial_link_expression_bodied_constru | Link | Label: "Expression bodied constructors and finalizers"`
+- `ado-net-tutorial_link_expression_bodied_getters | Link | Label: "Expression bodied getters and setters"`
+- `ado-net-tutorial_link_out_variables | Link | Label: "Out variables"`
+- `ado-net-tutorial_button_c_7_1 | Button | Label: "C# 7.1"`
+- `ado-net-tutorial_link_async_main | Link | Label: "Async main"`
+- `ado-net-tutorial_link_default_expressions | Link | Label: "Default expressions"`
+- `ado-net-tutorial_button_c_programs | Button | Label: "C# Programs"`
+- `ado-net-tutorial_link_c_programs | Link | Label: "C# Programs"`
+- `ado-net-tutorial_link_fibonacci_series | Link | Label: "Fibonacci Series"`
+- `ado-net-tutorial_link_prime_number | Link | Label: "Prime Number"`
+- `ado-net-tutorial_link_palindrome_number | Link | Label: "Palindrome Number"`
+- `ado-net-tutorial_link_factorial | Link | Label: "Factorial"`
+- `ado-net-tutorial_link_armstrong_number | Link | Label: "Armstrong Number"`
+- `ado-net-tutorial_link_sum_of_digits | Link | Label: "Sum of digits"`
+- `ado-net-tutorial_link_c_program_to_reverse_numb | Link | Label: "C# Program to Reverse Number"`
+- `ado-net-tutorial_link_swap_number | Link | Label: "Swap Number"`
+- `ado-net-tutorial_link_decimal_to_binary | Link | Label: "Decimal to Binary"`
+- `ado-net-tutorial_link_number_in_characters | Link | Label: "Number in Characters"`
+- `ado-net-tutorial_link_alphabet_triangle | Link | Label: "Alphabet Triangle"`
+- `ado-net-tutorial_link_number_triangle | Link | Label: "Number Triangle"`
+- `ado-net-tutorial_link_fibonacci_triangle | Link | Label: "Fibonacci Triangle"`
+- `ado-net-tutorial_button_c_interview_questions | Button | Label: "C# Interview Questions"`
+- `ado-net-tutorial_link_c_interview_questions | Link | Label: "C# Interview Questions"`
+- `ado-net-tutorial_button_c_misc | Button | Label: "C# Misc"`
+- `ado-net-tutorial_link_events_in_c | Link | Label: "Events in C#"`
+- `ado-net-tutorial_link_regular_expression_in_c | Link | Label: "Regular Expression in C#"`
+- `ado-net-tutorial_link_datetime_in_c | Link | Label: "DateTime in C#"`
+- `ado-net-tutorial_link_type_casting_in_c | Link | Label: "Type Casting in C#"`
+- `ado-net-tutorial_link_listbox_control_in_c | Link | Label: "ListBox Control in C#"`
+- `ado-net-tutorial_link_c_readline_method | Link | Label: "C# ReadLine() Method"`
+- `ado-net-tutorial_link_c_operator_overloading | Link | Label: "C# Operator Overloading"`
+- `ado-net-tutorial_link_3_tier_architecture_in_c | Link | Label: "3-tier architecture in c#"`
+- `ado-net-tutorial_link_c_custom_attribute | Link | Label: "C# Custom Attribute"`
+- `ado-net-tutorial_link_c_game_development | Link | Label: "C# Game Development"`
+- `ado-net-tutorial_link_c_rename_file | Link | Label: "C# Rename File"`
+- `ado-net-tutorial_link_c_validate_email | Link | Label: "C# Validate Email"`
+- `ado-net-tutorial_link_c_webclient | Link | Label: "C# WebClient"`
+- `ado-net-tutorial_link_c_xml_parser | Link | Label: "C# XML Parser"`
+- `ado-net-tutorial_link_parse_json_in_c | Link | Label: "Parse JSON in C#"`
+- `ado-net-tutorial_link_priority_queue_c | Link | Label: "Priority Queue C#"`
+- `ado-net-tutorial_link_restclient_c | Link | Label: "RestClient C#"`
+- `ado-net-tutorial_link_shadowing_in_c | Link | Label: "Shadowing in C#"`
+- `ado-net-tutorial_link_task_vs_thread_c | Link | Label: "Task vs Thread C#"`
+- `ado-net-tutorial_link_unmanaged_code_in_c | Link | Label: "Unmanaged Code in C#"`
+- `ado-net-tutorial_link_c_socket_programming | Link | Label: "C# Socket Programming"`
+- `ado-net-tutorial_link_c_unit_test_framework | Link | Label: "C# Unit Test Framework"`
+- `ado-net-tutorial_link_convert_datatable_to_list | Link | Label: "Convert DataTable to List in C#"`
+- `ado-net-tutorial_link_escape_sequence_in_c | Link | Label: "Escape Sequence in C#"`
+- `ado-net-tutorial_link_nhibernate_c | Link | Label: "NHibernate C#"`
+- `ado-net-tutorial_link_any_in_c | Link | Label: "'any' in C#"`
+- `ado-net-tutorial_link_advanced_c | Link | Label: "Advanced C#"`
+- `ado-net-tutorial_link_aes_encryption_c | Link | Label: "AES Encryption C#"`
+- `ado-net-tutorial_link_what_is_dll_in_c | Link | Label: "What is DLL in C#"`
+- `ado-net-tutorial_link_gridview_c | Link | Label: "GridView C#"`
+- `ado-net-tutorial_link_html_encode_c | Link | Label: "HTML Encode C#"`
+- `ado-net-tutorial_link_html_to_pdf_c | Link | Label: "HTML to PDF C#"`
+- `ado-net-tutorial_link_msdn_c | Link | Label: "MSDN C#"`
+- `ado-net-tutorial_link_net_architecture_in_c | Link | Label: "NET Architecture in C#"`
+- `ado-net-tutorial_link_c_books_for_beginners | Link | Label: "C# Books for Beginners"`
+- `ado-net-tutorial_link_orm_c | Link | Label: "ORM C#"`
+- `ado-net-tutorial_link_signalr_in_c | Link | Label: "SignalR in C#"`
+- `ado-net-tutorial_link_throw_vs_throw_ex_c | Link | Label: "throw vs throw ex C#"`
+- `ado-net-tutorial_link_c_marshal | Link | Label: "C# Marshal"`
+- `ado-net-tutorial_link_c_regex_tester | Link | Label: "C# Regex Tester"`
+- `ado-net-tutorial_link_clean_architecture_c | Link | Label: "Clean Architecture C#"`
+- `ado-net-tutorial_link_tutlane_c | Link | Label: "Tutlane C#"`
+- `ado-net-tutorial_link_type_of_assembly_in_c | Link | Label: "Type of Assembly in C#"`
+- `ado-net-tutorial_link_unity_container_c | Link | Label: "Unity Container C#"`
+- `ado-net-tutorial_link_fiddle_c | Link | Label: "Fiddle C#"`
+- `ado-net-tutorial_link_msmq_c | Link | Label: "MSMQ C#"`
+- `ado-net-tutorial_link_rabbitmq_c | Link | Label: "RabbitMQ C#"`
+- `ado-net-tutorial_link_resx_file_c | Link | Label: "ResX File C#"`
+- `ado-net-tutorial_link_what_is_ienumerable_in_c | Link | Label: "What is ienumerable in C#"`
+- `ado-net-tutorial_link_difference_between_readon | Link | Label: "Difference between readonly and Constant in C#"`
+- `ado-net-tutorial_link_how_to_call_stored_proced | Link | Label: "How to Call Stored Procedure in C#"`
+- `ado-net-tutorial_link_boxing_and_unboxing_in_c | Link | Label: "Boxing and Unboxing in C#"`
+- `ado-net-tutorial_link_singleton_design_pattern_ | Link | Label: "Singleton Design pattern in C#"`
+- `ado-net-tutorial_link_convert_double_to_int_in_ | Link | Label: "Convert double to int in C#"`
+- `ado-net-tutorial_link_difference_between_struct | Link | Label: "Difference between struct and class in C#"`
+- `ado-net-tutorial_link_error_logging_in_c | Link | Label: "Error logging in C#"`
+- `ado-net-tutorial_link_throw_keyword_in_c | Link | Label: "Throw Keyword in C#"`
+- `ado-net-tutorial_link_custom_controls_in_c | Link | Label: "Custom controls in C#"`
+- `ado-net-tutorial_link_foreach_loop_in_c | Link | Label: "Foreach loop in C#"`
+- `ado-net-tutorial_link_volatile_keyword_in_c | Link | Label: "Volatile Keyword in C#"`
+- `ado-net-tutorial_link_private_constructor_in_c | Link | Label: "Private constructor in C#"`
+- `ado-net-tutorial_link_ienumerable_vs_iqueryable | Link | Label: "IEnumerable vs IQueryable in C#"`
+- `ado-net-tutorial_link_stringcollection_class_in | Link | Label: "StringCollection Class in C#"`
+- `ado-net-tutorial_link_liskov_substitution_princ | Link | Label: "Liskov Substitution Principle in C#"`
+- `ado-net-tutorial_link_stack_pop_method_in_c | Link | Label: "Stack.Pop() Method in C#"`
+- `ado-net-tutorial_link_byte_maxvalue_field_in_c | Link | Label: "Byte.MaxValue Field in C#"`
+- `ado-net-tutorial_link_char_tryparse_method_in_c | Link | Label: "Char.TryParse () Method in C#"`
+- `ado-net-tutorial_link_sbyte_struct_fields_in_c | Link | Label: "SByte Struct Fields in C#"`
+- `ado-net-tutorial_link_shallow_copy_and_deep_cop | Link | Label: "Shallow Copy and Deep Copy in C#"`
+- `ado-net-tutorial_link_type_findmembers_method_i | Link | Label: "Type.FindMembers() Method in C#"`
+- `ado-net-tutorial_link_char_equals_method_in_c | Link | Label: "Char.Equals () Method in C#"`
+- `ado-net-tutorial_link_char_ishighsurrogate_stri | Link | Label: "Char.IsHighSurrogate(String, Int32) Method in C#"`
+- `ado-net-tutorial_link_char_isseparator_method_i | Link | Label: "Char.IsSeparator () Method in C#"`
+- `ado-net-tutorial_link_char_iswhitespace_method_ | Link | Label: "Char.IsWhiteSpace() Method in C#"`
+- `ado-net-tutorial_link_datetimeoffset_fromunixti | Link | Label: "DateTimeOffset.FromUnixTimeMilliseconds() Metho..."`
+- `ado-net-tutorial_link_decimal_toint32_method_in | Link | Label: "Decimal.ToInt32() Method in C#"`
+- `ado-net-tutorial_link_difference_between_proper | Link | Label: "Difference between Properties and Indexers in C#"`
+- `ado-net-tutorial_link_difference_between_sorted | Link | Label: "Difference between SortedList and SortedDiction..."`
+- `ado-net-tutorial_link_difference_between_static | Link | Label: "Difference between Static Constructors and Non-..."`
+- `ado-net-tutorial_link_double_isinfinity_method_ | Link | Label: "Double.IsInfinity() Method in C#"`
+- `ado-net-tutorial_link_double_isnan_method_in_c | Link | Label: "Double.IsNaN() Method in C#"`
+- `ado-net-tutorial_link_file_appendalllines_strin | Link | Label: "File.AppendAllLines(String, IEnumerable String,..."`
+- `ado-net-tutorial_link_file_getlastwritetimeutc_ | Link | Label: "File.GetLastWriteTimeUtc() method in C#"`
+- `ado-net-tutorial_link_indexofany_method_in_c | Link | Label: "IndexOfAny() Method in C#"`
+- `ado-net-tutorial_link_list_trimexcess_method_in | Link | Label: "List.TrimExcess Method in C#"`
+- `ado-net-tutorial_link_object_memberwiseclone_in | Link | Label: "Object.MemberwiseClone() in C#"`
+- `ado-net-tutorial_link_queue_synchronized_in_c | Link | Label: "Queue.Synchronized() in C#"`
+- `ado-net-tutorial_link_random_nextdouble_method_ | Link | Label: "Random.NextDouble() Method in C#"`
+- `ado-net-tutorial_link_valuetuple_struct_in_c | Link | Label: "ValueTuple Struct in C#"`
+- `ado-net-tutorial_link_c_program_to_demonstrate_ | Link | Label: "C# Program to Demonstrate the IList Interface"`
+- `ado-net-tutorial_link_char_ispunctuation_method | Link | Label: "Char.IsPunctuation() Method in C#"`
+- `ado-net-tutorial_link_char_issurrogate_string_i | Link | Label: "Char.IsSurrogate(String, Int32) Method in C#"`
+- `ado-net-tutorial_link_charenumerator_gethashcod | Link | Label: "CharEnumerator.GetHashCode() Method in C#"`
+- `ado-net-tutorial_link_charenumerator_tostring_m | Link | Label: "CharEnumerator.ToString() Method in C#"`
+- `ado-net-tutorial_link_char_tolowerinvariant_cha | Link | Label: "Char.ToLowerInvariant(Char) Method in C#"`
+- `ado-net-tutorial_link_console_setin_method_in_c | Link | Label: "Console.SetIn() Method in C#"`
+- `ado-net-tutorial_link_difference_between_delega | Link | Label: "Difference between delegates and interfaces in C#"`
+- `ado-net-tutorial_link_difference_between_javasc | Link | Label: "Difference between JavaScript and C#"`
+- `ado-net-tutorial_link_how_to_create_7_tuple_or_ | Link | Label: "How to create 7-Tuple or Septuple in C#"`
+- `ado-net-tutorial_link_how_to_implement_is_funct | Link | Label: "How to implement is functionality without using..."`
+- `ado-net-tutorial_link_index_constructor_in_c | Link | Label: "Index Constructor in C#"`
+- `ado-net-tutorial_link_math_bigmul_method_in_c | Link | Label: "Math.BigMul() Method in C#"`
+- `ado-net-tutorial_link_single_isfinite_method_in | Link | Label: "Single.IsFinite() Method in C#"`
+- `ado-net-tutorial_link_array_binarysearch_array_ | Link | Label: "Array.BinarySearch(Array, Int32, Int32, Object)..."`
+- `ado-net-tutorial_link_byte_minvalue_field_in_c | Link | Label: "Byte.MinValue Field in C#"`
+- `ado-net-tutorial_link_char_convertfromutf32_int | Link | Label: "Char.ConvertFromUtf32(Int32) Method in C#"`
+- `ado-net-tutorial_link_console_treatcontrolcasin | Link | Label: "Console.TreatControlCAsInput Property in C#"`
+- `ado-net-tutorial_link_convert_tosbyte_string_if | Link | Label: "Convert.ToSByte(String, IFormatProvider) Method..."`
+- `ado-net-tutorial_link_decimal_gethashcode_metho | Link | Label: "Decimal.GetHashCode Method in C#"`
+- `ado-net-tutorial_link_difference_between_is_and | Link | Label: "Difference between Is and As operator keyword i..."`
+- `ado-net-tutorial_link_file_getattributes_method | Link | Label: "File.GetAttributes() Method in C#"`
+- `ado-net-tutorial_link_getting_an_enumerator_for | Link | Label: "Getting an enumerator for the entire ArrayList ..."`
+- `ado-net-tutorial_link_multicast_delegates_in_c | Link | Label: "Multicast delegates in C#"`
+- `ado-net-tutorial_link_null_coalescing_operator_ | Link | Label: "Null-Coalescing Operator in C#"`
+- `ado-net-tutorial_link_single_gettypecode_method | Link | Label: "Single.GetTypeCode Method in C#"`
+- `ado-net-tutorial_link_single_ispositiveinfinity | Link | Label: "Single.IsPositiveInfinity() Method in C#"`
+- `ado-net-tutorial_link_stack_clear_method_in_c | Link | Label: "Stack.Clear Method in C#"`
+- `ado-net-tutorial_link_uri_isbaseof_uri_method_i | Link | Label: "Uri.IsBaseOf(Uri) Method in C#"`
+- `ado-net-tutorial_link_c_program_that_demonstrat | Link | Label: "C# Program that Demonstrates Exception Handling..."`
+- `ado-net-tutorial_link_c_program_to_check_a_spec | Link | Label: "C# Program to Check a Specified Class is a Seal..."`
+- `ado-net-tutorial_link_charenumerator_reset_meth | Link | Label: "CharEnumerator.Reset() Method in C#"`
+- `ado-net-tutorial_link_decimal_fromoacurrency_me | Link | Label: "Decimal.FromOACurrency() Method in C#"`
+- `ado-net-tutorial_link_dictionary_count_property | Link | Label: "Dictionary.Count Property in C#"`
+- `ado-net-tutorial_link_difference_between_c_and_ | Link | Label: "Difference between C# and ASP.NET"`
+- `ado-net-tutorial_link_difference_between_method | Link | Label: "Difference between Method Overriding and Method..."`
+- `ado-net-tutorial_link_different_ways_to_take_in | Link | Label: "Different Ways to Take Input and Print a Float ..."`
+- `ado-net-tutorial_link_file_setlastaccesstime_me | Link | Label: "file.setLastAccessTime() Method in C#"`
+- `ado-net-tutorial_link_finding_the_index_of_the_ | Link | Label: "Finding the index of the first element of the s..."`
+- `ado-net-tutorial_link_gets_or_sets_the_element_ | Link | Label: "Gets or Sets the element at the specified index..."`
+- `ado-net-tutorial_link_how_to_compare_two_valuet | Link | Label: "How to compare two ValueTuple in C#"`
+- `ado-net-tutorial_link_how_to_get_first_element_ | Link | Label: "How to get First Element of the ValueTuple in C#"`
+- `ado-net-tutorial_link_math_ieeeremainder_method | Link | Label: "Math.IEEERemainder() Method in C#"`
+- `ado-net-tutorial_link_object_referenceequals_me | Link | Label: "Object.ReferenceEquals() Method in C#"`
+- `ado-net-tutorial_link_ordereddictionary_item_ob | Link | Label: "OrderedDictionary.Item[Object] Property in C#"`
+- `ado-net-tutorial_link_file_setcreationtime_meth | Link | Label: "File.SetCreationTime() Method in C#"`
+- `ado-net-tutorial_link_sbyte_keyword_in_c | Link | Label: "sbyte Keyword in C#"`
+- `ado-net-tutorial_link_type_getdefaultmembers_me | Link | Label: "Type.GetDefaultMembers() Method in C#"`
+- `ado-net-tutorial_link_type_isassignablefrom_typ | Link | Label: "Type.IsAssignableFrom(Type) Method in C#"`
+- `ado-net-tutorial_link_uri_escapedatastring_stri | Link | Label: "Uri.EscapeDataString(String) Method in C#"`
+- `ado-net-tutorial_link_uri_fragment_property_in_ | Link | Label: "Uri.Fragment Property in C#"`
+- `ado-net-tutorial_link_uri_ishexencoding_method_ | Link | Label: "Uri.IsHexEncoding() Method in C#"`
+- `ado-net-tutorial_link_array_constrainedcopy_met | Link | Label: "Array.ConstrainedCopy() Method in C#"`
+- `ado-net-tutorial_link_array_trueforall_method_i | Link | Label: "Array.TrueForAll() Method in C#"`
+- `ado-net-tutorial_link_buffer_blockcopy_array_in | Link | Label: "Buffer.BlockCopy(Array, Int32, Array, Int32, In..."`
+- `ado-net-tutorial_link_check_if_the_bitarray_is_ | Link | Label: "Check if the BitArray is read-only in C#"`
+- `ado-net-tutorial_link_decimal_compare_method_in | Link | Label: "Decimal.Compare() Method in C#"`
+- `ado-net-tutorial_link_decimal_floor_method_in_c | Link | Label: "Decimal.Floor() Method in C#"`
+- `ado-net-tutorial_link_decimal_tosbyte_method_in | Link | Label: "Decimal.ToSByte() Method in C#"`
+- `ado-net-tutorial_link_default_interface_methods | Link | Label: "Default Interface Methods in C#"`
+- `ado-net-tutorial_link_difference_between_python | Link | Label: "Difference between Python and C#"`
+- `ado-net-tutorial_link_explain_and_contrast_valu | Link | Label: "Explain and contrast value types and reference ..."`
+- `ado-net-tutorial_link_type_getinterfaces_method | Link | Label: "Type.GetInterfaces() Method in C#"`
+- `ado-net-tutorial_link_type_getmembers_method_in | Link | Label: "Type.GetMembers() Method in C#"`
+- `ado-net-tutorial_link_type_getnestedtype_method | Link | Label: "Type.GetNestedType() Method in C#"`
+- `ado-net-tutorial_link_yield_keywords_in_c | Link | Label: "Yield keywords in C#"`
+- `ado-net-tutorial_link_char_isletterordigit_meth | Link | Label: "Char.IsLetterOrDigit() Method in C#"`
+- `ado-net-tutorial_link_char_toupperinvariant_cha | Link | Label: "Char.ToUpperInvariant(Char) Method in C#"`
+- `ado-net-tutorial_link_get_the_minimum_value_in_ | Link | Label: "Get the minimum value in the SortedSet in C#"`
+- `ado-net-tutorial_link_hashset_exceptwith_ienume | Link | Label: "HashSet.ExceptWith(IEnumerable) method in C#"`
+- `ado-net-tutorial_link_single_isnan_method_in_c | Link | Label: "Single.IsNaN() Method in C#"`
+- `ado-net-tutorial_link_single_isnegativeinfinity | Link | Label: "Single.IsNegativeInfinity() Method in C#"`
+- `ado-net-tutorial_link_stringbuilder_ensurecapac | Link | Label: "StringBuilder.EnsureCapacity() Method in C#"`
+- `ado-net-tutorial_link_thread_currentthread_prop | Link | Label: "Thread.CurrentThread Property in C#"`
+- `ado-net-tutorial_link_type_getenumunderlyingtyp | Link | Label: "Type.GetEnumUnderlyingType() Method in C#"`
+- `ado-net-tutorial_link_type_gettypehandle_method | Link | Label: "Type.GetTypeHandle() Method in C#"`
+- `ado-net-tutorial_link_rand_next_method_in_c | Link | Label: "Rand.next() method in C#"`
+- `ado-net-tutorial_link_camel_case_in_c | Link | Label: "Camel case in C#"`
+- `ado-net-tutorial_link_console_setwindowposition | Link | Label: "Console.SetWindowPosition() Method in C#"`
+- `ado-net-tutorial_link_difference_between_consol | Link | Label: "Difference between Console.Read and Console.Rea..."`
+- `ado-net-tutorial_link_difference_between_hashta | Link | Label: "Difference between Hashtable and Dictionary in C#"`
+- `ado-net-tutorial_link_difference_between_ref_an | Link | Label: "Difference between Ref and Out keywords in C#"`
+- `ado-net-tutorial_link_difference_between_var_an | Link | Label: "Difference between Var and Dynamic in C#"`
+- `ado-net-tutorial_link_different_ways_to_sort_an | Link | Label: "Different ways to sort an array in Descending O..."`
+- `ado-net-tutorial_link_double_isfinite_method_in | Link | Label: "Double.IsFinite() Method in C#"`
+- `ado-net-tutorial_link_file_setlastwritetimeutc_ | Link | Label: "File.SetLastWriteTimeUtc() Method in C#"`
+- `ado-net-tutorial_link_gettypefromclsid_method_i | Link | Label: "GetTypeFromCLSID() method in C#"`
+- `ado-net-tutorial_link_gettypefromprogid_method_ | Link | Label: "GetTypeFromProgID() method in C#"`
+- `ado-net-tutorial_link_how_to_combine_two_arrays | Link | Label: "How to Combine Two Arrays without Duplicate val..."`
+- `ado-net-tutorial_link_how_to_compare_enum_value | Link | Label: "How to compare Enum values in C#"`
+- `ado-net-tutorial_link_how_to_remove_all_charact | Link | Label: "How to remove all characters from StringBuilder..."`
+- `ado-net-tutorial_link_how_to_use_multiple_catch | Link | Label: "How to use multiple catch clauses in C#"`
+- `ado-net-tutorial_link_idumpable_interface_in_c | Link | Label: "IDumpable Interface in C#"`
+- `ado-net-tutorial_link_boolean_gettypecode_metho | Link | Label: "Boolean.GetTypeCode() Method in C#"`
+- `ado-net-tutorial_link_console_cursorvisible_in_ | Link | Label: "Console.CursorVisible in C#"`
+- `ado-net-tutorial_link_console_foregroundcolor_p | Link | Label: "Console.ForegroundColor Property in C#"`
+- `ado-net-tutorial_link_difference_between_multi_ | Link | Label: "Difference between Multi-Dimensional array and ..."`
+- `ado-net-tutorial_link_hashtable_containskey_obj | Link | Label: "Hashtable.ContainsKey(Object) Method in C#"`
+- `ado-net-tutorial_link_how_to_get_synchronize_ac | Link | Label: "How to get Synchronize access to the ListDictio..."`
+- `ado-net-tutorial_link_how_to_sort_object_array_ | Link | Label: "How to Sort Object Array by Specific Property i..."`
+- `ado-net-tutorial_link_how_to_write_retry_logic_ | Link | Label: "How to write retry logic in C#"`
+- `ado-net-tutorial_link_interesting_facts_about_c | Link | Label: "Interesting Facts about C#"`
+- `ado-net-tutorial_link_sortedlist_indexofvalue_o | Link | Label: "SortedList.IndexOfValue(Object) Method in C#"`
+- `ado-net-tutorial_link_c_program_to_reverse_word | Link | Label: "C# program to reverse words in a given string"`
+- `ado-net-tutorial_link_cancellationtoken_in_c | Link | Label: "CancellationToken in C#"`
+- `ado-net-tutorial_link_difference_between_a_lamb | Link | Label: "Difference between a lambda expression and a de..."`
+- `ado-net-tutorial_link_different_ways_to_access_ | Link | Label: "Different ways to access namespace in C#"`
+- `ado-net-tutorial_link_jsonconvert_deserializeob | Link | Label: "JsonConvert.DeserializeObject() in C#"`
+- `ado-net-tutorial_link_math_round_method_in_c | Link | Label: "Math.Round Method() in C#"`
+- `ado-net-tutorial_link_methodinfo_invoke_in_c | Link | Label: "Methodinfo.invoke() in C#"`
+- `ado-net-tutorial_link_task_fromresult_method_in | Link | Label: "Task.FromResult() method in C#"`
+- `ado-net-tutorial_link_thread_pool_in_c | Link | Label: "Thread pool in C#"`
+- `ado-net-tutorial_link_timespan_fromdays_method_ | Link | Label: "TimeSpan.FromDays() method in C#"`
+- `ado-net-tutorial_link_timespan_fromticks_method | Link | Label: "TimeSpan.FromTicks() Method in C#"`
+- `ado-net-tutorial_link_void_keyword_in_c | Link | Label: "Void Keyword in C#"`
+- `ado-net-tutorial_link_encrypt_and_decrypt_using | Link | Label: "Encrypt and Decrypt Using Rijndael Key in C#"`
+- `ado-net-tutorial_link_enumerable_where_method_i | Link | Label: "Enumerable.Where() method in C#"`
+- `ado-net-tutorial_link_interface_reference_in_c | Link | Label: "Interface reference in C#"`
+- `ado-net-tutorial_link_queue_contains_method_in_ | Link | Label: "Queue.Contains() Method in C#"`
+- `ado-net-tutorial_link_queue_enqueue_method_in_c | Link | Label: "Queue.Enqueue() Method in C#"`
+- `ado-net-tutorial_link_single_isinfinity_method_ | Link | Label: "Single.IsInfinity() Method in C#"`
+- `ado-net-tutorial_link_sorteddictionary_clear_me | Link | Label: "SortedDictionary.Clear() Method in C#"`
+- `ado-net-tutorial_link_sorteddictionary_keys_pro | Link | Label: "SortedDictionary.Keys Property in C#"`
+- `ado-net-tutorial_link_stack_copyto_method_in_c | Link | Label: "Stack.CopyTo() Method in C#"`
+- `ado-net-tutorial_link_task_parallel_library_tpl | Link | Label: "Task Parallel Library (TPL) in C#"`
+- `ado-net-tutorial_link_type_getcustomattributes_ | Link | Label: "Type.GetCustomAttributes() method in C#"`
+- `ado-net-tutorial_link_type_getfield_method_in_c | Link | Label: "Type.GetField() Method in C#"`
+- `ado-net-tutorial_link_type_issubclassof_functio | Link | Label: "Type.issubclassof() function in C#"`
+- `ado-net-tutorial_link_uri_dnssafehost_property_ | Link | Label: "Uri.DnsSafeHost Property in C#"`
+- `ado-net-tutorial_link_uri_referenceequals_metho | Link | Label: "Uri.ReferenceEquals() Method in C#"`
+- `ado-net-tutorial_link_real_time_examples_of_fac | Link | Label: "Real-Time Examples of Factory Design Patterns i..."`
+- `ado-net-tutorial_link_exception_stacktrace_in_c | Link | Label: "Exception.StackTrace() in C#"`
+- `ado-net-tutorial_link_hybriddictionary_class_in | Link | Label: "HybridDictionary Class in C#"`
+- `ado-net-tutorial_link_optimization_tips_for_c_c | Link | Label: "Optimization Tips for C# Code"`
+- `ado-net-tutorial_link_single_compareto_method_i | Link | Label: "Single.CompareTo() Method in C#"`
+- `ado-net-tutorial_link_stack_contains_method_in_ | Link | Label: "Stack contains() method in C#"`
+- `ado-net-tutorial_link_difference_between_initia | Link | Label: "Difference between Initialization and Instantia..."`
+- `ado-net-tutorial_link_differences_between_the_s | Link | Label: "Differences between the Sealed class and Static..."`
+- `ado-net-tutorial_link_directory_exists_in_c | Link | Label: "Directory.Exists() in C#"`
+- `ado-net-tutorial_link_how_to_use_namespace_alia | Link | Label: "How to use Namespace Alias Qualifier in C#"`
+- `ado-net-tutorial_link_sortedlist_clone_method_i | Link | Label: "SortedList.Clone() Method in C#"`
+- `ado-net-tutorial_link_stack_t_trimexcess_method | Link | Label: "Stack<T>.TrimExcess Method in C#"`
+- `ado-net-tutorial_link_type_getarrayrank_method_ | Link | Label: "Type.GetArrayRank() Method in C#"`
+- `ado-net-tutorial_link_uri_iswellformedoriginals | Link | Label: "Uri.IsWellFormedOriginalString() method in C#"`
+- `ado-net-tutorial_link_valuetuple_in_c | Link | Label: "ValueTuple in C#"`
+- `ado-net-tutorial_link_abstract_factory_design_p | Link | Label: "Abstract Factory Design Pattern in C#"`
+- `ado-net-tutorial_link_array_asreadonly_t_method | Link | Label: "Array.AsReadOnly(T[]) Method in C#"`
+- `ado-net-tutorial_link_decimal_getbits_method_in | Link | Label: "Decimal.GetBits() Method in C#"`
+- `ado-net-tutorial_link_difference_between_string | Link | Label: "Difference between String Literal and String Ob..."`
+- `ado-net-tutorial_link_hybriddictionary_contains | Link | Label: "HybridDictionary.Contains(Object) method in C#"`
+- `ado-net-tutorial_link_icollection_issynchronize | Link | Label: "ICollection.IsSynchronized Property in C#"`
+- `ado-net-tutorial_link_inherit_documentation_in_ | Link | Label: "Inherit Documentation in C#"`
+- `ado-net-tutorial_link_is_operator_keyword_in_c | Link | Label: "Is Operator Keyword in C#"`
+- `ado-net-tutorial_link_predicate_delegate_in_c | Link | Label: "Predicate Delegate in C#"`
+- `ado-net-tutorial_link_stringbuilder_chars_prope | Link | Label: "StringBuilder.Chars[] Property in C#"`
+- `ado-net-tutorial_link_type_gettypefromhandle_me | Link | Label: "Type.GetTypeFromHandle() Method in C#"`
+- `ado-net-tutorial_link_type_findinterfaces_metho | Link | Label: "Type.FindInterfaces() Method in C#"`
+- `ado-net-tutorial_link_ulong_keyword_in_c | Link | Label: "ulong keyword in C#"`
+- `ado-net-tutorial_link_console_setwindowsize_met | Link | Label: "Console.SetWindowSize() Method in C#"`
+- `ado-net-tutorial_link_difference_between_func_d | Link | Label: "Difference between Func delegate and Action del..."`
+- `ado-net-tutorial_link_difference_between_system | Link | Label: "Difference between System-level Exception and A..."`
+- `ado-net-tutorial_link_sortedlist_containskey_me | Link | Label: "SortedList ContainsKey() Method in C#"`
+- `ado-net-tutorial_link_facade_design_pattern_in_ | Link | Label: "Facade Design Pattern in C# with Examples"`
+- `ado-net-tutorial_link_structural_design_pattern | Link | Label: "Structural Design Patterns in C#"`
+- `ado-net-tutorial_link_c_program_for_producing_a | Link | Label: "C# Program for Producing a Filtered Sequence of..."`
+- `ado-net-tutorial_link_timespan_subtract_method_ | Link | Label: "TimeSpan.Subtract() Method in C#"`
+- `ado-net-tutorial_link_immutable_in_c | Link | Label: "Immutable in C#"`
+- `ado-net-tutorial_button_asp_net_tutorial | Button | Label: "ASP.NET Tutorial"`
+- `ado-net-tutorial_link_asp_net_tutorial_50 | Link | Label: "ASP.NET Tutorial (50+)"`
+- `ado-net-tutorial_button_ado_net_tutorial | Button | Label: "ADO.NET Tutorial"`
+- `ado-net-tutorial_link_ado_net_tutorial_10 | Link | Label: "ADO.NET Tutorial (10+)"`
+- `ado-net-tutorial_button_c_web_service | Button | Label: "C# Web Service"`
+- `ado-net-tutorial_link_web_services_in_c | Link | Label: "Web Services in C#"`
+- `ado-net-tutorial_button_c_string_functions | Button | Label: "C# String Functions"`
+- `ado-net-tutorial_link_string_clone | Link | Label: "String Clone()"`
+- `ado-net-tutorial_link_string_compare | Link | Label: "String Compare()"`
+- `ado-net-tutorial_link_string_compareordinal | Link | Label: "String CompareOrdinal()"`
+- `ado-net-tutorial_link_string_compareto | Link | Label: "String CompareTo()"`
+- `ado-net-tutorial_link_string_concat | Link | Label: "String Concat()"`
+- `ado-net-tutorial_link_string_contains | Link | Label: "String Contains()"`
+- `ado-net-tutorial_link_string_copy | Link | Label: "String Copy()"`
+- `ado-net-tutorial_link_string_copyto | Link | Label: "String CopyTo()"`
+- `ado-net-tutorial_link_string_endswith | Link | Label: "String EndsWith()"`
+- `ado-net-tutorial_link_string_equals | Link | Label: "String Equals()"`
+- `ado-net-tutorial_link_string_format | Link | Label: "String Format()"`
+- `ado-net-tutorial_link_string_getenumerator | Link | Label: "String GetEnumerator()"`
+- `ado-net-tutorial_link_string_gethashcode | Link | Label: "String GetHashCode()"`
+- `ado-net-tutorial_link_string_gettype | Link | Label: "String GetType()"`
+- `ado-net-tutorial_link_string_gettypecode | Link | Label: "String GetTypeCode()"`
+- `ado-net-tutorial_link_string_indexof | Link | Label: "String IndexOf()"`
+- `ado-net-tutorial_link_string_insert | Link | Label: "String Insert()"`
+- `ado-net-tutorial_link_string_intern | Link | Label: "String Intern()"`
+- `ado-net-tutorial_link_string_isinterned | Link | Label: "String IsInterned()"`
+- `ado-net-tutorial_link_string_isnormalized | Link | Label: "String IsNormalized()"`
+- `ado-net-tutorial_link_string_normalize | Link | Label: "String Normalize()"`
+- `ado-net-tutorial_link_string_isnullorempty | Link | Label: "String IsNullOrEmpty()"`
+- `ado-net-tutorial_link_isnullorwhitespace | Link | Label: "IsNullOrWhiteSpace()"`
+- `ado-net-tutorial_link_string_join | Link | Label: "String Join()"`
+- `ado-net-tutorial_link_string_lastindexof | Link | Label: "String LastIndexOf()"`
+- `ado-net-tutorial_link_string_lastindexofany | Link | Label: "String LastIndexOfAny()"`
+- `ado-net-tutorial_link_string_padleft | Link | Label: "String PadLeft()"`
+- `ado-net-tutorial_link_string_padright | Link | Label: "String PadRight()"`
+- `ado-net-tutorial_link_string_remove | Link | Label: "String Remove()"`
+- `ado-net-tutorial_link_string_replace | Link | Label: "String Replace()"`
+- `ado-net-tutorial_link_string_split | Link | Label: "String Split()"`
+- `ado-net-tutorial_link_string_startswith | Link | Label: "String StartsWith()"`
+- `ado-net-tutorial_link_string_substring | Link | Label: "String SubString()"`
+- `ado-net-tutorial_link_string_tochararray | Link | Label: "String ToCharArray()"`
+- `ado-net-tutorial_link_string_tolower | Link | Label: "String ToLower()"`
+- `ado-net-tutorial_link_string_tolowerinvariant | Link | Label: "String ToLowerInvariant()"`
+- `ado-net-tutorial_link_string_tostring | Link | Label: "String ToString()"`
+- `ado-net-tutorial_link_string_toupper | Link | Label: "String ToUpper()"`
+- `ado-net-tutorial_link_string_toupperinvariant | Link | Label: "String ToUpperInvariant()"`
+- `ado-net-tutorial_link_string_trim | Link | Label: "String Trim()"`
+- `ado-net-tutorial_link_string_trimend | Link | Label: "String TrimEnd()"`
+- `ado-net-tutorial_link_string_trimstart | Link | Label: "String TrimStart()"`
+- `ado-net-tutorial_button_c_new_features | Button | Label: "C# New Features"`
+- `ado-net-tutorial_link_home | Link | Label: "Home"`
+- `ado-net-tutorial_link_net | Link | Label: ".Net"`
+- `ado-net-tutorial_link_ado_net_tutorial | Link | Label: "ADO.NET Tutorial"`
+- `ado-net-tutorial_link_ado_net_introduction | Link | Label: "ADO.NET Introduction"`
+- `ado-net-tutorial_link_ado_net_data_providers | Link | Label: "ADO.NET Data Providers"`
+- `ado-net-tutorial_link_ado_net_sql_server | Link | Label: "ADO.NET SQL Server"`
+- `ado-net-tutorial_link_ado_net_connection | Link | Label: "ADO.NET Connection"`
+- `ado-net-tutorial_link_ado_net_command | Link | Label: "ADO.NET Command"`
+- `ado-net-tutorial_link_ado_net_datareader | Link | Label: "ADO.NET DataReader"`
+- `ado-net-tutorial_link_ado_net_dataset | Link | Label: "ADO.NET DataSet"`
+- `ado-net-tutorial_link_ado_net_dataadapter | Link | Label: "ADO.NET DataAdapter"`
+- `ado-net-tutorial_link_ado_net_datatables | Link | Label: "ADO.NET DataTables"`
+- `ado-net-tutorial_link_ado_net_wf_example | Link | Label: "ADO.NET WF Example"`
+- `ado-net-tutorial_link_ado_net_mvc_example | Link | Label: "ADO.NET MVC Example"`
+- `ado-net-tutorial_link_ado_net_interview_questio | Link | Label: "ADO.NET Interview Questions"`
+- `ado-net-tutorial_link_c_tutorial_100 | Link | Label: "C# Tutorial (100+)"`
+- `ado-net-tutorial_heading_these_are_topics_related_ | Heading | Label: "These are topics related to the article that might interest you"`
+- `ado-net-tutorial_link_software | Link | Label: "Software"`
+- `ado-net-tutorial_link_scripting_languages | Link | Label: "Scripting Languages"`
+- `ado-net-tutorial_link_development_tools | Link | Label: "Development Tools"`
+- `ado-net-tutorial_link_next | Link | Label: "next →"`
+- `ado-net-tutorial_textbox_email | Input | Placeholder: "Enter your email" / Label: "Your Email"`
+- `ado-net-tutorial_button_subscribebtn | Button | Label: "Subscribe"`
+- `ado-net-tutorial_iframe_aswift_2 | Iframe | Label: "Advertisement"`
+- `ado-net-tutorial_link_hr_tpointtech_com | Link | Label: "hr@tpointtech.com"`
+- `ado-net-tutorial_link_91_9599086977 | Link | Label: "+91-9599086977"`
+- `ado-net-tutorial_link_idx_704 | Link | Label: ""`
+- `ado-net-tutorial_link_idx_705 | Link | Label: ""`
+- `ado-net-tutorial_link_idx_706 | Link | Label: ""`
+- `ado-net-tutorial_link_idx_707 | Link | Label: ""`
+- `ado-net-tutorial_link_idx_708 | Link | Label: ""`
+- `ado-net-tutorial_link_idx_709 | Link | Label: ""`
+- `ado-net-tutorial_link_data_structure_tutorial | Link | Label: "Data Structure Tutorial"`
+- `ado-net-tutorial_link_c_programming_tutorial | Link | Label: "C Programming Tutorial"`
+- `ado-net-tutorial_link_jquery_tutorial | Link | Label: "jQuery Tutorial"`
+- `ado-net-tutorial_link_spring_tutorial | Link | Label: "Spring Tutorial"`
+- `ado-net-tutorial_link_python_interview_question | Link | Label: "Python Interview Questions"`
+- `ado-net-tutorial_link_java_interview_questions | Link | Label: "Java Interview Questions"`
+- `ado-net-tutorial_link_data_structure_interview_ | Link | Label: "Data Structure Interview Questions"`
+- `ado-net-tutorial_link_html_interview_questions | Link | Label: "HTML Interview Questions"`
+- `ado-net-tutorial_link_javascript_interview_ques | Link | Label: "JavaScript Interview Questions"`
+- `ado-net-tutorial_link_jquery_interview_question | Link | Label: "jQuery Interview Questions"`
+- `ado-net-tutorial_link_sql_interview_questions | Link | Label: "SQL Interview Questions"`
+- `ado-net-tutorial_link_power_bi_interview_questi | Link | Label: "Power BI Interview Questions"`
+- `ado-net-tutorial_link_online_c_compiler | Link | Label: "Online C Compiler"`
+- `ado-net-tutorial_link_online_r_compiler | Link | Label: "Online R Compiler"`
+- `ado-net-tutorial_link_online_php_compiler | Link | Label: "Online PHP Compiler"`
+- `ado-net-tutorial_link_online_java_compiler | Link | Label: "Online Java Compiler"`
+- `ado-net-tutorial_link_online_html_editor | Link | Label: "Online HTML Editor"`
+- `ado-net-tutorial_link_online_swift_compiler | Link | Label: "Online Swift Compiler"`
+- `ado-net-tutorial_link_online_python_compiler | Link | Label: "Online Python Compiler"`
+- `ado-net-tutorial_link_online_javascript_editor | Link | Label: "Online JavaScript Editor"`
+- `ado-net-tutorial_link_online_typescript_editor | Link | Label: "Online TypeScript Editor"`
+- `ado-net-tutorial_link_latest_post | Link | Label: "Latest Post"`
+- `ado-net-tutorial_link_tutorials_list | Link | Label: "Tutorials List"`
+- `ado-net-tutorial_link_privacy_policy | Link | Label: "Privacy Policy"`
+- `ado-net-tutorial_link_about_us | Link | Label: "About Us"`
+- `ado-net-tutorial_link_contact_us | Link | Label: "Contact Us"`

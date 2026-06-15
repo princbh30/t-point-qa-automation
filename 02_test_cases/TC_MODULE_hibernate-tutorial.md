@@ -1,0 +1,165 @@
+# Test Case: MODULE_hibernate-tutorial | UI Verification and Navigation
+- **Preconditions**: User is on page https://www.tpointtech.com/hibernate-tutorial
+- **Steps**:
+  1. Navigate to https://www.tpointtech.com/hibernate-tutorial
+  2. Verify and click header navigation links: `hibernate-tutorial_link_tutorials` (Element: Link, Label: "Tutorials"), `hibernate-tutorial_link_interviews` (Element: Link, Label: "Interviews"), `hibernate-tutorial_link_compilers` (Element: Link, Label: "Compilers")
+  3. Input "Python" into `hibernate-tutorial_textbox_searchinput` (Element: Input, Label: "Search...", Placeholder: "Search...")
+  4. Click `hibernate-tutorial_button_searchbtn` (Element: Button, Text: "Search") to execute search query
+  5. Click `hibernate-tutorial_link_next` (Element: Link, Text: "next →") to navigate to the next page
+  6. Input "testuser@example.com" into `hibernate-tutorial_textbox_email` (Element: Input, Label: "Your Email", Placeholder: "Enter your email")
+  7. Click `hibernate-tutorial_button_subscribebtn` (Element: Button, Text: "Subscribe") to subscribe to newsletter
+  8. Scroll to footer and verify/click links: `hibernate-tutorial_link_privacy_policy` (Element: Link, Label: "Privacy Policy"), `hibernate-tutorial_link_about_us` (Element: Link, Label: "About Us"), `hibernate-tutorial_link_contact_us` (Element: Link, Label: "Contact Us")
+- **Expected Result**: The page loads successfully, and all interactive elements are responsive. Navigation links load their target pages, search displays correct results, and form inputs function as expected.
+
+## Semantic References for Healing
+- `hibernate-tutorial_link_idx_0 | Link | Label: ""`
+- `hibernate-tutorial_textbox_searchinput | Input | Placeholder: "Search..." / Label: "Search..."`
+- `hibernate-tutorial_button_searchbtn | Button | Label: "Search"`
+- `hibernate-tutorial_link_tutorials | Link | Label: "Tutorials"`
+- `hibernate-tutorial_link_interviews | Link | Label: "Interviews"`
+- `hibernate-tutorial_link_compilers | Link | Label: "Compilers"`
+- `hibernate-tutorial_div_idx_147 | Div | Label: ""`
+- `hibernate-tutorial_div_idx_148 | Div | Label: ""`
+- `hibernate-tutorial_div_idx_149 | Div | Label: ""`
+- `hibernate-tutorial_div_idx_150 | Div | Label: ""`
+- `hibernate-tutorial_div_idx_151 | Div | Label: ""`
+- `hibernate-tutorial_button_idx_152 | Button | Label: ""`
+- `hibernate-tutorial_link_python_tutorial | Link | Label: "Python Tutorial"`
+- `hibernate-tutorial_link_java_tutorial | Link | Label: "Java Tutorial"`
+- `hibernate-tutorial_link_javascript_tutorial | Link | Label: "JavaScript Tutorial"`
+- `hibernate-tutorial_link_sql_tutorial | Link | Label: "SQL Tutorial"`
+- `hibernate-tutorial_link_c_tutorial | Link | Label: "C Tutorial"`
+- `hibernate-tutorial_link_html_tutorial | Link | Label: "HTML Tutorial"`
+- `hibernate-tutorial_link_css_tutorial | Link | Label: "CSS Tutorial"`
+- `hibernate-tutorial_link_react_tutorial | Link | Label: "React Tutorial"`
+- `hibernate-tutorial_link_nodejs_tutorial | Link | Label: "NodeJS Tutorial"`
+- `hibernate-tutorial_link_sprint_boot_tutorial | Link | Label: "Sprint Boot Tutorial"`
+- `hibernate-tutorial_link_php_tutorial | Link | Label: "PHP Tutorial"`
+- `hibernate-tutorial_link_mysql_tutorial | Link | Label: "MYSQL Tutorial"`
+- `hibernate-tutorial_link_mongodb_tutorial | Link | Label: "MongoDB Tutorial"`
+- `hibernate-tutorial_link_ai_tutorial | Link | Label: "AI Tutorial"`
+- `hibernate-tutorial_link_machine_learning_tutorial | Link | Label: "Machine Learning Tutorial"`
+- `hibernate-tutorial_link_dsa_tutorial | Link | Label: "DSA Tutorial"`
+- `hibernate-tutorial_link_dbms_tutorial | Link | Label: "DBMS Tutorial"`
+- `hibernate-tutorial_link_os_tutorial | Link | Label: "OS Tutorial"`
+- `hibernate-tutorial_button_hibernate_tutorial | Button | Label: "Hibernate Tutorial"`
+- `hibernate-tutorial_link_hibernate_in_java | Link | Label: "Hibernate in Java"`
+- `hibernate-tutorial_link_hibernate_architecture | Link | Label: "Hibernate Architecture"`
+- `hibernate-tutorial_link_first_hibernate_example | Link | Label: "First Hibernate Example"`
+- `hibernate-tutorial_button_hibernate_with_eclipse | Button | Label: "Hibernate with Eclipse"`
+- `hibernate-tutorial_link_hibernate_example_using_x | Link | Label: "Hibernate Example using XML"`
+- `hibernate-tutorial_link_hibernate_example_using_a | Link | Label: "Hibernate Example using Annotation"`
+- `hibernate-tutorial_button_hibernate_example | Button | Label: "Hibernate Example"`
+- `hibernate-tutorial_link_hibernate_web_application | Link | Label: "Hibernate Web Application"`
+- `hibernate-tutorial_link_generator_classes_in_hibe | Link | Label: "Generator classes in Hibernate"`
+- `hibernate-tutorial_link_dialects_in_hibernate | Link | Label: "Dialects in Hibernate"`
+- `hibernate-tutorial_button_hibernate_log4j | Button | Label: "Hibernate Log4j"`
+- `hibernate-tutorial_link_hibernate_log4j_using_xml | Link | Label: "Hibernate Log4j using XML"`
+- `hibernate-tutorial_link_hibernate_log4j_using_pro | Link | Label: "Hibernate Log4j using Properties"`
+- `hibernate-tutorial_button_inheritance_mapping | Button | Label: "Inheritance Mapping"`
+- `hibernate-tutorial_link_inheritance_mapping | Link | Label: "Inheritance Mapping"`
+- `hibernate-tutorial_link_table_per_hierarchy | Link | Label: "Table Per Hierarchy"`
+- `hibernate-tutorial_link_tph_using_annotation | Link | Label: "TPH using Annotation"`
+- `hibernate-tutorial_link_table_per_concrete | Link | Label: "Table Per Concrete"`
+- `hibernate-tutorial_link_tpc_using_annotation | Link | Label: "TPC using Annotation"`
+- `hibernate-tutorial_link_table_per_subclass | Link | Label: "Table Per Subclass"`
+- `hibernate-tutorial_link_tps_using_annotation | Link | Label: "TPS using Annotation"`
+- `hibernate-tutorial_button_hibernate_mapping | Button | Label: "Hibernate Mapping"`
+- `hibernate-tutorial_link_collection_mapping | Link | Label: "Collection Mapping"`
+- `hibernate-tutorial_link_mapping_list | Link | Label: "Mapping List"`
+- `hibernate-tutorial_link_mapping_bag | Link | Label: "Mapping Bag"`
+- `hibernate-tutorial_link_mapping_set | Link | Label: "Mapping Set"`
+- `hibernate-tutorial_link_mapping_map | Link | Label: "Mapping Map"`
+- `hibernate-tutorial_link_one_to_many_xml | Link | Label: "One To Many XML"`
+- `hibernate-tutorial_link_one_to_many_annotation | Link | Label: "One To Many Annotation"`
+- `hibernate-tutorial_link_many_to_many_xml | Link | Label: "Many To Many XML"`
+- `hibernate-tutorial_link_many_to_many_annotation | Link | Label: "Many To Many Annotation"`
+- `hibernate-tutorial_link_one_to_one_xml | Link | Label: "One To One XML"`
+- `hibernate-tutorial_link_one_to_one_annotation | Link | Label: "One To One Annotation"`
+- `hibernate-tutorial_link_many_to_one_xml | Link | Label: "Many To One XML"`
+- `hibernate-tutorial_link_many_to_one_annotation | Link | Label: "Many To One Annotation"`
+- `hibernate-tutorial_link_bidirectional | Link | Label: "Bidirectional"`
+- `hibernate-tutorial_link_lazy_collection | Link | Label: "Lazy Collection"`
+- `hibernate-tutorial_link_component_mapping | Link | Label: "Component Mapping"`
+- `hibernate-tutorial_button_tx_management | Button | Label: "Tx Management"`
+- `hibernate-tutorial_link_tx_management | Link | Label: "Tx Management"`
+- `hibernate-tutorial_button_hql | Button | Label: "HQL"`
+- `hibernate-tutorial_link_hql | Link | Label: "HQL"`
+- `hibernate-tutorial_button_hcql | Button | Label: "HCQL"`
+- `hibernate-tutorial_link_hcql | Link | Label: "HCQL"`
+- `hibernate-tutorial_button_named_query | Button | Label: "Named Query"`
+- `hibernate-tutorial_link_named_query | Link | Label: "Named Query"`
+- `hibernate-tutorial_button_hibernate_caching | Button | Label: "Hibernate Caching"`
+- `hibernate-tutorial_link_hibernate_caching | Link | Label: "Hibernate Caching"`
+- `hibernate-tutorial_button_second_level_cache | Button | Label: "Second Level Cache"`
+- `hibernate-tutorial_link_second_level_cache | Link | Label: "Second Level Cache"`
+- `hibernate-tutorial_button_integration | Button | Label: "Integration"`
+- `hibernate-tutorial_link_hibernate_and_struts | Link | Label: "Hibernate and Struts"`
+- `hibernate-tutorial_link_hibernate_and_spring | Link | Label: "Hibernate and Spring"`
+- `hibernate-tutorial_button_misc | Button | Label: "Misc"`
+- `hibernate-tutorial_link_hibernate_configuration | Link | Label: "Hibernate Configuration"`
+- `hibernate-tutorial_link_jpa_vs_hibernate | Link | Label: "JPA vs. Hibernate"`
+- `hibernate-tutorial_link_hibernate_lifecycle | Link | Label: "Hibernate Lifecycle"`
+- `hibernate-tutorial_button_hibernate_interview | Button | Label: "Hibernate Interview"`
+- `hibernate-tutorial_link_interview_questions | Link | Label: "Interview Questions"`
+- `hibernate-tutorial_link_home | Link | Label: "Home"`
+- `hibernate-tutorial_link_hibernate | Link | Label: "Hibernate"`
+- `hibernate-tutorial_heading_these_are_topics_related_ | Heading | Label: "These are topics related to the article that might interest you"`
+- `hibernate-tutorial_link_programming | Link | Label: "Programming"`
+- `hibernate-tutorial_link_database | Link | Label: "Database"`
+- `hibernate-tutorial_link_java_programming_language | Link | Label: "Java (Programming Language)"`
+- `hibernate-tutorial_link_data_management | Link | Label: "Data Management"`
+- `hibernate-tutorial_link_software | Link | Label: "software"`
+- `hibernate-tutorial_link_hibernate_introduction | Link | Label: "Hibernate Introduction"`
+- `hibernate-tutorial_link_hibernate_using_xml | Link | Label: "Hibernate using XML"`
+- `hibernate-tutorial_link_hibernate_using_annotatio | Link | Label: "Hibernate using Annotation"`
+- `hibernate-tutorial_link_hibernate_generator_class | Link | Label: "Hibernate Generator classes"`
+- `hibernate-tutorial_link_hibernate_dialects | Link | Label: "Hibernate Dialects"`
+- `hibernate-tutorial_link_hibernate_with_log4j_1 | Link | Label: "Hibernate with Log4j 1"`
+- `hibernate-tutorial_link_hibernate_with_log4j_2 | Link | Label: "Hibernate with Log4j 2"`
+- `hibernate-tutorial_link_hibernate_interview_quest | Link | Label: "Hibernate Interview Questions"`
+- `hibernate-tutorial_link_java_programming | Link | Label: "Java programming"`
+- `hibernate-tutorial_link_object_oriented_programmi | Link | Label: "Object-Oriented Programming (OOP) concepts"`
+- `hibernate-tutorial_link_jdbc | Link | Label: "JDBC"`
+- `hibernate-tutorial_link_relational_databases | Link | Label: "relational databases"`
+- `hibernate-tutorial_link_sql_queries | Link | Label: "SQL queries"`
+- `hibernate-tutorial_button_show_answer | Button | Label: "Show Answer"`
+- `hibernate-tutorial_button_workspace | Button | Label: "Workspace"`
+- `hibernate-tutorial_link_next | Link | Label: "next →"`
+- `hibernate-tutorial_textbox_email | Input | Placeholder: "Enter your email" / Label: "Your Email"`
+- `hibernate-tutorial_button_subscribebtn | Button | Label: "Subscribe"`
+- `hibernate-tutorial_link_hr_tpointtech_com | Link | Label: "hr@tpointtech.com"`
+- `hibernate-tutorial_link_91_9599086977 | Link | Label: "+91-9599086977"`
+- `hibernate-tutorial_link_idx_307 | Link | Label: ""`
+- `hibernate-tutorial_link_idx_308 | Link | Label: ""`
+- `hibernate-tutorial_link_idx_309 | Link | Label: ""`
+- `hibernate-tutorial_link_idx_310 | Link | Label: ""`
+- `hibernate-tutorial_link_idx_311 | Link | Label: ""`
+- `hibernate-tutorial_link_idx_312 | Link | Label: ""`
+- `hibernate-tutorial_link_data_structure_tutorial | Link | Label: "Data Structure Tutorial"`
+- `hibernate-tutorial_link_c_programming_tutorial | Link | Label: "C Programming Tutorial"`
+- `hibernate-tutorial_link_jquery_tutorial | Link | Label: "jQuery Tutorial"`
+- `hibernate-tutorial_link_spring_tutorial | Link | Label: "Spring Tutorial"`
+- `hibernate-tutorial_link_python_interview_question | Link | Label: "Python Interview Questions"`
+- `hibernate-tutorial_link_java_interview_questions | Link | Label: "Java Interview Questions"`
+- `hibernate-tutorial_link_data_structure_interview_ | Link | Label: "Data Structure Interview Questions"`
+- `hibernate-tutorial_link_c_interview_questions | Link | Label: "C++ Interview Questions"`
+- `hibernate-tutorial_link_html_interview_questions | Link | Label: "HTML Interview Questions"`
+- `hibernate-tutorial_link_javascript_interview_ques | Link | Label: "JavaScript Interview Questions"`
+- `hibernate-tutorial_link_jquery_interview_question | Link | Label: "jQuery Interview Questions"`
+- `hibernate-tutorial_link_sql_interview_questions | Link | Label: "SQL Interview Questions"`
+- `hibernate-tutorial_link_power_bi_interview_questi | Link | Label: "Power BI Interview Questions"`
+- `hibernate-tutorial_link_online_c_compiler | Link | Label: "Online C Compiler"`
+- `hibernate-tutorial_link_online_r_compiler | Link | Label: "Online R Compiler"`
+- `hibernate-tutorial_link_online_php_compiler | Link | Label: "Online PHP Compiler"`
+- `hibernate-tutorial_link_online_java_compiler | Link | Label: "Online Java Compiler"`
+- `hibernate-tutorial_link_online_html_editor | Link | Label: "Online HTML Editor"`
+- `hibernate-tutorial_link_online_swift_compiler | Link | Label: "Online Swift Compiler"`
+- `hibernate-tutorial_link_online_python_compiler | Link | Label: "Online Python Compiler"`
+- `hibernate-tutorial_link_online_javascript_editor | Link | Label: "Online JavaScript Editor"`
+- `hibernate-tutorial_link_online_typescript_editor | Link | Label: "Online TypeScript Editor"`
+- `hibernate-tutorial_link_latest_post | Link | Label: "Latest Post"`
+- `hibernate-tutorial_link_tutorials_list | Link | Label: "Tutorials List"`
+- `hibernate-tutorial_link_privacy_policy | Link | Label: "Privacy Policy"`
+- `hibernate-tutorial_link_about_us | Link | Label: "About Us"`
+- `hibernate-tutorial_link_contact_us | Link | Label: "Contact Us"`

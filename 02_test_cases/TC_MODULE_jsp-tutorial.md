@@ -1,0 +1,151 @@
+# Test Case: MODULE_jsp-tutorial | UI Verification and Navigation
+- **Preconditions**: User is on page https://www.tpointtech.com/jsp-tutorial
+- **Steps**:
+  1. Navigate to https://www.tpointtech.com/jsp-tutorial
+  2. Verify and click header navigation links: `jsp-tutorial_link_tutorials` (Element: Link, Label: "Tutorials"), `jsp-tutorial_link_interviews` (Element: Link, Label: "Interviews"), `jsp-tutorial_link_compilers` (Element: Link, Label: "Compilers")
+  3. Input "Python" into `jsp-tutorial_textbox_searchinput` (Element: Input, Label: "Search...", Placeholder: "Search...")
+  4. Click `jsp-tutorial_button_searchbtn` (Element: Button, Text: "Search") to execute search query
+  5. Click `jsp-tutorial_link_next` (Element: Link, Text: "next →") to navigate to the next page
+  6. Input "testuser@example.com" into `jsp-tutorial_textbox_email` (Element: Input, Label: "Your Email", Placeholder: "Enter your email")
+  7. Click `jsp-tutorial_button_subscribebtn` (Element: Button, Text: "Subscribe") to subscribe to newsletter
+  8. Scroll to footer and verify/click links: `jsp-tutorial_link_privacy_policy` (Element: Link, Label: "Privacy Policy"), `jsp-tutorial_link_about_us` (Element: Link, Label: "About Us"), `jsp-tutorial_link_contact_us` (Element: Link, Label: "Contact Us")
+- **Expected Result**: The page loads successfully, and all interactive elements are responsive. Navigation links load their target pages, search displays correct results, and form inputs function as expected.
+
+## Semantic References for Healing
+- `jsp-tutorial_link_idx_0 | Link | Label: ""`
+- `jsp-tutorial_textbox_searchinput | Input | Placeholder: "Search..." / Label: "Search..."`
+- `jsp-tutorial_button_searchbtn | Button | Label: "Search"`
+- `jsp-tutorial_link_tutorials | Link | Label: "Tutorials"`
+- `jsp-tutorial_link_interviews | Link | Label: "Interviews"`
+- `jsp-tutorial_link_compilers | Link | Label: "Compilers"`
+- `jsp-tutorial_div_idx_147 | Div | Label: ""`
+- `jsp-tutorial_div_idx_148 | Div | Label: ""`
+- `jsp-tutorial_div_idx_149 | Div | Label: ""`
+- `jsp-tutorial_div_idx_150 | Div | Label: ""`
+- `jsp-tutorial_div_idx_151 | Div | Label: ""`
+- `jsp-tutorial_button_idx_152 | Button | Label: ""`
+- `jsp-tutorial_link_python_tutorial | Link | Label: "Python Tutorial"`
+- `jsp-tutorial_link_java_tutorial | Link | Label: "Java Tutorial"`
+- `jsp-tutorial_link_javascript_tutorial | Link | Label: "JavaScript Tutorial"`
+- `jsp-tutorial_link_sql_tutorial | Link | Label: "SQL Tutorial"`
+- `jsp-tutorial_link_c_tutorial | Link | Label: "C Tutorial"`
+- `jsp-tutorial_link_html_tutorial | Link | Label: "HTML Tutorial"`
+- `jsp-tutorial_link_css_tutorial | Link | Label: "CSS Tutorial"`
+- `jsp-tutorial_link_react_tutorial | Link | Label: "React Tutorial"`
+- `jsp-tutorial_link_nodejs_tutorial | Link | Label: "NodeJS Tutorial"`
+- `jsp-tutorial_link_sprint_boot_tutorial | Link | Label: "Sprint Boot Tutorial"`
+- `jsp-tutorial_link_php_tutorial | Link | Label: "PHP Tutorial"`
+- `jsp-tutorial_link_mysql_tutorial | Link | Label: "MYSQL Tutorial"`
+- `jsp-tutorial_link_mongodb_tutorial | Link | Label: "MongoDB Tutorial"`
+- `jsp-tutorial_link_ai_tutorial | Link | Label: "AI Tutorial"`
+- `jsp-tutorial_link_machine_learning_tutorial | Link | Label: "Machine Learning Tutorial"`
+- `jsp-tutorial_link_dsa_tutorial | Link | Label: "DSA Tutorial"`
+- `jsp-tutorial_link_dbms_tutorial | Link | Label: "DBMS Tutorial"`
+- `jsp-tutorial_link_os_tutorial | Link | Label: "OS Tutorial"`
+- `jsp-tutorial_button_jsp_tutorial | Button | Label: "JSP Tutorial"`
+- `jsp-tutorial_link_jsp_tutorial | Link | Label: "JSP Tutorial"`
+- `jsp-tutorial_link_jsp_api | Link | Label: "JSP API"`
+- `jsp-tutorial_link_jsp_in_eclipse | Link | Label: "JSP in Eclipse"`
+- `jsp-tutorial_link_how_to_configure_tomcat_s | Link | Label: "How to configure tomcat server in Eclipse IDE"`
+- `jsp-tutorial_button_jsp_scripting_elements | Button | Label: "JSP scripting elements"`
+- `jsp-tutorial_link_jsp_scriptlet_tag | Link | Label: "JSP scriptlet tag"`
+- `jsp-tutorial_link_jsp_expression_tag | Link | Label: "JSP expression tag"`
+- `jsp-tutorial_link_jsp_declaration_tag | Link | Label: "JSP declaration tag"`
+- `jsp-tutorial_button_9_implicit_objects | Button | Label: "9 Implicit Objects"`
+- `jsp-tutorial_link_jsp_implicit_objects | Link | Label: "JSP Implicit Objects"`
+- `jsp-tutorial_link_jsp_request | Link | Label: "JSP Request"`
+- `jsp-tutorial_link_jsp_response | Link | Label: "JSP Response"`
+- `jsp-tutorial_link_jsp_config | Link | Label: "JSP Config"`
+- `jsp-tutorial_link_jsp_application | Link | Label: "JSP Application"`
+- `jsp-tutorial_link_jsp_session | Link | Label: "JSP Session"`
+- `jsp-tutorial_link_jsp_pagecontext | Link | Label: "JSP PageContext"`
+- `jsp-tutorial_link_jsp_page | Link | Label: "JSP Page"`
+- `jsp-tutorial_link_jsp_exception | Link | Label: "JSP Exception"`
+- `jsp-tutorial_button_jsp_directive_elements | Button | Label: "JSP Directive Elements"`
+- `jsp-tutorial_link_jsp_page_directive | Link | Label: "JSP page directive"`
+- `jsp-tutorial_link_jsp_include_directive | Link | Label: "JSP include directive"`
+- `jsp-tutorial_link_jsp_taglib_directive | Link | Label: "JSP taglib directive"`
+- `jsp-tutorial_button_jsp_exception | Button | Label: "JSP Exception"`
+- `jsp-tutorial_link_exception_handling_in_jsp | Link | Label: "Exception Handling in JSP"`
+- `jsp-tutorial_button_action_elements | Button | Label: "Action Elements"`
+- `jsp-tutorial_link_jsp_forward | Link | Label: "jsp:forward"`
+- `jsp-tutorial_link_jsp_include | Link | Label: "jsp:include"`
+- `jsp-tutorial_link_java_bean_class | Link | Label: "Java Bean class"`
+- `jsp-tutorial_link_jsp_usebean | Link | Label: "jsp:useBean"`
+- `jsp-tutorial_link_set_getproperty | Link | Label: "set & getProperty"`
+- `jsp-tutorial_link_displaying_applet_in_jsp | Link | Label: "Displaying applet in JSP"`
+- `jsp-tutorial_button_expression_language | Button | Label: "Expression Language"`
+- `jsp-tutorial_link_expression_language_el_in | Link | Label: "Expression Language (EL) in JSP"`
+- `jsp-tutorial_button_mvc_in_jsp | Button | Label: "MVC in JSP"`
+- `jsp-tutorial_link_mvc_in_jsp | Link | Label: "MVC in JSP"`
+- `jsp-tutorial_button_jsp_custom_tags | Button | Label: "JSP Custom tags"`
+- `jsp-tutorial_link_custom_tags_in_jsp | Link | Label: "Custom Tags in JSP"`
+- `jsp-tutorial_link_example_of_custom_tag | Link | Label: "Example of Custom Tag"`
+- `jsp-tutorial_link_attributes | Link | Label: "Attributes"`
+- `jsp-tutorial_link_iteration | Link | Label: "Iteration"`
+- `jsp-tutorial_link_custom_uri | Link | Label: "Custom URI"`
+- `jsp-tutorial_button_jsp_pagination | Button | Label: "JSP Pagination"`
+- `jsp-tutorial_link_jsp_pagination_example | Link | Label: "JSP Pagination Example"`
+- `jsp-tutorial_button_jsp_crud | Button | Label: "JSP CRUD"`
+- `jsp-tutorial_link_jsp_crud_example | Link | Label: "JSP CRUD Example"`
+- `jsp-tutorial_button_development_in_jsp | Button | Label: "Development in JSP"`
+- `jsp-tutorial_link_registration_form | Link | Label: "Registration Form"`
+- `jsp-tutorial_link_login_form | Link | Label: "Login Form"`
+- `jsp-tutorial_link_example_to_upload_file_in | Link | Label: "Example to Upload File in JSP"`
+- `jsp-tutorial_link_example_to_download_file_ | Link | Label: "Example to Download File in JSP"`
+- `jsp-tutorial_button_interview_questions | Button | Label: "Interview Questions"`
+- `jsp-tutorial_link_jsp_interview_questions | Link | Label: "JSP Interview Questions"`
+- `jsp-tutorial_link_home | Link | Label: "Home"`
+- `jsp-tutorial_link_jsp | Link | Label: "JSP"`
+- `jsp-tutorial_heading_these_are_topics_related_ | Heading | Label: "These are topics related to the article that might interest you"`
+- `jsp-tutorial_link_computer_servers | Link | Label: "Computer Servers"`
+- `jsp-tutorial_link_web_apps | Link | Label: "web-apps"`
+- `jsp-tutorial_link_scripting | Link | Label: "scripting"`
+- `jsp-tutorial_link_development_tools | Link | Label: "Development Tools"`
+- `jsp-tutorial_link_java_programming_language | Link | Label: "Java (Programming Language)"`
+- `jsp-tutorial_link_programming | Link | Label: "Programming"`
+- `jsp-tutorial_link_life_cycle_of_jsp | Link | Label: "Life cycle of JSP"`
+- `jsp-tutorial_link_jsp_out | Link | Label: "JSP Out"`
+- `jsp-tutorial_link_expression_language | Link | Label: "Expression Language"`
+- `jsp-tutorial_link_jstl | Link | Label: "JSTL"`
+- `jsp-tutorial_link_jsp_custom_tags | Link | Label: "JSP Custom tags"`
+- `jsp-tutorial_link_uploading_file | Link | Label: "Uploading File"`
+- `jsp-tutorial_link_downloading_file | Link | Label: "Downloading File"`
+- `jsp-tutorial_link_next | Link | Label: "next →"`
+- `jsp-tutorial_textbox_email | Input | Placeholder: "Enter your email" / Label: "Your Email"`
+- `jsp-tutorial_button_subscribebtn | Button | Label: "Subscribe"`
+- `jsp-tutorial_link_hr_tpointtech_com | Link | Label: "hr@tpointtech.com"`
+- `jsp-tutorial_link_91_9599086977 | Link | Label: "+91-9599086977"`
+- `jsp-tutorial_link_idx_293 | Link | Label: ""`
+- `jsp-tutorial_link_idx_294 | Link | Label: ""`
+- `jsp-tutorial_link_idx_295 | Link | Label: ""`
+- `jsp-tutorial_link_idx_296 | Link | Label: ""`
+- `jsp-tutorial_link_idx_297 | Link | Label: ""`
+- `jsp-tutorial_link_idx_298 | Link | Label: ""`
+- `jsp-tutorial_link_data_structure_tutorial | Link | Label: "Data Structure Tutorial"`
+- `jsp-tutorial_link_c_programming_tutorial | Link | Label: "C Programming Tutorial"`
+- `jsp-tutorial_link_jquery_tutorial | Link | Label: "jQuery Tutorial"`
+- `jsp-tutorial_link_spring_tutorial | Link | Label: "Spring Tutorial"`
+- `jsp-tutorial_link_python_interview_question | Link | Label: "Python Interview Questions"`
+- `jsp-tutorial_link_java_interview_questions | Link | Label: "Java Interview Questions"`
+- `jsp-tutorial_link_data_structure_interview_ | Link | Label: "Data Structure Interview Questions"`
+- `jsp-tutorial_link_c_interview_questions | Link | Label: "C++ Interview Questions"`
+- `jsp-tutorial_link_html_interview_questions | Link | Label: "HTML Interview Questions"`
+- `jsp-tutorial_link_javascript_interview_ques | Link | Label: "JavaScript Interview Questions"`
+- `jsp-tutorial_link_jquery_interview_question | Link | Label: "jQuery Interview Questions"`
+- `jsp-tutorial_link_sql_interview_questions | Link | Label: "SQL Interview Questions"`
+- `jsp-tutorial_link_power_bi_interview_questi | Link | Label: "Power BI Interview Questions"`
+- `jsp-tutorial_link_online_c_compiler | Link | Label: "Online C Compiler"`
+- `jsp-tutorial_link_online_r_compiler | Link | Label: "Online R Compiler"`
+- `jsp-tutorial_link_online_php_compiler | Link | Label: "Online PHP Compiler"`
+- `jsp-tutorial_link_online_java_compiler | Link | Label: "Online Java Compiler"`
+- `jsp-tutorial_link_online_html_editor | Link | Label: "Online HTML Editor"`
+- `jsp-tutorial_link_online_swift_compiler | Link | Label: "Online Swift Compiler"`
+- `jsp-tutorial_link_online_python_compiler | Link | Label: "Online Python Compiler"`
+- `jsp-tutorial_link_online_javascript_editor | Link | Label: "Online JavaScript Editor"`
+- `jsp-tutorial_link_online_typescript_editor | Link | Label: "Online TypeScript Editor"`
+- `jsp-tutorial_link_latest_post | Link | Label: "Latest Post"`
+- `jsp-tutorial_link_tutorials_list | Link | Label: "Tutorials List"`
+- `jsp-tutorial_link_privacy_policy | Link | Label: "Privacy Policy"`
+- `jsp-tutorial_link_about_us | Link | Label: "About Us"`
+- `jsp-tutorial_link_contact_us | Link | Label: "Contact Us"`

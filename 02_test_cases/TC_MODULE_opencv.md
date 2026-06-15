@@ -1,0 +1,120 @@
+# Test Case: MODULE_opencv | UI Verification and Navigation
+- **Preconditions**: User is on page https://www.tpointtech.com/opencv
+- **Steps**:
+  1. Navigate to https://www.tpointtech.com/opencv
+  2. Verify and click header navigation links: `opencv_link_tutorials` (Element: Link, Label: "Tutorials"), `opencv_link_interviews` (Element: Link, Label: "Interviews"), `opencv_link_compilers` (Element: Link, Label: "Compilers")
+  3. Input "Python" into `opencv_textbox_searchinput` (Element: Input, Label: "Search...", Placeholder: "Search...")
+  4. Click `opencv_button_searchbtn` (Element: Button, Text: "Search") to execute search query
+  5. Click `opencv_link_next` (Element: Link, Text: "next →") to navigate to the next page
+  6. Input "testuser@example.com" into `opencv_textbox_email` (Element: Input, Label: "Your Email", Placeholder: "Enter your email")
+  7. Click `opencv_button_subscribebtn` (Element: Button, Text: "Subscribe") to subscribe to newsletter
+  8. Scroll to footer and verify/click links: `opencv_link_privacy_policy` (Element: Link, Label: "Privacy Policy"), `opencv_link_about_us` (Element: Link, Label: "About Us"), `opencv_link_contact_us` (Element: Link, Label: "Contact Us")
+- **Expected Result**: The page loads successfully, and all interactive elements are responsive. Navigation links load their target pages, search displays correct results, and form inputs function as expected.
+
+## Semantic References for Healing
+- `opencv_link_idx_0 | Link | Label: ""`
+- `opencv_textbox_searchinput | Input | Placeholder: "Search..." / Label: "Search..."`
+- `opencv_button_searchbtn | Button | Label: "Search"`
+- `opencv_link_tutorials | Link | Label: "Tutorials"`
+- `opencv_link_interviews | Link | Label: "Interviews"`
+- `opencv_link_compilers | Link | Label: "Compilers"`
+- `opencv_div_idx_147 | Div | Label: ""`
+- `opencv_div_idx_148 | Div | Label: ""`
+- `opencv_div_idx_149 | Div | Label: ""`
+- `opencv_div_idx_150 | Div | Label: ""`
+- `opencv_div_idx_151 | Div | Label: ""`
+- `opencv_button_idx_152 | Button | Label: ""`
+- `opencv_link_python_tutorial | Link | Label: "Python Tutorial"`
+- `opencv_link_java_tutorial | Link | Label: "Java Tutorial"`
+- `opencv_link_javascript_tutorial | Link | Label: "JavaScript Tutorial"`
+- `opencv_link_sql_tutorial | Link | Label: "SQL Tutorial"`
+- `opencv_link_c_tutorial | Link | Label: "C Tutorial"`
+- `opencv_link_html_tutorial | Link | Label: "HTML Tutorial"`
+- `opencv_link_css_tutorial | Link | Label: "CSS Tutorial"`
+- `opencv_link_react_tutorial | Link | Label: "React Tutorial"`
+- `opencv_link_nodejs_tutorial | Link | Label: "NodeJS Tutorial"`
+- `opencv_link_sprint_boot_tutorial | Link | Label: "Sprint Boot Tutorial"`
+- `opencv_link_php_tutorial | Link | Label: "PHP Tutorial"`
+- `opencv_link_mysql_tutorial | Link | Label: "MYSQL Tutorial"`
+- `opencv_link_mongodb_tutorial | Link | Label: "MongoDB Tutorial"`
+- `opencv_link_ai_tutorial | Link | Label: "AI Tutorial"`
+- `opencv_link_machine_learning_tutorial | Link | Label: "Machine Learning Tutorial"`
+- `opencv_link_dsa_tutorial | Link | Label: "DSA Tutorial"`
+- `opencv_link_dbms_tutorial | Link | Label: "DBMS Tutorial"`
+- `opencv_link_os_tutorial | Link | Label: "OS Tutorial"`
+- `opencv_button_opencv_tutorial | Button | Label: "OpenCV Tutorial"`
+- `opencv_link_opencv_installation | Link | Label: "OpenCV Installation"`
+- `opencv_link_read_save_images | Link | Label: "Read & Save Images"`
+- `opencv_link_basic_operation_on_images | Link | Label: "Basic Operation On images"`
+- `opencv_link_opencv_resize_image | Link | Label: "OpenCV Resize Image"`
+- `opencv_link_opencv_image_rotation | Link | Label: "OpenCV Image Rotation"`
+- `opencv_link_opencv_drawing_functions | Link | Label: "OpenCV Drawing Functions"`
+- `opencv_link_opencv_blob_detection | Link | Label: "OpenCV Blob Detection"`
+- `opencv_link_opencv_tutorial | Link | Label: "OpenCV Tutorial"`
+- `opencv_link_canny_edge_detection | Link | Label: "Canny Edge Detection"`
+- `opencv_link_opencv_gaussian_blur | Link | Label: "OpenCV Gaussian Blur"`
+- `opencv_link_opencv_image_filters | Link | Label: "OpenCV Image Filters"`
+- `opencv_link_opencv_image_threshold | Link | Label: "OpenCV Image Threshold"`
+- `opencv_link_opencv_contours | Link | Label: "OpenCV Contours"`
+- `opencv_link_opencv_mouse_event | Link | Label: "OpenCV Mouse Event"`
+- `opencv_link_opencv_template_matching | Link | Label: "OpenCV Template Matching"`
+- `opencv_link_opencv_erosion_dilation | Link | Label: "OpenCV Erosion & Dilation"`
+- `opencv_link_opencv_video_capture | Link | Label: "OpenCV Video Capture"`
+- `opencv_link_face_recognition_face_det | Link | Label: "Face Recognition & Face Detection"`
+- `opencv_link_limitations_in_face_detec | Link | Label: "Limitations in Face Detection"`
+- `opencv_link_human_activity_recognitio | Link | Label: "Human Activity Recognition with OpenCV"`
+- `opencv_link_count_number_of_faces_in_ | Link | Label: "Count number of Faces in Image using OpenCV in ..."`
+- `opencv_link_track_objects_with_camshi | Link | Label: "Track objects with Camshift using OpenCV"`
+- `opencv_link_home | Link | Label: "Home"`
+- `opencv_link_opencv | Link | Label: "OpenCV"`
+- `opencv_heading_these_are_topics_related_ | Heading | Label: "These are topics related to the article that might interest you"`
+- `opencv_link_scripting_languages | Link | Label: "Scripting Languages"`
+- `opencv_link_computers | Link | Label: "computers"`
+- `opencv_link_development_tools | Link | Label: "Development Tools"`
+- `opencv_link_photo_video_software | Link | Label: "Photo & Video Software"`
+- `opencv_link_programming_language | Link | Label: "programming language"`
+- `opencv_link_software | Link | Label: "software"`
+- `opencv_link_python_programming | Link | Label: "Python programming"`
+- `opencv_link_variables | Link | Label: "variables"`
+- `opencv_link_loops | Link | Label: "loops"`
+- `opencv_link_functions | Link | Label: "functions"`
+- `opencv_link_basic_file_handling_in_py | Link | Label: "basic file handling in Python"`
+- `opencv_link_arrays | Link | Label: "arrays"`
+- `opencv_link_next | Link | Label: "next →"`
+- `opencv_textbox_email | Input | Placeholder: "Enter your email" / Label: "Your Email"`
+- `opencv_button_subscribebtn | Button | Label: "Subscribe"`
+- `opencv_link_hr_tpointtech_com | Link | Label: "hr@tpointtech.com"`
+- `opencv_link_91_9599086977 | Link | Label: "+91-9599086977"`
+- `opencv_link_idx_219 | Link | Label: ""`
+- `opencv_link_idx_220 | Link | Label: ""`
+- `opencv_link_idx_221 | Link | Label: ""`
+- `opencv_link_idx_222 | Link | Label: ""`
+- `opencv_link_idx_223 | Link | Label: ""`
+- `opencv_link_idx_224 | Link | Label: ""`
+- `opencv_link_data_structure_tutorial | Link | Label: "Data Structure Tutorial"`
+- `opencv_link_c_programming_tutorial | Link | Label: "C Programming Tutorial"`
+- `opencv_link_jquery_tutorial | Link | Label: "jQuery Tutorial"`
+- `opencv_link_spring_tutorial | Link | Label: "Spring Tutorial"`
+- `opencv_link_python_interview_question | Link | Label: "Python Interview Questions"`
+- `opencv_link_java_interview_questions | Link | Label: "Java Interview Questions"`
+- `opencv_link_data_structure_interview_ | Link | Label: "Data Structure Interview Questions"`
+- `opencv_link_c_interview_questions | Link | Label: "C++ Interview Questions"`
+- `opencv_link_html_interview_questions | Link | Label: "HTML Interview Questions"`
+- `opencv_link_javascript_interview_ques | Link | Label: "JavaScript Interview Questions"`
+- `opencv_link_jquery_interview_question | Link | Label: "jQuery Interview Questions"`
+- `opencv_link_sql_interview_questions | Link | Label: "SQL Interview Questions"`
+- `opencv_link_power_bi_interview_questi | Link | Label: "Power BI Interview Questions"`
+- `opencv_link_online_c_compiler | Link | Label: "Online C Compiler"`
+- `opencv_link_online_r_compiler | Link | Label: "Online R Compiler"`
+- `opencv_link_online_php_compiler | Link | Label: "Online PHP Compiler"`
+- `opencv_link_online_java_compiler | Link | Label: "Online Java Compiler"`
+- `opencv_link_online_html_editor | Link | Label: "Online HTML Editor"`
+- `opencv_link_online_swift_compiler | Link | Label: "Online Swift Compiler"`
+- `opencv_link_online_python_compiler | Link | Label: "Online Python Compiler"`
+- `opencv_link_online_javascript_editor | Link | Label: "Online JavaScript Editor"`
+- `opencv_link_online_typescript_editor | Link | Label: "Online TypeScript Editor"`
+- `opencv_link_latest_post | Link | Label: "Latest Post"`
+- `opencv_link_tutorials_list | Link | Label: "Tutorials List"`
+- `opencv_link_privacy_policy | Link | Label: "Privacy Policy"`
+- `opencv_link_about_us | Link | Label: "About Us"`
+- `opencv_link_contact_us | Link | Label: "Contact Us"`

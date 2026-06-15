@@ -1,0 +1,673 @@
+# Test Case: MODULE_net-framework | UI Verification and Navigation
+- **Preconditions**: User is on page https://www.tpointtech.com/net-framework
+- **Steps**:
+  1. Navigate to https://www.tpointtech.com/net-framework
+  2. Verify and click header navigation links: `net-framework_link_tutorials` (Element: Link, Label: "Tutorials"), `net-framework_link_interviews` (Element: Link, Label: "Interviews"), `net-framework_link_compilers` (Element: Link, Label: "Compilers")
+  3. Input "Python" into `net-framework_textbox_searchinput` (Element: Input, Label: "Search...", Placeholder: "Search...")
+  4. Click `net-framework_button_searchbtn` (Element: Button, Text: "Search") to execute search query
+  5. Click `net-framework_link_next` (Element: Link, Text: "next →") to navigate to the next page
+  6. Input "testuser@example.com" into `net-framework_textbox_email` (Element: Input, Label: "Your Email", Placeholder: "Enter your email")
+  7. Click `net-framework_button_subscribebtn` (Element: Button, Text: "Subscribe") to subscribe to newsletter
+  8. Scroll to footer and verify/click links: `net-framework_link_privacy_policy` (Element: Link, Label: "Privacy Policy"), `net-framework_link_about_us` (Element: Link, Label: "About Us"), `net-framework_link_contact_us` (Element: Link, Label: "Contact Us")
+- **Expected Result**: The page loads successfully, and all interactive elements are responsive. Navigation links load their target pages, search displays correct results, and form inputs function as expected.
+
+## Semantic References for Healing
+- `net-framework_link_idx_0 | Link | Label: ""`
+- `net-framework_textbox_searchinput | Input | Placeholder: "Search..." / Label: "Search..."`
+- `net-framework_button_searchbtn | Button | Label: "Search"`
+- `net-framework_link_tutorials | Link | Label: "Tutorials"`
+- `net-framework_link_interviews | Link | Label: "Interviews"`
+- `net-framework_link_compilers | Link | Label: "Compilers"`
+- `net-framework_div_idx_147 | Div | Label: ""`
+- `net-framework_div_idx_148 | Div | Label: ""`
+- `net-framework_div_idx_149 | Div | Label: ""`
+- `net-framework_div_idx_150 | Div | Label: ""`
+- `net-framework_div_idx_151 | Div | Label: ""`
+- `net-framework_button_idx_152 | Button | Label: ""`
+- `net-framework_link_python_tutorial | Link | Label: "Python Tutorial"`
+- `net-framework_link_java_tutorial | Link | Label: "Java Tutorial"`
+- `net-framework_link_javascript_tutorial | Link | Label: "JavaScript Tutorial"`
+- `net-framework_link_sql_tutorial | Link | Label: "SQL Tutorial"`
+- `net-framework_link_c_tutorial | Link | Label: "C Tutorial"`
+- `net-framework_link_html_tutorial | Link | Label: "HTML Tutorial"`
+- `net-framework_link_css_tutorial | Link | Label: "CSS Tutorial"`
+- `net-framework_link_react_tutorial | Link | Label: "React Tutorial"`
+- `net-framework_link_nodejs_tutorial | Link | Label: "NodeJS Tutorial"`
+- `net-framework_link_sprint_boot_tutorial | Link | Label: "Sprint Boot Tutorial"`
+- `net-framework_link_php_tutorial | Link | Label: "PHP Tutorial"`
+- `net-framework_link_mysql_tutorial | Link | Label: "MYSQL Tutorial"`
+- `net-framework_link_mongodb_tutorial | Link | Label: "MongoDB Tutorial"`
+- `net-framework_link_ai_tutorial | Link | Label: "AI Tutorial"`
+- `net-framework_link_machine_learning_tutorial | Link | Label: "Machine Learning Tutorial"`
+- `net-framework_link_dsa_tutorial | Link | Label: "DSA Tutorial"`
+- `net-framework_link_dbms_tutorial | Link | Label: "DBMS Tutorial"`
+- `net-framework_link_os_tutorial | Link | Label: "OS Tutorial"`
+- `net-framework_button_net_framework | Button | Label: ".Net Framework"`
+- `net-framework_link_net_framework | Link | Label: ".NET Framework"`
+- `net-framework_link_clr | Link | Label: "CLR"`
+- `net-framework_link_fcl | Link | Label: "FCL"`
+- `net-framework_link_managed_code_and_unmanage | Link | Label: "Managed code and Unmanaged code in .NET"`
+- `net-framework_button_c_tutorial | Button | Label: "C# Tutorial"`
+- `net-framework_link_java_vs_c | Link | Label: "Java vs C#"`
+- `net-framework_link_c_history | Link | Label: "C# History"`
+- `net-framework_link_c_features | Link | Label: "C# Features"`
+- `net-framework_link_c_example | Link | Label: "C# Example"`
+- `net-framework_link_c_variables | Link | Label: "C# Variables"`
+- `net-framework_link_c_data_types | Link | Label: "C# Data Types"`
+- `net-framework_link_c_operators | Link | Label: "C# Operators"`
+- `net-framework_link_c_keywords | Link | Label: "C# Keywords"`
+- `net-framework_button_c_control_statement | Button | Label: "C# Control Statement"`
+- `net-framework_link_c_if_else | Link | Label: "C# if-else"`
+- `net-framework_link_c_switch | Link | Label: "C# switch"`
+- `net-framework_link_c_for_loop | Link | Label: "C# For Loop"`
+- `net-framework_link_c_while_loop | Link | Label: "C# While Loop"`
+- `net-framework_link_c_do_while_loop | Link | Label: "C# Do-While Loop"`
+- `net-framework_link_c_break | Link | Label: "C# Break"`
+- `net-framework_link_c_continue | Link | Label: "C# Continue"`
+- `net-framework_link_c_goto | Link | Label: "C# Goto"`
+- `net-framework_link_c_comments | Link | Label: "C# Comments"`
+- `net-framework_button_c_function | Button | Label: "C# Function"`
+- `net-framework_link_c_function | Link | Label: "C# Function"`
+- `net-framework_link_c_call_by_value | Link | Label: "C# Call By Value"`
+- `net-framework_link_c_call_by_reference | Link | Label: "C# Call By Reference"`
+- `net-framework_link_c_out_parameter | Link | Label: "C# Out Parameter"`
+- `net-framework_button_c_arrays | Button | Label: "C# Arrays"`
+- `net-framework_link_c_arrays | Link | Label: "C# Arrays"`
+- `net-framework_link_c_array_to_function | Link | Label: "C# Array to Function"`
+- `net-framework_link_c_multidimensional_array | Link | Label: "C# Multidimensional Array"`
+- `net-framework_link_c_jagged_arrays | Link | Label: "C# Jagged Arrays"`
+- `net-framework_link_c_params | Link | Label: "C# Params"`
+- `net-framework_link_c_array_class | Link | Label: "C# Array class"`
+- `net-framework_link_c_command_line_args | Link | Label: "C# Command Line Args"`
+- `net-framework_button_c_object_class | Button | Label: "C# Object Class"`
+- `net-framework_link_c_object_and_class | Link | Label: "C# Object and Class"`
+- `net-framework_link_c_constructor | Link | Label: "C# Constructor"`
+- `net-framework_link_c_destructor | Link | Label: "C# Destructor"`
+- `net-framework_link_c_this | Link | Label: "C# this"`
+- `net-framework_link_c_static | Link | Label: "C# static"`
+- `net-framework_link_c_static_class | Link | Label: "C# static class"`
+- `net-framework_link_c_static_constructor | Link | Label: "C# static constructor"`
+- `net-framework_link_c_structs | Link | Label: "C# Structs"`
+- `net-framework_link_c_enum | Link | Label: "C# Enum"`
+- `net-framework_button_c_properties | Button | Label: "C# Properties"`
+- `net-framework_link_c_properties | Link | Label: "C# Properties"`
+- `net-framework_button_c_inheritance | Button | Label: "C# Inheritance"`
+- `net-framework_link_c_inheritance | Link | Label: "C# Inheritance"`
+- `net-framework_link_c_aggregation | Link | Label: "C# Aggregation"`
+- `net-framework_button_c_polymorphism | Button | Label: "C# Polymorphism"`
+- `net-framework_link_c_method_overloading | Link | Label: "C# Method Overloading"`
+- `net-framework_link_c_method_overriding | Link | Label: "C# Method Overriding"`
+- `net-framework_link_c_base | Link | Label: "C# Base"`
+- `net-framework_link_polymorphism_in_c | Link | Label: "Polymorphism in C#"`
+- `net-framework_link_c_sealed | Link | Label: "C# Sealed"`
+- `net-framework_button_c_abstraction | Button | Label: "C# Abstraction"`
+- `net-framework_link_c_abstraction | Link | Label: "C# Abstraction"`
+- `net-framework_link_abstract_class_in_c | Link | Label: "Abstract class in C#"`
+- `net-framework_link_c_interface | Link | Label: "C# Interface"`
+- `net-framework_button_c_namespace | Button | Label: "C# Namespace"`
+- `net-framework_link_c_namespaces | Link | Label: "C# Namespaces"`
+- `net-framework_link_c_access_modifiers | Link | Label: "C# Access Modifiers"`
+- `net-framework_link_c_encapsulation | Link | Label: "C# Encapsulation"`
+- `net-framework_button_c_strings | Button | Label: "C# Strings"`
+- `net-framework_link_c_strings | Link | Label: "C# Strings"`
+- `net-framework_button_c_exception_handling | Button | Label: "C# Exception Handling"`
+- `net-framework_link_c_exception_handling | Link | Label: "C# Exception Handling"`
+- `net-framework_link_c_try_catch | Link | Label: "C# try/catch"`
+- `net-framework_link_c_finally | Link | Label: "C# finally"`
+- `net-framework_link_c_custom_exception | Link | Label: "C# Custom Exception"`
+- `net-framework_link_c_checked_unchecked | Link | Label: "C# checked unchecked"`
+- `net-framework_link_c_systemexception | Link | Label: "C# SystemException"`
+- `net-framework_button_c_file_io | Button | Label: "C# File IO"`
+- `net-framework_link_c_filestream | Link | Label: "C# FileStream"`
+- `net-framework_link_c_streamwriter | Link | Label: "C# StreamWriter"`
+- `net-framework_link_c_streamreader | Link | Label: "C# StreamReader"`
+- `net-framework_link_c_textwriter | Link | Label: "C# TextWriter"`
+- `net-framework_link_c_textreader | Link | Label: "C# TextReader"`
+- `net-framework_link_c_binarywriter | Link | Label: "C# BinaryWriter"`
+- `net-framework_link_c_binaryreader | Link | Label: "C# BinaryReader"`
+- `net-framework_link_c_stringwriter | Link | Label: "C# StringWriter"`
+- `net-framework_link_c_stringreader | Link | Label: "C# StringReader"`
+- `net-framework_link_c_fileinfo | Link | Label: "C# FileInfo"`
+- `net-framework_link_c_directoryinfo | Link | Label: "C# DirectoryInfo"`
+- `net-framework_link_c_serialization | Link | Label: "C# Serialization"`
+- `net-framework_link_c_deserialization | Link | Label: "C# Deserialization"`
+- `net-framework_link_c_system_io | Link | Label: "C# System.IO"`
+- `net-framework_button_c_collections | Button | Label: "C# Collections"`
+- `net-framework_link_c_collections | Link | Label: "C# Collections"`
+- `net-framework_link_c_list | Link | Label: "C# List"`
+- `net-framework_link_c_hashset | Link | Label: "C# HashSet"`
+- `net-framework_link_c_sortedset | Link | Label: "C# SortedSet"`
+- `net-framework_link_c_stack | Link | Label: "C# Stack"`
+- `net-framework_link_c_queue | Link | Label: "C# Queue"`
+- `net-framework_link_c_linkedlist | Link | Label: "C# LinkedList"`
+- `net-framework_link_c_dictionary | Link | Label: "C# Dictionary"`
+- `net-framework_link_c_sorteddictionary | Link | Label: "C# SortedDictionary"`
+- `net-framework_link_c_sortedlist | Link | Label: "C# SortedList"`
+- `net-framework_button_c_generics | Button | Label: "C# Generics"`
+- `net-framework_link_c_generics | Link | Label: "C# Generics"`
+- `net-framework_button_c_delegates | Button | Label: "C# Delegates"`
+- `net-framework_link_c_delegates | Link | Label: "C# Delegates"`
+- `net-framework_button_c_reflection | Button | Label: "C# Reflection"`
+- `net-framework_link_c_reflection | Link | Label: "C# Reflection"`
+- `net-framework_button_anonymous_function | Button | Label: "Anonymous Function"`
+- `net-framework_link_anonymous_function | Link | Label: "Anonymous Function"`
+- `net-framework_button_c_multithreading | Button | Label: "C# Multithreading"`
+- `net-framework_link_c_multithreading | Link | Label: "C# Multithreading"`
+- `net-framework_link_c_thread_life_cycle | Link | Label: "C# Thread Life Cycle"`
+- `net-framework_link_c_thread_class | Link | Label: "C# Thread class"`
+- `net-framework_link_c_main_thread | Link | Label: "C# Main Thread"`
+- `net-framework_link_c_thread_example | Link | Label: "C# Thread Example"`
+- `net-framework_link_c_thread_sleep | Link | Label: "C# Thread Sleep"`
+- `net-framework_link_c_thread_abort | Link | Label: "C# Thread Abort"`
+- `net-framework_link_c_thread_join | Link | Label: "C# Thread Join"`
+- `net-framework_link_c_thread_name | Link | Label: "C# Thread Name"`
+- `net-framework_link_c_threadpriority | Link | Label: "C# ThreadPriority"`
+- `net-framework_button_c_synchronization | Button | Label: "C# Synchronization"`
+- `net-framework_link_c_synchronization | Link | Label: "C# Synchronization"`
+- `net-framework_button_c_advanced_topics | Button | Label: "C# Advanced Topics"`
+- `net-framework_link_design_patterns_in_c | Link | Label: "Design Patterns in C#"`
+- `net-framework_link_dependency_injection_in_c | Link | Label: "Dependency Injection in C#"`
+- `net-framework_button_c_2_0 | Button | Label: "C# 2.0"`
+- `net-framework_link_partial_types | Link | Label: "Partial types"`
+- `net-framework_link_iterators | Link | Label: "Iterators"`
+- `net-framework_link_nullable_types | Link | Label: "Nullable types"`
+- `net-framework_link_delegate_covariance | Link | Label: "Delegate Covariance"`
+- `net-framework_link_delegate_inference | Link | Label: "Delegate inference"`
+- `net-framework_link_static_classes | Link | Label: "Static classes"`
+- `net-framework_button_c_3_0 | Button | Label: "C# 3.0"`
+- `net-framework_link_anonymous_types | Link | Label: "Anonymous types"`
+- `net-framework_link_extension_methods | Link | Label: "Extension methods"`
+- `net-framework_link_query_expression | Link | Label: "Query expression"`
+- `net-framework_link_partial_method | Link | Label: "Partial method"`
+- `net-framework_link_implicitly_typed_local_va | Link | Label: "Implicitly typed local variables"`
+- `net-framework_link_object_and_collection_ini | Link | Label: "Object and collection initializers"`
+- `net-framework_link_auto_implemented_properti | Link | Label: "Auto-Implemented properties"`
+- `net-framework_button_c_4_0 | Button | Label: "C# 4.0"`
+- `net-framework_link_dynamic_binding | Link | Label: "Dynamic binding"`
+- `net-framework_link_named_and_optional_argume | Link | Label: "Named and optional arguments"`
+- `net-framework_button_c_5_0 | Button | Label: "C# 5.0"`
+- `net-framework_link_asynchronous_methods | Link | Label: "Asynchronous methods"`
+- `net-framework_link_caller_info_attributes | Link | Label: "Caller info attributes"`
+- `net-framework_button_c_6_0 | Button | Label: "C# 6.0"`
+- `net-framework_link_using_static_directive | Link | Label: "Using static directive"`
+- `net-framework_link_exception_filters | Link | Label: "Exception filters"`
+- `net-framework_link_await_in_catch_finally_bl | Link | Label: "Await in catch/finally blocks"`
+- `net-framework_link_auto_property_initializer | Link | Label: "Auto property initializers"`
+- `net-framework_link_default_values_for_getter | Link | Label: "Default values for getter-only properties"`
+- `net-framework_link_expression_bodied_members | Link | Label: "Expression-bodied members"`
+- `net-framework_link_null_propagator | Link | Label: "Null propagator"`
+- `net-framework_link_string_interpolation | Link | Label: "String interpolation"`
+- `net-framework_link_nameof_operator | Link | Label: "Nameof operator"`
+- `net-framework_link_dictionary_initializer | Link | Label: "Dictionary initializer"`
+- `net-framework_button_c_7_0 | Button | Label: "C# 7.0"`
+- `net-framework_link_pattern_matching | Link | Label: "Pattern matching"`
+- `net-framework_link_tuples | Link | Label: "Tuples"`
+- `net-framework_link_deconstruction | Link | Label: "Deconstruction"`
+- `net-framework_link_local_functions | Link | Label: "Local functions"`
+- `net-framework_link_digit_separator | Link | Label: "Digit separator"`
+- `net-framework_link_binary_literals | Link | Label: "Binary literals"`
+- `net-framework_link_ref_returns_and_locals | Link | Label: "Ref returns and locals"`
+- `net-framework_link_expression_bodied_constru | Link | Label: "Expression bodied constructors and finalizers"`
+- `net-framework_link_expression_bodied_getters | Link | Label: "Expression bodied getters and setters"`
+- `net-framework_link_out_variables | Link | Label: "Out variables"`
+- `net-framework_button_c_7_1 | Button | Label: "C# 7.1"`
+- `net-framework_link_async_main | Link | Label: "Async main"`
+- `net-framework_link_default_expressions | Link | Label: "Default expressions"`
+- `net-framework_button_c_programs | Button | Label: "C# Programs"`
+- `net-framework_link_c_programs | Link | Label: "C# Programs"`
+- `net-framework_link_fibonacci_series | Link | Label: "Fibonacci Series"`
+- `net-framework_link_prime_number | Link | Label: "Prime Number"`
+- `net-framework_link_palindrome_number | Link | Label: "Palindrome Number"`
+- `net-framework_link_factorial | Link | Label: "Factorial"`
+- `net-framework_link_armstrong_number | Link | Label: "Armstrong Number"`
+- `net-framework_link_sum_of_digits | Link | Label: "Sum of digits"`
+- `net-framework_link_c_program_to_reverse_numb | Link | Label: "C# Program to Reverse Number"`
+- `net-framework_link_swap_number | Link | Label: "Swap Number"`
+- `net-framework_link_decimal_to_binary | Link | Label: "Decimal to Binary"`
+- `net-framework_link_number_in_characters | Link | Label: "Number in Characters"`
+- `net-framework_link_alphabet_triangle | Link | Label: "Alphabet Triangle"`
+- `net-framework_link_number_triangle | Link | Label: "Number Triangle"`
+- `net-framework_link_fibonacci_triangle | Link | Label: "Fibonacci Triangle"`
+- `net-framework_button_c_interview_questions | Button | Label: "C# Interview Questions"`
+- `net-framework_link_c_interview_questions | Link | Label: "C# Interview Questions"`
+- `net-framework_button_c_misc | Button | Label: "C# Misc"`
+- `net-framework_link_events_in_c | Link | Label: "Events in C#"`
+- `net-framework_link_regular_expression_in_c | Link | Label: "Regular Expression in C#"`
+- `net-framework_link_datetime_in_c | Link | Label: "DateTime in C#"`
+- `net-framework_link_type_casting_in_c | Link | Label: "Type Casting in C#"`
+- `net-framework_link_listbox_control_in_c | Link | Label: "ListBox Control in C#"`
+- `net-framework_link_c_readline_method | Link | Label: "C# ReadLine() Method"`
+- `net-framework_link_c_operator_overloading | Link | Label: "C# Operator Overloading"`
+- `net-framework_link_3_tier_architecture_in_c | Link | Label: "3-tier architecture in c#"`
+- `net-framework_link_c_custom_attribute | Link | Label: "C# Custom Attribute"`
+- `net-framework_link_c_game_development | Link | Label: "C# Game Development"`
+- `net-framework_link_c_rename_file | Link | Label: "C# Rename File"`
+- `net-framework_link_c_validate_email | Link | Label: "C# Validate Email"`
+- `net-framework_link_c_webclient | Link | Label: "C# WebClient"`
+- `net-framework_link_c_xml_parser | Link | Label: "C# XML Parser"`
+- `net-framework_link_parse_json_in_c | Link | Label: "Parse JSON in C#"`
+- `net-framework_link_priority_queue_c | Link | Label: "Priority Queue C#"`
+- `net-framework_link_restclient_c | Link | Label: "RestClient C#"`
+- `net-framework_link_shadowing_in_c | Link | Label: "Shadowing in C#"`
+- `net-framework_link_task_vs_thread_c | Link | Label: "Task vs Thread C#"`
+- `net-framework_link_unmanaged_code_in_c | Link | Label: "Unmanaged Code in C#"`
+- `net-framework_link_c_socket_programming | Link | Label: "C# Socket Programming"`
+- `net-framework_link_c_unit_test_framework | Link | Label: "C# Unit Test Framework"`
+- `net-framework_link_convert_datatable_to_list | Link | Label: "Convert DataTable to List in C#"`
+- `net-framework_link_escape_sequence_in_c | Link | Label: "Escape Sequence in C#"`
+- `net-framework_link_nhibernate_c | Link | Label: "NHibernate C#"`
+- `net-framework_link_any_in_c | Link | Label: "'any' in C#"`
+- `net-framework_link_advanced_c | Link | Label: "Advanced C#"`
+- `net-framework_link_aes_encryption_c | Link | Label: "AES Encryption C#"`
+- `net-framework_link_what_is_dll_in_c | Link | Label: "What is DLL in C#"`
+- `net-framework_link_gridview_c | Link | Label: "GridView C#"`
+- `net-framework_link_html_encode_c | Link | Label: "HTML Encode C#"`
+- `net-framework_link_html_to_pdf_c | Link | Label: "HTML to PDF C#"`
+- `net-framework_link_msdn_c | Link | Label: "MSDN C#"`
+- `net-framework_link_net_architecture_in_c | Link | Label: "NET Architecture in C#"`
+- `net-framework_link_c_books_for_beginners | Link | Label: "C# Books for Beginners"`
+- `net-framework_link_orm_c | Link | Label: "ORM C#"`
+- `net-framework_link_signalr_in_c | Link | Label: "SignalR in C#"`
+- `net-framework_link_throw_vs_throw_ex_c | Link | Label: "throw vs throw ex C#"`
+- `net-framework_link_c_marshal | Link | Label: "C# Marshal"`
+- `net-framework_link_c_regex_tester | Link | Label: "C# Regex Tester"`
+- `net-framework_link_clean_architecture_c | Link | Label: "Clean Architecture C#"`
+- `net-framework_link_tutlane_c | Link | Label: "Tutlane C#"`
+- `net-framework_link_type_of_assembly_in_c | Link | Label: "Type of Assembly in C#"`
+- `net-framework_link_unity_container_c | Link | Label: "Unity Container C#"`
+- `net-framework_link_fiddle_c | Link | Label: "Fiddle C#"`
+- `net-framework_link_msmq_c | Link | Label: "MSMQ C#"`
+- `net-framework_link_rabbitmq_c | Link | Label: "RabbitMQ C#"`
+- `net-framework_link_resx_file_c | Link | Label: "ResX File C#"`
+- `net-framework_link_what_is_ienumerable_in_c | Link | Label: "What is ienumerable in C#"`
+- `net-framework_link_difference_between_readon | Link | Label: "Difference between readonly and Constant in C#"`
+- `net-framework_link_how_to_call_stored_proced | Link | Label: "How to Call Stored Procedure in C#"`
+- `net-framework_link_boxing_and_unboxing_in_c | Link | Label: "Boxing and Unboxing in C#"`
+- `net-framework_link_singleton_design_pattern_ | Link | Label: "Singleton Design pattern in C#"`
+- `net-framework_link_convert_double_to_int_in_ | Link | Label: "Convert double to int in C#"`
+- `net-framework_link_difference_between_struct | Link | Label: "Difference between struct and class in C#"`
+- `net-framework_link_error_logging_in_c | Link | Label: "Error logging in C#"`
+- `net-framework_link_throw_keyword_in_c | Link | Label: "Throw Keyword in C#"`
+- `net-framework_link_custom_controls_in_c | Link | Label: "Custom controls in C#"`
+- `net-framework_link_foreach_loop_in_c | Link | Label: "Foreach loop in C#"`
+- `net-framework_link_volatile_keyword_in_c | Link | Label: "Volatile Keyword in C#"`
+- `net-framework_link_private_constructor_in_c | Link | Label: "Private constructor in C#"`
+- `net-framework_link_ienumerable_vs_iqueryable | Link | Label: "IEnumerable vs IQueryable in C#"`
+- `net-framework_link_stringcollection_class_in | Link | Label: "StringCollection Class in C#"`
+- `net-framework_link_liskov_substitution_princ | Link | Label: "Liskov Substitution Principle in C#"`
+- `net-framework_link_stack_pop_method_in_c | Link | Label: "Stack.Pop() Method in C#"`
+- `net-framework_link_byte_maxvalue_field_in_c | Link | Label: "Byte.MaxValue Field in C#"`
+- `net-framework_link_char_tryparse_method_in_c | Link | Label: "Char.TryParse () Method in C#"`
+- `net-framework_link_sbyte_struct_fields_in_c | Link | Label: "SByte Struct Fields in C#"`
+- `net-framework_link_shallow_copy_and_deep_cop | Link | Label: "Shallow Copy and Deep Copy in C#"`
+- `net-framework_link_type_findmembers_method_i | Link | Label: "Type.FindMembers() Method in C#"`
+- `net-framework_link_char_equals_method_in_c | Link | Label: "Char.Equals () Method in C#"`
+- `net-framework_link_char_ishighsurrogate_stri | Link | Label: "Char.IsHighSurrogate(String, Int32) Method in C#"`
+- `net-framework_link_char_isseparator_method_i | Link | Label: "Char.IsSeparator () Method in C#"`
+- `net-framework_link_char_iswhitespace_method_ | Link | Label: "Char.IsWhiteSpace() Method in C#"`
+- `net-framework_link_datetimeoffset_fromunixti | Link | Label: "DateTimeOffset.FromUnixTimeMilliseconds() Metho..."`
+- `net-framework_link_decimal_toint32_method_in | Link | Label: "Decimal.ToInt32() Method in C#"`
+- `net-framework_link_difference_between_proper | Link | Label: "Difference between Properties and Indexers in C#"`
+- `net-framework_link_difference_between_sorted | Link | Label: "Difference between SortedList and SortedDiction..."`
+- `net-framework_link_difference_between_static | Link | Label: "Difference between Static Constructors and Non-..."`
+- `net-framework_link_double_isinfinity_method_ | Link | Label: "Double.IsInfinity() Method in C#"`
+- `net-framework_link_double_isnan_method_in_c | Link | Label: "Double.IsNaN() Method in C#"`
+- `net-framework_link_file_appendalllines_strin | Link | Label: "File.AppendAllLines(String, IEnumerable String,..."`
+- `net-framework_link_file_getlastwritetimeutc_ | Link | Label: "File.GetLastWriteTimeUtc() method in C#"`
+- `net-framework_link_indexofany_method_in_c | Link | Label: "IndexOfAny() Method in C#"`
+- `net-framework_link_list_trimexcess_method_in | Link | Label: "List.TrimExcess Method in C#"`
+- `net-framework_link_object_memberwiseclone_in | Link | Label: "Object.MemberwiseClone() in C#"`
+- `net-framework_link_queue_synchronized_in_c | Link | Label: "Queue.Synchronized() in C#"`
+- `net-framework_link_random_nextdouble_method_ | Link | Label: "Random.NextDouble() Method in C#"`
+- `net-framework_link_valuetuple_struct_in_c | Link | Label: "ValueTuple Struct in C#"`
+- `net-framework_link_c_program_to_demonstrate_ | Link | Label: "C# Program to Demonstrate the IList Interface"`
+- `net-framework_link_char_ispunctuation_method | Link | Label: "Char.IsPunctuation() Method in C#"`
+- `net-framework_link_char_issurrogate_string_i | Link | Label: "Char.IsSurrogate(String, Int32) Method in C#"`
+- `net-framework_link_charenumerator_gethashcod | Link | Label: "CharEnumerator.GetHashCode() Method in C#"`
+- `net-framework_link_charenumerator_tostring_m | Link | Label: "CharEnumerator.ToString() Method in C#"`
+- `net-framework_link_char_tolowerinvariant_cha | Link | Label: "Char.ToLowerInvariant(Char) Method in C#"`
+- `net-framework_link_console_setin_method_in_c | Link | Label: "Console.SetIn() Method in C#"`
+- `net-framework_link_difference_between_delega | Link | Label: "Difference between delegates and interfaces in C#"`
+- `net-framework_link_difference_between_javasc | Link | Label: "Difference between JavaScript and C#"`
+- `net-framework_link_how_to_create_7_tuple_or_ | Link | Label: "How to create 7-Tuple or Septuple in C#"`
+- `net-framework_link_how_to_implement_is_funct | Link | Label: "How to implement is functionality without using..."`
+- `net-framework_link_index_constructor_in_c | Link | Label: "Index Constructor in C#"`
+- `net-framework_link_math_bigmul_method_in_c | Link | Label: "Math.BigMul() Method in C#"`
+- `net-framework_link_single_isfinite_method_in | Link | Label: "Single.IsFinite() Method in C#"`
+- `net-framework_link_array_binarysearch_array_ | Link | Label: "Array.BinarySearch(Array, Int32, Int32, Object)..."`
+- `net-framework_link_byte_minvalue_field_in_c | Link | Label: "Byte.MinValue Field in C#"`
+- `net-framework_link_char_convertfromutf32_int | Link | Label: "Char.ConvertFromUtf32(Int32) Method in C#"`
+- `net-framework_link_console_treatcontrolcasin | Link | Label: "Console.TreatControlCAsInput Property in C#"`
+- `net-framework_link_convert_tosbyte_string_if | Link | Label: "Convert.ToSByte(String, IFormatProvider) Method..."`
+- `net-framework_link_decimal_gethashcode_metho | Link | Label: "Decimal.GetHashCode Method in C#"`
+- `net-framework_link_difference_between_is_and | Link | Label: "Difference between Is and As operator keyword i..."`
+- `net-framework_link_file_getattributes_method | Link | Label: "File.GetAttributes() Method in C#"`
+- `net-framework_link_getting_an_enumerator_for | Link | Label: "Getting an enumerator for the entire ArrayList ..."`
+- `net-framework_link_multicast_delegates_in_c | Link | Label: "Multicast delegates in C#"`
+- `net-framework_link_null_coalescing_operator_ | Link | Label: "Null-Coalescing Operator in C#"`
+- `net-framework_link_single_gettypecode_method | Link | Label: "Single.GetTypeCode Method in C#"`
+- `net-framework_link_single_ispositiveinfinity | Link | Label: "Single.IsPositiveInfinity() Method in C#"`
+- `net-framework_link_stack_clear_method_in_c | Link | Label: "Stack.Clear Method in C#"`
+- `net-framework_link_uri_isbaseof_uri_method_i | Link | Label: "Uri.IsBaseOf(Uri) Method in C#"`
+- `net-framework_link_c_program_that_demonstrat | Link | Label: "C# Program that Demonstrates Exception Handling..."`
+- `net-framework_link_c_program_to_check_a_spec | Link | Label: "C# Program to Check a Specified Class is a Seal..."`
+- `net-framework_link_charenumerator_reset_meth | Link | Label: "CharEnumerator.Reset() Method in C#"`
+- `net-framework_link_decimal_fromoacurrency_me | Link | Label: "Decimal.FromOACurrency() Method in C#"`
+- `net-framework_link_dictionary_count_property | Link | Label: "Dictionary.Count Property in C#"`
+- `net-framework_link_difference_between_c_and_ | Link | Label: "Difference between C# and ASP.NET"`
+- `net-framework_link_difference_between_method | Link | Label: "Difference between Method Overriding and Method..."`
+- `net-framework_link_different_ways_to_take_in | Link | Label: "Different Ways to Take Input and Print a Float ..."`
+- `net-framework_link_file_setlastaccesstime_me | Link | Label: "file.setLastAccessTime() Method in C#"`
+- `net-framework_link_finding_the_index_of_the_ | Link | Label: "Finding the index of the first element of the s..."`
+- `net-framework_link_gets_or_sets_the_element_ | Link | Label: "Gets or Sets the element at the specified index..."`
+- `net-framework_link_how_to_compare_two_valuet | Link | Label: "How to compare two ValueTuple in C#"`
+- `net-framework_link_how_to_get_first_element_ | Link | Label: "How to get First Element of the ValueTuple in C#"`
+- `net-framework_link_math_ieeeremainder_method | Link | Label: "Math.IEEERemainder() Method in C#"`
+- `net-framework_link_object_referenceequals_me | Link | Label: "Object.ReferenceEquals() Method in C#"`
+- `net-framework_link_ordereddictionary_item_ob | Link | Label: "OrderedDictionary.Item[Object] Property in C#"`
+- `net-framework_link_file_setcreationtime_meth | Link | Label: "File.SetCreationTime() Method in C#"`
+- `net-framework_link_sbyte_keyword_in_c | Link | Label: "sbyte Keyword in C#"`
+- `net-framework_link_type_getdefaultmembers_me | Link | Label: "Type.GetDefaultMembers() Method in C#"`
+- `net-framework_link_type_isassignablefrom_typ | Link | Label: "Type.IsAssignableFrom(Type) Method in C#"`
+- `net-framework_link_uri_escapedatastring_stri | Link | Label: "Uri.EscapeDataString(String) Method in C#"`
+- `net-framework_link_uri_fragment_property_in_ | Link | Label: "Uri.Fragment Property in C#"`
+- `net-framework_link_uri_ishexencoding_method_ | Link | Label: "Uri.IsHexEncoding() Method in C#"`
+- `net-framework_link_array_constrainedcopy_met | Link | Label: "Array.ConstrainedCopy() Method in C#"`
+- `net-framework_link_array_trueforall_method_i | Link | Label: "Array.TrueForAll() Method in C#"`
+- `net-framework_link_buffer_blockcopy_array_in | Link | Label: "Buffer.BlockCopy(Array, Int32, Array, Int32, In..."`
+- `net-framework_link_check_if_the_bitarray_is_ | Link | Label: "Check if the BitArray is read-only in C#"`
+- `net-framework_link_decimal_compare_method_in | Link | Label: "Decimal.Compare() Method in C#"`
+- `net-framework_link_decimal_floor_method_in_c | Link | Label: "Decimal.Floor() Method in C#"`
+- `net-framework_link_decimal_tosbyte_method_in | Link | Label: "Decimal.ToSByte() Method in C#"`
+- `net-framework_link_default_interface_methods | Link | Label: "Default Interface Methods in C#"`
+- `net-framework_link_difference_between_python | Link | Label: "Difference between Python and C#"`
+- `net-framework_link_explain_and_contrast_valu | Link | Label: "Explain and contrast value types and reference ..."`
+- `net-framework_link_type_getinterfaces_method | Link | Label: "Type.GetInterfaces() Method in C#"`
+- `net-framework_link_type_getmembers_method_in | Link | Label: "Type.GetMembers() Method in C#"`
+- `net-framework_link_type_getnestedtype_method | Link | Label: "Type.GetNestedType() Method in C#"`
+- `net-framework_link_yield_keywords_in_c | Link | Label: "Yield keywords in C#"`
+- `net-framework_link_char_isletterordigit_meth | Link | Label: "Char.IsLetterOrDigit() Method in C#"`
+- `net-framework_link_char_toupperinvariant_cha | Link | Label: "Char.ToUpperInvariant(Char) Method in C#"`
+- `net-framework_link_get_the_minimum_value_in_ | Link | Label: "Get the minimum value in the SortedSet in C#"`
+- `net-framework_link_hashset_exceptwith_ienume | Link | Label: "HashSet.ExceptWith(IEnumerable) method in C#"`
+- `net-framework_link_single_isnan_method_in_c | Link | Label: "Single.IsNaN() Method in C#"`
+- `net-framework_link_single_isnegativeinfinity | Link | Label: "Single.IsNegativeInfinity() Method in C#"`
+- `net-framework_link_stringbuilder_ensurecapac | Link | Label: "StringBuilder.EnsureCapacity() Method in C#"`
+- `net-framework_link_thread_currentthread_prop | Link | Label: "Thread.CurrentThread Property in C#"`
+- `net-framework_link_type_getenumunderlyingtyp | Link | Label: "Type.GetEnumUnderlyingType() Method in C#"`
+- `net-framework_link_type_gettypehandle_method | Link | Label: "Type.GetTypeHandle() Method in C#"`
+- `net-framework_link_rand_next_method_in_c | Link | Label: "Rand.next() method in C#"`
+- `net-framework_link_camel_case_in_c | Link | Label: "Camel case in C#"`
+- `net-framework_link_console_setwindowposition | Link | Label: "Console.SetWindowPosition() Method in C#"`
+- `net-framework_link_difference_between_consol | Link | Label: "Difference between Console.Read and Console.Rea..."`
+- `net-framework_link_difference_between_hashta | Link | Label: "Difference between Hashtable and Dictionary in C#"`
+- `net-framework_link_difference_between_ref_an | Link | Label: "Difference between Ref and Out keywords in C#"`
+- `net-framework_link_difference_between_var_an | Link | Label: "Difference between Var and Dynamic in C#"`
+- `net-framework_link_different_ways_to_sort_an | Link | Label: "Different ways to sort an array in Descending O..."`
+- `net-framework_link_double_isfinite_method_in | Link | Label: "Double.IsFinite() Method in C#"`
+- `net-framework_link_file_setlastwritetimeutc_ | Link | Label: "File.SetLastWriteTimeUtc() Method in C#"`
+- `net-framework_link_gettypefromclsid_method_i | Link | Label: "GetTypeFromCLSID() method in C#"`
+- `net-framework_link_gettypefromprogid_method_ | Link | Label: "GetTypeFromProgID() method in C#"`
+- `net-framework_link_how_to_combine_two_arrays | Link | Label: "How to Combine Two Arrays without Duplicate val..."`
+- `net-framework_link_how_to_compare_enum_value | Link | Label: "How to compare Enum values in C#"`
+- `net-framework_link_how_to_remove_all_charact | Link | Label: "How to remove all characters from StringBuilder..."`
+- `net-framework_link_how_to_use_multiple_catch | Link | Label: "How to use multiple catch clauses in C#"`
+- `net-framework_link_idumpable_interface_in_c | Link | Label: "IDumpable Interface in C#"`
+- `net-framework_link_boolean_gettypecode_metho | Link | Label: "Boolean.GetTypeCode() Method in C#"`
+- `net-framework_link_console_cursorvisible_in_ | Link | Label: "Console.CursorVisible in C#"`
+- `net-framework_link_console_foregroundcolor_p | Link | Label: "Console.ForegroundColor Property in C#"`
+- `net-framework_link_difference_between_multi_ | Link | Label: "Difference between Multi-Dimensional array and ..."`
+- `net-framework_link_hashtable_containskey_obj | Link | Label: "Hashtable.ContainsKey(Object) Method in C#"`
+- `net-framework_link_how_to_get_synchronize_ac | Link | Label: "How to get Synchronize access to the ListDictio..."`
+- `net-framework_link_how_to_sort_object_array_ | Link | Label: "How to Sort Object Array by Specific Property i..."`
+- `net-framework_link_how_to_write_retry_logic_ | Link | Label: "How to write retry logic in C#"`
+- `net-framework_link_interesting_facts_about_c | Link | Label: "Interesting Facts about C#"`
+- `net-framework_link_sortedlist_indexofvalue_o | Link | Label: "SortedList.IndexOfValue(Object) Method in C#"`
+- `net-framework_link_c_program_to_reverse_word | Link | Label: "C# program to reverse words in a given string"`
+- `net-framework_link_cancellationtoken_in_c | Link | Label: "CancellationToken in C#"`
+- `net-framework_link_difference_between_a_lamb | Link | Label: "Difference between a lambda expression and a de..."`
+- `net-framework_link_different_ways_to_access_ | Link | Label: "Different ways to access namespace in C#"`
+- `net-framework_link_jsonconvert_deserializeob | Link | Label: "JsonConvert.DeserializeObject() in C#"`
+- `net-framework_link_math_round_method_in_c | Link | Label: "Math.Round Method() in C#"`
+- `net-framework_link_methodinfo_invoke_in_c | Link | Label: "Methodinfo.invoke() in C#"`
+- `net-framework_link_task_fromresult_method_in | Link | Label: "Task.FromResult() method in C#"`
+- `net-framework_link_thread_pool_in_c | Link | Label: "Thread pool in C#"`
+- `net-framework_link_timespan_fromdays_method_ | Link | Label: "TimeSpan.FromDays() method in C#"`
+- `net-framework_link_timespan_fromticks_method | Link | Label: "TimeSpan.FromTicks() Method in C#"`
+- `net-framework_link_void_keyword_in_c | Link | Label: "Void Keyword in C#"`
+- `net-framework_link_encrypt_and_decrypt_using | Link | Label: "Encrypt and Decrypt Using Rijndael Key in C#"`
+- `net-framework_link_enumerable_where_method_i | Link | Label: "Enumerable.Where() method in C#"`
+- `net-framework_link_interface_reference_in_c | Link | Label: "Interface reference in C#"`
+- `net-framework_link_queue_contains_method_in_ | Link | Label: "Queue.Contains() Method in C#"`
+- `net-framework_link_queue_enqueue_method_in_c | Link | Label: "Queue.Enqueue() Method in C#"`
+- `net-framework_link_single_isinfinity_method_ | Link | Label: "Single.IsInfinity() Method in C#"`
+- `net-framework_link_sorteddictionary_clear_me | Link | Label: "SortedDictionary.Clear() Method in C#"`
+- `net-framework_link_sorteddictionary_keys_pro | Link | Label: "SortedDictionary.Keys Property in C#"`
+- `net-framework_link_stack_copyto_method_in_c | Link | Label: "Stack.CopyTo() Method in C#"`
+- `net-framework_link_task_parallel_library_tpl | Link | Label: "Task Parallel Library (TPL) in C#"`
+- `net-framework_link_type_getcustomattributes_ | Link | Label: "Type.GetCustomAttributes() method in C#"`
+- `net-framework_link_type_getfield_method_in_c | Link | Label: "Type.GetField() Method in C#"`
+- `net-framework_link_type_issubclassof_functio | Link | Label: "Type.issubclassof() function in C#"`
+- `net-framework_link_uri_dnssafehost_property_ | Link | Label: "Uri.DnsSafeHost Property in C#"`
+- `net-framework_link_uri_referenceequals_metho | Link | Label: "Uri.ReferenceEquals() Method in C#"`
+- `net-framework_link_real_time_examples_of_fac | Link | Label: "Real-Time Examples of Factory Design Patterns i..."`
+- `net-framework_link_exception_stacktrace_in_c | Link | Label: "Exception.StackTrace() in C#"`
+- `net-framework_link_hybriddictionary_class_in | Link | Label: "HybridDictionary Class in C#"`
+- `net-framework_link_optimization_tips_for_c_c | Link | Label: "Optimization Tips for C# Code"`
+- `net-framework_link_single_compareto_method_i | Link | Label: "Single.CompareTo() Method in C#"`
+- `net-framework_link_stack_contains_method_in_ | Link | Label: "Stack contains() method in C#"`
+- `net-framework_link_difference_between_initia | Link | Label: "Difference between Initialization and Instantia..."`
+- `net-framework_link_differences_between_the_s | Link | Label: "Differences between the Sealed class and Static..."`
+- `net-framework_link_directory_exists_in_c | Link | Label: "Directory.Exists() in C#"`
+- `net-framework_link_how_to_use_namespace_alia | Link | Label: "How to use Namespace Alias Qualifier in C#"`
+- `net-framework_link_sortedlist_clone_method_i | Link | Label: "SortedList.Clone() Method in C#"`
+- `net-framework_link_stack_t_trimexcess_method | Link | Label: "Stack<T>.TrimExcess Method in C#"`
+- `net-framework_link_type_getarrayrank_method_ | Link | Label: "Type.GetArrayRank() Method in C#"`
+- `net-framework_link_uri_iswellformedoriginals | Link | Label: "Uri.IsWellFormedOriginalString() method in C#"`
+- `net-framework_link_valuetuple_in_c | Link | Label: "ValueTuple in C#"`
+- `net-framework_link_abstract_factory_design_p | Link | Label: "Abstract Factory Design Pattern in C#"`
+- `net-framework_link_array_asreadonly_t_method | Link | Label: "Array.AsReadOnly(T[]) Method in C#"`
+- `net-framework_link_decimal_getbits_method_in | Link | Label: "Decimal.GetBits() Method in C#"`
+- `net-framework_link_difference_between_string | Link | Label: "Difference between String Literal and String Ob..."`
+- `net-framework_link_hybriddictionary_contains | Link | Label: "HybridDictionary.Contains(Object) method in C#"`
+- `net-framework_link_icollection_issynchronize | Link | Label: "ICollection.IsSynchronized Property in C#"`
+- `net-framework_link_inherit_documentation_in_ | Link | Label: "Inherit Documentation in C#"`
+- `net-framework_link_is_operator_keyword_in_c | Link | Label: "Is Operator Keyword in C#"`
+- `net-framework_link_predicate_delegate_in_c | Link | Label: "Predicate Delegate in C#"`
+- `net-framework_link_stringbuilder_chars_prope | Link | Label: "StringBuilder.Chars[] Property in C#"`
+- `net-framework_link_type_gettypefromhandle_me | Link | Label: "Type.GetTypeFromHandle() Method in C#"`
+- `net-framework_link_type_findinterfaces_metho | Link | Label: "Type.FindInterfaces() Method in C#"`
+- `net-framework_link_ulong_keyword_in_c | Link | Label: "ulong keyword in C#"`
+- `net-framework_link_console_setwindowsize_met | Link | Label: "Console.SetWindowSize() Method in C#"`
+- `net-framework_link_difference_between_func_d | Link | Label: "Difference between Func delegate and Action del..."`
+- `net-framework_link_difference_between_system | Link | Label: "Difference between System-level Exception and A..."`
+- `net-framework_link_sortedlist_containskey_me | Link | Label: "SortedList ContainsKey() Method in C#"`
+- `net-framework_link_facade_design_pattern_in_ | Link | Label: "Facade Design Pattern in C# with Examples"`
+- `net-framework_link_structural_design_pattern | Link | Label: "Structural Design Patterns in C#"`
+- `net-framework_link_c_program_for_producing_a | Link | Label: "C# Program for Producing a Filtered Sequence of..."`
+- `net-framework_link_timespan_subtract_method_ | Link | Label: "TimeSpan.Subtract() Method in C#"`
+- `net-framework_link_immutable_in_c | Link | Label: "Immutable in C#"`
+- `net-framework_button_asp_net_tutorial | Button | Label: "ASP.NET Tutorial"`
+- `net-framework_link_asp_net_tutorial_50 | Link | Label: "ASP.NET Tutorial (50+)"`
+- `net-framework_button_ado_net_tutorial | Button | Label: "ADO.NET Tutorial"`
+- `net-framework_link_ado_net_tutorial_10 | Link | Label: "ADO.NET Tutorial (10+)"`
+- `net-framework_button_c_web_service | Button | Label: "C# Web Service"`
+- `net-framework_link_web_services_in_c | Link | Label: "Web Services in C#"`
+- `net-framework_button_c_string_functions | Button | Label: "C# String Functions"`
+- `net-framework_link_string_clone | Link | Label: "String Clone()"`
+- `net-framework_link_string_compare | Link | Label: "String Compare()"`
+- `net-framework_link_string_compareordinal | Link | Label: "String CompareOrdinal()"`
+- `net-framework_link_string_compareto | Link | Label: "String CompareTo()"`
+- `net-framework_link_string_concat | Link | Label: "String Concat()"`
+- `net-framework_link_string_contains | Link | Label: "String Contains()"`
+- `net-framework_link_string_copy | Link | Label: "String Copy()"`
+- `net-framework_link_string_copyto | Link | Label: "String CopyTo()"`
+- `net-framework_link_string_endswith | Link | Label: "String EndsWith()"`
+- `net-framework_link_string_equals | Link | Label: "String Equals()"`
+- `net-framework_link_string_format | Link | Label: "String Format()"`
+- `net-framework_link_string_getenumerator | Link | Label: "String GetEnumerator()"`
+- `net-framework_link_string_gethashcode | Link | Label: "String GetHashCode()"`
+- `net-framework_link_string_gettype | Link | Label: "String GetType()"`
+- `net-framework_link_string_gettypecode | Link | Label: "String GetTypeCode()"`
+- `net-framework_link_string_indexof | Link | Label: "String IndexOf()"`
+- `net-framework_link_string_insert | Link | Label: "String Insert()"`
+- `net-framework_link_string_intern | Link | Label: "String Intern()"`
+- `net-framework_link_string_isinterned | Link | Label: "String IsInterned()"`
+- `net-framework_link_string_isnormalized | Link | Label: "String IsNormalized()"`
+- `net-framework_link_string_normalize | Link | Label: "String Normalize()"`
+- `net-framework_link_string_isnullorempty | Link | Label: "String IsNullOrEmpty()"`
+- `net-framework_link_isnullorwhitespace | Link | Label: "IsNullOrWhiteSpace()"`
+- `net-framework_link_string_join | Link | Label: "String Join()"`
+- `net-framework_link_string_lastindexof | Link | Label: "String LastIndexOf()"`
+- `net-framework_link_string_lastindexofany | Link | Label: "String LastIndexOfAny()"`
+- `net-framework_link_string_padleft | Link | Label: "String PadLeft()"`
+- `net-framework_link_string_padright | Link | Label: "String PadRight()"`
+- `net-framework_link_string_remove | Link | Label: "String Remove()"`
+- `net-framework_link_string_replace | Link | Label: "String Replace()"`
+- `net-framework_link_string_split | Link | Label: "String Split()"`
+- `net-framework_link_string_startswith | Link | Label: "String StartsWith()"`
+- `net-framework_link_string_substring | Link | Label: "String SubString()"`
+- `net-framework_link_string_tochararray | Link | Label: "String ToCharArray()"`
+- `net-framework_link_string_tolower | Link | Label: "String ToLower()"`
+- `net-framework_link_string_tolowerinvariant | Link | Label: "String ToLowerInvariant()"`
+- `net-framework_link_string_tostring | Link | Label: "String ToString()"`
+- `net-framework_link_string_toupper | Link | Label: "String ToUpper()"`
+- `net-framework_link_string_toupperinvariant | Link | Label: "String ToUpperInvariant()"`
+- `net-framework_link_string_trim | Link | Label: "String Trim()"`
+- `net-framework_link_string_trimend | Link | Label: "String TrimEnd()"`
+- `net-framework_link_string_trimstart | Link | Label: "String TrimStart()"`
+- `net-framework_button_c_new_features | Button | Label: "C# New Features"`
+- `net-framework_link_home | Link | Label: "Home"`
+- `net-framework_link_net | Link | Label: ".Net"`
+- `net-framework_heading_these_are_topics_related_ | Heading | Label: "These are topics related to the article that might interest you"`
+- `net-framework_link_software | Link | Label: "Software"`
+- `net-framework_link_programming | Link | Label: "Programming"`
+- `net-framework_link_software_programs | Link | Label: "software programs"`
+- `net-framework_link_computer_hardware | Link | Label: "Computer Hardware"`
+- `net-framework_link_open_source | Link | Label: "Open Source"`
+- `net-framework_link_computer | Link | Label: "computer"`
+- `net-framework_link_windows_net | Link | Label: "Windows & .NET"`
+- `net-framework_link_computer_science | Link | Label: "Computer Science"`
+- `net-framework_link_what_is_c | Link | Label: "What is C#"`
+- `net-framework_link_c_vs_c | Link | Label: "C++ vs C#"`
+- `net-framework_link_c_member_overloading | Link | Label: "C# Member Overloading"`
+- `net-framework_link_c_polymorphism | Link | Label: "C# Polymorphism"`
+- `net-framework_link_c_abstract | Link | Label: "C# Abstract"`
+- `net-framework_link_c_list_t | Link | Label: "C# List<T>"`
+- `net-framework_link_c_hashset_t | Link | Label: "C# HashSet<T>"`
+- `net-framework_link_c_sortedset_t | Link | Label: "C# SortedSet<T>"`
+- `net-framework_link_c_stack_t | Link | Label: "C# Stack<T>"`
+- `net-framework_link_c_queue_t | Link | Label: "C# Queue<T>"`
+- `net-framework_link_c_linkedlist_t | Link | Label: "C# LinkedList<T>"`
+- `net-framework_link_c_dictionary_k_v | Link | Label: "C# Dictionary<K,V>"`
+- `net-framework_link_c_sorteddictionary_k_v | Link | Label: "C# SortedDictionary<K,V>"`
+- `net-framework_link_c_sortedlist_k_v | Link | Label: "C# SortedList<K,V>"`
+- `net-framework_link_c_new_features_40 | Link | Label: "C# New Features (40+)"`
+- `net-framework_link_reverse_number | Link | Label: "Reverse Number"`
+- `net-framework_link_ado_net_tutorial | Link | Label: "ADO.NET Tutorial"`
+- `net-framework_link_ado_net_introduction | Link | Label: "ADO.NET Introduction"`
+- `net-framework_link_ado_net_data_providers | Link | Label: "ADO.NET Data Providers"`
+- `net-framework_link_ado_net_sql_server | Link | Label: "ADO.NET SQL Server"`
+- `net-framework_link_ado_net_connection | Link | Label: "ADO.NET Connection"`
+- `net-framework_link_ado_net_command | Link | Label: "ADO.NET Command"`
+- `net-framework_link_ado_net_datareader | Link | Label: "ADO.NET DataReader"`
+- `net-framework_link_ado_net_dataset | Link | Label: "ADO.NET DataSet"`
+- `net-framework_link_ado_net_dataadapter | Link | Label: "ADO.NET DataAdapter"`
+- `net-framework_link_ado_net_datatables | Link | Label: "ADO.NET DataTables"`
+- `net-framework_link_ado_net_wf_example | Link | Label: "ADO.NET WF Example"`
+- `net-framework_link_ado_net_mvc_example | Link | Label: "ADO.NET MVC Example"`
+- `net-framework_link_ado_net_interview_questio | Link | Label: "ADO.NET Interview Questions"`
+- `net-framework_link_asp_net_tutorial | Link | Label: "ASP .NET Tutorial"`
+- `net-framework_link_asp_net_introduction | Link | Label: "ASP .NET Introduction"`
+- `net-framework_link_asp_net_life_cycle | Link | Label: "ASP.NET Life Cycle"`
+- `net-framework_link_asp_net_wf_introduction | Link | Label: "ASP.NET WF Introduction"`
+- `net-framework_link_asp_net_wf_features | Link | Label: "ASP.NET WF Features"`
+- `net-framework_link_asp_net_wf_project | Link | Label: "ASP.NET WF Project"`
+- `net-framework_link_asp_net_wf_example | Link | Label: "ASP.NET WF Example"`
+- `net-framework_link_asp_net_server_controls | Link | Label: "ASP.NET Server Controls"`
+- `net-framework_link_asp_net_label | Link | Label: "ASP.NET Label"`
+- `net-framework_link_asp_net_textbox | Link | Label: "ASP.NET TextBox"`
+- `net-framework_link_asp_net_button | Link | Label: "ASP.NET Button"`
+- `net-framework_link_asp_net_hyperlink | Link | Label: "ASP.NET HyperLink"`
+- `net-framework_link_asp_net_radiobutton | Link | Label: "ASP.NET RadioButton"`
+- `net-framework_link_asp_net_calender | Link | Label: "ASP.NET Calender"`
+- `net-framework_link_asp_net_checkbox | Link | Label: "ASP.NET CheckBox"`
+- `net-framework_link_asp_net_linkbutton | Link | Label: "ASP.NET LinkButton"`
+- `net-framework_link_asp_net_fileupload | Link | Label: "ASP.NET FileUpload"`
+- `net-framework_link_multiple_fileupload | Link | Label: "Multiple FileUpload"`
+- `net-framework_link_asp_net_download_file | Link | Label: "ASP.NET Download File"`
+- `net-framework_link_asp_net_cookie | Link | Label: "ASP.NET Cookie"`
+- `net-framework_link_asp_net_session | Link | Label: "ASP.NET Session"`
+- `net-framework_link_asp_net_dropdownlist | Link | Label: "ASP.NET DropDownList"`
+- `net-framework_link_asp_net_datalist | Link | Label: "ASP.NET DataList"`
+- `net-framework_link_asp_net_datagrid | Link | Label: "ASP.NET DataGrid"`
+- `net-framework_link_wf_user_registration | Link | Label: "WF User Registration"`
+- `net-framework_link_wf_events_handling | Link | Label: "WF Events Handling"`
+- `net-framework_link_wf_authentication | Link | Label: "WF Authentication"`
+- `net-framework_link_wf_model_binding | Link | Label: "WF Model Binding"`
+- `net-framework_link_html_server_controls | Link | Label: "HTML Server Controls"`
+- `net-framework_link_comparevalidator | Link | Label: "CompareValidator"`
+- `net-framework_link_rangevalidator | Link | Label: "RangeValidator"`
+- `net-framework_link_regularexpressionvalidato | Link | Label: "RegularExpressionValidator"`
+- `net-framework_link_requiredfieldvalidator | Link | Label: "RequiredFieldValidator"`
+- `net-framework_link_validationsummary | Link | Label: "ValidationSummary"`
+- `net-framework_link_mvc_project | Link | Label: "MVC Project"`
+- `net-framework_link_mvc_controller | Link | Label: "MVC Controller"`
+- `net-framework_link_mvc_actions | Link | Label: "MVC Actions"`
+- `net-framework_link_mvc_action_selectors | Link | Label: "MVC Action Selectors"`
+- `net-framework_link_mvc_action_filters | Link | Label: "MVC Action Filters"`
+- `net-framework_link_mvc_model | Link | Label: "MVC Model"`
+- `net-framework_link_mvc_model_binding | Link | Label: "MVC Model Binding"`
+- `net-framework_link_mvc_view | Link | Label: "MVC View"`
+- `net-framework_link_mvc_validation | Link | Label: "MVC Validation"`
+- `net-framework_link_mvc_entity_framework | Link | Label: "MVC Entity Framework"`
+- `net-framework_link_mvc_authentication | Link | Label: "MVC Authentication"`
+- `net-framework_link_mvc_bootstrap | Link | Label: "MVC Bootstrap"`
+- `net-framework_link_mvc_routing | Link | Label: "MVC Routing"`
+- `net-framework_link_mvc_scaffolding | Link | Label: "MVC Scaffolding"`
+- `net-framework_link_mvc_viewbag | Link | Label: "MVC ViewBag"`
+- `net-framework_link_asp_net_razor | Link | Label: "ASP.NET Razor"`
+- `net-framework_link_razor_code_expressions | Link | Label: "Razor Code Expressions"`
+- `net-framework_link_razor_code_blocks | Link | Label: "Razor Code Blocks"`
+- `net-framework_link_razor_control_structures | Link | Label: "Razor Control Structures"`
+- `net-framework_link_razor_html_helpers | Link | Label: "Razor HTML Helpers"`
+- `net-framework_link_razor_partial_views | Link | Label: "Razor Partial Views"`
+- `net-framework_link_asp_net_interview | Link | Label: "ASP.NET Interview"`
+- `net-framework_link_net_common_language_runti | Link | Label: ".NET Common Language Runtime"`
+- `net-framework_link_next | Link | Label: "next →"`
+- `net-framework_textbox_email | Input | Placeholder: "Enter your email" / Label: "Your Email"`
+- `net-framework_button_subscribebtn | Button | Label: "Subscribe"`
+- `net-framework_link_hr_tpointtech_com | Link | Label: "hr@tpointtech.com"`
+- `net-framework_link_91_9599086977 | Link | Label: "+91-9599086977"`
+- `net-framework_link_idx_964 | Link | Label: ""`
+- `net-framework_link_idx_965 | Link | Label: ""`
+- `net-framework_link_idx_966 | Link | Label: ""`
+- `net-framework_link_idx_967 | Link | Label: ""`
+- `net-framework_link_idx_968 | Link | Label: ""`
+- `net-framework_link_idx_969 | Link | Label: ""`
+- `net-framework_link_data_structure_tutorial | Link | Label: "Data Structure Tutorial"`
+- `net-framework_link_c_programming_tutorial | Link | Label: "C Programming Tutorial"`
+- `net-framework_link_jquery_tutorial | Link | Label: "jQuery Tutorial"`
+- `net-framework_link_spring_tutorial | Link | Label: "Spring Tutorial"`
+- `net-framework_link_python_interview_question | Link | Label: "Python Interview Questions"`
+- `net-framework_link_java_interview_questions | Link | Label: "Java Interview Questions"`
+- `net-framework_link_data_structure_interview_ | Link | Label: "Data Structure Interview Questions"`
+- `net-framework_link_html_interview_questions | Link | Label: "HTML Interview Questions"`
+- `net-framework_link_javascript_interview_ques | Link | Label: "JavaScript Interview Questions"`
+- `net-framework_link_jquery_interview_question | Link | Label: "jQuery Interview Questions"`
+- `net-framework_link_sql_interview_questions | Link | Label: "SQL Interview Questions"`
+- `net-framework_link_power_bi_interview_questi | Link | Label: "Power BI Interview Questions"`
+- `net-framework_link_online_c_compiler | Link | Label: "Online C Compiler"`
+- `net-framework_link_online_r_compiler | Link | Label: "Online R Compiler"`
+- `net-framework_link_online_php_compiler | Link | Label: "Online PHP Compiler"`
+- `net-framework_link_online_java_compiler | Link | Label: "Online Java Compiler"`
+- `net-framework_link_online_html_editor | Link | Label: "Online HTML Editor"`
+- `net-framework_link_online_swift_compiler | Link | Label: "Online Swift Compiler"`
+- `net-framework_link_online_python_compiler | Link | Label: "Online Python Compiler"`
+- `net-framework_link_online_javascript_editor | Link | Label: "Online JavaScript Editor"`
+- `net-framework_link_online_typescript_editor | Link | Label: "Online TypeScript Editor"`
+- `net-framework_link_latest_post | Link | Label: "Latest Post"`
+- `net-framework_link_tutorials_list | Link | Label: "Tutorials List"`
+- `net-framework_link_privacy_policy | Link | Label: "Privacy Policy"`
+- `net-framework_link_about_us | Link | Label: "About Us"`
+- `net-framework_link_contact_us | Link | Label: "Contact Us"`

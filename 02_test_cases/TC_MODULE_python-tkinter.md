@@ -1,0 +1,400 @@
+# Test Case: MODULE_python-tkinter | UI Verification and Navigation
+- **Preconditions**: User is on page https://www.tpointtech.com/python-tkinter
+- **Steps**:
+  1. Navigate to https://www.tpointtech.com/python-tkinter
+  2. Verify and click header navigation links: `python-tkinter_link_tutorials` (Element: Link, Label: "Tutorials"), `python-tkinter_link_interviews` (Element: Link, Label: "Interviews"), `python-tkinter_link_compilers` (Element: Link, Label: "Compilers")
+  3. Input "Python" into `python-tkinter_textbox_searchinput` (Element: Input, Label: "Search...", Placeholder: "Search...")
+  4. Click `python-tkinter_button_python_searching_sorting` (Element: Button, Text: "Python Searching & Sorting") to execute search query
+  5. Click `python-tkinter_link_next` (Element: Link, Text: "next →") to navigate to the next page
+  6. Input "testuser@example.com" into `python-tkinter_textbox_email` (Element: Input, Label: "Your Email", Placeholder: "Enter your email")
+  7. Click `python-tkinter_button_subscribebtn` (Element: Button, Text: "Subscribe") to subscribe to newsletter
+  8. Scroll to footer and verify/click links: `python-tkinter_link_privacy_policy` (Element: Link, Label: "Privacy Policy"), `python-tkinter_link_about_us` (Element: Link, Label: "About Us"), `python-tkinter_link_contact_us` (Element: Link, Label: "Contact Us")
+- **Expected Result**: The page loads successfully, and all interactive elements are responsive. Navigation links load their target pages, search displays correct results, and form inputs function as expected.
+
+## Semantic References for Healing
+- `python-tkinter_link_idx_0 | Link | Label: ""`
+- `python-tkinter_textbox_searchinput | Input | Placeholder: "Search..." / Label: "Search..."`
+- `python-tkinter_button_searchbtn | Button | Label: "Search"`
+- `python-tkinter_link_tutorials | Link | Label: "Tutorials"`
+- `python-tkinter_link_interviews | Link | Label: "Interviews"`
+- `python-tkinter_link_compilers | Link | Label: "Compilers"`
+- `python-tkinter_div_idx_147 | Div | Label: ""`
+- `python-tkinter_div_idx_148 | Div | Label: ""`
+- `python-tkinter_div_idx_149 | Div | Label: ""`
+- `python-tkinter_div_idx_150 | Div | Label: ""`
+- `python-tkinter_div_idx_151 | Div | Label: ""`
+- `python-tkinter_button_idx_152 | Button | Label: ""`
+- `python-tkinter_link_python_tutorial | Link | Label: "Python Tutorial"`
+- `python-tkinter_link_java_tutorial | Link | Label: "Java Tutorial"`
+- `python-tkinter_link_javascript_tutorial | Link | Label: "JavaScript Tutorial"`
+- `python-tkinter_link_sql_tutorial | Link | Label: "SQL Tutorial"`
+- `python-tkinter_link_c_tutorial | Link | Label: "C Tutorial"`
+- `python-tkinter_link_html_tutorial | Link | Label: "HTML Tutorial"`
+- `python-tkinter_link_css_tutorial | Link | Label: "CSS Tutorial"`
+- `python-tkinter_link_react_tutorial | Link | Label: "React Tutorial"`
+- `python-tkinter_link_nodejs_tutorial | Link | Label: "NodeJS Tutorial"`
+- `python-tkinter_link_sprint_boot_tutorial | Link | Label: "Sprint Boot Tutorial"`
+- `python-tkinter_link_php_tutorial | Link | Label: "PHP Tutorial"`
+- `python-tkinter_link_mysql_tutorial | Link | Label: "MYSQL Tutorial"`
+- `python-tkinter_link_mongodb_tutorial | Link | Label: "MongoDB Tutorial"`
+- `python-tkinter_link_ai_tutorial | Link | Label: "AI Tutorial"`
+- `python-tkinter_link_machine_learning_tutorial | Link | Label: "Machine Learning Tutorial"`
+- `python-tkinter_link_dsa_tutorial | Link | Label: "DSA Tutorial"`
+- `python-tkinter_link_dbms_tutorial | Link | Label: "DBMS Tutorial"`
+- `python-tkinter_link_os_tutorial | Link | Label: "OS Tutorial"`
+- `python-tkinter_button_python_tutorial | Button | Label: "Python Tutorial"`
+- `python-tkinter_link_what_is_python | Link | Label: "What is Python"`
+- `python-tkinter_link_python_features | Link | Label: "Python Features"`
+- `python-tkinter_link_advantages_of_python | Link | Label: "Advantages of Python"`
+- `python-tkinter_link_history_of_python | Link | Label: "History of Python"`
+- `python-tkinter_link_python_applications | Link | Label: "Python Applications"`
+- `python-tkinter_link_hello_world_program_in_py | Link | Label: "Hello World Program in Python"`
+- `python-tkinter_link_how_to_install_python | Link | Label: "How to Install Python?"`
+- `python-tkinter_link_python_syntax | Link | Label: "Python Syntax"`
+- `python-tkinter_link_python_keywords | Link | Label: "Python Keywords"`
+- `python-tkinter_link_python_literals | Link | Label: "Python Literals"`
+- `python-tkinter_link_python_operators | Link | Label: "Python Operators"`
+- `python-tkinter_link_python_comments | Link | Label: "Python Comments"`
+- `python-tkinter_button_python_variable_data_type | Button | Label: "Python Variable & Data Type"`
+- `python-tkinter_link_python_variables | Link | Label: "Python Variables"`
+- `python-tkinter_link_python_data_types | Link | Label: "Python Data Types"`
+- `python-tkinter_link_python_numbers | Link | Label: "Python Numbers"`
+- `python-tkinter_link_type_casting_in_python | Link | Label: "Type Casting in Python"`
+- `python-tkinter_link_python_strings | Link | Label: "Python Strings"`
+- `python-tkinter_link_python_string_methods | Link | Label: "Python String Methods"`
+- `python-tkinter_link_python_boolean | Link | Label: "Python Boolean"`
+- `python-tkinter_button_python_control_statements | Button | Label: "Python Control Statements"`
+- `python-tkinter_link_python_if_else | Link | Label: "Python If else"`
+- `python-tkinter_link_python_loops | Link | Label: "Python Loops"`
+- `python-tkinter_link_python_for_loop | Link | Label: "Python For Loop"`
+- `python-tkinter_link_python_while_loop | Link | Label: "Python While Loop"`
+- `python-tkinter_link_python_continue | Link | Label: "Python Continue"`
+- `python-tkinter_link_python_break | Link | Label: "Python Break"`
+- `python-tkinter_link_python_pass | Link | Label: "Python Pass"`
+- `python-tkinter_link_difference_between_break_ | Link | Label: "Difference between Break and Continue in Python"`
+- `python-tkinter_link_difference_between_for_lo | Link | Label: "Difference Between For Loop and While Loop in P..."`
+- `python-tkinter_link_control_statements_in_pyt | Link | Label: "Control Statements in Python"`
+- `python-tkinter_button_python_data_structures | Button | Label: "Python Data Structures"`
+- `python-tkinter_link_python_lists | Link | Label: "Python Lists"`
+- `python-tkinter_link_python_list_methods | Link | Label: "Python List Methods"`
+- `python-tkinter_link_python_tuples | Link | Label: "Python Tuples"`
+- `python-tkinter_link_python_tuple_methods | Link | Label: "Python Tuple Methods"`
+- `python-tkinter_link_difference_between_list_a | Link | Label: "Difference between List and Tuple"`
+- `python-tkinter_link_python_sets | Link | Label: "Python Sets"`
+- `python-tkinter_link_python_set_methods | Link | Label: "Python Set Methods"`
+- `python-tkinter_link_python_dictionary | Link | Label: "Python Dictionary"`
+- `python-tkinter_link_python_dictionary_methods | Link | Label: "Python Dictionary Methods"`
+- `python-tkinter_link_difference_between_list_s | Link | Label: "Difference between List, Set, Tuple, and Dictio..."`
+- `python-tkinter_link_difference_between_set_an | Link | Label: "Difference between Set and Dictionary in Python"`
+- `python-tkinter_link_python_data_structures | Link | Label: "Python Data Structures"`
+- `python-tkinter_button_python_functions | Button | Label: "Python Functions"`
+- `python-tkinter_link_python_functions | Link | Label: "Python Functions"`
+- `python-tkinter_link_python_built_in_functions | Link | Label: "Python Built-in Functions"`
+- `python-tkinter_link_python_lambda_functions | Link | Label: "Python Lambda Functions"`
+- `python-tkinter_link_def_function_in_python | Link | Label: "def Function in Python"`
+- `python-tkinter_button_python_modules | Button | Label: "Python Modules"`
+- `python-tkinter_link_python_modules | Link | Label: "Python Modules"`
+- `python-tkinter_link_python_list_comprehension | Link | Label: "Python List Comprehension"`
+- `python-tkinter_link_python_collection_module | Link | Label: "Python Collection Module"`
+- `python-tkinter_link_python_math_module | Link | Label: "Python Math Module"`
+- `python-tkinter_link_python_os_module | Link | Label: "Python OS Module"`
+- `python-tkinter_link_python_random_module | Link | Label: "Python Random Module"`
+- `python-tkinter_link_python_statistics_module | Link | Label: "Python Statistics Module"`
+- `python-tkinter_link_python_sys_module | Link | Label: "Python Sys Module"`
+- `python-tkinter_button_python_oops | Button | Label: "Python OOPs"`
+- `python-tkinter_link_python_oops_concepts | Link | Label: "Python OOPs Concepts"`
+- `python-tkinter_link_python_classes_and_object | Link | Label: "Python Classes and Objects"`
+- `python-tkinter_link_python_constructors | Link | Label: "Python Constructors"`
+- `python-tkinter_link_python_inheritance | Link | Label: "Python Inheritance"`
+- `python-tkinter_link_abstraction_in_python | Link | Label: "Abstraction in Python"`
+- `python-tkinter_link_encapsulation_in_python | Link | Label: "Encapsulation in Python"`
+- `python-tkinter_link_access_modifiers_in_pytho | Link | Label: "Access Modifiers in Python"`
+- `python-tkinter_link_method_overloading_in_pyt | Link | Label: "Method Overloading in Python"`
+- `python-tkinter_button_python_exception_handling | Button | Label: "Python Exception Handling"`
+- `python-tkinter_link_exception_handling_in_pyt | Link | Label: "Exception Handling in Python"`
+- `python-tkinter_link_how_to_catch_multiple_exc | Link | Label: "How to Catch Multiple Exceptions in Python?"`
+- `python-tkinter_link_python_raise_an_exception | Link | Label: "Python Raise an Exception"`
+- `python-tkinter_link_finally_keyword_in_python | Link | Label: "Finally Keyword in Python"`
+- `python-tkinter_link_python_built_in_exception | Link | Label: "Python Built-in Exceptions"`
+- `python-tkinter_button_python_file_handling | Button | Label: "Python File Handling"`
+- `python-tkinter_link_python_file_handling | Link | Label: "Python File Handling"`
+- `python-tkinter_link_python_read_csv_file | Link | Label: "Python Read CSV File"`
+- `python-tkinter_link_python_write_csv_file | Link | Label: "Python Write CSV File"`
+- `python-tkinter_link_read_excel_file | Link | Label: "Read Excel File"`
+- `python-tkinter_link_write_excel_file | Link | Label: "Write Excel File"`
+- `python-tkinter_link_python_json | Link | Label: "Python JSON"`
+- `python-tkinter_link_context_manager_in_python | Link | Label: "Context Manager in Python"`
+- `python-tkinter_button_python_searching_sorting | Button | Label: "Python Searching & Sorting"`
+- `python-tkinter_link_searching_algorithms_in_p | Link | Label: "Searching algorithms in Python"`
+- `python-tkinter_link_linear_search_in_python | Link | Label: "Linear Search in Python"`
+- `python-tkinter_link_binary_search_in_python | Link | Label: "Binary Search in Python"`
+- `python-tkinter_link_sorting_algorithms_in_pyt | Link | Label: "Sorting Algorithms in Python"`
+- `python-tkinter_link_bubble_sort_in_python | Link | Label: "Bubble Sort in Python"`
+- `python-tkinter_link_insertion_sort_in_python | Link | Label: "Insertion Sort in Python"`
+- `python-tkinter_link_selection_sort_in_python | Link | Label: "Selection Sort in Python"`
+- `python-tkinter_link_merge_sort_in_python | Link | Label: "Merge Sort in Python"`
+- `python-tkinter_link_quick_sort_in_python | Link | Label: "Quick Sort in Python"`
+- `python-tkinter_link_heap_sort_in_python | Link | Label: "Heap Sort in Python"`
+- `python-tkinter_link_tim_sort_in_python | Link | Label: "Tim Sort in Python"`
+- `python-tkinter_button_python_advanced_topics | Button | Label: "Python Advanced Topics"`
+- `python-tkinter_link_python_decorator | Link | Label: "Python Decorator"`
+- `python-tkinter_link_python_generators | Link | Label: "Python Generators"`
+- `python-tkinter_link_python_multiprocessing | Link | Label: "Python Multiprocessing"`
+- `python-tkinter_link_python_regex | Link | Label: "Python Regex"`
+- `python-tkinter_link_python_sending_email | Link | Label: "Python Sending Email"`
+- `python-tkinter_link_python_date | Link | Label: "Python Date"`
+- `python-tkinter_link_python_assert | Link | Label: "Python Assert"`
+- `python-tkinter_link_python_ides | Link | Label: "Python IDEs"`
+- `python-tkinter_link_python_arrays | Link | Label: "Python Arrays"`
+- `python-tkinter_link_command_line_arguments | Link | Label: "Command Line Arguments"`
+- `python-tkinter_link_python_magic_method | Link | Label: "Python Magic Method"`
+- `python-tkinter_link_python_stack_queue | Link | Label: "Python Stack & Queue"`
+- `python-tkinter_link_pyspark_mllib | Link | Label: "PySpark MLlib"`
+- `python-tkinter_link_web_scraping_using_python | Link | Label: "Web Scraping Using Python"`
+- `python-tkinter_link_python_itertools | Link | Label: "Python Itertools"`
+- `python-tkinter_link_how_to_calculate_distance | Link | Label: "How to Calculate Distance between Two Points us..."`
+- `python-tkinter_link_gmail_api_in_python | Link | Label: "Gmail API in Python"`
+- `python-tkinter_link_how_to_plot_the_google_ma | Link | Label: "How to Plot the Google Map using folium package..."`
+- `python-tkinter_link_grid_search_in_python | Link | Label: "Grid Search in Python"`
+- `python-tkinter_link_python_high_order_functio | Link | Label: "Python High Order Function"`
+- `python-tkinter_link_nsetools_in_python | Link | Label: "nsetools in Python"`
+- `python-tkinter_link_python_program_to_find_th | Link | Label: "Python program to find the nth Fibonacci Number"`
+- `python-tkinter_link_python_opencv_object_dete | Link | Label: "Python OpenCV object detection"`
+- `python-tkinter_link_python_simpleimputer_modu | Link | Label: "Python SimpleImputer module"`
+- `python-tkinter_link_second_largest_number_in_ | Link | Label: "Second Largest Number in Python"`
+- `python-tkinter_link_tower_of_hanoi_puzzle_usi | Link | Label: "Tower of Hanoi Puzzle Using Python"`
+- `python-tkinter_button_python_mysql | Button | Label: "Python MySQL"`
+- `python-tkinter_link_python_mysql_environment_ | Link | Label: "Python MySQL Environment Setup"`
+- `python-tkinter_link_database_connection | Link | Label: "Database Connection"`
+- `python-tkinter_link_creating_new_database | Link | Label: "Creating New Database"`
+- `python-tkinter_link_creating_tables | Link | Label: "Creating Tables"`
+- `python-tkinter_link_insert_operation | Link | Label: "Insert Operation"`
+- `python-tkinter_link_read_operation | Link | Label: "Read Operation"`
+- `python-tkinter_link_update_operation | Link | Label: "Update Operation"`
+- `python-tkinter_link_join_operation | Link | Label: "Join Operation"`
+- `python-tkinter_link_performing_transactions | Link | Label: "Performing Transactions"`
+- `python-tkinter_button_python_mongodb | Button | Label: "Python MongoDB"`
+- `python-tkinter_link_python_mongodb | Link | Label: "Python MongoDB"`
+- `python-tkinter_button_python_sqlite | Button | Label: "Python SQLite"`
+- `python-tkinter_link_python_sqlite | Link | Label: "Python SQLite"`
+- `python-tkinter_button_python_mcq | Button | Label: "Python MCQ"`
+- `python-tkinter_link_python_mcq | Link | Label: "Python MCQ"`
+- `python-tkinter_link_python_mcq_part_2 | Link | Label: "Python MCQ Part 2"`
+- `python-tkinter_button_python_tkinter_gui | Button | Label: "Python Tkinter (GUI)"`
+- `python-tkinter_link_python_tkinter | Link | Label: "Python Tkinter"`
+- `python-tkinter_link_tkinter_button | Link | Label: "Tkinter Button"`
+- `python-tkinter_link_tkinter_canvas | Link | Label: "Tkinter Canvas"`
+- `python-tkinter_link_tkinter_checkbutton | Link | Label: "Tkinter Checkbutton"`
+- `python-tkinter_link_tkinter_entry | Link | Label: "Tkinter Entry"`
+- `python-tkinter_link_tkinter_frame | Link | Label: "Tkinter Frame"`
+- `python-tkinter_link_tkinter_label | Link | Label: "Tkinter Label"`
+- `python-tkinter_link_tkinter_listbox | Link | Label: "Tkinter Listbox"`
+- `python-tkinter_link_tkinter_menubutton | Link | Label: "Tkinter Menubutton"`
+- `python-tkinter_link_tkinter_menu | Link | Label: "Tkinter Menu"`
+- `python-tkinter_link_tkinter_message | Link | Label: "Tkinter Message"`
+- `python-tkinter_link_tkinter_radiobutton | Link | Label: "Tkinter Radiobutton"`
+- `python-tkinter_link_tkinter_scale | Link | Label: "Tkinter Scale"`
+- `python-tkinter_link_tkinter_scrollbar | Link | Label: "Tkinter Scrollbar"`
+- `python-tkinter_link_tkinter_text | Link | Label: "Tkinter Text"`
+- `python-tkinter_link_tkinter_toplevel | Link | Label: "Tkinter Toplevel"`
+- `python-tkinter_link_tkinter_spinbox | Link | Label: "Tkinter Spinbox"`
+- `python-tkinter_link_tkinter_panedwindow | Link | Label: "Tkinter PanedWindow"`
+- `python-tkinter_link_tkinter_labelframe | Link | Label: "Tkinter LabelFrame"`
+- `python-tkinter_link_tkinter_messagebox | Link | Label: "Tkinter MessageBox"`
+- `python-tkinter_button_python_web_blocker | Button | Label: "Python Web Blocker"`
+- `python-tkinter_link_python_website_blocker | Link | Label: "Python Website Blocker"`
+- `python-tkinter_link_building_python_script | Link | Label: "Building Python Script"`
+- `python-tkinter_link_script_deployment_on_linu | Link | Label: "Script Deployment on Linux"`
+- `python-tkinter_link_script_deployment_on_wind | Link | Label: "Script Deployment on Windows"`
+- `python-tkinter_button_python_built_in_functions | Button | Label: "Python Built-in Functions"`
+- `python-tkinter_link_python_abs | Link | Label: "Python abs()"`
+- `python-tkinter_link_python_all | Link | Label: "Python all()"`
+- `python-tkinter_link_python_bin | Link | Label: "Python bin()"`
+- `python-tkinter_link_python_bool | Link | Label: "Python bool()"`
+- `python-tkinter_link_python_bytes | Link | Label: "Python bytes()"`
+- `python-tkinter_link_python_callable | Link | Label: "Python callable()"`
+- `python-tkinter_link_python_compile | Link | Label: "Python compile()"`
+- `python-tkinter_link_python_exec | Link | Label: "Python exec()"`
+- `python-tkinter_link_python_sum | Link | Label: "Python sum()"`
+- `python-tkinter_link_python_any | Link | Label: "Python any()"`
+- `python-tkinter_link_python_ascii | Link | Label: "Python ascii()"`
+- `python-tkinter_link_python_bytearray | Link | Label: "Python bytearray()"`
+- `python-tkinter_link_python_eval | Link | Label: "Python eval()"`
+- `python-tkinter_link_python_float | Link | Label: "Python float()"`
+- `python-tkinter_link_python_format | Link | Label: "Python format()"`
+- `python-tkinter_link_python_frozenset | Link | Label: "Python frozenset()"`
+- `python-tkinter_link_python_getattr | Link | Label: "Python getattr()"`
+- `python-tkinter_link_python_globals | Link | Label: "Python globals()"`
+- `python-tkinter_link_python_hasattr | Link | Label: "Python hasattr()"`
+- `python-tkinter_link_python_iter | Link | Label: "Python iter()"`
+- `python-tkinter_link_python_len | Link | Label: "Python len()"`
+- `python-tkinter_link_python_list | Link | Label: "Python list()"`
+- `python-tkinter_link_python_locals | Link | Label: "Python locals()"`
+- `python-tkinter_link_python_map | Link | Label: "Python map()"`
+- `python-tkinter_link_python_memoryview | Link | Label: "Python memoryview()"`
+- `python-tkinter_link_python_object | Link | Label: "Python object()"`
+- `python-tkinter_link_python_open | Link | Label: "Python open()"`
+- `python-tkinter_link_python_ord | Link | Label: "Python ord()"`
+- `python-tkinter_link_python_pow | Link | Label: "Python pow()"`
+- `python-tkinter_link_python_print | Link | Label: "Python print()"`
+- `python-tkinter_link_python_reversed | Link | Label: "Python reversed()"`
+- `python-tkinter_link_python_range | Link | Label: "Python range()"`
+- `python-tkinter_link_python_round | Link | Label: "Python round()"`
+- `python-tkinter_link_python_str | Link | Label: "Python str()"`
+- `python-tkinter_link_python_tuple | Link | Label: "Python tuple()"`
+- `python-tkinter_link_python_type | Link | Label: "Python type()"`
+- `python-tkinter_link_python_vars | Link | Label: "Python vars()"`
+- `python-tkinter_link_python_zip | Link | Label: "Python zip()"`
+- `python-tkinter_link_python_chr | Link | Label: "Python chr()"`
+- `python-tkinter_link_python_complex | Link | Label: "Python complex()"`
+- `python-tkinter_link_python_delattr | Link | Label: "Python delattr()"`
+- `python-tkinter_link_python_dir | Link | Label: "Python dir()"`
+- `python-tkinter_link_python_divmod | Link | Label: "Python divmod()"`
+- `python-tkinter_link_python_enumerate | Link | Label: "Python enumerate()"`
+- `python-tkinter_link_python_dict | Link | Label: "Python dict()"`
+- `python-tkinter_link_python_filter | Link | Label: "Python filter()"`
+- `python-tkinter_link_python_hash | Link | Label: "Python hash()"`
+- `python-tkinter_link_python_help | Link | Label: "Python help()"`
+- `python-tkinter_link_python_min | Link | Label: "Python min()"`
+- `python-tkinter_link_python_set | Link | Label: "Python set()"`
+- `python-tkinter_link_python_hex | Link | Label: "Python hex()"`
+- `python-tkinter_link_python_id | Link | Label: "Python id()"`
+- `python-tkinter_link_python_setattr | Link | Label: "Python setattr()"`
+- `python-tkinter_link_python_slice | Link | Label: "Python slice()"`
+- `python-tkinter_link_python_sorted | Link | Label: "Python sorted()"`
+- `python-tkinter_link_python_next | Link | Label: "Python next()"`
+- `python-tkinter_link_python_input | Link | Label: "Python input()"`
+- `python-tkinter_link_python_int | Link | Label: "Python int()"`
+- `python-tkinter_link_python_isinstance | Link | Label: "Python isinstance()"`
+- `python-tkinter_link_python_oct | Link | Label: "Python oct()"`
+- `python-tkinter_button_python_string_functions | Button | Label: "Python String functions"`
+- `python-tkinter_link_capitalize | Link | Label: "capitalize()"`
+- `python-tkinter_link_casefold | Link | Label: "casefold()"`
+- `python-tkinter_link_center_width_fillchar | Link | Label: "center(width ,fillchar)"`
+- `python-tkinter_link_count_string_begin_end | Link | Label: "count(string,begin,end)"`
+- `python-tkinter_link_encode | Link | Label: "encode()"`
+- `python-tkinter_link_endswith_suffix_begin_0_e | Link | Label: "endswith(suffix ,begin=0,end=len(string))"`
+- `python-tkinter_link_expandtabs_tabsize_8 | Link | Label: "expandtabs(tabsize = 8)"`
+- `python-tkinter_link_find_substring_beginindex | Link | Label: "find(substring ,beginIndex, endIndex)"`
+- `python-tkinter_link_format_value | Link | Label: "format(value)"`
+- `python-tkinter_link_index_subsring_beginindex | Link | Label: "index(subsring, beginIndex, endIndex)"`
+- `python-tkinter_link_isalnum | Link | Label: "isalnum()"`
+- `python-tkinter_link_isalpha | Link | Label: "isalpha()"`
+- `python-tkinter_link_isdecimal | Link | Label: "isdecimal()"`
+- `python-tkinter_link_isdigit | Link | Label: "isdigit()"`
+- `python-tkinter_link_isidentifier | Link | Label: "isidentifier()"`
+- `python-tkinter_link_islower | Link | Label: "islower()"`
+- `python-tkinter_link_isnumeric | Link | Label: "isnumeric()"`
+- `python-tkinter_link_isprintable | Link | Label: "isprintable()"`
+- `python-tkinter_link_isupper | Link | Label: "isupper()"`
+- `python-tkinter_link_isspace | Link | Label: "isspace()"`
+- `python-tkinter_link_istitle | Link | Label: "istitle()"`
+- `python-tkinter_link_join_seq | Link | Label: "join(seq)"`
+- `python-tkinter_link_ljust_width_fillchar | Link | Label: "ljust(width[,fillchar])"`
+- `python-tkinter_link_lower | Link | Label: "lower()"`
+- `python-tkinter_link_lstrip | Link | Label: "lstrip()"`
+- `python-tkinter_link_partition | Link | Label: "partition()"`
+- `python-tkinter_link_python_string_replace_met | Link | Label: "Python String replace() Method"`
+- `python-tkinter_link_rfind_str_beg_0_end_len_s | Link | Label: "rfind(str,beg=0,end=len(str))"`
+- `python-tkinter_link_rindex_str_beg_0_end_len_ | Link | Label: "rindex(str,beg=0,end=len(str))"`
+- `python-tkinter_link_rjust_width_fillchar | Link | Label: "rjust(width,[,fillchar])"`
+- `python-tkinter_link_rstrip | Link | Label: "rstrip()"`
+- `python-tkinter_link_rsplit_sep_none_maxsplit_ | Link | Label: "rsplit(sep=None, maxsplit = -1)"`
+- `python-tkinter_link_split_str_num_string_coun | Link | Label: "split(str,num=string.count(str))"`
+- `python-tkinter_link_splitlines_num_string_cou | Link | Label: "splitlines(num=string.count('\n'))"`
+- `python-tkinter_link_startswith_str_beg_0_end_ | Link | Label: "startswith(str,beg=0,end=len(str))"`
+- `python-tkinter_link_swapcase | Link | Label: "swapcase()"`
+- `python-tkinter_link_translate_table_deletecha | Link | Label: "translate(table,deletechars = '')"`
+- `python-tkinter_link_upper | Link | Label: "upper()"`
+- `python-tkinter_link_zfill_width | Link | Label: "zfill(width)"`
+- `python-tkinter_link_rpartition | Link | Label: "rpartition()"`
+- `python-tkinter_button_python_list | Button | Label: "Python List"`
+- `python-tkinter_link_python_list_append_method | Link | Label: "Python List append() Method"`
+- `python-tkinter_link_python_list_clear_method | Link | Label: "Python List clear() Method"`
+- `python-tkinter_link_python_list_count_method | Link | Label: "Python List count() Method"`
+- `python-tkinter_link_python_list_pop_method | Link | Label: "Python List pop() Method"`
+- `python-tkinter_link_python_list_insert_i_x_me | Link | Label: "Python List insert(i,x) Method"`
+- `python-tkinter_link_python_list_index_method | Link | Label: "Python list index() method"`
+- `python-tkinter_link_python_list_sort_method | Link | Label: "Python List sort() Method"`
+- `python-tkinter_link_python_list_copy_method | Link | Label: "Python List copy() Method"`
+- `python-tkinter_button_python_dictionary | Button | Label: "Python Dictionary"`
+- `python-tkinter_link_python_dictionary_pop_met | Link | Label: "Python Dictionary pop() Method"`
+- `python-tkinter_link_python_dictionary_values_ | Link | Label: "Python Dictionary values() Method"`
+- `python-tkinter_link_python_dictionary_setdefa | Link | Label: "Python Dictionary setdefault() Method"`
+- `python-tkinter_link_python_dictionary_clear_m | Link | Label: "Python Dictionary clear() Method"`
+- `python-tkinter_link_python_dictionary_fromkey | Link | Label: "Python Dictionary fromkeys() Method"`
+- `python-tkinter_link_python_dictionary_keys_me | Link | Label: "Python Dictionary keys() Method"`
+- `python-tkinter_button_plotly | Button | Label: "Plotly"`
+- `python-tkinter_link_plotly_with_matplotlib_an | Link | Label: "Plotly with Matplotlib and Chart Studio"`
+- `python-tkinter_link_plotly_with_pandas_and_cu | Link | Label: "Plotly with Pandas and Cufflinks"`
+- `python-tkinter_button_related_tutorials | Button | Label: "Related Tutorials"`
+- `python-tkinter_link_pytorch_tutorial | Link | Label: "Pytorch Tutorial"`
+- `python-tkinter_link_pygame_tutorial | Link | Label: "Pygame Tutorial"`
+- `python-tkinter_link_openpyxl_tutorial | Link | Label: "Openpyxl Tutorial"`
+- `python-tkinter_link_python_cgi_programming | Link | Label: "Python CGI Programming"`
+- `python-tkinter_link_python_design_pattern | Link | Label: "Python Design Pattern"`
+- `python-tkinter_link_home | Link | Label: "Home"`
+- `python-tkinter_link_python | Link | Label: "Python"`
+- `python-tkinter_heading_these_are_topics_related_ | Heading | Label: "These are topics related to the article that might interest you"`
+- `python-tkinter_link_data_management | Link | Label: "Data Management"`
+- `python-tkinter_link_scripting_languages | Link | Label: "Scripting Languages"`
+- `python-tkinter_link_programming | Link | Label: "Programming"`
+- `python-tkinter_link_button | Link | Label: "Button"`
+- `python-tkinter_link_canvas | Link | Label: "Canvas"`
+- `python-tkinter_link_checkbutton | Link | Label: "Checkbutton"`
+- `python-tkinter_link_entry | Link | Label: "Entry"`
+- `python-tkinter_link_frame | Link | Label: "Frame"`
+- `python-tkinter_link_label | Link | Label: "Label"`
+- `python-tkinter_link_listbox | Link | Label: "ListBox"`
+- `python-tkinter_link_menubutton | Link | Label: "Menubutton"`
+- `python-tkinter_link_menu | Link | Label: "Menu"`
+- `python-tkinter_link_message | Link | Label: "Message"`
+- `python-tkinter_link_radiobutton | Link | Label: "Radiobutton"`
+- `python-tkinter_link_scale | Link | Label: "Scale"`
+- `python-tkinter_link_scrollbar | Link | Label: "Scrollbar"`
+- `python-tkinter_link_text | Link | Label: "Text"`
+- `python-tkinter_link_toplevel | Link | Label: "Toplevel"`
+- `python-tkinter_link_spinbox | Link | Label: "Spinbox"`
+- `python-tkinter_link_panedwindow | Link | Label: "PanedWindow"`
+- `python-tkinter_link_labelframe | Link | Label: "LabelFrame"`
+- `python-tkinter_link_messagebox | Link | Label: "MessageBox"`
+- `python-tkinter_link_python_tkinter_button | Link | Label: "Python Tkinter Button"`
+- `python-tkinter_link_prev | Link | Label: "← prev"`
+- `python-tkinter_link_next | Link | Label: "next →"`
+- `python-tkinter_textbox_email | Input | Placeholder: "Enter your email" / Label: "Your Email"`
+- `python-tkinter_button_subscribebtn | Button | Label: "Subscribe"`
+- `python-tkinter_link_hr_tpointtech_com | Link | Label: "hr@tpointtech.com"`
+- `python-tkinter_link_91_9599086977 | Link | Label: "+91-9599086977"`
+- `python-tkinter_link_idx_539 | Link | Label: ""`
+- `python-tkinter_link_idx_540 | Link | Label: ""`
+- `python-tkinter_link_idx_541 | Link | Label: ""`
+- `python-tkinter_link_idx_542 | Link | Label: ""`
+- `python-tkinter_link_idx_543 | Link | Label: ""`
+- `python-tkinter_link_idx_544 | Link | Label: ""`
+- `python-tkinter_link_data_structure_tutorial | Link | Label: "Data Structure Tutorial"`
+- `python-tkinter_link_c_programming_tutorial | Link | Label: "C Programming Tutorial"`
+- `python-tkinter_link_jquery_tutorial | Link | Label: "jQuery Tutorial"`
+- `python-tkinter_link_spring_tutorial | Link | Label: "Spring Tutorial"`
+- `python-tkinter_link_python_interview_question | Link | Label: "Python Interview Questions"`
+- `python-tkinter_link_java_interview_questions | Link | Label: "Java Interview Questions"`
+- `python-tkinter_link_data_structure_interview_ | Link | Label: "Data Structure Interview Questions"`
+- `python-tkinter_link_c_interview_questions | Link | Label: "C++ Interview Questions"`
+- `python-tkinter_link_html_interview_questions | Link | Label: "HTML Interview Questions"`
+- `python-tkinter_link_javascript_interview_ques | Link | Label: "JavaScript Interview Questions"`
+- `python-tkinter_link_jquery_interview_question | Link | Label: "jQuery Interview Questions"`
+- `python-tkinter_link_sql_interview_questions | Link | Label: "SQL Interview Questions"`
+- `python-tkinter_link_power_bi_interview_questi | Link | Label: "Power BI Interview Questions"`
+- `python-tkinter_link_online_c_compiler | Link | Label: "Online C Compiler"`
+- `python-tkinter_link_online_r_compiler | Link | Label: "Online R Compiler"`
+- `python-tkinter_link_online_php_compiler | Link | Label: "Online PHP Compiler"`
+- `python-tkinter_link_online_java_compiler | Link | Label: "Online Java Compiler"`
+- `python-tkinter_link_online_html_editor | Link | Label: "Online HTML Editor"`
+- `python-tkinter_link_online_swift_compiler | Link | Label: "Online Swift Compiler"`
+- `python-tkinter_link_online_python_compiler | Link | Label: "Online Python Compiler"`
+- `python-tkinter_link_online_javascript_editor | Link | Label: "Online JavaScript Editor"`
+- `python-tkinter_link_online_typescript_editor | Link | Label: "Online TypeScript Editor"`
+- `python-tkinter_link_latest_post | Link | Label: "Latest Post"`
+- `python-tkinter_link_tutorials_list | Link | Label: "Tutorials List"`
+- `python-tkinter_link_privacy_policy | Link | Label: "Privacy Policy"`
+- `python-tkinter_link_about_us | Link | Label: "About Us"`
+- `python-tkinter_link_contact_us | Link | Label: "Contact Us"`

@@ -1,0 +1,180 @@
+# Test Case: MODULE_spring-boot-tutorial | UI Verification and Navigation
+- **Preconditions**: User is on page https://www.tpointtech.com/spring-boot-tutorial
+- **Steps**:
+  1. Navigate to https://www.tpointtech.com/spring-boot-tutorial
+  2. Verify and click header navigation links: `spring-boot-tutorial_link_tutorials` (Element: Link, Label: "Tutorials"), `spring-boot-tutorial_link_interviews` (Element: Link, Label: "Interviews"), `spring-boot-tutorial_link_compilers` (Element: Link, Label: "Compilers")
+  3. Input "Python" into `spring-boot-tutorial_textbox_searchinput` (Element: Input, Label: "Search...", Placeholder: "Search...")
+  4. Click `spring-boot-tutorial_button_searchbtn` (Element: Button, Text: "Search") to execute search query
+  5. Click `spring-boot-tutorial_link_next` (Element: Link, Text: "next →") to navigate to the next page
+  6. Input "testuser@example.com" into `spring-boot-tutorial_textbox_email` (Element: Input, Label: "Your Email", Placeholder: "Enter your email")
+  7. Click `spring-boot-tutorial_button_subscribebtn` (Element: Button, Text: "Subscribe") to subscribe to newsletter
+  8. Scroll to footer and verify/click links: `spring-boot-tutorial_link_privacy_policy` (Element: Link, Label: "Privacy Policy"), `spring-boot-tutorial_link_about_us` (Element: Link, Label: "About Us"), `spring-boot-tutorial_link_contact_us` (Element: Link, Label: "Contact Us")
+- **Expected Result**: The page loads successfully, and all interactive elements are responsive. Navigation links load their target pages, search displays correct results, and form inputs function as expected.
+
+## Semantic References for Healing
+- `spring-boot-tutorial_link_idx_0 | Link | Label: ""`
+- `spring-boot-tutorial_textbox_searchinput | Input | Placeholder: "Search..." / Label: "Search..."`
+- `spring-boot-tutorial_button_searchbtn | Button | Label: "Search"`
+- `spring-boot-tutorial_link_tutorials | Link | Label: "Tutorials"`
+- `spring-boot-tutorial_link_interviews | Link | Label: "Interviews"`
+- `spring-boot-tutorial_link_compilers | Link | Label: "Compilers"`
+- `spring-boot-tutorial_div_idx_147 | Div | Label: ""`
+- `spring-boot-tutorial_div_idx_148 | Div | Label: ""`
+- `spring-boot-tutorial_div_idx_149 | Div | Label: ""`
+- `spring-boot-tutorial_div_idx_150 | Div | Label: ""`
+- `spring-boot-tutorial_div_idx_151 | Div | Label: ""`
+- `spring-boot-tutorial_button_idx_152 | Button | Label: ""`
+- `spring-boot-tutorial_link_python_tutorial | Link | Label: "Python Tutorial"`
+- `spring-boot-tutorial_link_java_tutorial | Link | Label: "Java Tutorial"`
+- `spring-boot-tutorial_link_javascript_tutorial | Link | Label: "JavaScript Tutorial"`
+- `spring-boot-tutorial_link_sql_tutorial | Link | Label: "SQL Tutorial"`
+- `spring-boot-tutorial_link_c_tutorial | Link | Label: "C Tutorial"`
+- `spring-boot-tutorial_link_html_tutorial | Link | Label: "HTML Tutorial"`
+- `spring-boot-tutorial_link_css_tutorial | Link | Label: "CSS Tutorial"`
+- `spring-boot-tutorial_link_react_tutorial | Link | Label: "React Tutorial"`
+- `spring-boot-tutorial_link_nodejs_tutorial | Link | Label: "NodeJS Tutorial"`
+- `spring-boot-tutorial_link_sprint_boot_tutorial | Link | Label: "Sprint Boot Tutorial"`
+- `spring-boot-tutorial_link_php_tutorial | Link | Label: "PHP Tutorial"`
+- `spring-boot-tutorial_link_mysql_tutorial | Link | Label: "MYSQL Tutorial"`
+- `spring-boot-tutorial_link_mongodb_tutorial | Link | Label: "MongoDB Tutorial"`
+- `spring-boot-tutorial_link_ai_tutorial | Link | Label: "AI Tutorial"`
+- `spring-boot-tutorial_link_machine_learning_tutorial | Link | Label: "Machine Learning Tutorial"`
+- `spring-boot-tutorial_link_dsa_tutorial | Link | Label: "DSA Tutorial"`
+- `spring-boot-tutorial_link_dbms_tutorial | Link | Label: "DBMS Tutorial"`
+- `spring-boot-tutorial_link_os_tutorial | Link | Label: "OS Tutorial"`
+- `spring-boot-tutorial_button_spring_boot_tutorial | Button | Label: "Spring Boot Tutorial"`
+- `spring-boot-tutorial_link_spring_boot_tutorial | Link | Label: "Spring Boot Tutorial"`
+- `spring-boot-tutorial_link_spring_boot_version | Link | Label: "Spring Boot Version"`
+- `spring-boot-tutorial_link_spring_vs_spring_boot_vs_ | Link | Label: "Spring vs Spring Boot vs Spring MVC"`
+- `spring-boot-tutorial_link_spring_boot_architecture | Link | Label: "Spring Boot Architecture"`
+- `spring-boot-tutorial_link_spring_maven_project | Link | Label: "Spring Maven Project"`
+- `spring-boot-tutorial_link_spring_boot_features | Link | Label: "Spring Boot Features"`
+- `spring-boot-tutorial_button_creating_project | Button | Label: "Creating Project"`
+- `spring-boot-tutorial_link_spring_initializr | Link | Label: "Spring Initializr"`
+- `spring-boot-tutorial_link_download_and_install_sts_ | Link | Label: "Download and Install STS IDE"`
+- `spring-boot-tutorial_link_spring_boot_example | Link | Label: "Spring Boot Example"`
+- `spring-boot-tutorial_link_spring_boot_cli | Link | Label: "Spring Boot CLI"`
+- `spring-boot-tutorial_link_spring_boot_example_using | Link | Label: "Spring Boot Example Using STS"`
+- `spring-boot-tutorial_button_project_components | Button | Label: "Project Components"`
+- `spring-boot-tutorial_link_spring_boot_annotations | Link | Label: "Spring Boot Annotations"`
+- `spring-boot-tutorial_link_spring_boot_dependency_ma | Link | Label: "Spring Boot Dependency Management"`
+- `spring-boot-tutorial_link_spring_boot_application_p | Link | Label: "Spring Boot Application Properties"`
+- `spring-boot-tutorial_link_spring_boot_starters | Link | Label: "Spring Boot Starters"`
+- `spring-boot-tutorial_link_spring_boot_starter_paren | Link | Label: "Spring Boot Starter Parent"`
+- `spring-boot-tutorial_link_spring_boot_starter_web | Link | Label: "Spring Boot Starter Web"`
+- `spring-boot-tutorial_link_spring_boot_starter_data_ | Link | Label: "Spring Boot Starter Data JPA"`
+- `spring-boot-tutorial_link_spring_boot_actuator | Link | Label: "Spring Boot Actuator"`
+- `spring-boot-tutorial_link_spring_boot_starter_test | Link | Label: "Spring Boot Starter Test"`
+- `spring-boot-tutorial_link_spring_boot_devtools | Link | Label: "Spring Boot DevTools"`
+- `spring-boot-tutorial_link_multi_module_project | Link | Label: "Multi Module Project"`
+- `spring-boot-tutorial_link_spring_boot_packaging | Link | Label: "Spring Boot Packaging"`
+- `spring-boot-tutorial_link_spring_boot_auto_configur | Link | Label: "Spring Boot Auto-configuration"`
+- `spring-boot-tutorial_button_tool_suite | Button | Label: "Tool Suite"`
+- `spring-boot-tutorial_link_hello_world_example | Link | Label: "Hello World Example"`
+- `spring-boot-tutorial_link_project_deployment_using_ | Link | Label: "Project Deployment Using Tomcat"`
+- `spring-boot-tutorial_button_spring_boot_aop | Button | Label: "Spring Boot AOP"`
+- `spring-boot-tutorial_link_spring_boot_aop | Link | Label: "Spring Boot AOP"`
+- `spring-boot-tutorial_link_aop_before_advice | Link | Label: "AOP Before Advice"`
+- `spring-boot-tutorial_link_aop_after_advice | Link | Label: "AOP After Advice"`
+- `spring-boot-tutorial_link_aop_around_advice | Link | Label: "AOP Around Advice"`
+- `spring-boot-tutorial_link_spring_boot_aop_after_ret | Link | Label: "Spring Boot AOP After Returning Advice"`
+- `spring-boot-tutorial_link_after_throwing_advice | Link | Label: "After Throwing Advice"`
+- `spring-boot-tutorial_button_spring_boot_database | Button | Label: "Spring Boot Database"`
+- `spring-boot-tutorial_link_spring_boot_jpa | Link | Label: "Spring Boot JPA"`
+- `spring-boot-tutorial_link_spring_boot_jdbc | Link | Label: "Spring Boot JDBC"`
+- `spring-boot-tutorial_link_spring_boot_jdbc_example | Link | Label: "Spring Boot JDBC Example"`
+- `spring-boot-tutorial_link_spring_boot_h2_database | Link | Label: "Spring Boot H2 Database"`
+- `spring-boot-tutorial_link_spring_boot_crud_operatio | Link | Label: "Spring Boot CRUD Operations"`
+- `spring-boot-tutorial_button_spring_boot_view | Button | Label: "Spring Boot View"`
+- `spring-boot-tutorial_link_spring_boot_thymeleaf | Link | Label: "Spring Boot Thymeleaf"`
+- `spring-boot-tutorial_button_sb_caching | Button | Label: "SB Caching"`
+- `spring-boot-tutorial_link_spring_boot_caching | Link | Label: "Spring Boot Caching"`
+- `spring-boot-tutorial_link_spring_boot_cache_provide | Link | Label: "Spring Boot Cache Provider"`
+- `spring-boot-tutorial_link_spring_boot_ehcaching | Link | Label: "Spring Boot EhCaching"`
+- `spring-boot-tutorial_button_spring_boot_misc | Button | Label: "Spring Boot Misc"`
+- `spring-boot-tutorial_link_how_to_run_spring_boot_ap | Link | Label: "How to Run Spring Boot Application"`
+- `spring-boot-tutorial_link_spring_boot_change_port | Link | Label: "Spring Boot Change Port"`
+- `spring-boot-tutorial_link_spring_boot_rest_example | Link | Label: "Spring Boot REST Example"`
+- `spring-boot-tutorial_link_spring_starter_project_wi | Link | Label: "Spring Starter Project Wizard"`
+- `spring-boot-tutorial_link_difference_between_spring | Link | Label: "Difference Between Spring and Spring Boot in Java"`
+- `spring-boot-tutorial_button_spring_boot_restful | Button | Label: "Spring Boot - RESTful"`
+- `spring-boot-tutorial_link_introduction_to_restful_w | Link | Label: "Introduction to RESTful Web Services With Sprin..."`
+- `spring-boot-tutorial_link_initializing_a_restful_we | Link | Label: "Initializing a RESTful Web Services"`
+- `spring-boot-tutorial_link_enhancing_the_hello_world | Link | Label: "Enhancing the Hello World Service with a Path V..."`
+- `spring-boot-tutorial_link_implementing_the_post_met | Link | Label: "Implementing the POST Method to create User Res..."`
+- `spring-boot-tutorial_link_implementing_exception_ha | Link | Label: "Implementing Exception Handling- 404 Resource N..."`
+- `spring-boot-tutorial_link_implementing_generic_exce | Link | Label: "Implementing Generic Exception Handling for all..."`
+- `spring-boot-tutorial_link_implementing_delete_metho | Link | Label: "Implementing DELETE Method to Delete a User Res..."`
+- `spring-boot-tutorial_link_implementing_validations_ | Link | Label: "Implementing Validations for RESTful Services"`
+- `spring-boot-tutorial_link_implementing_hateoas_for_ | Link | Label: "Implementing HATEOAS for RESTful Services"`
+- `spring-boot-tutorial_link_internationalization_of_r | Link | Label: "Internationalization of RESTful Services"`
+- `spring-boot-tutorial_link_content_negotiation_imple | Link | Label: "Content Negotiation Implementing Support for XML"`
+- `spring-boot-tutorial_link_configuring_auto_generati | Link | Label: "Configuring Auto Generation of Swagger Document..."`
+- `spring-boot-tutorial_link_introduction_to_swagger_d | Link | Label: "Introduction to Swagger Documentation Format"`
+- `spring-boot-tutorial_link_enhancing_swagger_documen | Link | Label: "Enhancing Swagger Documentation with Custom Ann..."`
+- `spring-boot-tutorial_link_monitoring_apis_with_spri | Link | Label: "Monitoring APIs with Spring Boot Actuator"`
+- `spring-boot-tutorial_link_implementing_static_filte | Link | Label: "Implementing Static Filtering for RESTful Services"`
+- `spring-boot-tutorial_link_implementing_dynamic_filt | Link | Label: "Implementing Dynamic Filtering for RESTful Serv..."`
+- `spring-boot-tutorial_link_versioning_restful_web_se | Link | Label: "Versioning RESTful Web Services-Basic Approach ..."`
+- `spring-boot-tutorial_link_implementing_basic_authen | Link | Label: "Implementing Basic Authentication with Spring S..."`
+- `spring-boot-tutorial_link_connecting_restful_servic | Link | Label: "Connecting RESTful Services to JPA"`
+- `spring-boot-tutorial_link_updating_get_methods_on_u | Link | Label: "Updating GET Methods on User Resource to Use JPA"`
+- `spring-boot-tutorial_link_updating_post_and_delete_ | Link | Label: "Updating POST and DELETE methods on UserResourc..."`
+- `spring-boot-tutorial_link_creating_post_entity_and_ | Link | Label: "Creating Post Entity and Many to One Relationsh..."`
+- `spring-boot-tutorial_link_implementing_a_get_servic | Link | Label: "Implementing a GET service to retrieve all Post..."`
+- `spring-boot-tutorial_link_implementing_post_service | Link | Label: "Implementing POST Service to Create a Post for ..."`
+- `spring-boot-tutorial_link_restful_api_richardson_ma | Link | Label: "RESTful API - Richardson Maturity Model"`
+- `spring-boot-tutorial_link_restful_web_services_best | Link | Label: "RESTful Web Services Best Practice"`
+- `spring-boot-tutorial_button_spring_tutorial | Button | Label: "Spring Tutorial"`
+- `spring-boot-tutorial_button_spring_cloud | Button | Label: "Spring Cloud"`
+- `spring-boot-tutorial_button_spring_microservices | Button | Label: "Spring Microservices"`
+- `spring-boot-tutorial_link_spring_microservices_tuto | Link | Label: "Spring Microservices Tutorial"`
+- `spring-boot-tutorial_button_interview_questions | Button | Label: "Interview Questions"`
+- `spring-boot-tutorial_link_spring_interview | Link | Label: "Spring Interview"`
+- `spring-boot-tutorial_link_home | Link | Label: "Home"`
+- `spring-boot-tutorial_link_spring_boot | Link | Label: "Spring Boot"`
+- `spring-boot-tutorial_iframe_aswift_1 | Iframe | Label: "Advertisement"`
+- `spring-boot-tutorial_heading_these_are_topics_related_ | Heading | Label: "These are topics related to the article that might interest you"`
+- `spring-boot-tutorial_link_data_formats_protocols | Link | Label: "Data Formats & Protocols"`
+- `spring-boot-tutorial_link_java_programming_language | Link | Label: "Java (Programming Language)"`
+- `spring-boot-tutorial_link_development_tools | Link | Label: "Development Tools"`
+- `spring-boot-tutorial_link_spring_boot_interview_que | Link | Label: "Spring Boot Interview Questions and Answers"`
+- `spring-boot-tutorial_link_spring_interview_question | Link | Label: "Spring Interview Questions and Answers"`
+- `spring-boot-tutorial_link_next | Link | Label: "next →"`
+- `spring-boot-tutorial_textbox_email | Input | Placeholder: "Enter your email" / Label: "Your Email"`
+- `spring-boot-tutorial_button_subscribebtn | Button | Label: "Subscribe"`
+- `spring-boot-tutorial_link_hr_tpointtech_com | Link | Label: "hr@tpointtech.com"`
+- `spring-boot-tutorial_link_91_9599086977 | Link | Label: "+91-9599086977"`
+- `spring-boot-tutorial_link_idx_283 | Link | Label: ""`
+- `spring-boot-tutorial_link_idx_284 | Link | Label: ""`
+- `spring-boot-tutorial_link_idx_285 | Link | Label: ""`
+- `spring-boot-tutorial_link_idx_286 | Link | Label: ""`
+- `spring-boot-tutorial_link_idx_287 | Link | Label: ""`
+- `spring-boot-tutorial_link_idx_288 | Link | Label: ""`
+- `spring-boot-tutorial_link_data_structure_tutorial | Link | Label: "Data Structure Tutorial"`
+- `spring-boot-tutorial_link_c_programming_tutorial | Link | Label: "C Programming Tutorial"`
+- `spring-boot-tutorial_link_jquery_tutorial | Link | Label: "jQuery Tutorial"`
+- `spring-boot-tutorial_link_spring_tutorial | Link | Label: "Spring Tutorial"`
+- `spring-boot-tutorial_link_python_interview_question | Link | Label: "Python Interview Questions"`
+- `spring-boot-tutorial_link_java_interview_questions | Link | Label: "Java Interview Questions"`
+- `spring-boot-tutorial_link_data_structure_interview_ | Link | Label: "Data Structure Interview Questions"`
+- `spring-boot-tutorial_link_c_interview_questions | Link | Label: "C++ Interview Questions"`
+- `spring-boot-tutorial_link_html_interview_questions | Link | Label: "HTML Interview Questions"`
+- `spring-boot-tutorial_link_javascript_interview_ques | Link | Label: "JavaScript Interview Questions"`
+- `spring-boot-tutorial_link_jquery_interview_question | Link | Label: "jQuery Interview Questions"`
+- `spring-boot-tutorial_link_sql_interview_questions | Link | Label: "SQL Interview Questions"`
+- `spring-boot-tutorial_link_power_bi_interview_questi | Link | Label: "Power BI Interview Questions"`
+- `spring-boot-tutorial_link_online_c_compiler | Link | Label: "Online C Compiler"`
+- `spring-boot-tutorial_link_online_r_compiler | Link | Label: "Online R Compiler"`
+- `spring-boot-tutorial_link_online_php_compiler | Link | Label: "Online PHP Compiler"`
+- `spring-boot-tutorial_link_online_java_compiler | Link | Label: "Online Java Compiler"`
+- `spring-boot-tutorial_link_online_html_editor | Link | Label: "Online HTML Editor"`
+- `spring-boot-tutorial_link_online_swift_compiler | Link | Label: "Online Swift Compiler"`
+- `spring-boot-tutorial_link_online_python_compiler | Link | Label: "Online Python Compiler"`
+- `spring-boot-tutorial_link_online_javascript_editor | Link | Label: "Online JavaScript Editor"`
+- `spring-boot-tutorial_link_online_typescript_editor | Link | Label: "Online TypeScript Editor"`
+- `spring-boot-tutorial_link_latest_post | Link | Label: "Latest Post"`
+- `spring-boot-tutorial_link_tutorials_list | Link | Label: "Tutorials List"`
+- `spring-boot-tutorial_link_privacy_policy | Link | Label: "Privacy Policy"`
+- `spring-boot-tutorial_link_about_us | Link | Label: "About Us"`
+- `spring-boot-tutorial_link_contact_us | Link | Label: "Contact Us"`

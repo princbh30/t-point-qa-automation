@@ -1,0 +1,583 @@
+# Test Case: MODULE_java-tutorial | UI Verification and Navigation
+- **Preconditions**: User is on page https://www.tpointtech.com/java-tutorial
+- **Steps**:
+  1. Navigate to https://www.tpointtech.com/java-tutorial
+  2. Verify and click header navigation links: `java-tutorial_link_tutorials` (Element: Link, Label: "Tutorials"), `java-tutorial_link_interviews` (Element: Link, Label: "Interviews"), `java-tutorial_link_compilers` (Element: Link, Label: "Compilers")
+  3. Input "Python" into `java-tutorial_textbox_searchinput` (Element: Input, Label: "Search...", Placeholder: "Search...")
+  4. Click `java-tutorial_button_searchbtn` (Element: Button, Text: "Search") to execute search query
+  5. Click `java-tutorial_link_next` (Element: Link, Text: "next →") to navigate to the next page
+  6. Input "testuser@example.com" into `java-tutorial_textbox_email` (Element: Input, Label: "Your Email", Placeholder: "Enter your email")
+  7. Click `java-tutorial_button_subscribebtn` (Element: Button, Text: "Subscribe") to subscribe to newsletter
+  8. Scroll to footer and verify/click links: `java-tutorial_link_privacy_policy` (Element: Link, Label: "Privacy Policy"), `java-tutorial_link_about_us` (Element: Link, Label: "About Us"), `java-tutorial_link_contact_us` (Element: Link, Label: "Contact Us")
+- **Expected Result**: The page loads successfully, and all interactive elements are responsive. Navigation links load their target pages, search displays correct results, and form inputs function as expected.
+
+## Semantic References for Healing
+- `java-tutorial_link_idx_0 | Link | Label: ""`
+- `java-tutorial_textbox_searchinput | Input | Placeholder: "Search..." / Label: "Search..."`
+- `java-tutorial_button_searchbtn | Button | Label: "Search"`
+- `java-tutorial_link_tutorials | Link | Label: "Tutorials"`
+- `java-tutorial_link_interviews | Link | Label: "Interviews"`
+- `java-tutorial_link_compilers | Link | Label: "Compilers"`
+- `java-tutorial_div_idx_147 | Div | Label: ""`
+- `java-tutorial_div_idx_148 | Div | Label: ""`
+- `java-tutorial_div_idx_149 | Div | Label: ""`
+- `java-tutorial_div_idx_150 | Div | Label: ""`
+- `java-tutorial_div_idx_151 | Div | Label: ""`
+- `java-tutorial_button_idx_152 | Button | Label: ""`
+- `java-tutorial_link_python_tutorial | Link | Label: "Python Tutorial"`
+- `java-tutorial_link_java_tutorial | Link | Label: "Java Tutorial"`
+- `java-tutorial_link_javascript_tutorial | Link | Label: "JavaScript Tutorial"`
+- `java-tutorial_link_sql_tutorial | Link | Label: "SQL Tutorial"`
+- `java-tutorial_link_c_tutorial | Link | Label: "C Tutorial"`
+- `java-tutorial_link_html_tutorial | Link | Label: "HTML Tutorial"`
+- `java-tutorial_link_css_tutorial | Link | Label: "CSS Tutorial"`
+- `java-tutorial_link_react_tutorial | Link | Label: "React Tutorial"`
+- `java-tutorial_link_nodejs_tutorial | Link | Label: "NodeJS Tutorial"`
+- `java-tutorial_link_sprint_boot_tutorial | Link | Label: "Sprint Boot Tutorial"`
+- `java-tutorial_link_php_tutorial | Link | Label: "PHP Tutorial"`
+- `java-tutorial_link_mysql_tutorial | Link | Label: "MYSQL Tutorial"`
+- `java-tutorial_link_mongodb_tutorial | Link | Label: "MongoDB Tutorial"`
+- `java-tutorial_link_ai_tutorial | Link | Label: "AI Tutorial"`
+- `java-tutorial_link_machine_learning_tutorial | Link | Label: "Machine Learning Tutorial"`
+- `java-tutorial_link_dsa_tutorial | Link | Label: "DSA Tutorial"`
+- `java-tutorial_link_dbms_tutorial | Link | Label: "DBMS Tutorial"`
+- `java-tutorial_link_os_tutorial | Link | Label: "OS Tutorial"`
+- `java-tutorial_button_java_tutorial | Button | Label: "Java Tutorial"`
+- `java-tutorial_link_history_of_java | Link | Label: "History of Java"`
+- `java-tutorial_link_features_of_java | Link | Label: "Features of Java"`
+- `java-tutorial_link_difference_between_c_and_ | Link | Label: "Difference between C++ and Java"`
+- `java-tutorial_link_java_hello_world_program | Link | Label: "Java Hello World Program"`
+- `java-tutorial_link_program_internal | Link | Label: "Program Internal"`
+- `java-tutorial_link_how_to_set_path_in_java | Link | Label: "How to set path in Java"`
+- `java-tutorial_link_difference_between_jdk_jr | Link | Label: "Difference between JDK, JRE and JVM"`
+- `java-tutorial_link_jvm_java_virtual_machine | Link | Label: "JVM: Java Virtual Machine"`
+- `java-tutorial_link_java_variables | Link | Label: "Java Variables"`
+- `java-tutorial_link_data_types_in_java | Link | Label: "Data Types in Java"`
+- `java-tutorial_link_unicode_system_in_java | Link | Label: "Unicode System in Java"`
+- `java-tutorial_link_java_operators | Link | Label: "Java Operators"`
+- `java-tutorial_link_java_keywords | Link | Label: "Java Keywords"`
+- `java-tutorial_button_control_statements | Button | Label: "Control Statements"`
+- `java-tutorial_link_control_statements_in_jav | Link | Label: "Control Statements in Java"`
+- `java-tutorial_link_java_if_else_statement | Link | Label: "Java If-else Statement"`
+- `java-tutorial_link_java_switch_statement | Link | Label: "Java Switch Statement"`
+- `java-tutorial_link_java_for_loop | Link | Label: "Java For Loop"`
+- `java-tutorial_link_for_each_loop_in_java | Link | Label: "For-Each Loop in Java"`
+- `java-tutorial_link_java_while_loop | Link | Label: "Java While Loop"`
+- `java-tutorial_link_java_do_while_loop | Link | Label: "Java Do-While Loop"`
+- `java-tutorial_link_java_break | Link | Label: "Java Break"`
+- `java-tutorial_link_java_continue | Link | Label: "Java Continue"`
+- `java-tutorial_link_java_comments | Link | Label: "Java Comments"`
+- `java-tutorial_link_java_programs | Link | Label: "Java Programs"`
+- `java-tutorial_button_java_object_class | Button | Label: "Java Object Class"`
+- `java-tutorial_link_oops_concepts_in_java | Link | Label: "OOPs Concepts in Java"`
+- `java-tutorial_link_java_naming_convention | Link | Label: "Java Naming Convention"`
+- `java-tutorial_link_java_classes_and_objects | Link | Label: "Java Classes and Objects"`
+- `java-tutorial_link_methods_in_java | Link | Label: "Methods in Java"`
+- `java-tutorial_link_constructors_in_java | Link | Label: "Constructors in Java"`
+- `java-tutorial_link_static_keyword_in_java | Link | Label: "static keyword in Java"`
+- `java-tutorial_link_this_keyword_in_java | Link | Label: "this Keyword in Java"`
+- `java-tutorial_button_java_inheritance | Button | Label: "Java Inheritance"`
+- `java-tutorial_link_inheritance_in_java | Link | Label: "Inheritance in Java"`
+- `java-tutorial_link_aggregation_in_java | Link | Label: "Aggregation in Java"`
+- `java-tutorial_button_java_polymorphism | Button | Label: "Java Polymorphism"`
+- `java-tutorial_link_method_overloading_in_jav | Link | Label: "Method Overloading in Java"`
+- `java-tutorial_link_method_overriding_in_java | Link | Label: "Method Overriding in Java"`
+- `java-tutorial_link_covariant_return_type_in_ | Link | Label: "Covariant Return Type in Java"`
+- `java-tutorial_link_super_keyword_in_java | Link | Label: "Super Keyword in Java"`
+- `java-tutorial_link_instance_initializer_bloc | Link | Label: "Instance Initializer Block in Java"`
+- `java-tutorial_link_final_keyword_in_java | Link | Label: "Final Keyword in Java"`
+- `java-tutorial_link_polymorphism_in_java | Link | Label: "Polymorphism in Java"`
+- `java-tutorial_link_static_and_dynamic_bindin | Link | Label: "Static and Dynamic Binding in Java"`
+- `java-tutorial_link_java_instanceof_keyword | Link | Label: "Java instanceof Keyword"`
+- `java-tutorial_button_java_abstraction | Button | Label: "Java Abstraction"`
+- `java-tutorial_link_abstract_class_in_java | Link | Label: "Abstract class in Java"`
+- `java-tutorial_link_interface_in_java | Link | Label: "Interface in java"`
+- `java-tutorial_link_difference_between_abstra | Link | Label: "Difference between Abstract Class and Interface..."`
+- `java-tutorial_button_java_encapsulation | Button | Label: "Java Encapsulation"`
+- `java-tutorial_link_packages_in_java | Link | Label: "Packages in Java"`
+- `java-tutorial_link_access_modifiers_in_java | Link | Label: "Access Modifiers in Java"`
+- `java-tutorial_link_encapsulation_in_java | Link | Label: "Encapsulation in Java"`
+- `java-tutorial_button_java_array | Button | Label: "Java Array"`
+- `java-tutorial_link_java_arrays | Link | Label: "Java Arrays"`
+- `java-tutorial_link_multidimensional_arrays_i | Link | Label: "Multidimensional Arrays in Java"`
+- `java-tutorial_link_java_array_length | Link | Label: "Java Array length"`
+- `java-tutorial_link_jagged_array_in_java | Link | Label: "Jagged Array in Java"`
+- `java-tutorial_link_array_programs_in_java | Link | Label: "Array Programs in Java"`
+- `java-tutorial_link_arrays_class_in_java | Link | Label: "Arrays Class in Java"`
+- `java-tutorial_link_array_of_objects_in_java | Link | Label: "Array of Objects in Java"`
+- `java-tutorial_link_string_arrays_in_java | Link | Label: "String Arrays in Java"`
+- `java-tutorial_link_reverse_an_array_in_java | Link | Label: "Reverse an Array in Java"`
+- `java-tutorial_button_java_oops_misc | Button | Label: "Java OOPs Misc"`
+- `java-tutorial_link_object_class_in_java | Link | Label: "Object class in Java"`
+- `java-tutorial_link_object_cloning_in_java_cl | Link | Label: "Object Cloning in Java | clone() Method"`
+- `java-tutorial_link_java_math_class_methods_w | Link | Label: "Java Math Class (Methods with Examples)"`
+- `java-tutorial_link_wrapper_class_in_java | Link | Label: "Wrapper Class in Java"`
+- `java-tutorial_link_recursion_in_java | Link | Label: "Recursion in Java"`
+- `java-tutorial_link_call_by_value_and_call_by | Link | Label: "Call by Value and Call by Reference in Java"`
+- `java-tutorial_link_java_enums | Link | Label: "Java Enums"`
+- `java-tutorial_link_command_line_arguments_in | Link | Label: "Command Line Arguments in Java"`
+- `java-tutorial_link_difference_between_object | Link | Label: "Difference between Object and Class"`
+- `java-tutorial_link_difference_between_method | Link | Label: "Difference Between Method Overloading and Metho..."`
+- `java-tutorial_link_difference_between_class_ | Link | Label: "Difference Between Class and Interface in Java"`
+- `java-tutorial_link_abstraction_in_java | Link | Label: "Abstraction in Java"`
+- `java-tutorial_link_compile_time_polymorphism | Link | Label: "Compile-Time Polymorphism in Java"`
+- `java-tutorial_link_dynamic_method_dispatch_i | Link | Label: "Dynamic Method Dispatch in Java"`
+- `java-tutorial_button_java_string | Button | Label: "Java String"`
+- `java-tutorial_link_java_strings | Link | Label: "Java Strings"`
+- `java-tutorial_link_why_string_is_immutable_i | Link | Label: "Why String is Immutable in Java"`
+- `java-tutorial_link_string_comparison_in_java | Link | Label: "String Comparison in Java"`
+- `java-tutorial_link_string_concatenation_in_j | Link | Label: "String Concatenation in Java"`
+- `java-tutorial_link_substring_in_java | Link | Label: "Substring in Java"`
+- `java-tutorial_link_java_string_methods | Link | Label: "Java String Methods"`
+- `java-tutorial_link_stringbuffer_in_java | Link | Label: "StringBuffer in Java"`
+- `java-tutorial_link_stringbuilder_in_java | Link | Label: "StringBuilder in Java"`
+- `java-tutorial_link_difference_between_string | Link | Label: "Difference between String and StringBuffer"`
+- `java-tutorial_link_stringbuffer_vs_stringbui | Link | Label: "StringBuffer vs StringBuilder in Java"`
+- `java-tutorial_link_how_to_create_immutable_c | Link | Label: "How to create Immutable Class in Java"`
+- `java-tutorial_link_java_tostring_method | Link | Label: "Java toString method"`
+- `java-tutorial_link_stringtokenizer_class | Link | Label: "StringTokenizer class"`
+- `java-tutorial_link_java_string_faqs | Link | Label: "Java String FAQs"`
+- `java-tutorial_link_how_to_reverse_a_string_i | Link | Label: "How to Reverse a String in Java?"`
+- `java-tutorial_button_java_regex | Button | Label: "Java Regex"`
+- `java-tutorial_link_java_regular_expressions_ | Link | Label: "Java Regular Expressions (Regex)"`
+- `java-tutorial_button_exception_handling | Button | Label: "Exception Handling"`
+- `java-tutorial_link_exception_handling_in_jav | Link | Label: "Exception Handling in Java"`
+- `java-tutorial_link_java_try_catch_block | Link | Label: "Java try-catch Block"`
+- `java-tutorial_link_multiple_catch_block_in_j | Link | Label: "Multiple Catch Block in Java"`
+- `java-tutorial_link_nested_try_block_in_java | Link | Label: "Nested Try Block in Java"`
+- `java-tutorial_link_finally_block_in_java | Link | Label: "Finally Block in Java"`
+- `java-tutorial_link_java_throw_exception | Link | Label: "Java Throw Exception"`
+- `java-tutorial_link_exception_propagation_in_ | Link | Label: "Exception Propagation in Java"`
+- `java-tutorial_link_java_throws_keyword | Link | Label: "Java throws Keyword"`
+- `java-tutorial_link_difference_between_throw_ | Link | Label: "Difference Between throw and throws in Java"`
+- `java-tutorial_link_difference_between_final_ | Link | Label: "Difference between final, finally and finalize ..."`
+- `java-tutorial_link_exception_handling_with_m | Link | Label: "Exception Handling with Method Overriding"`
+- `java-tutorial_link_custom_exception_in_java | Link | Label: "Custom Exception in Java"`
+- `java-tutorial_button_java_inner_class | Button | Label: "Java Inner Class"`
+- `java-tutorial_link_inner_classes_in_java | Link | Label: "Inner Classes in Java"`
+- `java-tutorial_link_java_member_inner_class | Link | Label: "Java Member Inner class"`
+- `java-tutorial_link_anonymous_inner_class | Link | Label: "Anonymous Inner class"`
+- `java-tutorial_link_local_inner_class | Link | Label: "Local Inner class"`
+- `java-tutorial_link_static_nested_class | Link | Label: "Static Nested Class"`
+- `java-tutorial_link_java_nested_interface | Link | Label: "Java Nested Interface"`
+- `java-tutorial_button_java_multithreading | Button | Label: "Java Multithreading"`
+- `java-tutorial_link_multithreading_in_java | Link | Label: "Multithreading in Java"`
+- `java-tutorial_link_thread_life_cycle_in_java | Link | Label: "Thread Life Cycle in Java"`
+- `java-tutorial_link_how_to_create_thread_in_j | Link | Label: "How to Create Thread in Java?"`
+- `java-tutorial_link_thread_scheduler_in_java | Link | Label: "Thread Scheduler in Java"`
+- `java-tutorial_link_thread_sleep_in_java_with | Link | Label: "Thread.sleep() in Java with Examples"`
+- `java-tutorial_link_start_a_thread_twice | Link | Label: "Start a thread twice"`
+- `java-tutorial_link_calling_run_method | Link | Label: "Calling run() method"`
+- `java-tutorial_link_joining_threads_in_java | Link | Label: "Joining Threads in Java"`
+- `java-tutorial_link_java_naming_thread_and_cu | Link | Label: "Java Naming Thread and Current Thread"`
+- `java-tutorial_link_thread_priority_in_java | Link | Label: "Thread Priority in Java"`
+- `java-tutorial_link_daemon_thread_in_java | Link | Label: "Daemon Thread in Java"`
+- `java-tutorial_link_thread_pool_in_java | Link | Label: "Thread Pool in Java"`
+- `java-tutorial_link_threadgroup_in_java | Link | Label: "ThreadGroup in Java"`
+- `java-tutorial_link_shutdownhook | Link | Label: "ShutdownHook"`
+- `java-tutorial_link_performing_multiple_task | Link | Label: "Performing multiple task"`
+- `java-tutorial_link_garbage_collection_in_jav | Link | Label: "Garbage Collection in Java"`
+- `java-tutorial_link_runtime_class | Link | Label: "Runtime class"`
+- `java-tutorial_button_java_synchronization | Button | Label: "Java Synchronization"`
+- `java-tutorial_link_synchronization_in_java | Link | Label: "Synchronization in Java"`
+- `java-tutorial_link_java_synchronized_block | Link | Label: "Java Synchronized Block"`
+- `java-tutorial_link_static_synchronization_in | Link | Label: "Static Synchronization in Java"`
+- `java-tutorial_link_deadlock_in_java | Link | Label: "Deadlock in Java"`
+- `java-tutorial_link_inter_thread_communicatio | Link | Label: "Inter-thread Communication in Java"`
+- `java-tutorial_link_interrupting_thread | Link | Label: "Interrupting Thread"`
+- `java-tutorial_link_reentrant_monitor | Link | Label: "Reentrant Monitor"`
+- `java-tutorial_link_volatile_keyword_in_java | Link | Label: "Volatile Keyword in Java"`
+- `java-tutorial_button_java_i_o | Button | Label: "Java I/O"`
+- `java-tutorial_link_java_input_output | Link | Label: "Java Input/Output"`
+- `java-tutorial_link_fileoutputstream | Link | Label: "FileOutputStream"`
+- `java-tutorial_link_fileinputstream | Link | Label: "FileInputStream"`
+- `java-tutorial_link_bufferedoutputstream | Link | Label: "BufferedOutputStream"`
+- `java-tutorial_link_bufferedinputstream | Link | Label: "BufferedInputStream"`
+- `java-tutorial_link_sequenceinputstream | Link | Label: "SequenceInputStream"`
+- `java-tutorial_link_bytearrayoutputstream | Link | Label: "ByteArrayOutputStream"`
+- `java-tutorial_link_bytearrayinputstream | Link | Label: "ByteArrayInputStream"`
+- `java-tutorial_link_dataoutputstream | Link | Label: "DataOutputStream"`
+- `java-tutorial_link_datainputstream | Link | Label: "DataInputStream"`
+- `java-tutorial_link_java_filteroutputstream | Link | Label: "Java FilterOutputStream"`
+- `java-tutorial_link_java_filterinputstream | Link | Label: "Java FilterInputStream"`
+- `java-tutorial_link_java_objectstream | Link | Label: "Java ObjectStream"`
+- `java-tutorial_link_java_objectstreamfield | Link | Label: "Java ObjectStreamField"`
+- `java-tutorial_link_console | Link | Label: "Console"`
+- `java-tutorial_link_writer | Link | Label: "Writer"`
+- `java-tutorial_link_reader | Link | Label: "Reader"`
+- `java-tutorial_link_filewriter | Link | Label: "FileWriter"`
+- `java-tutorial_link_filereader | Link | Label: "FileReader"`
+- `java-tutorial_link_bufferedwriter | Link | Label: "BufferedWriter"`
+- `java-tutorial_link_bufferedreader | Link | Label: "BufferedReader"`
+- `java-tutorial_link_chararrayreader | Link | Label: "CharArrayReader"`
+- `java-tutorial_link_chararraywriter | Link | Label: "CharArrayWriter"`
+- `java-tutorial_link_printstream | Link | Label: "PrintStream"`
+- `java-tutorial_link_printwriter | Link | Label: "PrintWriter"`
+- `java-tutorial_link_outputstreamwriter | Link | Label: "OutputStreamWriter"`
+- `java-tutorial_link_inputstreamreader | Link | Label: "InputStreamReader"`
+- `java-tutorial_link_pushbackinputstream | Link | Label: "PushbackInputStream"`
+- `java-tutorial_link_pushbackreader | Link | Label: "PushbackReader"`
+- `java-tutorial_link_stringwriter | Link | Label: "StringWriter"`
+- `java-tutorial_link_stringreader | Link | Label: "StringReader"`
+- `java-tutorial_link_pipedwriter | Link | Label: "PipedWriter"`
+- `java-tutorial_link_pipedreader | Link | Label: "PipedReader"`
+- `java-tutorial_link_filterwriter | Link | Label: "FilterWriter"`
+- `java-tutorial_link_filterreader | Link | Label: "FilterReader"`
+- `java-tutorial_link_scanner_class_in_java | Link | Label: "Scanner class in Java"`
+- `java-tutorial_button_file_handling_in_java | Button | Label: "File Handling in Java"`
+- `java-tutorial_link_file_handling_in_java | Link | Label: "File Handling in Java"`
+- `java-tutorial_link_java_file | Link | Label: "Java File"`
+- `java-tutorial_link_how_to_create_a_file_in_j | Link | Label: "How to Create a File in Java?"`
+- `java-tutorial_link_how_to_read_file_line_by_ | Link | Label: "How to read file line by line in Java?"`
+- `java-tutorial_link_how_to_delete_a_file_in_j | Link | Label: "How to delete a file in Java?"`
+- `java-tutorial_link_java_filepermission | Link | Label: "Java FilePermission"`
+- `java-tutorial_link_java_filedescriptor | Link | Label: "Java FileDescriptor"`
+- `java-tutorial_link_java_randomaccessfile | Link | Label: "Java RandomAccessFile"`
+- `java-tutorial_link_how_to_create_a_zip_file_ | Link | Label: "How to Create a Zip File in Java?"`
+- `java-tutorial_link_how_to_read_and_print_all | Link | Label: "How to Read and Print All Files From a Zip File..."`
+- `java-tutorial_link_how_to_write_to_a_file_in | Link | Label: "How to Write to a File in Java"`
+- `java-tutorial_link_java_path_vs_file | Link | Label: "Java Path Vs File"`
+- `java-tutorial_button_java_serialization | Button | Label: "Java Serialization"`
+- `java-tutorial_link_java_serialization_serial | Link | Label: "Java Serialization | Serialization and Deserial..."`
+- `java-tutorial_link_transient_keyword_in_java | Link | Label: "transient Keyword in Java"`
+- `java-tutorial_button_java_networking | Button | Label: "Java Networking"`
+- `java-tutorial_link_networking_concepts | Link | Label: "Networking Concepts"`
+- `java-tutorial_link_socket_programming | Link | Label: "Socket Programming"`
+- `java-tutorial_link_url_class | Link | Label: "URL class"`
+- `java-tutorial_link_urlconnection_class | Link | Label: "URLConnection class"`
+- `java-tutorial_link_httpurlconnection | Link | Label: "HttpURLConnection"`
+- `java-tutorial_link_inetaddress_class | Link | Label: "InetAddress class"`
+- `java-tutorial_button_java_reflection | Button | Label: "Java Reflection"`
+- `java-tutorial_link_reflection_api | Link | Label: "Reflection API"`
+- `java-tutorial_link_newinstance_method | Link | Label: "newInstance() method"`
+- `java-tutorial_link_javap_tool | Link | Label: "javap tool"`
+- `java-tutorial_link_creating_javap_tool | Link | Label: "creating javap tool"`
+- `java-tutorial_link_creating_appletviewer | Link | Label: "creating appletviewer"`
+- `java-tutorial_link_call_private_method | Link | Label: "Call private method"`
+- `java-tutorial_button_java_collections | Button | Label: "Java Collections"`
+- `java-tutorial_link_collections_in_java | Link | Label: "Collections in Java"`
+- `java-tutorial_link_java_arraylist | Link | Label: "Java ArrayList"`
+- `java-tutorial_link_java_linkedlist | Link | Label: "Java LinkedList"`
+- `java-tutorial_link_difference_between_arrayl | Link | Label: "Difference Between ArrayList and LinkedList in ..."`
+- `java-tutorial_link_java_list_interface | Link | Label: "Java List Interface"`
+- `java-tutorial_link_java_hashset | Link | Label: "Java HashSet"`
+- `java-tutorial_link_java_linkedhashset | Link | Label: "Java LinkedHashSet"`
+- `java-tutorial_link_java_treeset | Link | Label: "Java TreeSet"`
+- `java-tutorial_link_queue_priorityqueue | Link | Label: "Queue & PriorityQueue"`
+- `java-tutorial_link_deque_arraydeque | Link | Label: "Deque & ArrayDeque"`
+- `java-tutorial_link_java_map_interface | Link | Label: "Java Map Interface"`
+- `java-tutorial_link_java_hashmap | Link | Label: "Java HashMap"`
+- `java-tutorial_link_working_of_hashmap | Link | Label: "Working of HashMap"`
+- `java-tutorial_link_java_linkedhashmap | Link | Label: "Java LinkedHashMap"`
+- `java-tutorial_link_java_treemap | Link | Label: "Java TreeMap"`
+- `java-tutorial_link_java_hashtable | Link | Label: "Java Hashtable"`
+- `java-tutorial_link_difference_between_hashma | Link | Label: "Difference between HashMap and Hashtable"`
+- `java-tutorial_link_java_enumset | Link | Label: "Java EnumSet"`
+- `java-tutorial_link_java_enummap | Link | Label: "Java EnumMap"`
+- `java-tutorial_link_collections_class | Link | Label: "Collections class"`
+- `java-tutorial_link_sorting_collections | Link | Label: "Sorting Collections"`
+- `java-tutorial_link_java_comparable | Link | Label: "Java Comparable"`
+- `java-tutorial_link_java_comparator | Link | Label: "Java Comparator"`
+- `java-tutorial_link_comparable_vs_comparator_ | Link | Label: "Comparable vs Comparator in Java"`
+- `java-tutorial_link_properties_class | Link | Label: "Properties class"`
+- `java-tutorial_link_java_vector | Link | Label: "Java Vector"`
+- `java-tutorial_link_java_stack | Link | Label: "Java Stack"`
+- `java-tutorial_link_java_collection_interface | Link | Label: "Java Collection Interface"`
+- `java-tutorial_link_java_iterator | Link | Label: "Java Iterator"`
+- `java-tutorial_link_java_deque_interface | Link | Label: "Java Deque Interface"`
+- `java-tutorial_link_working_of_hashset_in_jav | Link | Label: "Working of HashSet in Java"`
+- `java-tutorial_button_java_5_features | Button | Label: "Java 5 Features"`
+- `java-tutorial_link_java_generics | Link | Label: "Java Generics"`
+- `java-tutorial_link_java_annotations | Link | Label: "Java Annotations"`
+- `java-tutorial_link_autoboxing_and_unboxing_i | Link | Label: "Autoboxing and Unboxing in Java"`
+- `java-tutorial_link_java_varargs | Link | Label: "Java Varargs"`
+- `java-tutorial_link_java_static_import | Link | Label: "Java Static Import"`
+- `java-tutorial_button_java_8_features | Button | Label: "Java 8 Features"`
+- `java-tutorial_link_java_8_features | Link | Label: "Java 8 Features"`
+- `java-tutorial_link_java_lambda_expressions | Link | Label: "Java Lambda Expressions"`
+- `java-tutorial_link_java_method_references | Link | Label: "Java Method References"`
+- `java-tutorial_link_functional_interfaces_in_ | Link | Label: "Functional Interfaces in Java"`
+- `java-tutorial_link_java_stream_api | Link | Label: "Java Stream API"`
+- `java-tutorial_link_java_stream_filter | Link | Label: "Java Stream Filter"`
+- `java-tutorial_link_java_base64_encode_decode | Link | Label: "Java Base64 Encode Decode"`
+- `java-tutorial_link_java_default_methods | Link | Label: "Java Default Methods"`
+- `java-tutorial_link_java_8_foreach_method | Link | Label: "Java 8 forEach() method"`
+- `java-tutorial_link_collectors_class_in_java | Link | Label: "Collectors class in Java"`
+- `java-tutorial_link_optional_class_in_java | Link | Label: "Optional class in Java"`
+- `java-tutorial_button_java_jdbc | Button | Label: "Java JDBC"`
+- `java-tutorial_link_jdbc_in_java | Link | Label: "JDBC in Java"`
+- `java-tutorial_link_jdbc_driver | Link | Label: "JDBC Driver"`
+- `java-tutorial_link_5_steps_to_connect_databa | Link | Label: "5 Steps to Connect Database in Java"`
+- `java-tutorial_link_java_database_connectivit | Link | Label: "Java Database Connectivity with Oracle"`
+- `java-tutorial_link_access_without_dsn | Link | Label: "Access without DSN"`
+- `java-tutorial_link_drivermanager | Link | Label: "DriverManager"`
+- `java-tutorial_link_java_connection_interface | Link | Label: "Java Connection Interface"`
+- `java-tutorial_link_java_statement_interface | Link | Label: "Java Statement Interface"`
+- `java-tutorial_link_resultset | Link | Label: "ResultSet"`
+- `java-tutorial_link_preparedstatement_interfa | Link | Label: "PreparedStatement Interface"`
+- `java-tutorial_link_java_resultsetmetadata_in | Link | Label: "Java ResultSetMetaData Interface"`
+- `java-tutorial_link_databasemetadata | Link | Label: "DatabaseMetaData"`
+- `java-tutorial_link_store_image | Link | Label: "Store image"`
+- `java-tutorial_link_retrieve_image | Link | Label: "Retrieve image"`
+- `java-tutorial_link_store_file | Link | Label: "Store file"`
+- `java-tutorial_link_retrieve_file | Link | Label: "Retrieve file"`
+- `java-tutorial_link_callablestatement | Link | Label: "CallableStatement"`
+- `java-tutorial_link_transaction_management | Link | Label: "Transaction Management"`
+- `java-tutorial_link_batch_processing | Link | Label: "Batch Processing"`
+- `java-tutorial_link_rowset_interface | Link | Label: "RowSet Interface"`
+- `java-tutorial_link_jdbc_mcq | Link | Label: "JDBC MCQ"`
+- `java-tutorial_button_rmi | Button | Label: "RMI"`
+- `java-tutorial_link_java_rmi | Link | Label: "Java RMI"`
+- `java-tutorial_button_internationalization | Button | Label: "Internationalization"`
+- `java-tutorial_link_internationalization | Link | Label: "Internationalization"`
+- `java-tutorial_link_java_resourcebundle_class | Link | Label: "Java - ResourceBundle class"`
+- `java-tutorial_link_i18n_with_date | Link | Label: "I18N with Date"`
+- `java-tutorial_link_i18n_with_time | Link | Label: "I18N with Time"`
+- `java-tutorial_link_i18n_with_number | Link | Label: "I18N with Number"`
+- `java-tutorial_link_i18n_with_currency | Link | Label: "I18N with Currency"`
+- `java-tutorial_button_java_projects | Button | Label: "Java Projects"`
+- `java-tutorial_link_free_java_projects | Link | Label: "Free Java Projects"`
+- `java-tutorial_link_payment_bill_jsp | Link | Label: "Payment Bill(JSP)"`
+- `java-tutorial_link_transport_jsp | Link | Label: "Transport (JSP)"`
+- `java-tutorial_link_connect_globe_jsp | Link | Label: "Connect Globe (JSP)"`
+- `java-tutorial_link_online_banking_jsp | Link | Label: "Online Banking (JSP)"`
+- `java-tutorial_link_online_quiz_jsp | Link | Label: "Online Quiz (JSP)"`
+- `java-tutorial_link_classified_jsp | Link | Label: "Classified (JSP)"`
+- `java-tutorial_link_mailcasting_jsp | Link | Label: "Mailcasting (JSP)"`
+- `java-tutorial_link_online_library_jsp | Link | Label: "Online Library (JSP)"`
+- `java-tutorial_link_pharmacy_jsp | Link | Label: "Pharmacy (JSP)"`
+- `java-tutorial_link_mailer_servlet | Link | Label: "Mailer (Servlet)"`
+- `java-tutorial_link_baby_care_servlet | Link | Label: "Baby Care (Servlet)"`
+- `java-tutorial_link_chat_server_core | Link | Label: "Chat Server (Core)"`
+- `java-tutorial_link_library_core | Link | Label: "Library (Core)"`
+- `java-tutorial_link_exam_system_core | Link | Label: "Exam System (Core)"`
+- `java-tutorial_link_java_apps_core | Link | Label: "Java Apps (Core)"`
+- `java-tutorial_link_fee_report_core | Link | Label: "Fee Report (Core)"`
+- `java-tutorial_link_fee_servlet | Link | Label: "Fee (Servlet)"`
+- `java-tutorial_link_elibrary_servlet | Link | Label: "eLibrary (Servlet)"`
+- `java-tutorial_link_fire_detection | Link | Label: "Fire Detection"`
+- `java-tutorial_link_attendance_system | Link | Label: "Attendance System"`
+- `java-tutorial_link_java_mcq | Link | Label: "Java MCQ"`
+- `java-tutorial_link_home | Link | Label: "Home"`
+- `java-tutorial_link_java | Link | Label: "Java"`
+- `java-tutorial_link_java_tutorials | Link | Label: "Java Tutorials"`
+- `java-tutorial_link_online_java_compiler | Link | Label: "Online Java Compiler"`
+- `java-tutorial_link_java_oops_concept | Link | Label: "Java OOPs Concept"`
+- `java-tutorial_link_java_collections | Link | Label: "Java Collections"`
+- `java-tutorial_link_java_interview_questions | Link | Label: "Java Interview Questions"`
+- `java-tutorial_link_object_oriented | Link | Label: "object-oriented"`
+- `java-tutorial_link_compile_and_run_java | Link | Label: "Compile and Run Java"`
+- `java-tutorial_heading_these_are_topics_related_ | Heading | Label: "These are topics related to the article that might interest you"`
+- `java-tutorial_link_software | Link | Label: "software"`
+- `java-tutorial_link_object_oriented_programmi | Link | Label: "Object-oriented programming guide"`
+- `java-tutorial_link_java_programming_language | Link | Label: "Java (Programming Language)"`
+- `java-tutorial_link_programming_languages | Link | Label: "programming languages"`
+- `java-tutorial_link_programming_language | Link | Label: "programming language"`
+- `java-tutorial_link_programming_language_cour | Link | Label: "Programming language courses"`
+- `java-tutorial_link_servlet | Link | Label: "Servlet"`
+- `java-tutorial_link_jsp | Link | Label: "JSP"`
+- `java-tutorial_link_struts | Link | Label: "Struts"`
+- `java-tutorial_link_spring | Link | Label: "Spring"`
+- `java-tutorial_link_hibernate | Link | Label: "Hibernate"`
+- `java-tutorial_link_jsf | Link | Label: "JSF"`
+- `java-tutorial_link_ejb | Link | Label: "EJB"`
+- `java-tutorial_link_string | Link | Label: "String"`
+- `java-tutorial_link_jpa | Link | Label: "JPA"`
+- `java-tutorial_link_what_is_java | Link | Label: "What is Java"`
+- `java-tutorial_link_c_vs_java | Link | Label: "C++ vs Java"`
+- `java-tutorial_link_java_program_internal_det | Link | Label: "Java Program Internal Details"`
+- `java-tutorial_link_jdk_jre_and_jvm | Link | Label: "JDK, JRE and JVM"`
+- `java-tutorial_link_identifiers_in_java | Link | Label: "Identifiers in Java"`
+- `java-tutorial_link_java_data_types | Link | Label: "Java Data Types"`
+- `java-tutorial_link_type_casting_in_java | Link | Label: "Type Casting in Java"`
+- `java-tutorial_link_operators_in_java | Link | Label: "Operators in Java"`
+- `java-tutorial_link_java_control_statements | Link | Label: "Java Control Statements"`
+- `java-tutorial_link_java_if_else | Link | Label: "Java If-else"`
+- `java-tutorial_link_java_switch | Link | Label: "Java Switch"`
+- `java-tutorial_link_java_oops_concepts | Link | Label: "Java OOPs Concepts"`
+- `java-tutorial_link_java_naming_conventions | Link | Label: "Java Naming Conventions"`
+- `java-tutorial_link_object_and_class_in_java | Link | Label: "Object and Class in Java"`
+- `java-tutorial_link_constructor_in_java | Link | Label: "Constructor in Java"`
+- `java-tutorial_link_how_to_call_a_method_in_j | Link | Label: "How to Call a Method in Java"`
+- `java-tutorial_link_java_super_keyword | Link | Label: "Java super keyword"`
+- `java-tutorial_link_java_instance_initializer | Link | Label: "Java Instance Initializer block"`
+- `java-tutorial_link_java_final_keyword | Link | Label: "Java final keyword"`
+- `java-tutorial_link_java_instanceof_operator | Link | Label: "Java instanceof operator"`
+- `java-tutorial_link_abstract_class_vs_interfa | Link | Label: "Abstract class vs Interface"`
+- `java-tutorial_link_package_in_java | Link | Label: "Package in Java"`
+- `java-tutorial_link_java_array | Link | Label: "Java Array"`
+- `java-tutorial_link_java_jagged_array | Link | Label: "Java Jagged Array"`
+- `java-tutorial_link_java_array_programs | Link | Label: "Java Array Programs"`
+- `java-tutorial_link_java_array_methods | Link | Label: "Java Array Methods"`
+- `java-tutorial_link_object_cloning | Link | Label: "Object Cloning"`
+- `java-tutorial_link_java_math_class | Link | Label: "Java Math class"`
+- `java-tutorial_link_strictfp_keyword | Link | Label: "strictfp keyword"`
+- `java-tutorial_link_command_line_argument_in_ | Link | Label: "Command Line Argument in Java"`
+- `java-tutorial_link_object_vs_class | Link | Label: "Object vs Class"`
+- `java-tutorial_link_method_overloading_vs_met | Link | Label: "Method Overloading vs Method Overriding"`
+- `java-tutorial_link_java_string | Link | Label: "Java String"`
+- `java-tutorial_link_methods_of_string_class | Link | Label: "Methods of String class"`
+- `java-tutorial_link_string_vs_stringbuffer_in | Link | Label: "String vs StringBuffer in Java"`
+- `java-tutorial_link_stringtokenizer_class_in_ | Link | Label: "StringTokenizer class in Java"`
+- `java-tutorial_link_java_regex | Link | Label: "Java Regex"`
+- `java-tutorial_link_java_exceptions | Link | Label: "Java Exceptions"`
+- `java-tutorial_link_java_multiple_catch_block | Link | Label: "Java Multiple Catch Block"`
+- `java-tutorial_link_java_nested_try | Link | Label: "Java Nested try"`
+- `java-tutorial_link_java_finally_block | Link | Label: "Java Finally Block"`
+- `java-tutorial_link_java_throw_keyword | Link | Label: "Java Throw Keyword"`
+- `java-tutorial_link_java_exception_propagatio | Link | Label: "Java Exception Propagation"`
+- `java-tutorial_link_java_throw_vs_throws | Link | Label: "Java Throw vs Throws"`
+- `java-tutorial_link_final_vs_finally_vs_final | Link | Label: "Final vs Finally vs Finalize"`
+- `java-tutorial_link_java_custom_exceptions | Link | Label: "Java Custom Exceptions"`
+- `java-tutorial_link_java_inner_class | Link | Label: "Java inner class"`
+- `java-tutorial_link_member_inner_class | Link | Label: "Member Inner class"`
+- `java-tutorial_link_nested_interface | Link | Label: "Nested Interface"`
+- `java-tutorial_link_life_cycle_of_a_thread | Link | Label: "Life Cycle of a Thread"`
+- `java-tutorial_link_how_to_create_thread | Link | Label: "How to Create Thread"`
+- `java-tutorial_link_sleeping_a_thread_in_java | Link | Label: "Sleeping a thread in Java"`
+- `java-tutorial_link_can_we_start_a_thread_twi | Link | Label: "Can we start a thread twice?"`
+- `java-tutorial_link_what_if_we_call_run_metho | Link | Label: "What if we Call run() method"`
+- `java-tutorial_link_naming_a_thread_in_java | Link | Label: "Naming a thread in Java"`
+- `java-tutorial_link_shutdownhook_thread_in_ja | Link | Label: "ShutdownHook Thread in Java"`
+- `java-tutorial_link_multitasking_in_multithre | Link | Label: "Multitasking in Multithreading"`
+- `java-tutorial_link_java_runtime_class | Link | Label: "Java Runtime class"`
+- `java-tutorial_link_java_static_synchronizati | Link | Label: "Java Static Synchronization"`
+- `java-tutorial_link_interrupting_a_thread_in_ | Link | Label: "Interrupting a Thread in Java"`
+- `java-tutorial_link_reentrant_monitor_in_java | Link | Label: "Reentrant Monitor in Java"`
+- `java-tutorial_link_java_fileoutputstream | Link | Label: "Java FileOutputStream"`
+- `java-tutorial_link_java_fileinputstream | Link | Label: "Java FileInputStream"`
+- `java-tutorial_link_java_bufferedoutputstream | Link | Label: "Java BufferedOutputStream"`
+- `java-tutorial_link_java_bufferedinputstream | Link | Label: "Java BufferedInputStream"`
+- `java-tutorial_link_java_sequenceinputstream | Link | Label: "Java SequenceInputStream"`
+- `java-tutorial_link_java_bytearrayoutputstrea | Link | Label: "Java ByteArrayOutputStream"`
+- `java-tutorial_link_java_bytearrayinputstream | Link | Label: "Java ByteArrayInputStream"`
+- `java-tutorial_link_java_dataoutputstream | Link | Label: "Java DataOutputStream"`
+- `java-tutorial_link_java_datainputstream | Link | Label: "Java DataInputStream"`
+- `java-tutorial_link_java_console | Link | Label: "Java Console"`
+- `java-tutorial_link_java_writer | Link | Label: "Java Writer"`
+- `java-tutorial_link_java_reader | Link | Label: "Java Reader"`
+- `java-tutorial_link_java_filewriter | Link | Label: "Java FileWriter"`
+- `java-tutorial_link_java_filereader | Link | Label: "Java FileReader"`
+- `java-tutorial_link_java_bufferedwriter | Link | Label: "Java BufferedWriter"`
+- `java-tutorial_link_java_bufferedreader | Link | Label: "Java BufferedReader"`
+- `java-tutorial_link_java_chararrayreader | Link | Label: "Java CharArrayReader"`
+- `java-tutorial_link_java_chararraywriter | Link | Label: "Java CharArrayWriter"`
+- `java-tutorial_link_java_printstream | Link | Label: "Java PrintStream"`
+- `java-tutorial_link_java_printwriter | Link | Label: "Java PrintWriter"`
+- `java-tutorial_link_java_outputstreamwriter | Link | Label: "Java OutputStreamWriter"`
+- `java-tutorial_link_java_inputstreamreader | Link | Label: "Java InputStreamReader"`
+- `java-tutorial_link_java_pushbackinputstream | Link | Label: "Java PushbackInputStream"`
+- `java-tutorial_link_java_pushbackreader | Link | Label: "Java PushbackReader"`
+- `java-tutorial_link_java_stringwriter | Link | Label: "Java StringWriter"`
+- `java-tutorial_link_java_stringreader | Link | Label: "Java StringReader"`
+- `java-tutorial_link_java_pipedwriter | Link | Label: "Java PipedWriter"`
+- `java-tutorial_link_java_pipedreader | Link | Label: "Java PipedReader"`
+- `java-tutorial_link_java_filterwriter | Link | Label: "Java FilterWriter"`
+- `java-tutorial_link_java_filterreader | Link | Label: "Java FilterReader"`
+- `java-tutorial_link_java_scanner | Link | Label: "Java Scanner"`
+- `java-tutorial_link_java_file_class | Link | Label: "Java File class"`
+- `java-tutorial_link_how_to_read_file_in_java | Link | Label: "How to Read File in Java"`
+- `java-tutorial_link_java_filepermission_class | Link | Label: "Java FilePermission class"`
+- `java-tutorial_link_java_filedescriptor_class | Link | Label: "Java FileDescriptor class"`
+- `java-tutorial_link_java_serialization | Link | Label: "Java Serialization"`
+- `java-tutorial_link_java_transient_keyword | Link | Label: "Java transient keyword"`
+- `java-tutorial_link_java_networking_concepts | Link | Label: "Java Networking Concepts"`
+- `java-tutorial_link_socket_programming_in_jav | Link | Label: "Socket Programming in Java"`
+- `java-tutorial_link_java_url_class | Link | Label: "Java URL class"`
+- `java-tutorial_link_java_urlconnection_class | Link | Label: "Java URLConnection class"`
+- `java-tutorial_link_java_httpurlconnection | Link | Label: "Java HttpURLConnection"`
+- `java-tutorial_link_java_inetaddress_class | Link | Label: "Java InetAddress class"`
+- `java-tutorial_link_java_reflection_api | Link | Label: "Java Reflection API"`
+- `java-tutorial_link_java_newinstance_method | Link | Label: "Java newInstance() method"`
+- `java-tutorial_link_how_to_call_private_metho | Link | Label: "How to Call private method from another class?"`
+- `java-tutorial_link_java_memory_management | Link | Label: "Java Memory Management"`
+- `java-tutorial_link_stack_vs_heap_memory_in_j | Link | Label: "Stack vs Heap Memory in Java"`
+- `java-tutorial_link_java_garbage_collection | Link | Label: "Java Garbage Collection"`
+- `java-tutorial_link_how_garbage_collection_wo | Link | Label: "How Garbage Collection Works in Java?"`
+- `java-tutorial_link_memory_leaks_in_java | Link | Label: "Memory Leaks in Java"`
+- `java-tutorial_link_arraylist_vs_linkedlist | Link | Label: "ArrayList vs LinkedList"`
+- `java-tutorial_link_hashmap_vs_hashtable | Link | Label: "HashMap vs Hashtable"`
+- `java-tutorial_link_java_collections_class | Link | Label: "Java Collections class"`
+- `java-tutorial_link_sorting_collections_in_ja | Link | Label: "Sorting Collections in Java"`
+- `java-tutorial_link_comparable_interface_in_j | Link | Label: "Comparable interface in Java"`
+- `java-tutorial_link_comparator_interface_in_j | Link | Label: "Comparator interface in Java"`
+- `java-tutorial_link_comparable_vs_comparator | Link | Label: "Comparable vs Comparator"`
+- `java-tutorial_link_properties_class_in_java | Link | Label: "Properties class in Java"`
+- `java-tutorial_link_arraylist_vs_vector | Link | Label: "ArrayList vs Vector"`
+- `java-tutorial_link_java_iterator_interface | Link | Label: "Java Iterator Interface"`
+- `java-tutorial_link_data_structures_in_java | Link | Label: "Data Structures in Java"`
+- `java-tutorial_link_linear_search_in_java | Link | Label: "Linear Search in Java"`
+- `java-tutorial_link_binary_search_in_java | Link | Label: "Binary Search in Java"`
+- `java-tutorial_link_insertion_sort_in_java | Link | Label: "Insertion Sort in Java"`
+- `java-tutorial_link_selection_sort_in_java | Link | Label: "Selection Sort in Java"`
+- `java-tutorial_link_bubble_sort_in_java | Link | Label: "Bubble Sort in Java"`
+- `java-tutorial_link_merge_sort_in_java | Link | Label: "Merge Sort in Java"`
+- `java-tutorial_link_jdbc_introduction | Link | Label: "JDBC Introduction"`
+- `java-tutorial_link_connectivity_with_oracle | Link | Label: "Connectivity with Oracle"`
+- `java-tutorial_link_connectivity_with_mysql | Link | Label: "Connectivity with MySQL"`
+- `java-tutorial_link_connection | Link | Label: "Connection"`
+- `java-tutorial_link_statement | Link | Label: "Statement"`
+- `java-tutorial_link_preparedstatement | Link | Label: "PreparedStatement"`
+- `java-tutorial_link_internationalization_i18n | Link | Label: "Internationalization (i18N) in Java"`
+- `java-tutorial_link_resourcebundle_class | Link | Label: "ResourceBundle class"`
+- `java-tutorial_link_internationalization_with | Link | Label: "Internationalization with Date"`
+- `java-tutorial_link_java_mcqs | Link | Label: "Java MCQs"`
+- `java-tutorial_link_java_enum_interview_quest | Link | Label: "Java Enum Interview Questions"`
+- `java-tutorial_link_java_data_types_interview | Link | Label: "Java Data Types Interview Questions"`
+- `java-tutorial_link_java_constructors_intervi | Link | Label: "Java Constructors Interview Questions"`
+- `java-tutorial_link_java_thread_priority_mcqs | Link | Label: "Java Thread Priority MCQs"`
+- `java-tutorial_link_java_multithreading_mcqs | Link | Label: "Java Multithreading MCQs"`
+- `java-tutorial_link_java_method_overloading_i | Link | Label: "Java Method Overloading Interview Questions"`
+- `java-tutorial_link_java_main_method_intervie | Link | Label: "Java Main() Method Interview Questions"`
+- `java-tutorial_link_java_type_casting_intervi | Link | Label: "Java Type Casting Interview Questions"`
+- `java-tutorial_link_java_wrapper_class_interv | Link | Label: "Java Wrapper Class Interview Questions"`
+- `java-tutorial_link_java_collections_intervie | Link | Label: "Java Collections Interview Questions"`
+- `java-tutorial_link_java_arrays_interview_que | Link | Label: "Java Arrays Interview Questions"`
+- `java-tutorial_link_java_emids_interview_ques | Link | Label: "Java Emids Interview Questions"`
+- `java-tutorial_link_java_concurrency_intervie | Link | Label: "Java Concurrency Interview Questions"`
+- `java-tutorial_link_java_rest_api_interview_q | Link | Label: "Java REST API Interview Questions"`
+- `java-tutorial_link_java_swing_interview_ques | Link | Label: "Java Swing Interview Questions"`
+- `java-tutorial_link_java_design_pattern_inter | Link | Label: "Java Design Pattern Interview"`
+- `java-tutorial_link_java_full_stack_developer | Link | Label: "Java Full-Stack Developer Interview Questions"`
+- `java-tutorial_link_microsoft_java_interview_ | Link | Label: "Microsoft Java Interview Questions"`
+- `java-tutorial_link_java_tricky_programs | Link | Label: "Java Tricky Programs"`
+- `java-tutorial_link_java_8_multithreading_int | Link | Label: "Java 8 Multithreading Interview Questions"`
+- `java-tutorial_link_java_interview_questions_ | Link | Label: "Java Interview Questions for Experienced"`
+- `java-tutorial_link_java_coding_interview_que | Link | Label: "Java Coding Interview Questions and Answers"`
+- `java-tutorial_link_open_java_online_compiler | Link | Label: "Open Java Online Compiler"`
+- `java-tutorial_link_next | Link | Label: "next →"`
+- `java-tutorial_textbox_email | Input | Placeholder: "Enter your email" / Label: "Your Email"`
+- `java-tutorial_button_subscribebtn | Button | Label: "Subscribe"`
+- `java-tutorial_link_hr_tpointtech_com | Link | Label: "hr@tpointtech.com"`
+- `java-tutorial_link_91_9599086977 | Link | Label: "+91-9599086977"`
+- `java-tutorial_link_idx_810 | Link | Label: ""`
+- `java-tutorial_link_idx_811 | Link | Label: ""`
+- `java-tutorial_link_idx_812 | Link | Label: ""`
+- `java-tutorial_link_idx_813 | Link | Label: ""`
+- `java-tutorial_link_idx_814 | Link | Label: ""`
+- `java-tutorial_link_idx_815 | Link | Label: ""`
+- `java-tutorial_link_data_structure_tutorial | Link | Label: "Data Structure Tutorial"`
+- `java-tutorial_link_c_programming_tutorial | Link | Label: "C Programming Tutorial"`
+- `java-tutorial_link_jquery_tutorial | Link | Label: "jQuery Tutorial"`
+- `java-tutorial_link_spring_tutorial | Link | Label: "Spring Tutorial"`
+- `java-tutorial_link_python_interview_question | Link | Label: "Python Interview Questions"`
+- `java-tutorial_link_data_structure_interview_ | Link | Label: "Data Structure Interview Questions"`
+- `java-tutorial_link_c_interview_questions | Link | Label: "C++ Interview Questions"`
+- `java-tutorial_link_html_interview_questions | Link | Label: "HTML Interview Questions"`
+- `java-tutorial_link_javascript_interview_ques | Link | Label: "JavaScript Interview Questions"`
+- `java-tutorial_link_jquery_interview_question | Link | Label: "jQuery Interview Questions"`
+- `java-tutorial_link_sql_interview_questions | Link | Label: "SQL Interview Questions"`
+- `java-tutorial_link_power_bi_interview_questi | Link | Label: "Power BI Interview Questions"`
+- `java-tutorial_link_online_c_compiler | Link | Label: "Online C Compiler"`
+- `java-tutorial_link_online_r_compiler | Link | Label: "Online R Compiler"`
+- `java-tutorial_link_online_php_compiler | Link | Label: "Online PHP Compiler"`
+- `java-tutorial_link_online_html_editor | Link | Label: "Online HTML Editor"`
+- `java-tutorial_link_online_swift_compiler | Link | Label: "Online Swift Compiler"`
+- `java-tutorial_link_online_python_compiler | Link | Label: "Online Python Compiler"`
+- `java-tutorial_link_online_javascript_editor | Link | Label: "Online JavaScript Editor"`
+- `java-tutorial_link_online_typescript_editor | Link | Label: "Online TypeScript Editor"`
+- `java-tutorial_link_latest_post | Link | Label: "Latest Post"`
+- `java-tutorial_link_tutorials_list | Link | Label: "Tutorials List"`
+- `java-tutorial_link_privacy_policy | Link | Label: "Privacy Policy"`
+- `java-tutorial_link_about_us | Link | Label: "About Us"`
+- `java-tutorial_link_contact_us | Link | Label: "Contact Us"`

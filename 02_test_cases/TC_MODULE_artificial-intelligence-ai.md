@@ -1,0 +1,416 @@
+# Test Case: MODULE_artificial-intelligence-ai | UI Verification and Navigation
+- **Preconditions**: User is on page https://www.tpointtech.com/artificial-intelligence-ai
+- **Steps**:
+  1. Navigate to https://www.tpointtech.com/artificial-intelligence-ai
+  2. Verify and click header navigation links: `artificial-intelligence-ai_link_tutorials` (Element: Link, Label: "Tutorials"), `artificial-intelligence-ai_link_interviews` (Element: Link, Label: "Interviews"), `artificial-intelligence-ai_link_compilers` (Element: Link, Label: "Compilers")
+  3. Input "Python" into `artificial-intelligence-ai_textbox_searchinput` (Element: Input, Label: "Search...", Placeholder: "Search...")
+  4. Click `artificial-intelligence-ai_button_adversarial_search` (Element: Button, Text: "Adversarial Search") to execute search query
+  5. Click `artificial-intelligence-ai_link_next` (Element: Link, Text: "next →") to navigate to the next page
+  6. Input "testuser@example.com" into `artificial-intelligence-ai_textbox_email` (Element: Input, Label: "Your Email", Placeholder: "Enter your email")
+  7. Click `artificial-intelligence-ai_button_subscribebtn` (Element: Button, Text: "Subscribe") to subscribe to newsletter
+  8. Scroll to footer and verify/click links: `artificial-intelligence-ai_link_privacy_policy` (Element: Link, Label: "Privacy Policy"), `artificial-intelligence-ai_link_about_us` (Element: Link, Label: "About Us"), `artificial-intelligence-ai_link_contact_us` (Element: Link, Label: "Contact Us")
+- **Expected Result**: The page loads successfully, and all interactive elements are responsive. Navigation links load their target pages, search displays correct results, and form inputs function as expected.
+
+## Semantic References for Healing
+- `artificial-intelligence-ai_link_idx_0 | Link | Label: ""`
+- `artificial-intelligence-ai_textbox_searchinput | Input | Placeholder: "Search..." / Label: "Search..."`
+- `artificial-intelligence-ai_button_searchbtn | Button | Label: "Search"`
+- `artificial-intelligence-ai_link_tutorials | Link | Label: "Tutorials"`
+- `artificial-intelligence-ai_link_interviews | Link | Label: "Interviews"`
+- `artificial-intelligence-ai_link_compilers | Link | Label: "Compilers"`
+- `artificial-intelligence-ai_div_idx_147 | Div | Label: ""`
+- `artificial-intelligence-ai_div_idx_148 | Div | Label: ""`
+- `artificial-intelligence-ai_div_idx_149 | Div | Label: ""`
+- `artificial-intelligence-ai_div_idx_150 | Div | Label: ""`
+- `artificial-intelligence-ai_div_idx_151 | Div | Label: ""`
+- `artificial-intelligence-ai_button_idx_152 | Button | Label: ""`
+- `artificial-intelligence-ai_link_python_tutorial | Link | Label: "Python Tutorial"`
+- `artificial-intelligence-ai_link_java_tutorial | Link | Label: "Java Tutorial"`
+- `artificial-intelligence-ai_link_javascript_tutorial | Link | Label: "JavaScript Tutorial"`
+- `artificial-intelligence-ai_link_sql_tutorial | Link | Label: "SQL Tutorial"`
+- `artificial-intelligence-ai_link_c_tutorial | Link | Label: "C Tutorial"`
+- `artificial-intelligence-ai_link_html_tutorial | Link | Label: "HTML Tutorial"`
+- `artificial-intelligence-ai_link_css_tutorial | Link | Label: "CSS Tutorial"`
+- `artificial-intelligence-ai_link_react_tutorial | Link | Label: "React Tutorial"`
+- `artificial-intelligence-ai_link_nodejs_tutorial | Link | Label: "NodeJS Tutorial"`
+- `artificial-intelligence-ai_link_sprint_boot_tutorial | Link | Label: "Sprint Boot Tutorial"`
+- `artificial-intelligence-ai_link_php_tutorial | Link | Label: "PHP Tutorial"`
+- `artificial-intelligence-ai_link_mysql_tutorial | Link | Label: "MYSQL Tutorial"`
+- `artificial-intelligence-ai_link_mongodb_tutorial | Link | Label: "MongoDB Tutorial"`
+- `artificial-intelligence-ai_link_ai_tutorial | Link | Label: "AI Tutorial"`
+- `artificial-intelligence-ai_link_machine_learning_tutorial | Link | Label: "Machine Learning Tutorial"`
+- `artificial-intelligence-ai_link_dsa_tutorial | Link | Label: "DSA Tutorial"`
+- `artificial-intelligence-ai_link_dbms_tutorial | Link | Label: "DBMS Tutorial"`
+- `artificial-intelligence-ai_link_os_tutorial | Link | Label: "OS Tutorial"`
+- `artificial-intelligence-ai_button_artificial_intelligence | Button | Label: "Artificial Intelligence"`
+- `artificial-intelligence-ai_link_artificial_intelligence_a | Link | Label: "Artificial Intelligence (AI)"`
+- `artificial-intelligence-ai_link_applications_of_artificia | Link | Label: "Applications of Artificial Intelligence"`
+- `artificial-intelligence-ai_link_features_of_artificial_in | Link | Label: "Features of Artificial Intelligence"`
+- `artificial-intelligence-ai_link_history_of_artificial_int | Link | Label: "History of Artificial Intelligence"`
+- `artificial-intelligence-ai_link_examples_of_artificial_in | Link | Label: "Examples of Artificial Intelligence"`
+- `artificial-intelligence-ai_link_types_of_artificial_intel | Link | Label: "Types of Artificial Intelligence"`
+- `artificial-intelligence-ai_link_advantages_and_disadvanta | Link | Label: "Advantages and Disadvantages of Artificial Inte..."`
+- `artificial-intelligence-ai_link_future_of_artificial_inte | Link | Label: "Future of Artificial Intelligence"`
+- `artificial-intelligence-ai_link_importance_of_artificial_ | Link | Label: "Importance of Artificial Intelligence"`
+- `artificial-intelligence-ai_link_difference_between_artifi | Link | Label: "Difference between Artificial Intelligence and ..."`
+- `artificial-intelligence-ai_link_domains_of_artificial_int | Link | Label: "Domains of Artificial Intelligence"`
+- `artificial-intelligence-ai_link_how_does_artificial_intel | Link | Label: "How does Artificial Intelligence Work?"`
+- `artificial-intelligence-ai_link_frames_in_artificial_inte | Link | Label: "Frames in Artificial Intelligence"`
+- `artificial-intelligence-ai_button_intelligent_agent | Button | Label: "Intelligent Agent"`
+- `artificial-intelligence-ai_link_what_are_ai_agents | Link | Label: "What are AI Agents?"`
+- `artificial-intelligence-ai_link_types_of_agents_in_ai | Link | Label: "Types of Agents in AI"`
+- `artificial-intelligence-ai_link_intelligent_agent_in_ai | Link | Label: "Intelligent Agent in AI"`
+- `artificial-intelligence-ai_link_agent_and_environment_in_ | Link | Label: "Agent and Environment in AI"`
+- `artificial-intelligence-ai_link_turing_test_in_ai | Link | Label: "Turing Test in AI"`
+- `artificial-intelligence-ai_link_peas_in_ai | Link | Label: "Peas In AI"`
+- `artificial-intelligence-ai_button_problem_solving | Button | Label: "Problem-solving"`
+- `artificial-intelligence-ai_link_search_algorithms | Link | Label: "Search Algorithms"`
+- `artificial-intelligence-ai_link_uninformed_search_algorit | Link | Label: "Uninformed Search Algorithm"`
+- `artificial-intelligence-ai_link_a_search_algorithm_in_art | Link | Label: "A* Search Algorithm in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_hill_climbing_algorithm | Link | Label: "Hill Climbing Algorithm"`
+- `artificial-intelligence-ai_link_means_ends_analysis | Link | Label: "Means-Ends Analysis"`
+- `artificial-intelligence-ai_button_adversarial_search | Button | Label: "Adversarial Search"`
+- `artificial-intelligence-ai_link_adversarial_search | Link | Label: "Adversarial search"`
+- `artificial-intelligence-ai_link_mini_max_algorithm_in_art | Link | Label: "Mini-Max Algorithm in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_alpha_beta_pruning | Link | Label: "Alpha-Beta Pruning"`
+- `artificial-intelligence-ai_button_knowledge_represent | Button | Label: "Knowledge Represent"`
+- `artificial-intelligence-ai_link_knowledge_based_agent | Link | Label: "Knowledge Based Agent"`
+- `artificial-intelligence-ai_link_knowledge_representation | Link | Label: "Knowledge Representation"`
+- `artificial-intelligence-ai_link_knowledge_representation_ | Link | Label: "Knowledge Representation Techniques"`
+- `artificial-intelligence-ai_link_propositional_logic | Link | Label: "Propositional Logic"`
+- `artificial-intelligence-ai_link_rules_of_inference | Link | Label: "Rules of Inference"`
+- `artificial-intelligence-ai_link_the_wumpus_world | Link | Label: "The Wumpus world"`
+- `artificial-intelligence-ai_link_knowledge_base_for_wumpus | Link | Label: "knowledge base for Wumpus World"`
+- `artificial-intelligence-ai_link_first_order_logic | Link | Label: "First-order logic"`
+- `artificial-intelligence-ai_link_knowledge_engineering_in_ | Link | Label: "Knowledge Engineering in FOL"`
+- `artificial-intelligence-ai_link_inference_in_first_order_ | Link | Label: "Inference in First-Order Logic"`
+- `artificial-intelligence-ai_link_unification_in_fol | Link | Label: "Unification in FOL"`
+- `artificial-intelligence-ai_link_resolution_in_fol | Link | Label: "Resolution in FOL"`
+- `artificial-intelligence-ai_link_forward_chaining_and_back | Link | Label: "Forward Chaining and backward chaining"`
+- `artificial-intelligence-ai_link_difference_between_backwa | Link | Label: "Difference between Backward Chaining and Forwar..."`
+- `artificial-intelligence-ai_link_reasoning_in_ai | Link | Label: "Reasoning in AI"`
+- `artificial-intelligence-ai_link_inductive_vs_deductive_re | Link | Label: "Inductive vs. Deductive reasoning"`
+- `artificial-intelligence-ai_button_uncertain_knowledge_r | Button | Label: "Uncertain Knowledge R."`
+- `artificial-intelligence-ai_link_probabilistic_reasoning_i | Link | Label: "Probabilistic Reasoning in AI"`
+- `artificial-intelligence-ai_link_bayes_theorem_in_ai | Link | Label: "Bayes theorem in AI"`
+- `artificial-intelligence-ai_link_bayesian_belief_network | Link | Label: "Bayesian Belief Network"`
+- `artificial-intelligence-ai_button_subsets_of_ai | Button | Label: "Subsets of AI"`
+- `artificial-intelligence-ai_link_subsets_of_ai | Link | Label: "Subsets of AI"`
+- `artificial-intelligence-ai_link_expert_systems | Link | Label: "Expert Systems"`
+- `artificial-intelligence-ai_link_nlp_tutorial | Link | Label: "NLP Tutorial"`
+- `artificial-intelligence-ai_button_ai_in_real_world | Button | Label: "AI in Real World"`
+- `artificial-intelligence-ai_link_ai_in_education | Link | Label: "AI in Education"`
+- `artificial-intelligence-ai_link_ai_in_agriculture | Link | Label: "AI in Agriculture"`
+- `artificial-intelligence-ai_link_ai_in_marketing | Link | Label: "AI in Marketing"`
+- `artificial-intelligence-ai_link_ai_in_business | Link | Label: "AI in Business"`
+- `artificial-intelligence-ai_link_ai_in_banking | Link | Label: "AI in Banking"`
+- `artificial-intelligence-ai_link_ai_in_manufacturing | Link | Label: "AI in Manufacturing"`
+- `artificial-intelligence-ai_link_ai_in_civil_engineering | Link | Label: "AI in Civil Engineering"`
+- `artificial-intelligence-ai_link_ai_in_hr | Link | Label: "AI in HR"`
+- `artificial-intelligence-ai_link_ai_in_e_commerce | Link | Label: "AI In E-commerce"`
+- `artificial-intelligence-ai_link_ai_in_software_testing | Link | Label: "AI in Software Testing"`
+- `artificial-intelligence-ai_link_ai_in_transportation | Link | Label: "AI in Transportation"`
+- `artificial-intelligence-ai_button_artificial_intelligence_m | Button | Label: "Artificial Intelligence MCQ"`
+- `artificial-intelligence-ai_link_artificial_intelligence_m | Link | Label: "Artificial Intelligence MCQ"`
+- `artificial-intelligence-ai_button_misc | Button | Label: "Misc"`
+- `artificial-intelligence-ai_link_machine_translation_in_ar | Link | Label: "Machine Translation in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_engineering_applications_ | Link | Label: "Engineering Applications of AI"`
+- `artificial-intelligence-ai_link_mba_in_artificial_intelli | Link | Label: "MBA in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_ontological_engineering_i | Link | Label: "Ontological Engineering in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_robotics_and_ai | Link | Label: "Robotics and AI"`
+- `artificial-intelligence-ai_link_opportunities_and_challen | Link | Label: "Opportunities and Challenges for Artificial Int..."`
+- `artificial-intelligence-ai_link_semantics_of_propositiona | Link | Label: "Semantics of Propositional Logic in Artificial ..."`
+- `artificial-intelligence-ai_link_languages_used_in_ai | Link | Label: "Languages used in AI"`
+- `artificial-intelligence-ai_link_syntax_of_propositional_l | Link | Label: "Syntax of Propositional Logic in Artificial Int..."`
+- `artificial-intelligence-ai_link_approaches_of_artificial_ | Link | Label: "Approaches of Artificial Intelligence"`
+- `artificial-intelligence-ai_link_the_role_and_benefits_of_ | Link | Label: "The Role and Benefits of AI in Cloud Computing"`
+- `artificial-intelligence-ai_link_scope_of_artificial_intel | Link | Label: "Scope of Artificial Intelligence"`
+- `artificial-intelligence-ai_link_truth_maintenance_system_ | Link | Label: "Truth Maintenance System in Artificial Intellig..."`
+- `artificial-intelligence-ai_link_uniform_cost_search_in_ar | Link | Label: "Uniform Cost Search in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_artificial_intelligence_f | Link | Label: "Artificial Intelligence for Kids"`
+- `artificial-intelligence-ai_link_goals_of_artificial_intel | Link | Label: "Goals of Artificial Intelligence"`
+- `artificial-intelligence-ai_link_can_artificial_intelligen | Link | Label: "Can Artificial Intelligence replace Human Intel..."`
+- `artificial-intelligence-ai_link_axiomatic_system_in_artif | Link | Label: "Axiomatic System in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_bidirectional_search_algo | Link | Label: "Bidirectional Search Algorithm in Artificial In..."`
+- `artificial-intelligence-ai_link_fuzzy_logic_in_artificial | Link | Label: "Fuzzy Logic in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_companies_working_on_arti | Link | Label: "Companies Working on Artificial Intelligence"`
+- `artificial-intelligence-ai_link_greedy_best_first_search_ | Link | Label: "Greedy Best-First Search in Artificial Intellig..."`
+- `artificial-intelligence-ai_link_how_many_proposition_symb | Link | Label: "How many Proposition Symbols are there in Artif..."`
+- `artificial-intelligence-ai_link_how_to_make_your_own_ai_a | Link | Label: "How to Make Your Own AI (Artificial Intelligence)?"`
+- `artificial-intelligence-ai_link_what_is_the_role_of_plann | Link | Label: "What is the Role of Planning in Artificial Inte..."`
+- `artificial-intelligence-ai_link_ai_as_a_service | Link | Label: "AI as a Service"`
+- `artificial-intelligence-ai_link_negotiation_and_bargainin | Link | Label: "Negotiation and Bargaining in Artificial Intell..."`
+- `artificial-intelligence-ai_link_passive_reinforcement_lea | Link | Label: "Passive Reinforcement Learning in AI"`
+- `artificial-intelligence-ai_link_ai_tools | Link | Label: "AI Tools"`
+- `artificial-intelligence-ai_link_stochastic_games_in_artif | Link | Label: "Stochastic Games in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_cognitive_ai | Link | Label: "Cognitive AI"`
+- `artificial-intelligence-ai_link_temporal_logic_in_artific | Link | Label: "Temporal Logic in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_introduction_of_seaborn | Link | Label: "Introduction of Seaborn"`
+- `artificial-intelligence-ai_link_temporal_models_in_artifi | Link | Label: "Temporal Models in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_natural_language_toolkit_ | Link | Label: "Natural Language ToolKit (NLTK)"`
+- `artificial-intelligence-ai_link_best_books_for_ml | Link | Label: "Best books for ML"`
+- `artificial-intelligence-ai_link_what_is_quantum_ai_artifi | Link | Label: "What is Quantum AI (Artificial Intelligence)?"`
+- `artificial-intelligence-ai_link_which_business_case_is_be | Link | Label: "Which Business Case is Better Solved by Artific..."`
+- `artificial-intelligence-ai_link_constraint_satisfaction_p | Link | Label: "Constraint Satisfaction Problems in Artificial ..."`
+- `artificial-intelligence-ai_link_will_artificial_intellige | Link | Label: "Will Artificial Intelligence Take Away Jobs?"`
+- `artificial-intelligence-ai_link_how_artificial_intelligen | Link | Label: "How artificial intelligence will change the future"`
+- `artificial-intelligence-ai_link_problem_solving_technique | Link | Label: "Problem Solving Techniques in AI"`
+- `artificial-intelligence-ai_link_artificial_intelligence_i | Link | Label: "Artificial Intelligence in Car Industry"`
+- `artificial-intelligence-ai_link_classical_planning_in_art | Link | Label: "Classical Planning in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_depth_limited_search_in_a | Link | Label: "Depth Limited Search in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_does_artificial_intellige | Link | Label: "Does Artificial Intelligence Require Coding?"`
+- `artificial-intelligence-ai_link_frame_problem_in_artifici | Link | Label: "Frame Problem in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_monotonic_vs_non_monotoni | Link | Label: "Monotonic Vs. Non-Monotonic Reasoning in AI"`
+- `artificial-intelligence-ai_link_procedural_vs_declarative | Link | Label: "Procedural Vs. Declarative Knowledge in Artific..."`
+- `artificial-intelligence-ai_link_activation_functions_in_n | Link | Label: "Activation Functions in Neural Networks"`
+- `artificial-intelligence-ai_link_top_10_artificial_intelli | Link | Label: "Top 10 Artificial Intelligence Mini Projects"`
+- `artificial-intelligence-ai_link_boston_housing_kaggle_cha | Link | Label: "Boston Housing Kaggle Challenge with Linear Reg..."`
+- `artificial-intelligence-ai_link_what_are_openai_and_chatg | Link | Label: "What are OpenAI and ChatGPT"`
+- `artificial-intelligence-ai_link_chatbot_vs_conversational | Link | Label: "Chatbot vs. Conversational AI"`
+- `artificial-intelligence-ai_link_iterative_deepening_a_alg | Link | Label: "Iterative Deepening A* Algorithm (IDA*)"`
+- `artificial-intelligence-ai_link_iterative_deepening_searc | Link | Label: "Iterative Deepening Search (IDS) or Iterative D..."`
+- `artificial-intelligence-ai_link_exhaustive_search_in_arti | Link | Label: "Exhaustive Search in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_genetic_algorithm_in_soft | Link | Label: "Genetic Algorithm in Soft Computing"`
+- `artificial-intelligence-ai_link_expert_vs_traditional_sys | Link | Label: "Expert Vs. Traditional Systems in AI"`
+- `artificial-intelligence-ai_link_ai_and_data_privacy | Link | Label: "AI and data privacy"`
+- `artificial-intelligence-ai_link_international_joint_confe | Link | Label: "International Joint Conference on Artificial In..."`
+- `artificial-intelligence-ai_link_future_of_devops | Link | Label: "Future of Devops"`
+- `artificial-intelligence-ai_link_is_artificial_intelligenc | Link | Label: "Is Artificial Intelligence a Threat to Humans?"`
+- `artificial-intelligence-ai_link_how_machine_learning_is_u | Link | Label: "How Machine Learning is Used on Social Media Pl..."`
+- `artificial-intelligence-ai_link_multi_agent_planning_in_a | Link | Label: "Multi-Agent Planning in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_machine_learning_and_clim | Link | Label: "Machine learning and climate change"`
+- `artificial-intelligence-ai_link_search_strategies_in_arti | Link | Label: "Search Strategies in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_the_green_tech_revolution | Link | Label: "The Green Tech Revolution"`
+- `artificial-intelligence-ai_link_uncertainty_in_artificial | Link | Label: "Uncertainty in Artificial Intelligence (AI)"`
+- `artificial-intelligence-ai_link_googlenet_in_ai | Link | Label: "GoogleNet in AI"`
+- `artificial-intelligence-ai_link_utility_functions_in_arti | Link | Label: "Utility Functions in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_alexnet_in_artificial_int | Link | Label: "AlexNet in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_basics_of_lidar_light_det | Link | Label: "Basics of LiDAR - Light Detection and Ranging"`
+- `artificial-intelligence-ai_link_explainable_ai_xai | Link | Label: "Explainable AI (XAI)"`
+- `artificial-intelligence-ai_link_synthetic_image_generatio | Link | Label: "Synthetic Image Generation"`
+- `artificial-intelligence-ai_link_artificial_intelligence_l | Link | Label: "Artificial Intelligence Law"`
+- `artificial-intelligence-ai_link_what_is_deepfake_in_artif | Link | Label: "What is Deepfake in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_artificial_intelligence_v | Link | Label: "Artificial Intelligence vs. Cybersecurity"`
+- `artificial-intelligence-ai_link_what_is_generative_ai_int | Link | Label: "What is Generative AI: Introduction"`
+- `artificial-intelligence-ai_link_constraint_propagation_in | Link | Label: "Constraint Propagation in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_difference_between_natura | Link | Label: "Difference Between Natural and Artificial Intel..."`
+- `artificial-intelligence-ai_link_customer_segmentation_wit | Link | Label: "Customer Segmentation with LLM"`
+- `artificial-intelligence-ai_link_difference_between_the_se | Link | Label: "Difference Between the Semantic Web and Artific..."`
+- `artificial-intelligence-ai_link_liquid_neural_networks_in | Link | Label: "Liquid Neural Networks in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_graph_search_in_artificia | Link | Label: "Graph Search in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_propositional_logic_infer | Link | Label: "Propositional Logic Inferences in Artificial In..."`
+- `artificial-intelligence-ai_link_impact_of_artificial_inte | Link | Label: "Impact of Artificial Intelligence on Society"`
+- `artificial-intelligence-ai_link_text_generation_using_gat | Link | Label: "Text Generation using Gated Recurrent Unit Netw..."`
+- `artificial-intelligence-ai_link_importance_of_data_drift_ | Link | Label: "Importance of Data Drift Detection"`
+- `artificial-intelligence-ai_link_viterbi_algorithm_in_nlp | Link | Label: "Viterbi Algorithm in NLP"`
+- `artificial-intelligence-ai_link_markov_decision_processes | Link | Label: "Markov Decision Processes in Artificial Intelli..."`
+- `artificial-intelligence-ai_link_what_are_the_benefits_of_ | Link | Label: "What are the benefits of Artificial Intelligenc..."`
+- `artificial-intelligence-ai_link_principles_of_artificial_ | Link | Label: "Principles of Artificial Intelligence"`
+- `artificial-intelligence-ai_link_ai_tech_stack | Link | Label: "AI Tech Stack"`
+- `artificial-intelligence-ai_link_speech_recognition_in_art | Link | Label: "Speech Recognition in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_top_10_ai_applications_in | Link | Label: "Top 10 AI Applications in Digital Marketing in ..."`
+- `artificial-intelligence-ai_link_types_of_ai_algorithms_an | Link | Label: "Types of AI Algorithms and How Do They Work"`
+- `artificial-intelligence-ai_link_viva_questions_on_artific | Link | Label: "Viva Questions on Artificial Intelligence"`
+- `artificial-intelligence-ai_link_ai_ethics_ai_code_of_ethi | Link | Label: "AI Ethics (AI Code of Ethics)"`
+- `artificial-intelligence-ai_link_why_building_an_ai_decent | Link | Label: "Why Building an AI Decentralized Autonomous Org..."`
+- `artificial-intelligence-ai_link_pros_and_cons_of_ai_gener | Link | Label: "Pros and Cons of AI-Generated Content"`
+- `artificial-intelligence-ai_link_aiops_artificial_intellig | Link | Label: "AIOps (artificial intelligence for IT operations)"`
+- `artificial-intelligence-ai_link_best_artificial_intellige | Link | Label: "Best Artificial Intelligence Books for Beginners"`
+- `artificial-intelligence-ai_link_how_ai_can_transform_indu | Link | Label: "How AI can Transform Industrial Safety"`
+- `artificial-intelligence-ai_link_certainty_factor_in_artif | Link | Label: "Certainty Factor in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_current_trends_in_artific | Link | Label: "Current Trends in Artificial Intelligence in 2025"`
+- `artificial-intelligence-ai_link_generative_ai | Link | Label: "Generative AI"`
+- `artificial-intelligence-ai_link_nltk_wordnet | Link | Label: "NLTK WordNet"`
+- `artificial-intelligence-ai_link_process_learning_in_artif | Link | Label: "Process Learning in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_what_is_auto_gpt | Link | Label: "What is Auto-GPT"`
+- `artificial-intelligence-ai_link_rationality_in_artificial | Link | Label: "Rationality in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_artificial_super_intellig | Link | Label: "Artificial Super Intelligence (ASI)"`
+- `artificial-intelligence-ai_link_simple_reflex_agent_in_ar | Link | Label: "Simple Reflex Agent in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_ai_hallucination | Link | Label: "AI hallucination"`
+- `artificial-intelligence-ai_link_situation_calculus_in_art | Link | Label: "Situation Calculus in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_how_to_learn_ai_from_scra | Link | Label: "How to Learn AI from Scratch"`
+- `artificial-intelligence-ai_link_symbolic_reasoning_in_art | Link | Label: "Symbolic Reasoning in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_what_is_dilated_convoluti | Link | Label: "What is Dilated Convolution?"`
+- `artificial-intelligence-ai_link_explainable_artificial_in | Link | Label: "Explainable Artificial Intelligence(XAI)"`
+- `artificial-intelligence-ai_link_unification_in_artificial | Link | Label: "Unification in Artificial Intelligence (AI)"`
+- `artificial-intelligence-ai_link_what_is_perception_in_art | Link | Label: "What is Perception in Artificial Intelligence?"`
+- `artificial-intelligence-ai_link_artificial_intelligence_p | Link | Label: "Artificial Intelligence Project Ideas for Begin..."`
+- `artificial-intelligence-ai_link_apache_spark_in_artificia | Link | Label: "Apache Spark in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_handling_missing_data_in_ | Link | Label: "Handling Missing Data in Decision Tree Models"`
+- `artificial-intelligence-ai_link_impacts_of_artificial_int | Link | Label: "Impacts of Artificial Intelligence in Everyday ..."`
+- `artificial-intelligence-ai_link_leverage_artificial_intel | Link | Label: "Leverage Artificial Intelligence in K-12 Education"`
+- `artificial-intelligence-ai_link_the_impact_of_artificial_ | Link | Label: "The Impact of Artificial Intelligence on Employ..."`
+- `artificial-intelligence-ai_link_water_jug_problem_in_ai | Link | Label: "Water Jug Problem in AI"`
+- `artificial-intelligence-ai_link_the_role_of_artificial_in | Link | Label: "The Role of Artificial Intelligence in Literature"`
+- `artificial-intelligence-ai_link_types_of_environments_in_ | Link | Label: "Types of Environments in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_difference_between_depth_ | Link | Label: "Difference between Depth First Search, Breadth ..."`
+- `artificial-intelligence-ai_link_types_of_neural_networks_ | Link | Label: "Types of Neural Networks in Artificial Intellig..."`
+- `artificial-intelligence-ai_link_how_to_humanize_ai_text_f | Link | Label: "How To Humanize AI Text for Free"`
+- `artificial-intelligence-ai_link_use_of_artificial_intelli | Link | Label: "Use of Artificial Intelligence in Computer Science"`
+- `artificial-intelligence-ai_link_5_algorithms_that_demonst | Link | Label: "5 Algorithms that Demonstrate Artificial Intell..."`
+- `artificial-intelligence-ai_link_philosophy_of_artificial_ | Link | Label: "Philosophy of Artificial Intelligence"`
+- `artificial-intelligence-ai_link_artificial_intelligence_b | Link | Label: "Artificial Intelligence - Boon or Bane"`
+- `artificial-intelligence-ai_link_ai_in_image_processing | Link | Label: "AI in Image Processing"`
+- `artificial-intelligence-ai_link_character_ai | Link | Label: "Character AI"`
+- `artificial-intelligence-ai_link_ai_in_management_informat | Link | Label: "AI in Management Information System"`
+- `artificial-intelligence-ai_link_18_of_the_best_large_lang | Link | Label: "18 of the best large language models in 2024"`
+- `artificial-intelligence-ai_link_ai_issues | Link | Label: "AI Issues"`
+- `artificial-intelligence-ai_link_explainable_ai | Link | Label: "Explainable AI"`
+- `artificial-intelligence-ai_link_conceptual_dependency_in_ | Link | Label: "Conceptual Dependency in AI"`
+- `artificial-intelligence-ai_link_problem_characteristics_i | Link | Label: "Problem characteristics in ai"`
+- `artificial-intelligence-ai_link_top_degree_programs_for_s | Link | Label: "Top degree programs for studying artificial Int..."`
+- `artificial-intelligence-ai_link_ai_upscaling | Link | Label: "AI Upscaling"`
+- `artificial-intelligence-ai_link_artificial_intelligence_c | Link | Label: "Artificial Intelligence combined with decentral..."`
+- `artificial-intelligence-ai_link_ambient_intelligence | Link | Label: "Ambient Intelligence"`
+- `artificial-intelligence-ai_link_how_big_data_and_artifici | Link | Label: "How Big Data and Artificial Intelligence Work T..."`
+- `artificial-intelligence-ai_link_federated_learning | Link | Label: "Federated Learning"`
+- `artificial-intelligence-ai_link_linguistic_intelligence_i | Link | Label: "Linguistic Intelligence in AI"`
+- `artificial-intelligence-ai_link_neuromorphic_computing | Link | Label: "Neuromorphic Computing"`
+- `artificial-intelligence-ai_link_role_of_business_analyst_ | Link | Label: "Role of Business Analyst in Artificial Intellig..."`
+- `artificial-intelligence-ai_link_bias_mitigation_in_ai | Link | Label: "Bias Mitigation in AI"`
+- `artificial-intelligence-ai_link_semantic_network_in_artif | Link | Label: "Semantic Network in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_neural_architecture_searc | Link | Label: "Neural Architecture Search"`
+- `artificial-intelligence-ai_link_vacuum_world_problem_in_a | Link | Label: "Vacuum World Problem in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_top_artificial_intelligen | Link | Label: "Top Artificial Intelligence Techniques"`
+- `artificial-intelligence-ai_link_ai_in_mobile_app_developm | Link | Label: "AI in Mobile App Development"`
+- `artificial-intelligence-ai_link_best_first_search_in_arti | Link | Label: "Best First Search in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_top_10_must_read_books_fo | Link | Label: "Top 10 Must-Read Books for Artificial Intelligence"`
+- `artificial-intelligence-ai_link_what_are_the_core_subject | Link | Label: "What are the Core Subjects in Artificial Intell..."`
+- `artificial-intelligence-ai_link_role_of_artificial_intell | Link | Label: "Role of Artificial Intelligence in ISRO"`
+- `artificial-intelligence-ai_link_des_ai_gn_augmenting_huma | Link | Label: "des.ai.gn - Augmenting Human Creativity with Ar..."`
+- `artificial-intelligence-ai_link_difference_between_data_s | Link | Label: "Difference Between Data Science and Artificial ..."`
+- `artificial-intelligence-ai_link_best_ai_learning_tools_fo | Link | Label: "Best AI Learning Tools for Kids in 2025"`
+- `artificial-intelligence-ai_link_narrow_artificial_intelli | Link | Label: "Narrow Artificial Intelligence"`
+- `artificial-intelligence-ai_link_limitations_of_artificial | Link | Label: "Limitations of Artificial Intelligence"`
+- `artificial-intelligence-ai_link_roadmap_to_artificial_int | Link | Label: "Roadmap to Artificial Intelligence"`
+- `artificial-intelligence-ai_link_best_first_search_algorit | Link | Label: "Best First Search Algorithm in Artificial Intel..."`
+- `artificial-intelligence-ai_link_decision_theory_in_artifi | Link | Label: "Decision Theory in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_8_queens_problem_in_artif | Link | Label: "8 Queens Problem in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_ai_for_disaster_response | Link | Label: "AI for Disaster Response"`
+- `artificial-intelligence-ai_link_ai_in_bioinformatics | Link | Label: "AI in Bioinformatics"`
+- `artificial-intelligence-ai_link_artificial_intelligence_e | Link | Label: "Artificial Intelligence Ethics"`
+- `artificial-intelligence-ai_link_the_role_of_ai_in_perform | Link | Label: "The Role of AI in Performance Management"`
+- `artificial-intelligence-ai_link_ai_in_cyber_security | Link | Label: "AI in Cyber Security"`
+- `artificial-intelligence-ai_link_statistical_learning_in_a | Link | Label: "Statistical Learning in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_artificial_intelligence_t | Link | Label: "Artificial Intelligence Test Automation Tools"`
+- `artificial-intelligence-ai_link_difference_between_cloud_ | Link | Label: "Difference between Cloud Computing and Artifici..."`
+- `artificial-intelligence-ai_link_fundamentals_of_artificia | Link | Label: "Fundamentals of Artificial Intelligence"`
+- `artificial-intelligence-ai_link_game_playing_in_artificia | Link | Label: "Game Playing in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_hierarchical_planning_in_ | Link | Label: "Hierarchical Planning in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_how_can_ai_be_used_to_cre | Link | Label: "How can AI be used to create artificial data"`
+- `artificial-intelligence-ai_link_how_to_use_artificial_int | Link | Label: "How to use Artificial Intelligence"`
+- `artificial-intelligence-ai_link_the_role_of_ai_in_rural_d | Link | Label: "The Role of AI in Rural Development"`
+- `artificial-intelligence-ai_link_information_extraction_in | Link | Label: "Information Extraction in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_the_use_of_ai_in_payroll_ | Link | Label: "The Use of AI in Payroll Industry"`
+- `artificial-intelligence-ai_link_local_search_algorithm_in | Link | Label: "Local Search Algorithm in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_problem_solving_agents_in | Link | Label: "Problem Solving Agents in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_production_system_in_arti | Link | Label: "Production System in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_strips_in_artificial_inte | Link | Label: "STRIPS in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_tic_tac_toe_problem_in_ar | Link | Label: "Tic-Tac-Toe Problem in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_top_10_characteristics_of | Link | Label: "Top 10 Characteristics of Artificial Intelligence"`
+- `artificial-intelligence-ai_link_what_is_natural_language_ | Link | Label: "What is Natural Language Processing in Artifici..."`
+- `artificial-intelligence-ai_link_the_potential_of_artifici | Link | Label: "The Potential of Artificial Intelligence in Sha..."`
+- `artificial-intelligence-ai_link_why_do_people_use_swarm_i | Link | Label: "Why do people Use Swarm Intelligence"`
+- `artificial-intelligence-ai_link_current_status_of_artific | Link | Label: "Current Status of Artificial Intelligence"`
+- `artificial-intelligence-ai_link_default_reasoning_in_arti | Link | Label: "Default Reasoning in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_how_to_avoid_accidents_us | Link | Label: "How to Avoid Accidents Using Artificial Intelli..."`
+- `artificial-intelligence-ai_link_inductive_learning_in_art | Link | Label: "Inductive Learning in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_stock_market_prediction_u | Link | Label: "Stock Market Prediction Using Artificial Intell..."`
+- `artificial-intelligence-ai_link_artificial_intelligent_in | Link | Label: "Artificial Intelligent Interface"`
+- `artificial-intelligence-ai_link_benefits_of_artificial_in | Link | Label: "Benefits of Artificial Intelligence in Accounting"`
+- `artificial-intelligence-ai_link_how_businesses_can_measur | Link | Label: "How Businesses can Measure AI Success using KPIs?"`
+- `artificial-intelligence-ai_link_intelligent_systems_in_ar | Link | Label: "Intelligent Systems in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_what_is_rejection_samplin | Link | Label: "What is Rejection Sampling?"`
+- `artificial-intelligence-ai_link_autonomous_agents_in_arti | Link | Label: "Autonomous Agents in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_benefits_of_ai_in_e_comme | Link | Label: "Benefits of AI in E-Commerce"`
+- `artificial-intelligence-ai_link_introduction_to_generativ | Link | Label: "Introduction To Generative AI"`
+- `artificial-intelligence-ai_link_ai_layers | Link | Label: "AI Layers"`
+- `artificial-intelligence-ai_link_ai_methods | Link | Label: "AI Methods"`
+- `artificial-intelligence-ai_link_bfs_and_dfs_examples_in_a | Link | Label: "BFS and DFS Examples in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_career_growth_in_artifici | Link | Label: "Career Growth in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_how_blockchain_and_ai_com | Link | Label: "How Blockchain and AI Complement each other?"`
+- `artificial-intelligence-ai_link_characteristics_of_artifi | Link | Label: "Characteristics of Artificial Intelligence Prob..."`
+- `artificial-intelligence-ai_link_computational_learning_th | Link | Label: "Computational Learning Theory in Artificial Int..."`
+- `artificial-intelligence-ai_link_skolemization_in_artifici | Link | Label: "Skolemization in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_what_is_white_label_ai | Link | Label: "What is White Label AI?"`
+- `artificial-intelligence-ai_link_what_stephen_hawking_said | Link | Label: "What Stephen Hawking Said about Artificial Inte..."`
+- `artificial-intelligence-ai_link_casual_ai_enabling_data_d | Link | Label: "Casual AI-Enabling Data-Driven Decisions"`
+- `artificial-intelligence-ai_link_environmental_impact_of_a | Link | Label: "Environmental Impact of Artificial Intelligence"`
+- `artificial-intelligence-ai_link_artificial_intelligence_o | Link | Label: "Artificial Intelligence Operating System (AIOS)"`
+- `artificial-intelligence-ai_link_deductive_reasoning_in_ar | Link | Label: "Deductive Reasoning in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_should_we_fear_artificial | Link | Label: "Should We Fear Artificial Intelligence?"`
+- `artificial-intelligence-ai_link_what_business_problems_ca | Link | Label: "What Business Problems Can Artificial Intellige..."`
+- `artificial-intelligence-ai_link_how_to_learn_artificial_i | Link | Label: "How to Learn Artificial Intelligence"`
+- `artificial-intelligence-ai_link_importance_of_ai_in_educa | Link | Label: "Importance of AI in Education"`
+- `artificial-intelligence-ai_link_mathematics_in_artificial | Link | Label: "Mathematics in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_state_space_search_in_art | Link | Label: "State Space Search in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_what_is_artificial_intell | Link | Label: "What is Artificial Intelligence Bias"`
+- `artificial-intelligence-ai_link_who_is_the_father_of_arti | Link | Label: "Who is the Father of Artificial Intelligence"`
+- `artificial-intelligence-ai_link_what_is_ai_in_data_analyt | Link | Label: "What is AI in Data Analytics"`
+- `artificial-intelligence-ai_link_partial_order_planning_in | Link | Label: "Partial Order Planning in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_information_retrieval_in_ | Link | Label: "Information Retrieval in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_applications_of_deep_lear | Link | Label: "Applications of Deep Learning in Artificial Int..."`
+- `artificial-intelligence-ai_link_7_artificial_intelligence | Link | Label: "7 Artificial Intelligence Projects in Agriculture"`
+- `artificial-intelligence-ai_link_what_is_multimodal_ai | Link | Label: "What is Multimodal AI"`
+- `artificial-intelligence-ai_link_conceptual_graphs_in_arti | Link | Label: "Conceptual Graphs in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_problem_space_and_search_ | Link | Label: "Problem Space and Search in Artificial Intellig..."`
+- `artificial-intelligence-ai_link_conditional_planning_in_a | Link | Label: "Conditional Planning in Artificial Intelligence"`
+- `artificial-intelligence-ai_link_informed_search_algorithm | Link | Label: "Informed Search Algorithms in Artificial Intell..."`
+- `artificial-intelligence-ai_button_related_tutorials | Button | Label: "Related Tutorials"`
+- `artificial-intelligence-ai_link_tensorflow_tutorial | Link | Label: "Tensorflow Tutorial"`
+- `artificial-intelligence-ai_link_pytorch_tutorial | Link | Label: "PyTorch Tutorial"`
+- `artificial-intelligence-ai_link_reinforcement_learning | Link | Label: "Reinforcement Learning"`
+- `artificial-intelligence-ai_link_home | Link | Label: "Home"`
+- `artificial-intelligence-ai_link_artificial_intelligence | Link | Label: "Artificial Intelligence"`
+- `artificial-intelligence-ai_heading_these_are_topics_related_ | Heading | Label: "These are topics related to the article that might interest you"`
+- `artificial-intelligence-ai_link_scientific | Link | Label: "Scientific"`
+- `artificial-intelligence-ai_link_science | Link | Label: "science"`
+- `artificial-intelligence-ai_link_social_sciences | Link | Label: "Social Sciences"`
+- `artificial-intelligence-ai_link_problem_solving | Link | Label: "problem-solving"`
+- `artificial-intelligence-ai_link_computer_science | Link | Label: "computer science"`
+- `artificial-intelligence-ai_link_google_assistant | Link | Label: "Google Assistant"`
+- `artificial-intelligence-ai_link_symbolic_reasoning | Link | Label: "symbolic reasoning"`
+- `artificial-intelligence-ai_link_machine_learning | Link | Label: "Machine Learning"`
+- `artificial-intelligence-ai_link_educational_resources | Link | Label: "Educational Resources"`
+- `artificial-intelligence-ai_link_machine_learning_artifici | Link | Label: "Machine Learning & Artificial Intelligence"`
+- `artificial-intelligence-ai_link_ibm | Link | Label: "IBM"`
+- `artificial-intelligence-ai_link_gpu | Link | Label: "GPU"`
+- `artificial-intelligence-ai_link_oracle | Link | Label: "Oracle"`
+- `artificial-intelligence-ai_link_next | Link | Label: "next →"`
+- `artificial-intelligence-ai_textbox_email | Input | Placeholder: "Enter your email" / Label: "Your Email"`
+- `artificial-intelligence-ai_button_subscribebtn | Button | Label: "Subscribe"`
+- `artificial-intelligence-ai_link_hr_tpointtech_com | Link | Label: "hr@tpointtech.com"`
+- `artificial-intelligence-ai_link_91_9599086977 | Link | Label: "+91-9599086977"`
+- `artificial-intelligence-ai_link_idx_628 | Link | Label: ""`
+- `artificial-intelligence-ai_link_idx_629 | Link | Label: ""`
+- `artificial-intelligence-ai_link_idx_630 | Link | Label: ""`
+- `artificial-intelligence-ai_link_idx_631 | Link | Label: ""`
+- `artificial-intelligence-ai_link_idx_632 | Link | Label: ""`
+- `artificial-intelligence-ai_link_idx_633 | Link | Label: ""`
+- `artificial-intelligence-ai_link_data_structure_tutorial | Link | Label: "Data Structure Tutorial"`
+- `artificial-intelligence-ai_link_c_programming_tutorial | Link | Label: "C Programming Tutorial"`
+- `artificial-intelligence-ai_link_jquery_tutorial | Link | Label: "jQuery Tutorial"`
+- `artificial-intelligence-ai_link_spring_tutorial | Link | Label: "Spring Tutorial"`
+- `artificial-intelligence-ai_link_python_interview_question | Link | Label: "Python Interview Questions"`
+- `artificial-intelligence-ai_link_java_interview_questions | Link | Label: "Java Interview Questions"`
+- `artificial-intelligence-ai_link_data_structure_interview_ | Link | Label: "Data Structure Interview Questions"`
+- `artificial-intelligence-ai_link_c_interview_questions | Link | Label: "C++ Interview Questions"`
+- `artificial-intelligence-ai_link_html_interview_questions | Link | Label: "HTML Interview Questions"`
+- `artificial-intelligence-ai_link_javascript_interview_ques | Link | Label: "JavaScript Interview Questions"`
+- `artificial-intelligence-ai_link_jquery_interview_question | Link | Label: "jQuery Interview Questions"`
+- `artificial-intelligence-ai_link_sql_interview_questions | Link | Label: "SQL Interview Questions"`
+- `artificial-intelligence-ai_link_power_bi_interview_questi | Link | Label: "Power BI Interview Questions"`
+- `artificial-intelligence-ai_link_online_c_compiler | Link | Label: "Online C Compiler"`
+- `artificial-intelligence-ai_link_online_r_compiler | Link | Label: "Online R Compiler"`
+- `artificial-intelligence-ai_link_online_php_compiler | Link | Label: "Online PHP Compiler"`
+- `artificial-intelligence-ai_link_online_java_compiler | Link | Label: "Online Java Compiler"`
+- `artificial-intelligence-ai_link_online_html_editor | Link | Label: "Online HTML Editor"`
+- `artificial-intelligence-ai_link_online_swift_compiler | Link | Label: "Online Swift Compiler"`
+- `artificial-intelligence-ai_link_online_python_compiler | Link | Label: "Online Python Compiler"`
+- `artificial-intelligence-ai_link_online_javascript_editor | Link | Label: "Online JavaScript Editor"`
+- `artificial-intelligence-ai_link_online_typescript_editor | Link | Label: "Online TypeScript Editor"`
+- `artificial-intelligence-ai_link_latest_post | Link | Label: "Latest Post"`
+- `artificial-intelligence-ai_link_tutorials_list | Link | Label: "Tutorials List"`
+- `artificial-intelligence-ai_link_privacy_policy | Link | Label: "Privacy Policy"`
+- `artificial-intelligence-ai_link_about_us | Link | Label: "About Us"`
+- `artificial-intelligence-ai_link_contact_us | Link | Label: "Contact Us"`

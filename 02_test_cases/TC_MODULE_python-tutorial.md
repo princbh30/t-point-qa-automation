@@ -1,0 +1,443 @@
+# Test Case: MODULE_python-tutorial | UI Verification and Navigation
+- **Preconditions**: User is on page https://www.tpointtech.com/python-tutorial
+- **Steps**:
+  1. Navigate to https://www.tpointtech.com/python-tutorial
+  2. Verify and click header navigation links: `python-tutorial_link_tutorials` (Element: Link, Label: "Tutorials"), `python-tutorial_link_interviews` (Element: Link, Label: "Interviews"), `python-tutorial_link_compilers` (Element: Link, Label: "Compilers")
+  3. Input "Python" into `python-tutorial_textbox_searchinput` (Element: Input, Label: "Search...", Placeholder: "Search...")
+  4. Click `python-tutorial_button_python_searching_sorting` (Element: Button, Text: "Python Searching & Sorting") to execute search query
+  5. Click `python-tutorial_link_next` (Element: Link, Text: "next →") to navigate to the next page
+  6. Input "testuser@example.com" into `python-tutorial_textbox_email` (Element: Input, Label: "Your Email", Placeholder: "Enter your email")
+  7. Click `python-tutorial_button_subscribebtn` (Element: Button, Text: "Subscribe") to subscribe to newsletter
+  8. Scroll to footer and verify/click links: `python-tutorial_link_privacy_policy` (Element: Link, Label: "Privacy Policy"), `python-tutorial_link_about_us` (Element: Link, Label: "About Us"), `python-tutorial_link_contact_us` (Element: Link, Label: "Contact Us")
+- **Expected Result**: The page loads successfully, and all interactive elements are responsive. Navigation links load their target pages, search displays correct results, and form inputs function as expected.
+
+## Semantic References for Healing
+- `python-tutorial_link_idx_0 | Link | Label: ""`
+- `python-tutorial_textbox_searchinput | Input | Placeholder: "Search..." / Label: "Search..."`
+- `python-tutorial_button_searchbtn | Button | Label: "Search"`
+- `python-tutorial_link_tutorials | Link | Label: "Tutorials"`
+- `python-tutorial_link_interviews | Link | Label: "Interviews"`
+- `python-tutorial_link_compilers | Link | Label: "Compilers"`
+- `python-tutorial_div_idx_147 | Div | Label: ""`
+- `python-tutorial_div_idx_148 | Div | Label: ""`
+- `python-tutorial_div_idx_149 | Div | Label: ""`
+- `python-tutorial_div_idx_150 | Div | Label: ""`
+- `python-tutorial_div_idx_151 | Div | Label: ""`
+- `python-tutorial_button_idx_152 | Button | Label: ""`
+- `python-tutorial_link_python_tutorial | Link | Label: "Python Tutorial"`
+- `python-tutorial_link_java_tutorial | Link | Label: "Java Tutorial"`
+- `python-tutorial_link_javascript_tutorial | Link | Label: "JavaScript Tutorial"`
+- `python-tutorial_link_sql_tutorial | Link | Label: "SQL Tutorial"`
+- `python-tutorial_link_c_tutorial | Link | Label: "C Tutorial"`
+- `python-tutorial_link_html_tutorial | Link | Label: "HTML Tutorial"`
+- `python-tutorial_link_css_tutorial | Link | Label: "CSS Tutorial"`
+- `python-tutorial_link_react_tutorial | Link | Label: "React Tutorial"`
+- `python-tutorial_link_nodejs_tutorial | Link | Label: "NodeJS Tutorial"`
+- `python-tutorial_link_sprint_boot_tutorial | Link | Label: "Sprint Boot Tutorial"`
+- `python-tutorial_link_php_tutorial | Link | Label: "PHP Tutorial"`
+- `python-tutorial_link_mysql_tutorial | Link | Label: "MYSQL Tutorial"`
+- `python-tutorial_link_mongodb_tutorial | Link | Label: "MongoDB Tutorial"`
+- `python-tutorial_link_ai_tutorial | Link | Label: "AI Tutorial"`
+- `python-tutorial_link_machine_learning_tutorial | Link | Label: "Machine Learning Tutorial"`
+- `python-tutorial_link_dsa_tutorial | Link | Label: "DSA Tutorial"`
+- `python-tutorial_link_dbms_tutorial | Link | Label: "DBMS Tutorial"`
+- `python-tutorial_link_os_tutorial | Link | Label: "OS Tutorial"`
+- `python-tutorial_button_python_tutorial | Button | Label: "Python Tutorial"`
+- `python-tutorial_link_what_is_python | Link | Label: "What is Python"`
+- `python-tutorial_link_python_features | Link | Label: "Python Features"`
+- `python-tutorial_link_advantages_of_python | Link | Label: "Advantages of Python"`
+- `python-tutorial_link_history_of_python | Link | Label: "History of Python"`
+- `python-tutorial_link_python_applications | Link | Label: "Python Applications"`
+- `python-tutorial_link_hello_world_program_in_py | Link | Label: "Hello World Program in Python"`
+- `python-tutorial_link_how_to_install_python | Link | Label: "How to Install Python?"`
+- `python-tutorial_link_python_syntax | Link | Label: "Python Syntax"`
+- `python-tutorial_link_python_keywords | Link | Label: "Python Keywords"`
+- `python-tutorial_link_python_literals | Link | Label: "Python Literals"`
+- `python-tutorial_link_python_operators | Link | Label: "Python Operators"`
+- `python-tutorial_link_python_comments | Link | Label: "Python Comments"`
+- `python-tutorial_button_python_variable_data_type | Button | Label: "Python Variable & Data Type"`
+- `python-tutorial_link_python_variables | Link | Label: "Python Variables"`
+- `python-tutorial_link_python_data_types | Link | Label: "Python Data Types"`
+- `python-tutorial_link_python_numbers | Link | Label: "Python Numbers"`
+- `python-tutorial_link_type_casting_in_python | Link | Label: "Type Casting in Python"`
+- `python-tutorial_link_python_strings | Link | Label: "Python Strings"`
+- `python-tutorial_link_python_string_methods | Link | Label: "Python String Methods"`
+- `python-tutorial_link_python_boolean | Link | Label: "Python Boolean"`
+- `python-tutorial_button_python_control_statements | Button | Label: "Python Control Statements"`
+- `python-tutorial_link_python_if_else | Link | Label: "Python If else"`
+- `python-tutorial_link_python_loops | Link | Label: "Python Loops"`
+- `python-tutorial_link_python_for_loop | Link | Label: "Python For Loop"`
+- `python-tutorial_link_python_while_loop | Link | Label: "Python While Loop"`
+- `python-tutorial_link_python_continue | Link | Label: "Python Continue"`
+- `python-tutorial_link_python_break | Link | Label: "Python Break"`
+- `python-tutorial_link_python_pass | Link | Label: "Python Pass"`
+- `python-tutorial_link_difference_between_break_ | Link | Label: "Difference between Break and Continue in Python"`
+- `python-tutorial_link_difference_between_for_lo | Link | Label: "Difference Between For Loop and While Loop in P..."`
+- `python-tutorial_link_control_statements_in_pyt | Link | Label: "Control Statements in Python"`
+- `python-tutorial_button_python_data_structures | Button | Label: "Python Data Structures"`
+- `python-tutorial_link_python_lists | Link | Label: "Python Lists"`
+- `python-tutorial_link_python_list_methods | Link | Label: "Python List Methods"`
+- `python-tutorial_link_python_tuples | Link | Label: "Python Tuples"`
+- `python-tutorial_link_python_tuple_methods | Link | Label: "Python Tuple Methods"`
+- `python-tutorial_link_difference_between_list_a | Link | Label: "Difference between List and Tuple"`
+- `python-tutorial_link_python_sets | Link | Label: "Python Sets"`
+- `python-tutorial_link_python_set_methods | Link | Label: "Python Set Methods"`
+- `python-tutorial_link_python_dictionary | Link | Label: "Python Dictionary"`
+- `python-tutorial_link_python_dictionary_methods | Link | Label: "Python Dictionary Methods"`
+- `python-tutorial_link_difference_between_list_s | Link | Label: "Difference between List, Set, Tuple, and Dictio..."`
+- `python-tutorial_link_difference_between_set_an | Link | Label: "Difference between Set and Dictionary in Python"`
+- `python-tutorial_link_python_data_structures | Link | Label: "Python Data Structures"`
+- `python-tutorial_button_python_functions | Button | Label: "Python Functions"`
+- `python-tutorial_link_python_functions | Link | Label: "Python Functions"`
+- `python-tutorial_link_python_built_in_functions | Link | Label: "Python Built-in Functions"`
+- `python-tutorial_link_python_lambda_functions | Link | Label: "Python Lambda Functions"`
+- `python-tutorial_link_def_function_in_python | Link | Label: "def Function in Python"`
+- `python-tutorial_button_python_modules | Button | Label: "Python Modules"`
+- `python-tutorial_link_python_modules | Link | Label: "Python Modules"`
+- `python-tutorial_link_python_list_comprehension | Link | Label: "Python List Comprehension"`
+- `python-tutorial_link_python_collection_module | Link | Label: "Python Collection Module"`
+- `python-tutorial_link_python_math_module | Link | Label: "Python Math Module"`
+- `python-tutorial_link_python_os_module | Link | Label: "Python OS Module"`
+- `python-tutorial_link_python_random_module | Link | Label: "Python Random Module"`
+- `python-tutorial_link_python_statistics_module | Link | Label: "Python Statistics Module"`
+- `python-tutorial_link_python_sys_module | Link | Label: "Python Sys Module"`
+- `python-tutorial_button_python_oops | Button | Label: "Python OOPs"`
+- `python-tutorial_link_python_oops_concepts | Link | Label: "Python OOPs Concepts"`
+- `python-tutorial_link_python_classes_and_object | Link | Label: "Python Classes and Objects"`
+- `python-tutorial_link_python_constructors | Link | Label: "Python Constructors"`
+- `python-tutorial_link_python_inheritance | Link | Label: "Python Inheritance"`
+- `python-tutorial_link_abstraction_in_python | Link | Label: "Abstraction in Python"`
+- `python-tutorial_link_encapsulation_in_python | Link | Label: "Encapsulation in Python"`
+- `python-tutorial_link_access_modifiers_in_pytho | Link | Label: "Access Modifiers in Python"`
+- `python-tutorial_link_method_overloading_in_pyt | Link | Label: "Method Overloading in Python"`
+- `python-tutorial_button_python_exception_handling | Button | Label: "Python Exception Handling"`
+- `python-tutorial_link_exception_handling_in_pyt | Link | Label: "Exception Handling in Python"`
+- `python-tutorial_link_how_to_catch_multiple_exc | Link | Label: "How to Catch Multiple Exceptions in Python?"`
+- `python-tutorial_link_python_raise_an_exception | Link | Label: "Python Raise an Exception"`
+- `python-tutorial_link_finally_keyword_in_python | Link | Label: "Finally Keyword in Python"`
+- `python-tutorial_link_python_built_in_exception | Link | Label: "Python Built-in Exceptions"`
+- `python-tutorial_button_python_file_handling | Button | Label: "Python File Handling"`
+- `python-tutorial_link_python_file_handling | Link | Label: "Python File Handling"`
+- `python-tutorial_link_python_read_csv_file | Link | Label: "Python Read CSV File"`
+- `python-tutorial_link_python_write_csv_file | Link | Label: "Python Write CSV File"`
+- `python-tutorial_link_read_excel_file | Link | Label: "Read Excel File"`
+- `python-tutorial_link_write_excel_file | Link | Label: "Write Excel File"`
+- `python-tutorial_link_python_json | Link | Label: "Python JSON"`
+- `python-tutorial_link_context_manager_in_python | Link | Label: "Context Manager in Python"`
+- `python-tutorial_button_python_searching_sorting | Button | Label: "Python Searching & Sorting"`
+- `python-tutorial_link_searching_algorithms_in_p | Link | Label: "Searching algorithms in Python"`
+- `python-tutorial_link_linear_search_in_python | Link | Label: "Linear Search in Python"`
+- `python-tutorial_link_binary_search_in_python | Link | Label: "Binary Search in Python"`
+- `python-tutorial_link_sorting_algorithms_in_pyt | Link | Label: "Sorting Algorithms in Python"`
+- `python-tutorial_link_bubble_sort_in_python | Link | Label: "Bubble Sort in Python"`
+- `python-tutorial_link_insertion_sort_in_python | Link | Label: "Insertion Sort in Python"`
+- `python-tutorial_link_selection_sort_in_python | Link | Label: "Selection Sort in Python"`
+- `python-tutorial_link_merge_sort_in_python | Link | Label: "Merge Sort in Python"`
+- `python-tutorial_link_quick_sort_in_python | Link | Label: "Quick Sort in Python"`
+- `python-tutorial_link_heap_sort_in_python | Link | Label: "Heap Sort in Python"`
+- `python-tutorial_link_tim_sort_in_python | Link | Label: "Tim Sort in Python"`
+- `python-tutorial_button_python_advanced_topics | Button | Label: "Python Advanced Topics"`
+- `python-tutorial_link_python_decorator | Link | Label: "Python Decorator"`
+- `python-tutorial_link_python_generators | Link | Label: "Python Generators"`
+- `python-tutorial_link_python_multiprocessing | Link | Label: "Python Multiprocessing"`
+- `python-tutorial_link_python_regex | Link | Label: "Python Regex"`
+- `python-tutorial_link_python_sending_email | Link | Label: "Python Sending Email"`
+- `python-tutorial_link_python_date | Link | Label: "Python Date"`
+- `python-tutorial_link_python_assert | Link | Label: "Python Assert"`
+- `python-tutorial_link_python_ides | Link | Label: "Python IDEs"`
+- `python-tutorial_link_python_arrays | Link | Label: "Python Arrays"`
+- `python-tutorial_link_command_line_arguments | Link | Label: "Command Line Arguments"`
+- `python-tutorial_link_python_magic_method | Link | Label: "Python Magic Method"`
+- `python-tutorial_link_python_stack_queue | Link | Label: "Python Stack & Queue"`
+- `python-tutorial_link_pyspark_mllib | Link | Label: "PySpark MLlib"`
+- `python-tutorial_link_web_scraping_using_python | Link | Label: "Web Scraping Using Python"`
+- `python-tutorial_link_python_itertools | Link | Label: "Python Itertools"`
+- `python-tutorial_link_how_to_calculate_distance | Link | Label: "How to Calculate Distance between Two Points us..."`
+- `python-tutorial_link_gmail_api_in_python | Link | Label: "Gmail API in Python"`
+- `python-tutorial_link_how_to_plot_the_google_ma | Link | Label: "How to Plot the Google Map using folium package..."`
+- `python-tutorial_link_grid_search_in_python | Link | Label: "Grid Search in Python"`
+- `python-tutorial_link_python_high_order_functio | Link | Label: "Python High Order Function"`
+- `python-tutorial_link_nsetools_in_python | Link | Label: "nsetools in Python"`
+- `python-tutorial_link_python_program_to_find_th | Link | Label: "Python program to find the nth Fibonacci Number"`
+- `python-tutorial_link_python_opencv_object_dete | Link | Label: "Python OpenCV object detection"`
+- `python-tutorial_link_python_simpleimputer_modu | Link | Label: "Python SimpleImputer module"`
+- `python-tutorial_link_second_largest_number_in_ | Link | Label: "Second Largest Number in Python"`
+- `python-tutorial_link_tower_of_hanoi_puzzle_usi | Link | Label: "Tower of Hanoi Puzzle Using Python"`
+- `python-tutorial_button_python_mysql | Button | Label: "Python MySQL"`
+- `python-tutorial_link_python_mysql_environment_ | Link | Label: "Python MySQL Environment Setup"`
+- `python-tutorial_link_database_connection | Link | Label: "Database Connection"`
+- `python-tutorial_link_creating_new_database | Link | Label: "Creating New Database"`
+- `python-tutorial_link_creating_tables | Link | Label: "Creating Tables"`
+- `python-tutorial_link_insert_operation | Link | Label: "Insert Operation"`
+- `python-tutorial_link_read_operation | Link | Label: "Read Operation"`
+- `python-tutorial_link_update_operation | Link | Label: "Update Operation"`
+- `python-tutorial_link_join_operation | Link | Label: "Join Operation"`
+- `python-tutorial_link_performing_transactions | Link | Label: "Performing Transactions"`
+- `python-tutorial_button_python_mongodb | Button | Label: "Python MongoDB"`
+- `python-tutorial_link_python_mongodb | Link | Label: "Python MongoDB"`
+- `python-tutorial_button_python_sqlite | Button | Label: "Python SQLite"`
+- `python-tutorial_link_python_sqlite | Link | Label: "Python SQLite"`
+- `python-tutorial_button_python_mcq | Button | Label: "Python MCQ"`
+- `python-tutorial_link_python_mcq | Link | Label: "Python MCQ"`
+- `python-tutorial_link_python_mcq_part_2 | Link | Label: "Python MCQ Part 2"`
+- `python-tutorial_button_python_tkinter_gui | Button | Label: "Python Tkinter (GUI)"`
+- `python-tutorial_link_python_tkinter | Link | Label: "Python Tkinter"`
+- `python-tutorial_link_tkinter_button | Link | Label: "Tkinter Button"`
+- `python-tutorial_link_tkinter_canvas | Link | Label: "Tkinter Canvas"`
+- `python-tutorial_link_tkinter_checkbutton | Link | Label: "Tkinter Checkbutton"`
+- `python-tutorial_link_tkinter_entry | Link | Label: "Tkinter Entry"`
+- `python-tutorial_link_tkinter_frame | Link | Label: "Tkinter Frame"`
+- `python-tutorial_link_tkinter_label | Link | Label: "Tkinter Label"`
+- `python-tutorial_link_tkinter_listbox | Link | Label: "Tkinter Listbox"`
+- `python-tutorial_link_tkinter_menubutton | Link | Label: "Tkinter Menubutton"`
+- `python-tutorial_link_tkinter_menu | Link | Label: "Tkinter Menu"`
+- `python-tutorial_link_tkinter_message | Link | Label: "Tkinter Message"`
+- `python-tutorial_link_tkinter_radiobutton | Link | Label: "Tkinter Radiobutton"`
+- `python-tutorial_link_tkinter_scale | Link | Label: "Tkinter Scale"`
+- `python-tutorial_link_tkinter_scrollbar | Link | Label: "Tkinter Scrollbar"`
+- `python-tutorial_link_tkinter_text | Link | Label: "Tkinter Text"`
+- `python-tutorial_link_tkinter_toplevel | Link | Label: "Tkinter Toplevel"`
+- `python-tutorial_link_tkinter_spinbox | Link | Label: "Tkinter Spinbox"`
+- `python-tutorial_link_tkinter_panedwindow | Link | Label: "Tkinter PanedWindow"`
+- `python-tutorial_link_tkinter_labelframe | Link | Label: "Tkinter LabelFrame"`
+- `python-tutorial_link_tkinter_messagebox | Link | Label: "Tkinter MessageBox"`
+- `python-tutorial_button_python_web_blocker | Button | Label: "Python Web Blocker"`
+- `python-tutorial_link_python_website_blocker | Link | Label: "Python Website Blocker"`
+- `python-tutorial_link_building_python_script | Link | Label: "Building Python Script"`
+- `python-tutorial_link_script_deployment_on_linu | Link | Label: "Script Deployment on Linux"`
+- `python-tutorial_link_script_deployment_on_wind | Link | Label: "Script Deployment on Windows"`
+- `python-tutorial_button_python_built_in_functions | Button | Label: "Python Built-in Functions"`
+- `python-tutorial_link_python_abs | Link | Label: "Python abs()"`
+- `python-tutorial_link_python_all | Link | Label: "Python all()"`
+- `python-tutorial_link_python_bin | Link | Label: "Python bin()"`
+- `python-tutorial_link_python_bool | Link | Label: "Python bool()"`
+- `python-tutorial_link_python_bytes | Link | Label: "Python bytes()"`
+- `python-tutorial_link_python_callable | Link | Label: "Python callable()"`
+- `python-tutorial_link_python_compile | Link | Label: "Python compile()"`
+- `python-tutorial_link_python_exec | Link | Label: "Python exec()"`
+- `python-tutorial_link_python_sum | Link | Label: "Python sum()"`
+- `python-tutorial_link_python_any | Link | Label: "Python any()"`
+- `python-tutorial_link_python_ascii | Link | Label: "Python ascii()"`
+- `python-tutorial_link_python_bytearray | Link | Label: "Python bytearray()"`
+- `python-tutorial_link_python_eval | Link | Label: "Python eval()"`
+- `python-tutorial_link_python_float | Link | Label: "Python float()"`
+- `python-tutorial_link_python_format | Link | Label: "Python format()"`
+- `python-tutorial_link_python_frozenset | Link | Label: "Python frozenset()"`
+- `python-tutorial_link_python_getattr | Link | Label: "Python getattr()"`
+- `python-tutorial_link_python_globals | Link | Label: "Python globals()"`
+- `python-tutorial_link_python_hasattr | Link | Label: "Python hasattr()"`
+- `python-tutorial_link_python_iter | Link | Label: "Python iter()"`
+- `python-tutorial_link_python_len | Link | Label: "Python len()"`
+- `python-tutorial_link_python_list | Link | Label: "Python list()"`
+- `python-tutorial_link_python_locals | Link | Label: "Python locals()"`
+- `python-tutorial_link_python_map | Link | Label: "Python map()"`
+- `python-tutorial_link_python_memoryview | Link | Label: "Python memoryview()"`
+- `python-tutorial_link_python_object | Link | Label: "Python object()"`
+- `python-tutorial_link_python_open | Link | Label: "Python open()"`
+- `python-tutorial_link_python_ord | Link | Label: "Python ord()"`
+- `python-tutorial_link_python_pow | Link | Label: "Python pow()"`
+- `python-tutorial_link_python_print | Link | Label: "Python print()"`
+- `python-tutorial_link_python_reversed | Link | Label: "Python reversed()"`
+- `python-tutorial_link_python_range | Link | Label: "Python range()"`
+- `python-tutorial_link_python_round | Link | Label: "Python round()"`
+- `python-tutorial_link_python_str | Link | Label: "Python str()"`
+- `python-tutorial_link_python_tuple | Link | Label: "Python tuple()"`
+- `python-tutorial_link_python_type | Link | Label: "Python type()"`
+- `python-tutorial_link_python_vars | Link | Label: "Python vars()"`
+- `python-tutorial_link_python_zip | Link | Label: "Python zip()"`
+- `python-tutorial_link_python_chr | Link | Label: "Python chr()"`
+- `python-tutorial_link_python_complex | Link | Label: "Python complex()"`
+- `python-tutorial_link_python_delattr | Link | Label: "Python delattr()"`
+- `python-tutorial_link_python_dir | Link | Label: "Python dir()"`
+- `python-tutorial_link_python_divmod | Link | Label: "Python divmod()"`
+- `python-tutorial_link_python_enumerate | Link | Label: "Python enumerate()"`
+- `python-tutorial_link_python_dict | Link | Label: "Python dict()"`
+- `python-tutorial_link_python_filter | Link | Label: "Python filter()"`
+- `python-tutorial_link_python_hash | Link | Label: "Python hash()"`
+- `python-tutorial_link_python_help | Link | Label: "Python help()"`
+- `python-tutorial_link_python_min | Link | Label: "Python min()"`
+- `python-tutorial_link_python_set | Link | Label: "Python set()"`
+- `python-tutorial_link_python_hex | Link | Label: "Python hex()"`
+- `python-tutorial_link_python_id | Link | Label: "Python id()"`
+- `python-tutorial_link_python_setattr | Link | Label: "Python setattr()"`
+- `python-tutorial_link_python_slice | Link | Label: "Python slice()"`
+- `python-tutorial_link_python_sorted | Link | Label: "Python sorted()"`
+- `python-tutorial_link_python_next | Link | Label: "Python next()"`
+- `python-tutorial_link_python_input | Link | Label: "Python input()"`
+- `python-tutorial_link_python_int | Link | Label: "Python int()"`
+- `python-tutorial_link_python_isinstance | Link | Label: "Python isinstance()"`
+- `python-tutorial_link_python_oct | Link | Label: "Python oct()"`
+- `python-tutorial_button_python_string_functions | Button | Label: "Python String functions"`
+- `python-tutorial_link_capitalize | Link | Label: "capitalize()"`
+- `python-tutorial_link_casefold | Link | Label: "casefold()"`
+- `python-tutorial_link_center_width_fillchar | Link | Label: "center(width ,fillchar)"`
+- `python-tutorial_link_count_string_begin_end | Link | Label: "count(string,begin,end)"`
+- `python-tutorial_link_encode | Link | Label: "encode()"`
+- `python-tutorial_link_endswith_suffix_begin_0_e | Link | Label: "endswith(suffix ,begin=0,end=len(string))"`
+- `python-tutorial_link_expandtabs_tabsize_8 | Link | Label: "expandtabs(tabsize = 8)"`
+- `python-tutorial_link_find_substring_beginindex | Link | Label: "find(substring ,beginIndex, endIndex)"`
+- `python-tutorial_link_format_value | Link | Label: "format(value)"`
+- `python-tutorial_link_index_subsring_beginindex | Link | Label: "index(subsring, beginIndex, endIndex)"`
+- `python-tutorial_link_isalnum | Link | Label: "isalnum()"`
+- `python-tutorial_link_isalpha | Link | Label: "isalpha()"`
+- `python-tutorial_link_isdecimal | Link | Label: "isdecimal()"`
+- `python-tutorial_link_isdigit | Link | Label: "isdigit()"`
+- `python-tutorial_link_isidentifier | Link | Label: "isidentifier()"`
+- `python-tutorial_link_islower | Link | Label: "islower()"`
+- `python-tutorial_link_isnumeric | Link | Label: "isnumeric()"`
+- `python-tutorial_link_isprintable | Link | Label: "isprintable()"`
+- `python-tutorial_link_isupper | Link | Label: "isupper()"`
+- `python-tutorial_link_isspace | Link | Label: "isspace()"`
+- `python-tutorial_link_istitle | Link | Label: "istitle()"`
+- `python-tutorial_link_join_seq | Link | Label: "join(seq)"`
+- `python-tutorial_link_ljust_width_fillchar | Link | Label: "ljust(width[,fillchar])"`
+- `python-tutorial_link_lower | Link | Label: "lower()"`
+- `python-tutorial_link_lstrip | Link | Label: "lstrip()"`
+- `python-tutorial_link_partition | Link | Label: "partition()"`
+- `python-tutorial_link_python_string_replace_met | Link | Label: "Python String replace() Method"`
+- `python-tutorial_link_rfind_str_beg_0_end_len_s | Link | Label: "rfind(str,beg=0,end=len(str))"`
+- `python-tutorial_link_rindex_str_beg_0_end_len_ | Link | Label: "rindex(str,beg=0,end=len(str))"`
+- `python-tutorial_link_rjust_width_fillchar | Link | Label: "rjust(width,[,fillchar])"`
+- `python-tutorial_link_rstrip | Link | Label: "rstrip()"`
+- `python-tutorial_link_rsplit_sep_none_maxsplit_ | Link | Label: "rsplit(sep=None, maxsplit = -1)"`
+- `python-tutorial_link_split_str_num_string_coun | Link | Label: "split(str,num=string.count(str))"`
+- `python-tutorial_link_splitlines_num_string_cou | Link | Label: "splitlines(num=string.count('\n'))"`
+- `python-tutorial_link_startswith_str_beg_0_end_ | Link | Label: "startswith(str,beg=0,end=len(str))"`
+- `python-tutorial_link_swapcase | Link | Label: "swapcase()"`
+- `python-tutorial_link_translate_table_deletecha | Link | Label: "translate(table,deletechars = '')"`
+- `python-tutorial_link_upper | Link | Label: "upper()"`
+- `python-tutorial_link_zfill_width | Link | Label: "zfill(width)"`
+- `python-tutorial_link_rpartition | Link | Label: "rpartition()"`
+- `python-tutorial_button_python_list | Button | Label: "Python List"`
+- `python-tutorial_link_python_list_append_method | Link | Label: "Python List append() Method"`
+- `python-tutorial_link_python_list_clear_method | Link | Label: "Python List clear() Method"`
+- `python-tutorial_link_python_list_count_method | Link | Label: "Python List count() Method"`
+- `python-tutorial_link_python_list_pop_method | Link | Label: "Python List pop() Method"`
+- `python-tutorial_link_python_list_insert_i_x_me | Link | Label: "Python List insert(i,x) Method"`
+- `python-tutorial_link_python_list_index_method | Link | Label: "Python list index() method"`
+- `python-tutorial_link_python_list_sort_method | Link | Label: "Python List sort() Method"`
+- `python-tutorial_link_python_list_copy_method | Link | Label: "Python List copy() Method"`
+- `python-tutorial_button_python_dictionary | Button | Label: "Python Dictionary"`
+- `python-tutorial_link_python_dictionary_pop_met | Link | Label: "Python Dictionary pop() Method"`
+- `python-tutorial_link_python_dictionary_values_ | Link | Label: "Python Dictionary values() Method"`
+- `python-tutorial_link_python_dictionary_setdefa | Link | Label: "Python Dictionary setdefault() Method"`
+- `python-tutorial_link_python_dictionary_clear_m | Link | Label: "Python Dictionary clear() Method"`
+- `python-tutorial_link_python_dictionary_fromkey | Link | Label: "Python Dictionary fromkeys() Method"`
+- `python-tutorial_link_python_dictionary_keys_me | Link | Label: "Python Dictionary keys() Method"`
+- `python-tutorial_button_plotly | Button | Label: "Plotly"`
+- `python-tutorial_link_plotly_with_matplotlib_an | Link | Label: "Plotly with Matplotlib and Chart Studio"`
+- `python-tutorial_link_plotly_with_pandas_and_cu | Link | Label: "Plotly with Pandas and Cufflinks"`
+- `python-tutorial_button_related_tutorials | Button | Label: "Related Tutorials"`
+- `python-tutorial_link_pytorch_tutorial | Link | Label: "Pytorch Tutorial"`
+- `python-tutorial_link_pygame_tutorial | Link | Label: "Pygame Tutorial"`
+- `python-tutorial_link_openpyxl_tutorial | Link | Label: "Openpyxl Tutorial"`
+- `python-tutorial_link_python_cgi_programming | Link | Label: "Python CGI Programming"`
+- `python-tutorial_link_python_design_pattern | Link | Label: "Python Design Pattern"`
+- `python-tutorial_link_home | Link | Label: "Home"`
+- `python-tutorial_link_python | Link | Label: "Python"`
+- `python-tutorial_link_online_python_compiler | Link | Label: "Online Python Compiler"`
+- `python-tutorial_link_python_programs | Link | Label: "Python Programs"`
+- `python-tutorial_link_python_interview_question | Link | Label: "Python Interview Questions"`
+- `python-tutorial_link_installation | Link | Label: "installation"`
+- `python-tutorial_link_conditional_statements | Link | Label: "conditional statements"`
+- `python-tutorial_link_loops | Link | Label: "loops"`
+- `python-tutorial_link_built_in_data_structures | Link | Label: "built-in data structures"`
+- `python-tutorial_link_object_oriented_programmi | Link | Label: "Object-Oriented Programming"`
+- `python-tutorial_link_generators | Link | Label: "Generators"`
+- `python-tutorial_link_exception_handling | Link | Label: "Exception Handling"`
+- `python-tutorial_link_compile_and_run_python | Link | Label: "Compile and Run Python"`
+- `python-tutorial_iframe_aswift_1 | Iframe | Label: "Advertisement"`
+- `python-tutorial_link_c | Link | Label: "C"`
+- `python-tutorial_link_java | Link | Label: "Java"`
+- `python-tutorial_heading_these_are_topics_related_ | Heading | Label: "These are topics related to the article that might interest you"`
+- `python-tutorial_link_script | Link | Label: "script"`
+- `python-tutorial_link_software_testing_tutorial | Link | Label: "Software testing tutorials"`
+- `python-tutorial_link_data_science_tutorials | Link | Label: "Data science tutorials"`
+- `python-tutorial_link_numpy | Link | Label: "NumPy"`
+- `python-tutorial_link_pandas | Link | Label: "Pandas"`
+- `python-tutorial_link_django | Link | Label: "Django"`
+- `python-tutorial_link_flask | Link | Label: "Flask"`
+- `python-tutorial_link_data_science | Link | Label: "Data Science"`
+- `python-tutorial_link_machine_learning | Link | Label: "Machine Learning"`
+- `python-tutorial_link_matplotlib | Link | Label: "Matplotlib"`
+- `python-tutorial_link_tensorflow | Link | Label: "TensorFlow"`
+- `python-tutorial_link_keras | Link | Label: "Keras"`
+- `python-tutorial_link_pytorch | Link | Label: "Pytorch"`
+- `python-tutorial_link_pyramid | Link | Label: "Pyramid"`
+- `python-tutorial_link_tkinter | Link | Label: "Tkinter"`
+- `python-tutorial_link_pygtk | Link | Label: "PyGTK"`
+- `python-tutorial_link_pyqt | Link | Label: "PyQt"`
+- `python-tutorial_link_scikit_learn | Link | Label: "Scikit-learn"`
+- `python-tutorial_link_scipy | Link | Label: "Scipy"`
+- `python-tutorial_link_requests | Link | Label: "Requests"`
+- `python-tutorial_link_sqlalchemy | Link | Label: "SQLAlchemy"`
+- `python-tutorial_link_kivy | Link | Label: "Kivy"`
+- `python-tutorial_link_pygame | Link | Label: "Pygame"`
+- `python-tutorial_link_rest_framework | Link | Label: "REST framework"`
+- `python-tutorial_link_fastapi | Link | Label: "FastAPI"`
+- `python-tutorial_link_streamlit | Link | Label: "Streamlit"`
+- `python-tutorial_link_nltk | Link | Label: "NLTK"`
+- `python-tutorial_link_python_tutorial_learn_pyt | Link | Label: "Python Tutorial | Learn Python Programming Lang..."`
+- `python-tutorial_link_top_10_applications_of_py | Link | Label: "Top 10 Applications of Python Programming"`
+- `python-tutorial_link_python_install | Link | Label: "Python Install"`
+- `python-tutorial_link_python_example | Link | Label: "Python Example"`
+- `python-tutorial_link_python_type_casting | Link | Label: "Python Type Casting"`
+- `python-tutorial_link_python_list_vs_tuple | Link | Label: "Python List Vs Tuple"`
+- `python-tutorial_link_return_statement_in_pytho | Link | Label: "Return Statement in Python"`
+- `python-tutorial_link_recursion_in_python | Link | Label: "Recursion in Python"`
+- `python-tutorial_link_python_main_function | Link | Label: "Python Main Function"`
+- `python-tutorial_link_python_object_class | Link | Label: "Python Object Class"`
+- `python-tutorial_link_python_exception_handling | Link | Label: "Python Exception Handling"`
+- `python-tutorial_link_python_catch_multiple_exc | Link | Label: "Python Catch Multiple Exceptions"`
+- `python-tutorial_link_python_files_i_o | Link | Label: "Python Files I/O"`
+- `python-tutorial_link_python_read_excel_file | Link | Label: "Python Read Excel File"`
+- `python-tutorial_link_python_write_excel_file | Link | Label: "Python Write Excel File"`
+- `python-tutorial_link_python_decorators | Link | Label: "Python Decorators"`
+- `python-tutorial_link_python_multithreading | Link | Label: "Python Multithreading"`
+- `python-tutorial_link_python_network_programmin | Link | Label: "Python Network Programming"`
+- `python-tutorial_link_socket_programming_using_ | Link | Label: "Socket Programming using Python"`
+- `python-tutorial_link_python_mysql_database_con | Link | Label: "Python MySQL Database Connection"`
+- `python-tutorial_link_python_mysql_creating_new | Link | Label: "Python MySQL Creating New Database"`
+- `python-tutorial_link_python_mysql_creating_tab | Link | Label: "Python MySQL Creating Tables"`
+- `python-tutorial_link_python_mysql_insert_opera | Link | Label: "Python MySQL Insert Operation"`
+- `python-tutorial_link_python_mysql_read_operati | Link | Label: "Python MySQL Read Operation"`
+- `python-tutorial_link_python_mysql_update_opera | Link | Label: "Python MySQL Update Operation"`
+- `python-tutorial_link_python_mysql_join_operati | Link | Label: "Python MySQL Join Operation"`
+- `python-tutorial_link_python_mysql_performing_t | Link | Label: "Python MySQL Performing Transactions"`
+- `python-tutorial_link_top_50_python_interview_q | Link | Label: "Top 50+ Python Interview Questions and Answers"`
+- `python-tutorial_link_next | Link | Label: "next →"`
+- `python-tutorial_textbox_email | Input | Placeholder: "Enter your email" / Label: "Your Email"`
+- `python-tutorial_button_subscribebtn | Button | Label: "Subscribe"`
+- `python-tutorial_link_hr_tpointtech_com | Link | Label: "hr@tpointtech.com"`
+- `python-tutorial_link_91_9599086977 | Link | Label: "+91-9599086977"`
+- `python-tutorial_link_idx_616 | Link | Label: ""`
+- `python-tutorial_link_idx_617 | Link | Label: ""`
+- `python-tutorial_link_idx_618 | Link | Label: ""`
+- `python-tutorial_link_idx_619 | Link | Label: ""`
+- `python-tutorial_link_idx_620 | Link | Label: ""`
+- `python-tutorial_link_idx_621 | Link | Label: ""`
+- `python-tutorial_link_data_structure_tutorial | Link | Label: "Data Structure Tutorial"`
+- `python-tutorial_link_c_programming_tutorial | Link | Label: "C Programming Tutorial"`
+- `python-tutorial_link_jquery_tutorial | Link | Label: "jQuery Tutorial"`
+- `python-tutorial_link_spring_tutorial | Link | Label: "Spring Tutorial"`
+- `python-tutorial_link_java_interview_questions | Link | Label: "Java Interview Questions"`
+- `python-tutorial_link_data_structure_interview_ | Link | Label: "Data Structure Interview Questions"`
+- `python-tutorial_link_c_interview_questions | Link | Label: "C++ Interview Questions"`
+- `python-tutorial_link_html_interview_questions | Link | Label: "HTML Interview Questions"`
+- `python-tutorial_link_javascript_interview_ques | Link | Label: "JavaScript Interview Questions"`
+- `python-tutorial_link_jquery_interview_question | Link | Label: "jQuery Interview Questions"`
+- `python-tutorial_link_sql_interview_questions | Link | Label: "SQL Interview Questions"`
+- `python-tutorial_link_power_bi_interview_questi | Link | Label: "Power BI Interview Questions"`
+- `python-tutorial_link_online_c_compiler | Link | Label: "Online C Compiler"`
+- `python-tutorial_link_online_r_compiler | Link | Label: "Online R Compiler"`
+- `python-tutorial_link_online_php_compiler | Link | Label: "Online PHP Compiler"`
+- `python-tutorial_link_online_java_compiler | Link | Label: "Online Java Compiler"`
+- `python-tutorial_link_online_html_editor | Link | Label: "Online HTML Editor"`
+- `python-tutorial_link_online_swift_compiler | Link | Label: "Online Swift Compiler"`
+- `python-tutorial_link_online_javascript_editor | Link | Label: "Online JavaScript Editor"`
+- `python-tutorial_link_online_typescript_editor | Link | Label: "Online TypeScript Editor"`
+- `python-tutorial_link_latest_post | Link | Label: "Latest Post"`
+- `python-tutorial_link_tutorials_list | Link | Label: "Tutorials List"`
+- `python-tutorial_link_privacy_policy | Link | Label: "Privacy Policy"`
+- `python-tutorial_link_about_us | Link | Label: "About Us"`
+- `python-tutorial_link_contact_us | Link | Label: "Contact Us"`

@@ -1,0 +1,169 @@
+# Test Case: MODULE_numpy-tutorial | UI Verification and Navigation
+- **Preconditions**: User is on page https://www.tpointtech.com/numpy-tutorial
+- **Steps**:
+  1. Navigate to https://www.tpointtech.com/numpy-tutorial
+  2. Verify and click header navigation links: `numpy-tutorial_link_tutorials` (Element: Link, Label: "Tutorials"), `numpy-tutorial_link_interviews` (Element: Link, Label: "Interviews"), `numpy-tutorial_link_compilers` (Element: Link, Label: "Compilers")
+  3. Input "Python" into `numpy-tutorial_textbox_searchinput` (Element: Input, Label: "Search...", Placeholder: "Search...")
+  4. Click `numpy-tutorial_button_searchbtn` (Element: Button, Text: "Search") to execute search query
+  5. Click `numpy-tutorial_link_next` (Element: Link, Text: "next →") to navigate to the next page
+  6. Input "testuser@example.com" into `numpy-tutorial_textbox_email` (Element: Input, Label: "Your Email", Placeholder: "Enter your email")
+  7. Click `numpy-tutorial_button_subscribebtn` (Element: Button, Text: "Subscribe") to subscribe to newsletter
+  8. Scroll to footer and verify/click links: `numpy-tutorial_link_privacy_policy` (Element: Link, Label: "Privacy Policy"), `numpy-tutorial_link_about_us` (Element: Link, Label: "About Us"), `numpy-tutorial_link_contact_us` (Element: Link, Label: "Contact Us")
+- **Expected Result**: The page loads successfully, and all interactive elements are responsive. Navigation links load their target pages, search displays correct results, and form inputs function as expected.
+
+## Semantic References for Healing
+- `numpy-tutorial_link_idx_0 | Link | Label: ""`
+- `numpy-tutorial_textbox_searchinput | Input | Placeholder: "Search..." / Label: "Search..."`
+- `numpy-tutorial_button_searchbtn | Button | Label: "Search"`
+- `numpy-tutorial_link_tutorials | Link | Label: "Tutorials"`
+- `numpy-tutorial_link_interviews | Link | Label: "Interviews"`
+- `numpy-tutorial_link_compilers | Link | Label: "Compilers"`
+- `numpy-tutorial_div_idx_147 | Div | Label: ""`
+- `numpy-tutorial_div_idx_148 | Div | Label: ""`
+- `numpy-tutorial_div_idx_149 | Div | Label: ""`
+- `numpy-tutorial_div_idx_150 | Div | Label: ""`
+- `numpy-tutorial_div_idx_151 | Div | Label: ""`
+- `numpy-tutorial_button_idx_152 | Button | Label: ""`
+- `numpy-tutorial_link_python_tutorial | Link | Label: "Python Tutorial"`
+- `numpy-tutorial_link_java_tutorial | Link | Label: "Java Tutorial"`
+- `numpy-tutorial_link_javascript_tutorial | Link | Label: "JavaScript Tutorial"`
+- `numpy-tutorial_link_sql_tutorial | Link | Label: "SQL Tutorial"`
+- `numpy-tutorial_link_c_tutorial | Link | Label: "C Tutorial"`
+- `numpy-tutorial_link_html_tutorial | Link | Label: "HTML Tutorial"`
+- `numpy-tutorial_link_css_tutorial | Link | Label: "CSS Tutorial"`
+- `numpy-tutorial_link_react_tutorial | Link | Label: "React Tutorial"`
+- `numpy-tutorial_link_nodejs_tutorial | Link | Label: "NodeJS Tutorial"`
+- `numpy-tutorial_link_sprint_boot_tutorial | Link | Label: "Sprint Boot Tutorial"`
+- `numpy-tutorial_link_php_tutorial | Link | Label: "PHP Tutorial"`
+- `numpy-tutorial_link_mysql_tutorial | Link | Label: "MYSQL Tutorial"`
+- `numpy-tutorial_link_mongodb_tutorial | Link | Label: "MongoDB Tutorial"`
+- `numpy-tutorial_link_ai_tutorial | Link | Label: "AI Tutorial"`
+- `numpy-tutorial_link_machine_learning_tutorial | Link | Label: "Machine Learning Tutorial"`
+- `numpy-tutorial_link_dsa_tutorial | Link | Label: "DSA Tutorial"`
+- `numpy-tutorial_link_dbms_tutorial | Link | Label: "DBMS Tutorial"`
+- `numpy-tutorial_link_os_tutorial | Link | Label: "OS Tutorial"`
+- `numpy-tutorial_button_numpy_tutorial | Button | Label: "NumPy Tutorial"`
+- `numpy-tutorial_link_numpy_tutorial | Link | Label: "NumPy Tutorial"`
+- `numpy-tutorial_link_numpy_environment_setup | Link | Label: "NumPy Environment Setup"`
+- `numpy-tutorial_link_numpy_ndarray | Link | Label: "NumPy Ndarray"`
+- `numpy-tutorial_link_numpy_data_types | Link | Label: "NumPy Data Types"`
+- `numpy-tutorial_link_numpy_array_creation | Link | Label: "NumPy Array Creation"`
+- `numpy-tutorial_link_array_from_existing_data | Link | Label: "Array From Existing Data"`
+- `numpy-tutorial_link_arrays_within_the_numeric | Link | Label: "Arrays within the numerical range"`
+- `numpy-tutorial_link_numpy_broadcasting | Link | Label: "NumPy Broadcasting"`
+- `numpy-tutorial_link_numpy_array_iteration | Link | Label: "NumPy Array Iteration"`
+- `numpy-tutorial_link_numpy_bitwise_operators | Link | Label: "NumPy Bitwise Operators"`
+- `numpy-tutorial_link_numpy_string_functions | Link | Label: "NumPy String Functions"`
+- `numpy-tutorial_link_numpy_mathematical_functi | Link | Label: "NumPy Mathematical Functions"`
+- `numpy-tutorial_link_statistical_functions | Link | Label: "Statistical Functions"`
+- `numpy-tutorial_link_sorting_searching | Link | Label: "Sorting & Searching"`
+- `numpy-tutorial_link_copies_and_views | Link | Label: "Copies and Views"`
+- `numpy-tutorial_link_matrix_library | Link | Label: "Matrix Library"`
+- `numpy-tutorial_link_numpy_linear_algebra | Link | Label: "NumPy Linear Algebra"`
+- `numpy-tutorial_link_matrix_multiplication | Link | Label: "Matrix Multiplication"`
+- `numpy-tutorial_button_numpy_functions | Button | Label: "NumPy Functions"`
+- `numpy-tutorial_link_numpy_array | Link | Label: "numpy array()"`
+- `numpy-tutorial_link_numpy_concatenate | Link | Label: "numpy concatenate()"`
+- `numpy-tutorial_link_numpy_append | Link | Label: "numpy append()"`
+- `numpy-tutorial_link_numpy_reshape | Link | Label: "numpy reshape()"`
+- `numpy-tutorial_link_numpy_sum | Link | Label: "numpy sum()"`
+- `numpy-tutorial_link_numpy_random | Link | Label: "numpy random()"`
+- `numpy-tutorial_link_numpy_zeros | Link | Label: "numpy.zeros()"`
+- `numpy-tutorial_link_numpy_log | Link | Label: "numpy.log()"`
+- `numpy-tutorial_link_numpy_where | Link | Label: "numpy.where()"`
+- `numpy-tutorial_link_numpy_argsort | Link | Label: "numpy.argsort()"`
+- `numpy-tutorial_link_numpy_transpose | Link | Label: "numpy.transpose()"`
+- `numpy-tutorial_link_numpy_mean | Link | Label: "numpy.mean()"`
+- `numpy-tutorial_link_numpy_unique | Link | Label: "numpy.unique()"`
+- `numpy-tutorial_link_numpy_ndarray_tolist | Link | Label: "numpy.ndarray.tolist()"`
+- `numpy-tutorial_link_numpy_dot | Link | Label: "numpy.dot()"`
+- `numpy-tutorial_link_numpy_loadtxt | Link | Label: "numpy.loadtxt()"`
+- `numpy-tutorial_link_numpy_clip | Link | Label: "numpy.clip()"`
+- `numpy-tutorial_link_numpy_ndarray_flatten | Link | Label: "numpy.ndarray.flatten()"`
+- `numpy-tutorial_link_numpy_meshgrid | Link | Label: "numpy.meshgrid()"`
+- `numpy-tutorial_link_numpy_std | Link | Label: "numpy.std()"`
+- `numpy-tutorial_link_numpy_argmax | Link | Label: "numpy.argmax()"`
+- `numpy-tutorial_link_numpy_diff | Link | Label: "numpy.diff()"`
+- `numpy-tutorial_link_numpy_empty | Link | Label: "numpy.empty()"`
+- `numpy-tutorial_link_numpy_histogram | Link | Label: "numpy.histogram()"`
+- `numpy-tutorial_link_numpy_sort | Link | Label: "numpy.sort()"`
+- `numpy-tutorial_link_numpy_average | Link | Label: "numpy.average()"`
+- `numpy-tutorial_link_numpy_pad | Link | Label: "numpy.pad()"`
+- `numpy-tutorial_link_numpy_ravel | Link | Label: "numpy.ravel()"`
+- `numpy-tutorial_link_numpy_save | Link | Label: "Numpy.save()"`
+- `numpy-tutorial_link_numpy_arccos | Link | Label: "NumPy arccos()"`
+- `numpy-tutorial_link_numpy_arcsin | Link | Label: "NumPy arcsin()"`
+- `numpy-tutorial_link_numpy_arctan | Link | Label: "NumPy arctan()"`
+- `numpy-tutorial_link_numpy_degrees | Link | Label: "NumPy degrees()"`
+- `numpy-tutorial_link_numpy_tan | Link | Label: "NumPy tan()"`
+- `numpy-tutorial_link_numpy_deg2rad | Link | Label: "NumPy deg2rad()"`
+- `numpy-tutorial_link_numpy_hypot | Link | Label: "NumPy hypot()"`
+- `numpy-tutorial_link_numpy_rad2deg | Link | Label: "NumPy rad2deg()"`
+- `numpy-tutorial_link_numpy_radians | Link | Label: "NumPy radians()"`
+- `numpy-tutorial_link_numpy_arcsinh | Link | Label: "NumPy arcsinh()"`
+- `numpy-tutorial_link_numpy_arctanh | Link | Label: "NumPy arctanh()"`
+- `numpy-tutorial_link_numpy_ceil | Link | Label: "NumPy ceil()"`
+- `numpy-tutorial_link_numpy_fix | Link | Label: "NumPy fix()"`
+- `numpy-tutorial_link_numpy_floor | Link | Label: "NumPy floor()"`
+- `numpy-tutorial_link_numpy_rint | Link | Label: "NumPy rint()"`
+- `numpy-tutorial_link_numpy_tanh | Link | Label: "NumPy tanh()"`
+- `numpy-tutorial_link_numpy_trunc | Link | Label: "NumPy trunc()"`
+- `numpy-tutorial_link_numpy_matlib_empty | Link | Label: "numpy.matlib.empty()"`
+- `numpy-tutorial_link_numpy_matlib_eye | Link | Label: "numpy.matlib.eye()"`
+- `numpy-tutorial_link_numpy_matlib_identity | Link | Label: "numpy.matlib.identity()"`
+- `numpy-tutorial_link_numpy_matlib_ones | Link | Label: "numpy.matlib.ones()"`
+- `numpy-tutorial_link_numpy_matlib_zeros | Link | Label: "numpy.matlib.zeros()"`
+- `numpy-tutorial_link_numpy_arrange | Link | Label: "numpy.arrange()"`
+- `numpy-tutorial_link_numpy_asarray | Link | Label: "numpy.asarray()"`
+- `numpy-tutorial_link_numpy_frombuffer | Link | Label: "numpy.frombuffer()"`
+- `numpy-tutorial_link_numpy_fromiter | Link | Label: "numpy.fromiter()"`
+- `numpy-tutorial_link_numpy_linspace | Link | Label: "numpy.linspace()"`
+- `numpy-tutorial_link_numpy_logspace | Link | Label: "numpy.logspace()"`
+- `numpy-tutorial_link_home | Link | Label: "Home"`
+- `numpy-tutorial_link_numpy | Link | Label: "NumPy"`
+- `numpy-tutorial_iframe_aswift_1 | Iframe | Label: "Advertisement"`
+- `numpy-tutorial_link_python | Link | Label: "Python"`
+- `numpy-tutorial_heading_these_are_topics_related_ | Heading | Label: "These are topics related to the article that might interest you"`
+- `numpy-tutorial_link_machine_learning_artifici | Link | Label: "Machine Learning & Artificial Intelligence"`
+- `numpy-tutorial_link_computer_science | Link | Label: "Computer Science"`
+- `numpy-tutorial_link_development_tools | Link | Label: "Development Tools"`
+- `numpy-tutorial_link_numpy_codebase | Link | Label: "NumPy Codebase"`
+- `numpy-tutorial_link_numpy_documentation | Link | Label: "NumPy documentation"`
+- `numpy-tutorial_link_next | Link | Label: "next →"`
+- `numpy-tutorial_textbox_email | Input | Placeholder: "Enter your email" / Label: "Your Email"`
+- `numpy-tutorial_button_subscribebtn | Button | Label: "Subscribe"`
+- `numpy-tutorial_link_hr_tpointtech_com | Link | Label: "hr@tpointtech.com"`
+- `numpy-tutorial_link_91_9599086977 | Link | Label: "+91-9599086977"`
+- `numpy-tutorial_link_idx_271 | Link | Label: ""`
+- `numpy-tutorial_link_idx_272 | Link | Label: ""`
+- `numpy-tutorial_link_idx_273 | Link | Label: ""`
+- `numpy-tutorial_link_idx_274 | Link | Label: ""`
+- `numpy-tutorial_link_idx_275 | Link | Label: ""`
+- `numpy-tutorial_link_idx_276 | Link | Label: ""`
+- `numpy-tutorial_link_data_structure_tutorial | Link | Label: "Data Structure Tutorial"`
+- `numpy-tutorial_link_c_programming_tutorial | Link | Label: "C Programming Tutorial"`
+- `numpy-tutorial_link_jquery_tutorial | Link | Label: "jQuery Tutorial"`
+- `numpy-tutorial_link_spring_tutorial | Link | Label: "Spring Tutorial"`
+- `numpy-tutorial_link_python_interview_question | Link | Label: "Python Interview Questions"`
+- `numpy-tutorial_link_java_interview_questions | Link | Label: "Java Interview Questions"`
+- `numpy-tutorial_link_data_structure_interview_ | Link | Label: "Data Structure Interview Questions"`
+- `numpy-tutorial_link_c_interview_questions | Link | Label: "C++ Interview Questions"`
+- `numpy-tutorial_link_html_interview_questions | Link | Label: "HTML Interview Questions"`
+- `numpy-tutorial_link_javascript_interview_ques | Link | Label: "JavaScript Interview Questions"`
+- `numpy-tutorial_link_jquery_interview_question | Link | Label: "jQuery Interview Questions"`
+- `numpy-tutorial_link_sql_interview_questions | Link | Label: "SQL Interview Questions"`
+- `numpy-tutorial_link_power_bi_interview_questi | Link | Label: "Power BI Interview Questions"`
+- `numpy-tutorial_link_online_c_compiler | Link | Label: "Online C Compiler"`
+- `numpy-tutorial_link_online_r_compiler | Link | Label: "Online R Compiler"`
+- `numpy-tutorial_link_online_php_compiler | Link | Label: "Online PHP Compiler"`
+- `numpy-tutorial_link_online_java_compiler | Link | Label: "Online Java Compiler"`
+- `numpy-tutorial_link_online_html_editor | Link | Label: "Online HTML Editor"`
+- `numpy-tutorial_link_online_swift_compiler | Link | Label: "Online Swift Compiler"`
+- `numpy-tutorial_link_online_python_compiler | Link | Label: "Online Python Compiler"`
+- `numpy-tutorial_link_online_javascript_editor | Link | Label: "Online JavaScript Editor"`
+- `numpy-tutorial_link_online_typescript_editor | Link | Label: "Online TypeScript Editor"`
+- `numpy-tutorial_link_latest_post | Link | Label: "Latest Post"`
+- `numpy-tutorial_link_tutorials_list | Link | Label: "Tutorials List"`
+- `numpy-tutorial_link_privacy_policy | Link | Label: "Privacy Policy"`
+- `numpy-tutorial_link_about_us | Link | Label: "About Us"`
+- `numpy-tutorial_link_contact_us | Link | Label: "Contact Us"`
